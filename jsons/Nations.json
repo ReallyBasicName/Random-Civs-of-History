@@ -1,0 +1,210 @@
+
+[
+    /*{
+        "name": "The Apache",
+        "leaderName": "Geronimo",
+        "adjective": ["Apache"],
+        "startBias": ["Plains"],
+        "preferredVictoryType": "Cultural",
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+        "declaringWar": "The ancient fire flashing across the sky is what proclaimed that this day would come, though I had foolishly hoped for a different outcome.",
+        "attacked": "It is obvious now that I misjudged you and your true intentions.",
+        "defeated": "The hard-shelled crab yields, and the lion lies down to sleep. Kanaloa comes for me now.",
+        "introduction": "Aloha! Greetings and blessings upon you, friend. I am Kamehameha, Great King of this strand of islands.",
+        "neutralHello": "Welcome, friend!",
+        "hateHello": "Oh, it's you.",
+        "tradeRequest": "Come, let our people feast together!",
+		"outerColor": [120, 64, 44],
+		"innerColor": [175, 157, 87],
+        "uniqueName": "The Warpath",
+        "uniques": [
+			"No movement cost to pillage",
+			"Units ignore terrain costs when moving into any tile with Hills <when at war>"
+			"[+10]% Strength <for [{Military} {Land}] units> <when fighting in [Enemy Land] tiles>",
+        ],
+        "cities": [
+			"Tiiis Tseba", "Chichiil Bidagoteel", "Teehach", "Tichlog", "Kiis Chiintiidn", "Ts Tsskidn", "Dzi Likesilan",
+			"Tsebainasti", "Hakiy", "Ts L'tah", "Naleei Danakaiy", "T'Yadnlin", "Nagonltin", "Chichiil da'kizh",
+			"Izee Dighin", "Ts Dadlit'as", "T'Edn", "Tse Nanesnasdz", "Ts Ya Kih Nastl", "Iyah Hajin", "T'Nadidoh",
+			"Ma'Bijaa Daslaa", "Tse Das'n", "Dib Tud", "Tse Ye Gocha", "Yoo Golin", "Washbidi Bit", "Ts Shid", 
+			"Ch'Disch'ag", "Tii Ch'ogi", "Bighan Da'isln", "Bis Bit"
+        ]
+    },*/
+    {
+        "name": "The Purépecha",
+        "leaderName": "Tariácuri",
+        "adjective": ["Purépecha"],
+        "startBias": ["Hill"],
+        "preferredVictoryType": "Domination",
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+        "declaringWar": "The time has come for you to join us.",
+        "attacked": "",
+        "defeated": "",
+        "introduction": "Greetings traveler. I am Tariácuri, and I have been sent by the gods to form a unified Purépecha state.",
+        "neutralHello": "Welcome traveler.",
+        "hateHello": "You are becoming a threat.",
+        "tradeRequest": "",
+		"outerColor": [234, 229, 173],
+		"innerColor": [15, 115, 19],
+        "uniqueName": "Crafts of Michoacan"
+        "uniques": [
+			"Starts with [Mining]",
+			"[-10]% construction time for [Mine] improvements"
+        ],
+        "cities": [
+			"Tzintzuntzan", "Pátzcuaro", "Ihuatzio", "Angamuco", "Erongarícuaro", "Urichu", "Tzinguitzuri",
+			"Uruapan", "Tziróndaro", "Cutzamala", "Huandacareo", "Tzacapu", "Zacatotlán", "Uringuarapexo",
+			"Cherán", "Cuerámaro", "Tlazazalca", "Janitzio", "Purépero", "Celaya", "Acámbaro",
+			"Zurumuato", "Curutarán", "Matlatzinco", "Tagancícuaro", "Acuitzio", "Yurirapúndaro", "Tamazula", 
+			"La Huacana", "Charapan", "Cupareo", "Cóporo"
+        ]
+		"spyNames": ["Hiquingaje", "Hiripan", "Tangáxuan", "Tzitzipandáquare", "Zuangua", "Cuerecuaperi", "Sicuirancha", "Tzetahcu", "Pauácume", "Eréndira"]
+    },
+    /*{
+        "name": "Mixtec",
+        "leaderName": "Eight Deer",
+        "adjective": ["Mixtec"],
+        "startBias": ["Hill"],
+        "preferredVictoryType": "Domination",
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+        "declaringWar": "",
+        "attacked": "",
+        "defeated": "",
+        "introduction": "",
+        "neutralHello": "",
+        "hateHello": "",
+        "tradeRequest": "",
+		"outerColor": [66, 14, 53],
+		"innerColor": [61, 131, 130],
+        "uniqueName": ""
+        "uniques": [
+        ],
+        "cities": [
+			"Tzintzuntzan", "Pátzcuaro", "Ihuatzio", "Angamuco", "Erongarícuaro", "Urichu", "Tzinguitzuri",
+			"Uruapan", "Tziróndaro", "Cutzamala", "Huandacareo", "Tzacapu", "Zacatotlán", "Uringuarapexo",
+			"Cherán", "Cuerámaro", "Tlazazalca", "Janitzio", "Purépero", "Celaya", "Acámbaro",
+			"Zurumuato", "Curutarán", "Matlatzinco", "Tagancícuaro", "Acuitzio", "Yurirapúndaro", "Tamazula", 
+			"La Huacana", "Charapan", "Cupareo", "Cóporo"
+        ]
+		"spyNames": ["Hiquingaje", "Hiripan", "Tangáxuan", "Tzitzipandáquare", "Zuangua", "Cuerecuaperi", "Sicuirancha", "Tzetahcu", "Pauácume", "Eréndira"]
+    },
+    {
+        "name": "Zapotecs",
+        "leaderName": "Cocijoeza",
+        "adjective": ["Zapotec"],
+        "startBias": ["Hill"],
+        "preferredVictoryType": "Domination",
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+        "declaringWar": "",
+        "attacked": "",
+        "defeated": "",
+        "introduction": "",
+        "neutralHello": "",
+        "hateHello": "",
+        "tradeRequest": "",
+		"outerColor": [54, 30, 68],
+		"innerColor": [35, 165, 52],
+        "uniqueName": ""
+        "uniques": [
+        ],
+        "cities": [
+			"Tzintzuntzan", "Pátzcuaro", "Ihuatzio", "Angamuco", "Erongarícuaro", "Urichu", "Tzinguitzuri",
+			"Uruapan", "Tziróndaro", "Cutzamala", "Huandacareo", "Tzacapu", "Zacatotlán", "Uringuarapexo",
+			"Cherán", "Cuerámaro", "Tlazazalca", "Janitzio", "Purépero", "Celaya", "Acámbaro",
+			"Zurumuato", "Curutarán", "Matlatzinco", "Tagancícuaro", "Acuitzio", "Yurirapúndaro", "Tamazula", 
+			"La Huacana", "Charapan", "Cupareo", "Cóporo"
+        ]
+		"spyNames": ["Hiquingaje", "Hiripan", "Tangáxuan", "Tzitzipandáquare", "Zuangua", "Cuerecuaperi", "Sicuirancha", "Tzetahcu", "Pauácume", "Eréndira"]
+    },
+    {
+        "name": "Tlapanecs",
+        "leaderName": "Tlachcoatl",
+        "adjective": ["Tlapanec"],
+        "startBias": ["Hill"],
+        "preferredVictoryType": "Domination",
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+        "declaringWar": "",
+        "attacked": "",
+        "defeated": "",
+        "introduction": "",
+        "neutralHello": "",
+        "hateHello": "",
+        "tradeRequest": "",
+		"outerColor": [67, 35, 120],
+		"innerColor": [184, 173, 200],
+        "uniqueName": ""
+        "uniques": [
+        ],
+        "cities": [
+			"Tzintzuntzan", "Pátzcuaro", "Ihuatzio", "Angamuco", "Erongarícuaro", "Urichu", "Tzinguitzuri",
+			"Uruapan", "Tziróndaro", "Cutzamala", "Huandacareo", "Tzacapu", "Zacatotlán", "Uringuarapexo",
+			"Cherán", "Cuerámaro", "Tlazazalca", "Janitzio", "Purépero", "Celaya", "Acámbaro",
+			"Zurumuato", "Curutarán", "Matlatzinco", "Tagancícuaro", "Acuitzio", "Yurirapúndaro", "Tamazula", 
+			"La Huacana", "Charapan", "Cupareo", "Cóporo"
+        ]
+		"spyNames": ["Hiquingaje", "Hiripan", "Tangáxuan", "Tzitzipandáquare", "Zuangua", "Cuerecuaperi", "Sicuirancha", "Tzetahcu", "Pauácume", "Eréndira"]
+    },
+    {
+        "name": "Totonac",
+        "leaderName": "Chicomecacatl",
+        "adjective": ["Totonac"],
+        "startBias": ["Hill"],
+        "preferredVictoryType": "Domination",
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+        "declaringWar": "",
+        "attacked": "",
+        "defeated": "",
+        "introduction": "",
+        "neutralHello": "",
+        "hateHello": "",
+        "tradeRequest": "",
+		"outerColor": [1, 123, 1],
+		"innerColor": [66, 254, 254],
+        "uniqueName": ""
+        "uniques": [
+        ],
+        "cities": [
+			"Tzintzuntzan", "Pátzcuaro", "Ihuatzio", "Angamuco", "Erongarícuaro", "Urichu", "Tzinguitzuri",
+			"Uruapan", "Tziróndaro", "Cutzamala", "Huandacareo", "Tzacapu", "Zacatotlán", "Uringuarapexo",
+			"Cherán", "Cuerámaro", "Tlazazalca", "Janitzio", "Purépero", "Celaya", "Acámbaro",
+			"Zurumuato", "Curutarán", "Matlatzinco", "Tagancícuaro", "Acuitzio", "Yurirapúndaro", "Tamazula", 
+			"La Huacana", "Charapan", "Cupareo", "Cóporo"
+        ]
+		"spyNames": ["Hiquingaje", "Hiripan", "Tangáxuan", "Tzitzipandáquare", "Zuangua", "Cuerecuaperi", "Sicuirancha", "Tzetahcu", "Pauácume", "Eréndira"]
+    },
+    {
+        "name": "Tlaxcala",
+        "leaderName": "Xicotencatl I",
+        "adjective": ["Tlaxcala"],
+        "startBias": ["Hill"],
+        "preferredVictoryType": "Domination",
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+        "declaringWar": "",
+        "attacked": "",
+        "defeated": "",
+        "introduction": "",
+        "neutralHello": "",
+        "hateHello": "",
+        "tradeRequest": "",
+		"outerColor": [42, 142, 74],
+		"innerColor": [254, 255, 102],
+        "uniqueName": ""
+        "uniques": [
+        ],
+        "cities": [
+			"Tzintzuntzan", "Pátzcuaro", "Ihuatzio", "Angamuco", "Erongarícuaro", "Urichu", "Tzinguitzuri",
+			"Uruapan", "Tziróndaro", "Cutzamala", "Huandacareo", "Tzacapu", "Zacatotlán", "Uringuarapexo",
+			"Cherán", "Cuerámaro", "Tlazazalca", "Janitzio", "Purépero", "Celaya", "Acámbaro",
+			"Zurumuato", "Curutarán", "Matlatzinco", "Tagancícuaro", "Acuitzio", "Yurirapúndaro", "Tamazula", 
+			"La Huacana", "Charapan", "Cupareo", "Cóporo"
+        ]
+		"spyNames": ["Hiquingaje", "Hiripan", "Tangáxuan", "Tzitzipandáquare", "Zuangua", "Cuerecuaperi", "Sicuirancha", "Tzetahcu", "Pauácume", "Eréndira"]
+    },*/
+]

@@ -1,0 +1,16 @@
+[
+	{
+		"name": "Yacata",
+		"replaces": "Mint",
+		"uniqueTo": "The Purépecha",
+		"maintenance": 0,
+		"requiredNearbyImprovedResources": ["Copper", "Gold Ore", "Iron", "Silver"],
+		"hurryCostModifier": 25,
+		"uniques": [
+			"[+2 Gold] from [Gold Ore] tiles [in this city]", 
+			"[+2 Gold] from [Silver] tiles [in this city]"
+			"[+2 Production] <during We Love The King Day>"
+		],
+		"requiredTech": "Currency"
+	},
+]

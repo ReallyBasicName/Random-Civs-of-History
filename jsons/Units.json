@@ -1,0 +1,20 @@
+[
+	{
+		"name": "Macuahuitlist",
+		"unitType": "Sword",
+		"replaces": "Swordsman",
+		"uniqueTo": "The Purépecha",
+		"movement": 2,
+		"strength": 14,
+		"cost": 75,
+		"requiredTech": "Iron Working",
+		"upgradesTo": "Longswordsman",
+		"uniques": [
+			"[+15]% Strength <when fighting in [Hill] tiles>"
+		],
+		"obsoleteTech": "Steel",
+		"requiredResource": "Iron",
+		"hurryCostModifier": 20,
+		"attackSound": "metalhit"
+	},
+]
