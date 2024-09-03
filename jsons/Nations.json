@@ -45,7 +45,7 @@
         "introduction": "Greetings traveler. I am Tariácuri, and I have been sent by the gods to form a unified Purépecha state.",
         "neutralHello": "Welcome traveler.",
         "hateHello": "You are becoming a threat.",
-        "tradeRequest": "",
+        "tradeRequest": "Would you accept this offer friend?",
 		"outerColor": [234, 229, 173],
 		"innerColor": [15, 115, 19],
         "uniqueName": "Crafts of Michoacan"
