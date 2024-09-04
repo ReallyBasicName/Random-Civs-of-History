@@ -1,6 +1,6 @@
 
 [
-    /*{
+    {
         "name": "The Apache",
         "leaderName": "Geronimo",
         "adjective": ["Apache"],
@@ -30,7 +30,7 @@
 			"Ma'Bijaa Daslaa", "Tse Das'n", "Dib Tud", "Tse Ye Gocha", "Yoo Golin", "Washbidi Bit", "Ts Shid", 
 			"Ch'Disch'ag", "Tii Ch'ogi", "Bighan Da'isln", "Bis Bit"
         ]
-    },*/
+    },
     {
         "name": "The Purépecha",
         "leaderName": "Tariácuri",
