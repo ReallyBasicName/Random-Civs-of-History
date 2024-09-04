@@ -1,68 +1,96 @@
 
 game.png
-size: 1024, 256
+size: 2048, 256
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
+BuildingIcons/Flying Pole
+  rotate: false
+  xy: 528, 104
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Temazcal
+  rotate: false
+  xy: 852, 104
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Wickiup
+  rotate: false
+  xy: 1284, 104
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 BuildingIcons/Yacata
   rotate: false
-  xy: 420, 4
+  xy: 1392, 104
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Mixtec
   rotate: false
-  xy: 528, 112
+  xy: 744, 104
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/The Apache
   rotate: false
-  xy: 636, 112
+  xy: 960, 104
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/The Purépecha
   rotate: false
-  xy: 4, 12
+  xy: 4, 4
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 NationIcons/Tlapanecs
   rotate: false
-  xy: 744, 112
+  xy: 1068, 104
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Tlaxcala
   rotate: false
-  xy: 852, 112
+  xy: 1176, 104
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Totonac
   rotate: false
-  xy: 212, 12
+  xy: 212, 4
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 NationIcons/Zapotecs
   rotate: false
-  xy: 528, 4
+  xy: 1500, 104
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Chelee
+  rotate: false
+  xy: 420, 104
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Macuahuitlist
   rotate: false
-  xy: 420, 112
+  xy: 636, 104
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
