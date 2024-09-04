@@ -4,7 +4,7 @@
         "name": "The Apache",
         "leaderName": "Geronimo",
         "adjective": ["Apache"],
-        "startBias": ["Plains"],
+        "startBias": ["Plains", "Desert"],
         "preferredVictoryType": "Cultural",
         "startIntroPart1": "",
         "startIntroPart2": "",
