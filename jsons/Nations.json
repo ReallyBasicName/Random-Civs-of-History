@@ -83,13 +83,13 @@
         "uniques": [
         ],
         "cities": [
-			"Tzintzuntzan", "Pátzcuaro", "Ihuatzio", "Angamuco", "Erongarícuaro", "Urichu", "Tzinguitzuri",
-			"Uruapan", "Tziróndaro", "Cutzamala", "Huandacareo", "Tzacapu", "Zacatotlán", "Uringuarapexo",
-			"Cherán", "Cuerámaro", "Tlazazalca", "Janitzio", "Purépero", "Celaya", "Acámbaro",
-			"Zurumuato", "Curutarán", "Matlatzinco", "Tagancícuaro", "Acuitzio", "Yurirapúndaro", "Tamazula", 
-			"La Huacana", "Charapan", "Cupareo", "Cóporo"
+			"", "", "", "", "", "", "",
+			"", "", "", "", "", "", "",
+			"", "", "", "", "", "", "",
+			"", "", "", "", "", "", "", 
+			"", "", "", ""
         ]
-		"spyNames": ["Hiquingaje", "Hiripan", "Tangáxuan", "Tzitzipandáquare", "Zuangua", "Cuerecuaperi", "Sicuirancha", "Tzetahcu", "Pauácume", "Eréndira"]
+		"spyNames": ["", "", "", "", "", "", "", "", "", ""]
     },
     {
         "name": "Zapotecs",
@@ -112,13 +112,13 @@
         "uniques": [
         ],
         "cities": [
-			"Tzintzuntzan", "Pátzcuaro", "Ihuatzio", "Angamuco", "Erongarícuaro", "Urichu", "Tzinguitzuri",
-			"Uruapan", "Tziróndaro", "Cutzamala", "Huandacareo", "Tzacapu", "Zacatotlán", "Uringuarapexo",
-			"Cherán", "Cuerámaro", "Tlazazalca", "Janitzio", "Purépero", "Celaya", "Acámbaro",
-			"Zurumuato", "Curutarán", "Matlatzinco", "Tagancícuaro", "Acuitzio", "Yurirapúndaro", "Tamazula", 
-			"La Huacana", "Charapan", "Cupareo", "Cóporo"
+			"", "", "", "", "", "", "",
+			"", "", "", "", "", "", "",
+			"", "", "", "", "", "", "",
+			"", "", "", "", "", "", "", 
+			"", "", "", ""
         ]
-		"spyNames": ["Hiquingaje", "Hiripan", "Tangáxuan", "Tzitzipandáquare", "Zuangua", "Cuerecuaperi", "Sicuirancha", "Tzetahcu", "Pauácume", "Eréndira"]
+		"spyNames": ["", "", "", "", "", "", "", "", "", ""]
     },
     {
         "name": "Tlapanecs",
@@ -141,13 +141,13 @@
         "uniques": [
         ],
         "cities": [
-			"Tzintzuntzan", "Pátzcuaro", "Ihuatzio", "Angamuco", "Erongarícuaro", "Urichu", "Tzinguitzuri",
-			"Uruapan", "Tziróndaro", "Cutzamala", "Huandacareo", "Tzacapu", "Zacatotlán", "Uringuarapexo",
-			"Cherán", "Cuerámaro", "Tlazazalca", "Janitzio", "Purépero", "Celaya", "Acámbaro",
-			"Zurumuato", "Curutarán", "Matlatzinco", "Tagancícuaro", "Acuitzio", "Yurirapúndaro", "Tamazula", 
-			"La Huacana", "Charapan", "Cupareo", "Cóporo"
+			"", "", "", "", "", "", "",
+			"", "", "", "", "", "", "",
+			"", "", "", "", "", "", "",
+			"", "", "", "", "", "", "", 
+			"", "", "", ""
         ]
-		"spyNames": ["Hiquingaje", "Hiripan", "Tangáxuan", "Tzitzipandáquare", "Zuangua", "Cuerecuaperi", "Sicuirancha", "Tzetahcu", "Pauácume", "Eréndira"]
+		"spyNames": ["", "", "", "", "", "", "", "", "", ""]
     },
     {
         "name": "Totonac",
@@ -170,13 +170,13 @@
         "uniques": [
         ],
         "cities": [
-			"Tzintzuntzan", "Pátzcuaro", "Ihuatzio", "Angamuco", "Erongarícuaro", "Urichu", "Tzinguitzuri",
-			"Uruapan", "Tziróndaro", "Cutzamala", "Huandacareo", "Tzacapu", "Zacatotlán", "Uringuarapexo",
-			"Cherán", "Cuerámaro", "Tlazazalca", "Janitzio", "Purépero", "Celaya", "Acámbaro",
-			"Zurumuato", "Curutarán", "Matlatzinco", "Tagancícuaro", "Acuitzio", "Yurirapúndaro", "Tamazula", 
-			"La Huacana", "Charapan", "Cupareo", "Cóporo"
+			"", "", "", "", "", "", "",
+			"", "", "", "", "", "", "",
+			"", "", "", "", "", "", "",
+			"", "", "", "", "", "", "", 
+			"", "", "", ""
         ]
-		"spyNames": ["Hiquingaje", "Hiripan", "Tangáxuan", "Tzitzipandáquare", "Zuangua", "Cuerecuaperi", "Sicuirancha", "Tzetahcu", "Pauácume", "Eréndira"]
+		"spyNames": ["", "", "", "", "", "", "", "", "", ""]
     },
     {
         "name": "Tlaxcala",
@@ -199,12 +199,70 @@
         "uniques": [
         ],
         "cities": [
-			"Tzintzuntzan", "Pátzcuaro", "Ihuatzio", "Angamuco", "Erongarícuaro", "Urichu", "Tzinguitzuri",
-			"Uruapan", "Tziróndaro", "Cutzamala", "Huandacareo", "Tzacapu", "Zacatotlán", "Uringuarapexo",
-			"Cherán", "Cuerámaro", "Tlazazalca", "Janitzio", "Purépero", "Celaya", "Acámbaro",
-			"Zurumuato", "Curutarán", "Matlatzinco", "Tagancícuaro", "Acuitzio", "Yurirapúndaro", "Tamazula", 
-			"La Huacana", "Charapan", "Cupareo", "Cóporo"
+			"", "", "", "", "", "", "",
+			"", "", "", "", "", "", "",
+			"", "", "", "", "", "", "",
+			"", "", "", "", "", "", "", 
+			"", "", "", ""
         ]
-		"spyNames": ["Hiquingaje", "Hiripan", "Tangáxuan", "Tzitzipandáquare", "Zuangua", "Cuerecuaperi", "Sicuirancha", "Tzetahcu", "Pauácume", "Eréndira"]
+		"spyNames": ["", "", "", "", "", "", "", "", "", ""]
+    },
+    {
+        "name": "Wari Empire",
+        "leaderName": "",
+        "adjective": ["Wari"],
+        "startBias": ["Hill"],
+        "preferredVictoryType": "Domination",
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+        "declaringWar": "",
+        "attacked": "",
+        "defeated": "",
+        "introduction": "",
+        "neutralHello": "",
+        "hateHello": "",
+        "tradeRequest": "",
+		"outerColor": [42, 142, 74],
+		"innerColor": [254, 255, 102],
+        "uniqueName": ""
+        "uniques": [
+        ],
+        "cities": [
+			"", "", "", "", "", "", "",
+			"", "", "", "", "", "", "",
+			"", "", "", "", "", "", "",
+			"", "", "", "", "", "", "", 
+			"", "", "", ""
+        ]
+		"spyNames": ["", "", "", "", "", "", "", "", "", ""]
+    },
+    {
+        "name": "Tiwanaku Empire",
+        "leaderName": "",
+        "adjective": ["Tiwanaku"],
+        "startBias": ["Hill"],
+        "preferredVictoryType": "Domination",
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+        "declaringWar": "",
+        "attacked": "",
+        "defeated": "",
+        "introduction": "",
+        "neutralHello": "",
+        "hateHello": "",
+        "tradeRequest": "",
+		"outerColor": [42, 142, 74],
+		"innerColor": [254, 255, 102],
+        "uniqueName": ""
+        "uniques": [
+        ],
+        "cities": [
+			"", "", "", "", "", "", "",
+			"", "", "", "", "", "", "",
+			"", "", "", "", "", "", "",
+			"", "", "", "", "", "", "", 
+			"", "", "", ""
+        ]
+		"spyNames": ["", "", "", "", "", "", "", "", "", ""]
     },*/
 ]
