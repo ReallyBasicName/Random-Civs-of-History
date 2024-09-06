@@ -83,13 +83,14 @@
         "uniques": [
         ],
         "cities": [
-			"", "", "", "", "", "", "",
-			"", "", "", "", "", "", "",
-			"", "", "", "", "", "", "",
-			"", "", "", "", "", "", "", 
-			"", "", "", ""
+			"Tilantongo", "Tututepec", "Tlaxiaco", "Jaltepec", "Yucuñudahui", "Teozacoalco", "Xipe's Bundle",
+			"Achuitla", "Acatlán", "Cuilapan", "Suchixtlan", "Yanhuitlan", "Apoala", "Teposcolula",
+			"Huajuapan", "Huamelolpan", "Ocelotepec", "Amoltepec", "Ndaxagua", "Xoxocotlán", "Monte Alban",
+			"Mitla", "Nochixtlán", "Chicahuaxtla", "Jamiltepec", "Cuajinicuilapa", "Putla", "Coixtlahuaca",
+			"Chalcatongo", "Xochistlahuaca", "Zacatepec", "Pinotepa", "Ocotepec", "Ometepec", "Juxtlahuaca", 
+			"Malinaltepec", "Tonalá", "Alcozauca", "Tlapa", "Mixtepetongo"
         ]
-		"spyNames": ["", "", "", "", "", "", "", "", "", ""]
+		"spyNames": ["Twelve Ollin", "Thirteenth Death", "Nine Water", "Four Ocelot", "Nine Grass", "Six Monkeys", "One Reed", "Seven House", "Twelve Flint", "Eleven Rabbit"]
     },
     {
         "name": "Zapotecs",
@@ -112,11 +113,12 @@
         "uniques": [
         ],
         "cities": [
-			"", "", "", "", "", "", "",
-			"", "", "", "", "", "", "",
-			"", "", "", "", "", "", "",
-			"", "", "", "", "", "", "", 
-			"", "", "", ""
+			"Monte Alban", "San Jose Mogote", "Zaachila", "Lambityeco", "Huijazoo", "Mitla", "Oaxaca",
+			"Zimatlan", "Ocotlan", "Yagul", "Tlacolula", "Yanhuitlan", "Laguna Zope", "Tierras Largas", 
+			"Guadalupe", "Huaxyacac", "Lyobaa", "Huitzo", "Etla", "Tomaltepec", "Abasolo",
+			"Tilcajete", "Zegache", "Tlapocoyan", "Etlatongo", "Xochipala", "Tres Zapotes", "Cuicatlan", 
+			"Ejutla de Crespo", "Cuilapan", "Yeguih", "Tepeuxila", "Quayogol", "Ixtlahuaca", "El Palimo", 
+			"Guila Naquitz", "Dainzu"
         ]
 		"spyNames": ["", "", "", "", "", "", "", "", "", ""]
     },
@@ -141,11 +143,9 @@
         "uniques": [
         ],
         "cities": [
-			"", "", "", "", "", "", "",
-			"", "", "", "", "", "", "",
-			"", "", "", "", "", "", "",
-			"", "", "", "", "", "", "", 
-			"", "", "", ""
+			"Yopitzinco", "Tlapan", "Ometepec", "Acapetlahuaya", "Ahuilizapan", "Atlamajalcingo del Monte", "Ixcateopan",
+			"Chilapa", "Zitlala", "Alcozauca", "Cualac", "Xochihuehuetlan", "Metlatónoc", "Ayutla de los Libres",
+			"Tlacoachistlahuaca", "Malinaltepec", "Tlalixtaquilla", "Copanatoyac", "Xalpatlahuac", "Olinalá"
         ]
 		"spyNames": ["", "", "", "", "", "", "", "", "", ""]
     },
@@ -170,11 +170,9 @@
         "uniques": [
         ],
         "cities": [
-			"", "", "", "", "", "", "",
-			"", "", "", "", "", "", "",
-			"", "", "", "", "", "", "",
-			"", "", "", "", "", "", "", 
-			"", "", "", ""
+			"El Tajín", "Cempoala", "Papantla", "Xalapa", "Quiahuiztlan", "Las Higueras", "Misantla",
+			"Tecolutla", "Tochpan", "Zacatlán", "Chignahuapan", "Hueytlalpan", "Coatepec", "Yecuatla",
+			"Tepexi de Rodríguez", "Naolinco", "Coatzintla", "Huauchinango", "Joloapan", "Zozocolco de Hidalgo"
         ]
 		"spyNames": ["", "", "", "", "", "", "", "", "", ""]
     },
@@ -199,11 +197,9 @@
         "uniques": [
         ],
         "cities": [
-			"", "", "", "", "", "", "",
-			"", "", "", "", "", "", "",
-			"", "", "", "", "", "", "",
-			"", "", "", "", "", "", "", 
-			"", "", "", ""
+			"Tlaxcala", "Ocotelulco", "Tizatlan", "Quiahuiztlan", "Tepeticpac", "Huexotzinco", "Xaltocan",
+			"Chiautempan", "Atlihuetzia", "Tepeyanco", "Texoloc", "Panotla", "Contla", "Totlac",
+			"Zitlaltepec", "Tocatlán", "Ixtacuixtla", "Santa Ana Chiautempan", "Apizaco", "Mazatecochco"
         ]
 		"spyNames": ["", "", "", "", "", "", "", "", "", ""]
     },
@@ -228,11 +224,9 @@
         "uniques": [
         ],
         "cities": [
-			"", "", "", "", "", "", "",
-			"", "", "", "", "", "", "",
-			"", "", "", "", "", "", "",
-			"", "", "", "", "", "", "", 
-			"", "", "", ""
+			"Wari", "Pikillaqta", "Cerro Baúl", "Viracochapampa", "Conchopata", "Jincamocco", "Azangaro",
+			"Chimpa", "Cahuachi", "Inkawasi", "Pajonal", "Callejón de Huaylas", "Hatun Xauxu", "Jargampata",
+			"Huaro", "Ayapata", "Allpachaka", "Anco Mayo", "Taypiqala", "Pacheco"
         ]
 		"spyNames": ["", "", "", "", "", "", "", "", "", ""]
     },
@@ -257,11 +251,9 @@
         "uniques": [
         ],
         "cities": [
-			"", "", "", "", "", "", "",
-			"", "", "", "", "", "", "",
-			"", "", "", "", "", "", "",
-			"", "", "", "", "", "", "", 
-			"", "", "", ""
+			"Tiwanaku", "Lukurmata", "Khonkho Wankane", "Pampa Koani", "Chiripa", "Kalasasaya", "Putuni",
+			"Kerikala", "Pucarani", "Omo", "Iwawe", "Cerro Mejía", "Pariti", "Mojocoya",
+			"Tumatumani", "Cabuza", "Qeya Qala", "Chucuito", "San Pedro de Atacama", "Pukara"
         ]
 		"spyNames": ["", "", "", "", "", "", "", "", "", ""]
     },*/
