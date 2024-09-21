@@ -122,7 +122,7 @@
 		"favoredReligion": "Christianity",
 		"uniqueName": "Lupang Hinirang",
 		"uniques": [
-			"[+10]% [Faith] <upon declaring friendship>",
+			"[+10]% [Faith] [in all cities] <upon declaring friendship> <for [4] turns>",
 			"[+15]% [Culture] [in all cities] <upon entering a Golden Age> <for [4] turns>",
 			"[+1 Faith] in cities on [Coastal] tiles <upon discovering [Astronomy] technology>"
 		],
