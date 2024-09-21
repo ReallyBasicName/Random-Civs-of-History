@@ -28,4 +28,50 @@
 		],
 		"requiredTech": "Pottery"
 	},
+	{
+		"name": "Flying Pole",
+		"replaces": "Shrine",
+		"uniqueTo": "Totonac",
+		"faith": 1,
+		"culture": 1,
+		"cost": 40,
+		"maintenance": 1,
+		"requiredTech": "Pottery",
+		"uniques": ["Hidden when religion is disabled"]
+	},
+	{
+		"name": "Temazcal",
+		"replaces": "Colosseum",
+		"uniqueTo": "Tlapanecs",
+		"maintenance": 1,
+		"faith": 1,
+		"happiness": 2,
+		"hurryCostModifier": 25,
+		"requiredTech": "Construction"
+	},
+	{
+		"name": "That",
+		"replaces": "Garden",
+		"uniqueTo": "Lan Xang",
+		"happiness": 1,
+		"uniques": ["[+25]% Great Person generation [in this city]"],
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"requiredTech": "Theology"
+	}
+	{
+		"name": "Aglipayan Church",
+		"replaces": "Opera House",
+		"uniqueTo": "The Philippines",
+		"culture": 4,
+		"specialistSlots": {"Artist": 1},
+		"hurryCostModifier": 10,
+		"requiredBuilding": "Amphitheater",
+		"maintenance": 2,
+		"requiredTech": "Acoustics",
+		"uniques": [
+			"[+20]% Natural religion spread [in this city]",
+			"Destroyed when the city is captured"
+		]
+	},
 ]
