@@ -72,20 +72,20 @@
         "startIntroPart1": "",
         "startIntroPart2": "",
 
-        "declaringWar": "Xi-miqa-can! Xi-miqa-can! Xi-miqa-can! (Die, die, die!)",
-		"attacked": "Excellent! Let the blood flow in raging torrents!",
-		"defeated": "Monster! Who are you to destroy my greatness?",
-		"introduction": "What do I see before me? Another beating heart for my sacrificial fire.",
+        "declaringWar": "It is with great regret that I must inform you we are at war.",
+		"attacked": "I will defend my kingdom against invaderssuch as yourself!",
+		"defeated": "I may yet find peace...",
+		"introduction": "Greetings, we hope you are a peaceful people. I am Fa Ngum, King of Lan Xang Hôm Khao.",
 
 		"neutralHello": "Welcome, friend.",
-		"hateHello": "What do you want?",
-		"tradeRequest": "Accept this agreement or suffer the consequences.",
+		"hateHello": "Please leave, we don't want you to cause any disturbances.",
+		"tradeRequest": "Would any of our offers interest you?",
 
         "outerColor": [167, 19, 45],
         "innerColor": [253, 251, 251],
 		"style": "Aztec",
 
-		"favoredReligion": "Christianity",
+		"favoredReligion": "Buddhism",
 		"uniqueName": "One Million Elephants and a White Parasol",
 		"uniques": [
 			"[+50]% Natural religion spread [in annexed cities]"
@@ -107,14 +107,14 @@
         "startIntroPart1": "",
         "startIntroPart2": "",
 
-        "declaringWar": "Xi-miqa-can! Xi-miqa-can! Xi-miqa-can! (Die, die, die!)",
-		"attacked": "Excellent! Let the blood flow in raging torrents!",
-		"defeated": "Monster! Who are you to destroy my greatness?",
-		"introduction": "What do I see before me? Another beating heart for my sacrificial fire.",
+        "declaringWar": "",
+		"attacked": "",
+		"defeated": "",
+		"introduction": "",
 
-		"neutralHello": "Welcome, friend.",
-		"hateHello": "What do you want?",
-		"tradeRequest": "Accept this agreement or suffer the consequences.",
+		"neutralHello": "",
+		"hateHello": "",
+		"tradeRequest": "",
 
 		"outerColor": [54, 126, 158],
 		"innerColor": [252, 216, 51],
@@ -125,11 +125,11 @@
 			"[+15]% [Culture] [in all cities] <upon entering a Golden Age> <for [4] turns>",
 			"[+1 Faith] in cities on [Coastal] tiles <in this city> <upon discovering [Astronomy] technology>"
 		],
-		"cities": ["Luang Prabang","Thakhek","Pakse","Muang Thaeng","Xiang Hung","Roi Et","Xiang Khuang","Nakhom Phanom",
-			"Champasak","Ubon","Yasothon","Khon Kaen","Kalasin","Attapeu","Ban Houayxay","Paksan","Xam Neua",
-			"Luang Namtha","Muang Xai","Khanthabouli","Phongsali","Sayabouly","Phonsavan","Salavan","Anouvong",
-			"Xaysomboun","Sekong","Phonhong","Viang Xai","Xiang Kho","Munag Kho","Paklay","Phontiou",
-			"Pakmong"],
+		"cities": ["Manila","Quezon","Cebu","Davao","Caloocan","Iloilo","Malolos","Butuan",
+			"Vigan", "Makati", "Baguio", "Koronadal", "Bacolad","Pasay","Sagada",
+			"Tacloban","Dipolog","Taguig","Laoag","Siquijor","Mambajao","Malabob","Puerto Princess",
+			"Tagbilaran","Nabunturan","Navatos","Lucena","Basilan","Sagada"
+			],
         "spyNames": ["Nang", "Mahakani", "Wangsapuri", "Anusha", "Lusai", "Vang", "Yukhon", "Nu", "Keo", "Oun", "Maha", "Souvanna"]
 	},
 	{
@@ -139,16 +139,16 @@
 		"preferredVictoryType": "Cultural",
 		"personality": "Charlemagne",
 
-        "startIntroPart1": "Vive Napoleon I, First Consul and Emperor of France! After the glorious Revolution which suppressed the centuries-old monarchy, the French nation stood at the heart of Europe as a Republic, and intended to export its ideals to the entire European continent, either by diplomacy or war. The French Capital Paris was more than ever the world center of Culture, Arts, and Letters. With its Great Army, reputed as one of the greatest in the History, France fought gloriously all surrounding enemies, but eventually fell against the coalition of other European powers.",
-        "startIntroPart2": "Napoleon Bonaparte, ruler of the French people, will you rebuild the Empire to take revenge on your foes, and make again of its Capital the City of Lights? Will your new empire shine through the ages of history?",
+        "startIntroPart1": "",
+        "startIntroPart2": "",
 
-        "declaringWar": "You're disturbing us, prepare for war.",
-		"attacked": "You've fallen into my trap. I'll bury you.",
-		"defeated": "I congratulate you for your victory.",
-		"introduction": "Welcome. I'm Napoleon, of France; the smartest military man in world history.",
-		"neutralHello": "Hello.",
-		"hateHello": "It's you.",
-		"tradeRequest": "France offers you this exceptional proposition.",
+        "declaringWar": "It is necessary now that you must join us.",
+		"attacked": "You now will face the full might of the Lord and my army!",
+		"defeated": "If the Lord wills it. I'll accept this defeat.",
+		"introduction": "Welcome to the Kingdom of the Franks, I am Charlemagne, and I protect my people.",
+		"neutralHello": "Need anything my friend?",
+		"hateHello": "Leave at once!",
+		"tradeRequest": "Would you accept this offer my friend?",
 
         "outerColor": [151, 194, 239],
         "innerColor": [30, 43, 141],
@@ -174,19 +174,19 @@
 		"preferredVictoryType": "Domination",
 		"personality": "Alaric",
 
-        "startIntroPart1": "All hail to Otto von Bismarck, first chancellor of Germany and its empire! During the ancient era, Germany was a land fragmented in several tribes but already showed great promise as the Roman Empire itself struggled to bend the Germans to its will. Germany, as one nation, was slowly built on the ruins of the Holy Roman Empire, and waited 1871 to be finally unified after the glorious victory on France and Napoleon III. The German people are creative, intelligent, industrious and proven to be talented warriors through history. Despite great catastrophes and failures in the first half of the 20th century, Germany can always rely on its people will and strength to be among the greatest and powerful nations in the world.",
-        "startIntroPart2": "Great Prince Bismarck, glory and power are at the heart of the German nation. Your people are bright, and lend you their iron will to lead Germany once again. Will your new empire shine through the ages of history?",
+        "startIntroPart1": "",
+        "startIntroPart2": "",
 
-        "declaringWar": "I cannot wait until ye grow even mightier. Therefore, prepare for war!",
-		"attacked": "Corrupted villain! We will bring you into the ground!",
-		"defeated": "Germany has been destroyed. I weep for the future generations.",
-		"introduction": "Guten Tag. In the name of the great German people, I bid you welcome.",
-		"neutralHello": "What now?",
-		"hateHello": "So, out with it!",
-		"tradeRequest": "It would be in your best interest, to carefully consider this proposal.",
+        "declaringWar": "",
+		"attacked": "",
+		"defeated": "",
+		"introduction": "",
+		"neutralHello": "",
+		"hateHello": "",
+		"tradeRequest": "",
 		"outerColor": [31, 31, 31],
 		"innerColor": [185, 218, 209],
-		"favoredReligion": "Christianity",
+		//"favoredReligion": "Christianity",
 		"uniqueName": "There are No Eternal Cities",
 		"uniques": [
 			"Receive triple Gold from Barbarian encampments and pillaging Cities",
