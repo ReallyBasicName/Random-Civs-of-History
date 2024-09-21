@@ -74,4 +74,35 @@
 			"Destroyed when the city is captured"
 		]
 	},
+	{
+		"name": "Carolingian Monastery",
+		"replaces": "Temple",
+		"uniqueTo": "Francia",
+		"faith": 2,
+		"culture": 1,
+		"requiredBuilding": "Shrine",
+		"maintenance": 2,
+		"hurryCostModifier": 25,
+		"requiredTech": "Philosophy",
+		"uniques": [
+			"Hidden when religion is disabled",
+			"[+10]% [Faith] [in this city] <during We Love The King Day>",
+			"Destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "Hov",
+		"replaces": "Temple",
+		"uniqueTo": "Goths",
+		"faith": 2,
+		"requiredBuilding": "Shrine",
+		"maintenance": 2,
+		"hurryCostModifier": 25,
+		"requiredTech": "Philosophy",
+		"uniques": [
+			"[+15]% [Production] <when contructing [Melee} units> [in this city]",
+			"Hidden when religion is disabled",
+			"Destroyed when the city is captured"
+		]
+	},
 ]
