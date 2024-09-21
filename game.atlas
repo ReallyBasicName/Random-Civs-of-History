@@ -4,93 +4,163 @@ size: 2048, 256
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
+BuildingIcons/Aglipayan Church
+  rotate: false
+  xy: 628, 112
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 BuildingIcons/Flying Pole
   rotate: false
-  xy: 528, 104
+  xy: 844, 112
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Temazcal
   rotate: false
-  xy: 852, 104
+  xy: 1492, 112
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/That
+  rotate: false
+  xy: 1600, 112
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Wickiup
   rotate: false
-  xy: 1284, 104
+  xy: 1060, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Yacata
   rotate: false
-  xy: 1392, 104
+  xy: 1168, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
+NationIcons/Francia
+  rotate: false
+  xy: 952, 112
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Goths
+  rotate: false
+  xy: 1060, 112
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Lan Xang
+  rotate: false
+  xy: 4, 12
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
 NationIcons/Mixtec
   rotate: false
-  xy: 744, 104
+  xy: 1276, 112
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/The Apache
   rotate: false
-  xy: 960, 104
+  xy: 1708, 112
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/The Philippines
+  rotate: false
+  xy: 1816, 112
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/The Purépecha
   rotate: false
-  xy: 4, 4
+  xy: 212, 12
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 NationIcons/Tlapanecs
   rotate: false
-  xy: 1068, 104
+  xy: 1924, 112
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Tlaxcala
   rotate: false
-  xy: 1176, 104
+  xy: 628, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Totonac
   rotate: false
-  xy: 212, 4
+  xy: 420, 12
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
+NationIcons/Vandals
+  rotate: false
+  xy: 952, 4
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 NationIcons/Zapotecs
   rotate: false
-  xy: 1500, 104
+  xy: 1276, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Chelee
   rotate: false
-  xy: 420, 104
+  xy: 736, 112
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Macuahuitlist
   rotate: false
-  xy: 636, 104
+  xy: 1168, 112
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Slinger
+  rotate: false
+  xy: 1384, 112
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Tlaxcalan Jaguar Warrior
+  rotate: false
+  xy: 736, 4
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Uparaja
+  rotate: false
+  xy: 844, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
