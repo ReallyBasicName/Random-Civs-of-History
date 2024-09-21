@@ -123,7 +123,7 @@
 		"uniqueName": "Lupang Hinirang",
 		"uniques": [
 			"[+15]% [Culture] [in all cities] <upon entering a Golden Age> <for [4] turns>",
-			"[+1 Faith] in cities on [Coastal] tiles <in this city> <upon discovering [Astronomy] technology>"
+			"[+1 Faith] in cities on [Coastal] tiles <upon discovering [Astronomy] technology>"
 		],
 		"cities": ["Manila","Quezon","Cebu","Davao","Caloocan","Iloilo","Malolos","Butuan",
 			"Vigan", "Makati", "Baguio", "Koronadal", "Bacolad","Pasay","Sagada",
