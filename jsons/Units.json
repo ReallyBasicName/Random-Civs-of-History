@@ -69,5 +69,41 @@
 		"obsoleteTech": "Replaceable Parts",
 		"upgradesTo": "Great War Infantry",
 		"attackSound": "shot"
+	},
+	{
+		"name": "Caballarii",
+		"unitType": "Mounted",
+		"replaces": "Knight",
+		"uniqueTo": "Francia",
+		"movement": 4,
+		"strength": 20,
+		"cost": 120,
+		"requiredTech": "Chivalry",
+		"obsoleteTech": "Military Science",
+		"upgradesTo": "Cavalry",
+		"requiredResource": "Horses",
+		"uniques": [
+			"Can move after attacking",
+			"No defensive terrain bonus",
+			"[-33]% Strength <vs cities> <when attacking>", 
+			"Never appears as a Barbarian unit",
+			"[+10]% Strength <when attacking> <when [Wounded]>"
+		],
+		"promotions": ["Quick Study"],
+		"attackSound": "horse"
+	},
+	{
+		"name": "Gadrauht",
+		"unitType": "Sword",
+		"replaces": "Swordsman",
+		"uniqueTo": "Goths",
+		"movement": 2,
+		"strength": 15,
+		"cost": 75,
+		"requiredTech": "Iron Working",
+		"upgradesTo": "Longswordsman",
+		"obsoleteTech": "Steel",
+		"hurryCostModifier": 20,
+		"attackSound": "metalhit"
 	}
 ]
