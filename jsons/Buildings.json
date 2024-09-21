@@ -100,7 +100,7 @@
 		"hurryCostModifier": 25,
 		"requiredTech": "Philosophy",
 		"uniques": [
-			"[+15]% [Production] <when contructing [Melee} units> [in this city]",
+			"[+15]% [Production] when constructing [Melee] units [in this city]",
 			"Hidden when religion is disabled",
 			"Destroyed when the city is captured"
 		]
