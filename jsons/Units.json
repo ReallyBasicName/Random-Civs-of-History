@@ -106,4 +106,37 @@
 		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
 	}
+    {
+        "name": "Atabeg",
+        "unitType": "Civilian",
+		"replaces": "Great General",
+		"uniqueTo": "Seljuk Empire",
+        "uniques": [
+            "[+20]% Strength bonus for [{Military} {Land}] units within [2] tiles",
+            "Can instantly construct a [Citadel] improvement <by consuming this unit>",
+            "Great Person - [War]",
+            "Unbuildable",
+            "Uncapturable"
+        ],
+        "movement": 4
+    },
+    {
+        "name": "Tumen",
+        "unitType": "Mounted",
+		"replaces": "Knight",
+		"uniqueTo": "Timurid Empire",
+        "movement": 4,
+        "strength": 20,
+        "cost": 120,
+        "requiredTech": "Chivalry",
+        "obsoleteTech": "Military Science",
+        "upgradesTo": "Cavalry",
+        "uniques": [
+            "Can move after attacking",
+            "No defensive terrain bonus",
+            "[-25]% Strength <vs cities> <when attacking>",
+            "Earn [100]% of killed [Military] unit's [Strength] as [Gold]"
+        ],
+        "attackSound": "horse"
+    }
 ]
