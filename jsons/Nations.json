@@ -346,7 +346,7 @@
         "leaderName": "",
         "adjective": ["Latvian"],
         "startBias": ["River"],
-        "preferredVictoryType": "",
+        "preferredVictoryType": "Diplomatic",
         "startIntroPart1": " ",
         "startIntroPart2": " ",
         "declaringWar": "Prepare for war!",
