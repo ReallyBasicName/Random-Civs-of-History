@@ -109,7 +109,7 @@
 
         "declaringWar": "",
 		"attacked": "",
-		"defeated": "",
+		"defeated": "Your conquest of this land will go down as a great treachery in the history of the world. Of this, I am sure",
 		"introduction": "",
 
 		"neutralHello": "",
@@ -202,6 +202,170 @@
 			"Gothic Toulouse", "Gothic Ravenna", "Toletum", "Corduba"
 		],
         "spyNames": ["Ailwin", "Baldric", "Gamel", "Masci", "Savaric", "Isolda", "Estrilda", "Sabelina", "Sybilla", "Golda"]
+    },
+    {
+        "name": "Timurid Empire",
+		"style": "Mesopotamian",
+        "leaderName": "Timur",
+        "adjective": ["Timurid"],
+        "startBias": ["Grassland", "Plains"],
+		"preferredVictoryType": "Domination",
+
+        "startIntroPart1": " ",
+        "startIntroPart2": " ",
+        "declaringWar": "Prepare to become one with my empire!",
+        "attacked": "I had already planned your demise years in advance!",
+        "defeated": "Only luck can explain your victory.",
+        "introduction": "You stand before Timur the Great, how long until you join my empire?",
+        "neutralHello": "Well?",
+        "hateHello": "If you want to fight you won't win.",
+        "tradeRequest": "Trade with me.",
+        //"outerColor": [129,125,127],
+        //"innerColor": [69,69,69],
+		"outerColor": [39, 39, 39],
+		"innerColor": [213, 49, 49],
+        "uniqueName": "Timurid Renaissance",
+        "uniques": [
+		"[+1 Production, +1 Science, +1 Gold, +1 Culture, +1 Food] [in puppeted cities]",
+        	"[+1 Production, +1 Science, +1 Gold, +1 Culture, +1 Food] [in annexed cities]",
+		"[+1 Production, +1 Science, +1 Gold, +1 Culture, +1 Food] from every [Shrine]"
+	]
+        "cities": [
+            "Samarkand","Herat","Balkh","Bukhara","Kabul","Nishapur","Urgench","Merv","Ghazni","Kandahar",
+            "Tashkent","Tabriz","Tiflis","Isfahan","Tehran","Kashgar","Peshawar","Multan","Lahore","Mosul",
+            "Hanadan","Ray","Kirman","Zarani","Shirazv","Baghdad","Basra","Ashgabat","Bishkek","Dushanbe"]
+    },
+	{
+		"name": "Seljuk Empire"
+		"style": "Middle Eastern",
+		"leaderName": "Alp Arslan",
+		"adjective": ["Seljuk"],
+		"startBias": ["Desert", "Plains"],
+		"preferredVictoryType": "Domination",
+
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		"declaringWar": "Prepare to Die!",
+		"attacked": "You will fall like all our enemies before you!",
+		"defeated": "I knew this day would come. Make it quick.",
+		"introduction":  "Greetings. I am Alp Arslan, Vizier to the Great Sultan of the Seljuq Empire. You'll be speaking with me in lieu of His Sultanate Majesty.",
+		"neutralHello": "What do you want?",
+		"hateHello": "You disgust me.",
+		"tradeRequest": "Consider this offer.",
+		"outerColor": [7,80,85],
+		"innerColor": [240,205,177],
+		"favouredReligion": "Islam",
+		"uniqueName": "Siyāsatnāmeh",
+		"uniques": [
+            "[+10]% [Science] [in capital]",
+			"[-20]% Unhappiness from [Population] [in all cities]"]
+		"cities": ["Isfahan","Hamadan","Merv","Rey","Nishapur","Kermanshah","Konya","Alanya",
+			"Sivas","Kayseri","Erzurum","Herat","Karaj","Tabriz","Shiraz","Ahvaz","Qom","Ardabil",
+			"Kerman","Kashan","Borujerd","Mosul","Basra","Erbil","Balkh","Amol","Samsun","Denizli"]
+	},
+    {
+        "name": "Aq Qoyunlu",
+        "leaderName": "Uzun Hasan",
+        "adjective": ["Aq Qoyunlu"],
+        "startBias": [""],
+        "preferredVictoryType": "Domination",
+        "startIntroPart1": " ",
+        "startIntroPart2": " ",
+        "declaringWar": "Prepare for war!",
+        "attacked": "You shall regret this!",
+        "defeated": "The victory is yours.",
+        "introduction": "Welcome, mighty leader.",
+        "neutralHello": "Greetings.",
+        "hateHello": "What do you want?",
+        "tradeRequest": "Better hurry, I may change my mind.",
+        "outerColor": [1,47,143],
+        "innerColor": [255,255,255],
+        "uniqueName": "White Sheep Turkomans",
+        "uniques": [],
+        "cities": [
+            "Diyarbəkir", "Tabriz", "Bağdat", "Ərzincan", "Van",
+            "Amid", "Mardin", "Sivas", "Bayburt", "Xarput",
+            "Mosul", "Malatya", "Kirmanşah", "Şiraz", "Ərdebil",
+            "Həmədan", "Şanlıurfa", "Gəncə", "Əhvaz", "Kərkük"
+	]
+    },
+    {
+        "name": "Qara Qoyunlu",
+        "leaderName": "Jahan Shah",
+        "adjective": ["Qara Qoyunlu"],
+        "startBias": [""],
+        "preferredVictoryType": "Domination",
+        "startIntroPart1": " ",
+        "startIntroPart2": " ",
+        "declaringWar": "Prepare for war!",
+        "attacked": "You shall regret this!",
+        "defeated": "The victory is yours.",
+        "introduction": "Welcome, mighty leader.",
+        "neutralHello": "Greetings.",
+        "hateHello": "What do you want?",
+        "tradeRequest": "Better hurry, I may change my mind.",
+        "outerColor": [38,100,117],
+        "innerColor": [0,0,0],
+        "uniqueName": "Black Sheep Turkomans",
+        "uniques": [],
+        "cities": [
+            "Təbriz", "Ərdəbil", "Bağdad", "Mosul", "Ərbil",
+            "Xoy", "Naxçıvan", "Qars", "Süleymaniyyə", "Bitlis",
+            "Diyarbakır", "Hamadan", "Qum", "Bakı", "Mərənd",
+            "İsfahan", "Zəncan", "Qəzvin", "Tiflis", "Şamaxı"
+	]
+    },
+    {
+        "name": "Estonia",
+        "leaderName": "",
+        "adjective": ["Estonian"],
+        "startBias": ["Coastal"],
+        "preferredVictoryType": "Diplomatic",
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+        "declaringWar": "Prepare for war!",
+        "attacked": "You shall regret this!",
+        "defeated": "The victory is yours.",
+        "introduction": "Welcome, mighty leader.",
+        "neutralHello": "Greetings.",
+        "hateHello": "What do you want?",
+        "tradeRequest": "Better hurry, I may change my mind.",
+        "outerColor": [239,171,0],
+        "innerColor": [55,118,196],
+        "uniqueName": "",
+        "uniques": [],
+        "cities": [
+            "Tallin", "Tartu", "Narva", "Pärnu", "Kohtla-Järve",
+            "Viljandi", "Rakvere", "Maardu", "Kuressaare", "Sillamäe",
+            "Valga", "Võru", "Haapsalu", "Jõhvi", "Paide",
+            "Saue", "Kärdla", "Elva", "Türi", "Kiviõli"
+	]
+    },
+    {
+        "name": "Latvia",
+        "leaderName": "",
+        "adjective": ["Latvian"],
+        "startBias": ["River"],
+        "preferredVictoryType": "",
+        "startIntroPart1": " ",
+        "startIntroPart2": " ",
+        "declaringWar": "Prepare for war!",
+        "attacked": "You shall regret this!",
+        "defeated": "The victory is yours.",
+        "introduction": "Welcome, mighty leader.",
+        "neutralHello": "Greetings.",
+        "hateHello": "What do you want?",
+        "tradeRequest": "Better hurry, I may change my mind.",
+        "outerColor": [158,28,50],
+        "innerColor": [255,255,255],
+        "uniqueName": "",
+        "uniques": [],
+        "cities": [
+            "Riga", "Daugavpils", "Liepāja", "Jelgava", "Jūrmala",
+            "Ventspils", "Rēzekne", "Valmiera", "Jēkabpils", "Ogre",
+            "Cēsis", "Salaspils", "Tukums", "Kuldīga", "Saldus",
+            "Talsi", "Bauska", "Madona", "Ludza", "Līvāni"
+	]
     },
     /*{
         "name": "Mixtec",
