@@ -105,4 +105,31 @@
 			"Destroyed when the city is captured"
 		]
 	},
+    {
+        "name": "Madrasa",
+        "uniqueTo": "Timurid Empire",
+        "replaces": "University", 
+        "maintenance": 2,
+        "happiness": 1,
+	"science": 1,
+        "hurryCostModifier": 15,
+        "percentStatBonus": {"science": 33},
+        "specialistSlots": {"Scientist": 2},
+        "requiredBuilding": "Library",
+        "uniques": ["[+2 Science] from [Jungle] tiles [in this city]"],
+        "requiredTech": "Education"
+    },
+    {
+        "name": "Nezamiyeh",
+        "uniqueTo": "Seljuk Empire",
+        "replaces": "University", 
+        "maintenance": 2,
+        "hurryCostModifier": 15,
+        "percentStatBonus": {"science": 33},
+        "specialistSlots": {"Scientist": 2},
+        "requiredBuilding": "Library",
+        "uniques": ["[+2 Science] from [Jungle] tiles [in this city]",
+            "[+10]% Great Person generation [in this city]"],
+        "requiredTech": "Theology"
+    }
 ]
