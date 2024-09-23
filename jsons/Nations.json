@@ -256,8 +256,8 @@
 		"favouredReligion": "Islam",
 		"uniqueName": "Siyāsatnāmeh",
 		"uniques": [
-            "[+10]% [Science] [in capital]",
-			"[-20]% Unhappiness from [Population] [in all cities]"]
+            "[+10]% [Science] [in capital] <during We Love The King Day>",
+			"[-10]% Unhappiness from [Population] [in all cities]"]
 		"cities": ["Isfahan","Hamadan","Merv","Rey","Nishapur","Kermanshah","Konya","Alanya",
 			"Sivas","Kayseri","Erzurum","Herat","Karaj","Tabriz","Shiraz","Ahvaz","Qom","Ardabil",
 			"Kerman","Kashan","Borujerd","Mosul","Basra","Erbil","Balkh","Amol","Samsun","Denizli"]
