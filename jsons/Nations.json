@@ -106,20 +106,20 @@
         "startIntroPart1": "",
         "startIntroPart2": "",
 
-        "declaringWar": "",
-		"attacked": "",
+        "declaringWar": "The engaging of this warfare is not only desirable, but absolutely essential to the welfare of the Philippine Islands",
+		"attacked": "The Philippine Islands will not fall!",
 		"defeated": "Your conquest of this land will go down as a great treachery in the history of the world. Of this, I am sure",
-		"introduction": "",
+		"introduction": "Good day, I am Emilio Aguinaldo, President of the great Philippine Islands. What business have you here?",
 
-		"neutralHello": "",
-		"hateHello": "",
-		"tradeRequest": "",
+		"neutralHello": "How are you?",
+		"hateHello": "Your treachery does not go unnoticed.",
+		"tradeRequest": "What do you say to this?",
 
 		"outerColor": [54, 126, 158],
 		"innerColor": [252, 216, 51],
 
 		"favoredReligion": "Christianity",
-		"uniqueName": "Lupang Hinirang",
+		"uniqueName": "Pearl of the Orient",
 		"uniques": [
 			"[+10]% [Faith] [in all cities] <upon declaring friendship> <for [4] turns>",
 			"[+15]% [Culture] [in all cities] <upon entering a Golden Age> <for [4] turns>",
@@ -137,7 +137,7 @@
 		"leaderName": "Charlemagne",
 		"adjective": ["Frankish"],
 		"preferredVictoryType": "Cultural",
-		"personality": "Charlemagne",
+		//"personality": "Charlemagne",
 
         "startIntroPart1": "",
         "startIntroPart2": "",
