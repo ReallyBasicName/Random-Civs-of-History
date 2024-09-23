@@ -111,7 +111,7 @@
 		"defeated": "Your conquest of this land will go down as a great treachery in the history of the world. Of this, I am sure",
 		"introduction": "Good day, I am Emilio Aguinaldo, President of the great Philippine Islands. What business have you here?",
 
-		"neutralHello": "How are you?",
+		"neutralHello": "Kamusta ka na?",
 		"hateHello": "Your treachery does not go unnoticed.",
 		"tradeRequest": "What do you say to this?",
 
@@ -247,7 +247,7 @@
 		"declaringWar": "Prepare to Die!",
 		"attacked": "You will fall like all our enemies before you!",
 		"defeated": "I knew this day would come. Make it quick.",
-		"introduction":  "Greetings. I am Alp Arslan, Vizier to the Great Sultan of the Seljuq Empire. You'll be speaking with me in lieu of His Sultanate Majesty.",
+		"introduction":  "I, the Great Sultan of the Seljuk Empire, grant you visitation.",
 		"neutralHello": "What do you want?",
 		"hateHello": "You disgust me.",
 		"tradeRequest": "Consider this offer.",
@@ -266,7 +266,7 @@
         "name": "Aq Qoyunlu",
         "leaderName": "Uzun Hasan",
         "adjective": ["Aq Qoyunlu"],
-        "startBias": [""],
+        "startBias": ["Plains"],
         "preferredVictoryType": "Domination",
         "startIntroPart1": " ",
         "startIntroPart2": " ",
@@ -292,7 +292,7 @@
         "name": "Qara Qoyunlu",
         "leaderName": "Jahan Shah",
         "adjective": ["Qara Qoyunlu"],
-        "startBias": [""],
+        "startBias": ["Plains"],
         "preferredVictoryType": "Domination",
         "startIntroPart1": " ",
         "startIntroPart2": " ",
@@ -316,7 +316,7 @@
     },
     {
         "name": "Estonia",
-        "leaderName": "",
+        "leaderName": "Konstantin Päts",
         "adjective": ["Estonian"],
         "startBias": ["Coastal"],
         "preferredVictoryType": "Diplomatic",
@@ -342,7 +342,7 @@
     },
     {
         "name": "Latvia",
-        "leaderName": "",
+        "leaderName": "Kārlis Ulmanis",
         "adjective": ["Latvian"],
         "startBias": ["River"],
         "preferredVictoryType": "Diplomatic",
