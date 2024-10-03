@@ -132,7 +132,7 @@
 			],
         "spyNames": ["Nang", "Mahakani", "Wangsapuri", "Anusha", "Lusai", "Vang", "Yukhon", "Nu", "Keo", "Oun", "Maha", "Souvanna"]
 	},
-	{
+	/*{
 		"name": "Francia",
 		"leaderName": "Charlemagne",
 		"adjective": ["Frankish"],
@@ -201,7 +201,7 @@
 			"Gothic Toulouse", "Gothic Ravenna", "Toletum", "Corduba"
 		],
         "spyNames": ["Ailwin", "Baldric", "Gamel", "Masci", "Savaric", "Isolda", "Estrilda", "Sabelina", "Sybilla", "Golda"]
-    },
+    },*/
     {
         "name": "Timurid Empire",
 		"style": "Mesopotamian",
@@ -234,7 +234,7 @@
             "Tashkent","Tabriz","Tiflis","Isfahan","Tehran","Kashgar","Peshawar","Multan","Lahore","Mosul",
             "Hanadan","Ray","Kirman","Zarani","Shirazv","Baghdad","Basra","Ashgabat","Bishkek","Dushanbe"]
     },
-	{
+	/*{
 		"name": "Seljuk Empire"
 		"style": "Middle Eastern",
 		"leaderName": "Alp Arslan",
@@ -365,7 +365,7 @@
             "Cēsis", "Salaspils", "Tukums", "Kuldīga", "Saldus",
             "Talsi", "Bauska", "Madona", "Ludza", "Līvāni"
 	]
-    },
+    },*/
     /*{
         "name": "Mixtec",
         "leaderName": "Eight Deer",
