@@ -201,7 +201,7 @@
 			"Gothic Toulouse", "Gothic Ravenna", "Toletum", "Corduba"
 		],
         "spyNames": ["Ailwin", "Baldric", "Gamel", "Masci", "Savaric", "Isolda", "Estrilda", "Sabelina", "Sybilla", "Golda"]
-    },*/
+    },
     {
         "name": "Timurid Empire",
 		"style": "Mesopotamian",
@@ -234,7 +234,7 @@
             "Tashkent","Tabriz","Tiflis","Isfahan","Tehran","Kashgar","Peshawar","Multan","Lahore","Mosul",
             "Hanadan","Ray","Kirman","Zarani","Shirazv","Baghdad","Basra","Ashgabat","Bishkek","Dushanbe"]
     },
-	/*{
+	/
 		"name": "Seljuk Empire"
 		"style": "Middle Eastern",
 		"leaderName": "Alp Arslan",
@@ -313,8 +313,8 @@
             "Diyarbakır", "Hamadan", "Qum", "Bakı", "Mərənd",
             "İsfahan", "Zəncan", "Qəzvin", "Tiflis", "Şamaxı"
 	]
-    },
-    {
+    },*/
+    /*{
         "name": "Estonia",
         "leaderName": "Konstantin Päts",
         "adjective": ["Estonian"],
