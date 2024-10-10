@@ -28,7 +28,7 @@
 		],
 		"requiredTech": "Pottery"
 	},
-	{
+	/*{
 		"name": "Flying Pole",
 		"replaces": "Shrine",
 		"uniqueTo": "Totonac",
@@ -48,7 +48,7 @@
 		"happiness": 2,
 		"hurryCostModifier": 25,
 		"requiredTech": "Construction"
-	},
+	},*/
 	{
 		"name": "That",
 		"replaces": "Garden",
