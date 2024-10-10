@@ -73,7 +73,7 @@
 			"[+20]% Natural religion spread [in this city]",
 			"Destroyed when the city is captured"
 		]
-	},
+	/*},
 	{
 		"name": "Carolingian Monastery",
 		"replaces": "Temple",
@@ -131,5 +131,5 @@
         "uniques": ["[+2 Science] from [Jungle] tiles [in this city]",
             "[+10]% Great Person generation [in this city]"],
         "requiredTech": "Theology"
-    }
+    }*/
 ]
