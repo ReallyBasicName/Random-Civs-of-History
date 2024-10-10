@@ -70,7 +70,7 @@
 		"upgradesTo": "Great War Infantry",
 		"attackSound": "shot"
 	},
-	{
+	/*{
 		"name": "Caballarii",
 		"unitType": "Mounted",
 		"replaces": "Knight",
@@ -138,5 +138,5 @@
             "Earn [100]% of killed [Military] unit's [Strength] as [Gold]"
         ],
         "attackSound": "horse"
-    }
+    }*/
 ]
