@@ -73,8 +73,8 @@
 			"[+20]% Natural religion spread [in this city]",
 			"Destroyed when the city is captured"
 		]
-	/*},
-	{
+	},
+	/*{
 		"name": "Carolingian Monastery",
 		"replaces": "Temple",
 		"uniqueTo": "Francia",
