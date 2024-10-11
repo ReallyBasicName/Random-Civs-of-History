@@ -1,166 +1,201 @@
 
 game.png
-size: 2048, 256
+size: 2048, 512
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
 BuildingIcons/Aglipayan Church
   rotate: false
-  xy: 628, 112
+  xy: 420, 139
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Flying Pole
   rotate: false
-  xy: 844, 112
+  xy: 701, 312
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Temazcal
   rotate: false
-  xy: 1492, 112
+  xy: 1565, 312
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/That
   rotate: false
-  xy: 1600, 112
+  xy: 1673, 312
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Wickiup
   rotate: false
-  xy: 1060, 4
+  xy: 744, 96
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Yacata
   rotate: false
-  xy: 1168, 4
+  xy: 852, 204
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
+NationIcons/Aq Qoyunlu
+  rotate: false
+  xy: 593, 312
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Estonia
+  rotate: false
+  xy: 4, 212
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
 NationIcons/Francia
   rotate: false
-  xy: 952, 112
+  xy: 809, 312
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Goths
   rotate: false
-  xy: 1060, 112
+  xy: 917, 312
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Lan Xang
   rotate: false
-  xy: 4, 12
+  xy: 4, 4
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-NationIcons/Mixtec
+NationIcons/Latvia
   rotate: false
-  xy: 1276, 112
+  xy: 1133, 312
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
+NationIcons/Mixtec
+  rotate: false
+  xy: 1349, 312
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Qara Qoyunlu
+  rotate: false
+  xy: 1457, 312
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Seljuk Empire
+  rotate: false
+  xy: 420, 247
+  size: 165, 165
+  orig: 165, 165
+  offset: 0, 0
+  index: -1
 NationIcons/The Apache
   rotate: false
-  xy: 1708, 112
+  xy: 1781, 312
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/The Philippines
   rotate: false
-  xy: 1816, 112
+  xy: 1889, 312
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/The Purépecha
   rotate: false
-  xy: 212, 12
+  xy: 212, 212
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
+NationIcons/Timurid Empire
+  rotate: false
+  xy: 528, 139
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 NationIcons/Tlapanecs
   rotate: false
-  xy: 1924, 112
+  xy: 528, 31
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Tlaxcala
   rotate: false
-  xy: 628, 4
+  xy: 636, 204
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Totonac
   rotate: false
-  xy: 420, 12
+  xy: 212, 4
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 NationIcons/Vandals
   rotate: false
-  xy: 952, 4
+  xy: 744, 204
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Zapotecs
   rotate: false
-  xy: 1276, 4
+  xy: 852, 96
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Chelee
   rotate: false
-  xy: 736, 112
+  xy: 420, 31
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Katipunero
+  rotate: false
+  xy: 1025, 312
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Macuahuitlist
   rotate: false
-  xy: 1168, 112
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Slinger
-  rotate: false
-  xy: 1384, 112
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Tlaxcalan Jaguar Warrior
-  rotate: false
-  xy: 736, 4
+  xy: 1241, 312
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Uparaja
   rotate: false
-  xy: 844, 4
+  xy: 636, 96
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
