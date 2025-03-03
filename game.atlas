@@ -1,75 +1,166 @@
 
 game.png
-size: 2048, 512
+size: 2048, 1024
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
 BuildingIcons/Aglipayan Church
   rotate: false
-  xy: 420, 139
+  xy: 1008, 900
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Carolingian Monastery
+  rotate: false
+  xy: 1440, 900
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Flying Pole
   rotate: false
-  xy: 701, 312
+  xy: 1872, 900
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Gécamines Facility
+  rotate: false
+  xy: 1224, 792
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Lauluväljak
+  rotate: false
+  xy: 1081, 684
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Music Academy
+  rotate: false
+  xy: 1621, 684
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Temazcal
   rotate: false
-  xy: 1565, 312
+  xy: 1405, 576
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/That
   rotate: false
-  xy: 1673, 312
+  xy: 1621, 576
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Wickiup
   rotate: false
-  xy: 744, 96
+  xy: 1172, 468
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Yacata
   rotate: false
-  xy: 852, 204
+  xy: 1280, 468
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Pochteca Enclave
+  rotate: false
+  xy: 740, 484
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Aq Qoyunlu
   rotate: false
-  xy: 593, 312
+  xy: 420, 154
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationIcons/Estonia
+NationIcons/Bosnia
+  rotate: false
+  xy: 1224, 900
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Chichimecas
   rotate: false
   xy: 4, 212
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
+NationIcons/Estonia
+  rotate: false
+  xy: 1656, 900
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Estonia-alt
+  rotate: false
+  xy: 592, 800
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+NationIcons/Estonia-alt1
+  rotate: false
+  xy: 1764, 900
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 NationIcons/Francia
   rotate: false
-  xy: 809, 312
+  xy: 1008, 792
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Goths
   rotate: false
-  xy: 917, 312
+  xy: 1116, 792
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Hong Kong
+  rotate: false
+  xy: 1332, 792
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Hong Kong_Civ
+  rotate: false
+  xy: 1440, 792
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Kyrgyzstan
+  rotate: false
+  xy: 1656, 792
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Kyrgyzstan-alt
+  rotate: false
+  xy: 1764, 792
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -83,119 +174,259 @@ NationIcons/Lan Xang
   index: -1
 NationIcons/Latvia
   rotate: false
-  xy: 1133, 312
+  xy: 1872, 792
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Macau
+  rotate: false
+  xy: 1189, 684
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Mixtec
   rotate: false
-  xy: 1349, 312
+  xy: 1513, 684
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationIcons/Qara Qoyunlu
+NationIcons/Nazca
   rotate: false
-  xy: 1457, 312
+  xy: 1837, 684
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationIcons/Seljuk Empire
+NationIcons/Portugal
   rotate: false
-  xy: 420, 247
-  size: 165, 165
-  orig: 165, 165
-  offset: 0, 0
-  index: -1
-NationIcons/The Apache
-  rotate: false
-  xy: 1781, 312
+  xy: 848, 519
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationIcons/The Philippines
-  rotate: false
-  xy: 1889, 312
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-NationIcons/The Purépecha
+NationIcons/Portugal1
   rotate: false
   xy: 212, 212
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-NationIcons/Timurid Empire
+NationIcons/Qara Qoyunlu
   rotate: false
-  xy: 528, 139
+  xy: 1081, 576
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
+NationIcons/Rhodesia
+  rotate: false
+  xy: 1189, 576
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Seljuk Empire
+  rotate: false
+  xy: 800, 627
+  size: 165, 165
+  orig: 165, 165
+  offset: 0, 0
+  index: -1
+NationIcons/Tajikistan
+  rotate: false
+  xy: 1297, 576
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Teotihuacan
+  rotate: false
+  xy: 1513, 576
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/The Apache
+  rotate: false
+  xy: 1729, 576
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/The Philippines
+  rotate: false
+  xy: 1837, 576
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/The Purépecha
+  rotate: false
+  xy: 592, 592
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+NationIcons/Timurid Empire
+  rotate: false
+  xy: 528, 154
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Tiwanaku
+  rotate: false
+  xy: 592, 444
+  size: 140, 140
+  orig: 140, 140
+  offset: 0, 0
+  index: -1
 NationIcons/Tlapanecs
   rotate: false
-  xy: 528, 31
+  xy: 528, 46
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Tlaxcala
   rotate: false
-  xy: 636, 204
+  xy: 740, 376
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
+NationIcons/Toltecs
+  rotate: false
+  xy: 420, 262
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
 NationIcons/Totonac
   rotate: false
-  xy: 212, 4
+  xy: 800, 800
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
+NationIcons/Turkmenistan
+  rotate: false
+  xy: 848, 411
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 NationIcons/Vandals
   rotate: false
-  xy: 744, 204
+  xy: 1064, 468
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Wari
+  rotate: false
+  xy: 1496, 488
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+NationIcons/Zaire
+  rotate: false
+  xy: 1388, 468
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Zapotecs
   rotate: false
-  xy: 852, 96
+  xy: 212, 4
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/BM-21 Grad
+  rotate: false
+  xy: 1116, 900
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/BS-3
+  rotate: false
+  xy: 420, 46
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/BTR-70
+  rotate: false
+  xy: 4, 420
+  size: 580, 580
+  orig: 580, 580
+  offset: 0, 0
+  index: -1
+UnitIcons/Caballarii
+  rotate: false
+  xy: 1332, 900
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Chelee
   rotate: false
-  xy: 420, 31
+  xy: 1548, 900
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Katipunero
   rotate: false
-  xy: 1025, 312
+  xy: 1548, 792
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Latviešu Strēlnieki
+  rotate: false
+  xy: 973, 684
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Macuahuitlist
   rotate: false
-  xy: 1241, 312
+  xy: 1297, 684
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Metsavennad
+  rotate: false
+  xy: 1405, 684
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Nahualli Warrior
+  rotate: false
+  xy: 1729, 684
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Presidential Division
+  rotate: false
+  xy: 973, 576
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Uparaja
   rotate: false
-  xy: 636, 96
+  xy: 956, 468
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
