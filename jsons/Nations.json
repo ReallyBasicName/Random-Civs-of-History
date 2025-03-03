@@ -30,6 +30,18 @@
 			"Ma'Bijaa Daslaa", "Tse Das'n", "Dib Tud", "Tse Ye Gocha", "Yoo Golin", "Washbidi Bit", "Ts Shid", 
 			"Ch'Disch'ag", "Tii Ch'ogi", "Bighan Da'isln", "Bis Bit"
         ]
+		"spyNames": [
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		""
+		]
     },
     {
         "name": "The Purépecha",
@@ -60,7 +72,18 @@
 			"Zurumuato", "Curutarán", "Matlatzinco", "Tagancícuaro", "Acuitzio", "Yurirapúndaro", "Tamazula", 
 			"La Huacana", "Charapan", "Cupareo", "Cóporo"
         ]
-		"spyNames": ["Hiquingaje", "Hiripan", "Tangáxuan", "Tzitzipandáquare", "Zuangua", "Cuerecuaperi", "Sicuirancha", "Tzetahcu", "Pauácume", "Eréndira"]
+		"spyNames": [
+			"Hiquingaje", 
+			"Hiripan", 
+			"Tangáxuan", 
+			"Tzitzipandáquare", 
+			"Zuangua", 
+			"Cuerecuaperi", 
+			"Sicuirancha", 
+			"Tzetahcu", 
+			"Pauácume", 
+			"Eréndira"
+		]
     },
 	{
 		"name": "Lan Xang",
@@ -132,7 +155,7 @@
 			],
         "spyNames": ["Nang", "Mahakani", "Wangsapuri", "Anusha", "Lusai", "Vang", "Yukhon", "Nu", "Keo", "Oun", "Maha", "Souvanna"]
 	},
-	/*{
+	{
 		"name": "Francia",
 		"leaderName": "Charlemagne",
 		"adjective": ["Frankish"],
@@ -167,7 +190,96 @@
 		],
         "spyNames": ["Earnest", "Bertrand", "Roland", "Remigius", "Francio", "Marcomer", "Antenor", "Priam", "Andras", "Merovich"]
     },
-	{
+	/*{
+        "name": "Turkmenistan",
+        "leaderName": "Saparmurat Niyazov",
+        "adjective": ["Turkmen"],
+        "startBias": ["Desert"],
+        "preferredVictoryType": "Diplomatic",
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+        "declaringWar": "Prepare for war!",
+        "attacked": "You shall regret this!",
+        "defeated": "The victory is yours.",
+        "introduction": "Welcome, mighty leader.",
+        "neutralHello": "Greetings.",
+        "hateHello": "What do you want?",
+        "tradeRequest": "Better hurry, I may change my mind.",
+		
+        "outerColor": [0, 132, 59],
+        "innerColor": [206, 216, 211],
+		
+        "uniqueName": "Land of Gas and Horses",
+        "uniques": [
+			"[+1 Production, +1 Culture] from every [Oil]"
+			"[+1 Production, +1 Culture] from every [Horses]"
+		],
+        "cities": [
+            "Ashgabat", "Mary", "Turkmenabat", "Balkanabat", "Dashoguz",
+            "Tejen", "Serdar", "Bereket", "Koneurgench", "Gyzylgaya",
+            "Gazanjyk", "Hazar", "Hazar", "Farap", "Magtymguly",
+            "Atamyrat", "Bayramaly", "Akdepe", "Esenguly", "Seydi"
+	]
+		"spyNames": [
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		""
+		]
+    },*/
+    {
+        "name": "Teotihuacan",
+        "leaderName": "Spearthrower Owl",
+        "adjective": ["Teotihuacano"],
+        "startBias": ["Avoid [Tundra]"],
+        "preferredVictoryType": "Domination",
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+        "declaringWar": "Put up little resistance and I may spare more of your people.",
+        "attacked": "You finally decided to join your ancestors?",
+        "defeated": "As we lay defeated, our legacy will go down in history. When the last word of your history is spoken, our temples shall still be standing.",
+        "introduction": "What's this? Another state to join my empire, or a useful ally? Respect my power, and be welcome.",
+        "neutralHello": "Have something for me?",
+        "hateHello": "You are brave to come here.",
+        "tradeRequest": "You have something that belongs to me, give it now.",
+		"outerColor": [26, 21, 40],
+		"innerColor": [143, 216, 199],
+        "uniqueName": "Where Men Become Gods"
+        "uniques": [
+			"[+1] population [in this city] <upon constructing [Wonder]>",
+			"Allied City-States provide [Food] equal to [10]% of what they produce for themselves",
+			"Allied City-States provide [Production] equal to [10]% of what they produce for themselves",
+			"Allied City-States provide [Gold] equal to [10]% of what they produce for themselves",
+			"Allied City-States provide [Culture] equal to [10]% of what they produce for themselves",
+			"Allied City-States provide [Faith] equal to [10]% of what they produce for themselves"
+        ],
+        "cities": [
+			"Teotihuacan", "Pachua", "Choula", "Cacaxtla", "Tula",
+			"Remojadas", "Cuautlancingo", "Ixtepeque", "Escuintla", "Kaminaljuya",
+			"Piedras Negras", "Tikal", "Copan", "Quirigua", "Tlalmanalco",
+			"Jocotitlán", "Tlaquilpa", "Tlapacoyan", "Xochitécatl", "El Tajin",
+			"El Teul", "Cerro de las Mesas", "Tres Zapotes", "Monte Alban", "Guadalajara"
+        ]
+		"spyNames": [
+		"Siyaj K'ak",
+		"Jade Spider",
+		"Zyanya",
+		"Xquenda",
+		"Yax Nuun Ahiin",
+		"Fire is Born",
+		"Sihyaj Chan K'awiil II",
+		"Storm Sky",
+		"Netted Jaguar",
+		"Lime Quetzalpapálotl"
+		]
+    },
+	/*{
 		"name": "Goths",
 		"leaderName": "Alaric I",
 		"adjective": ["Gothic"],
@@ -261,8 +373,8 @@
 		"cities": ["Isfahan","Hamadan","Merv","Rey","Nishapur","Kermanshah","Konya","Alanya",
 			"Sivas","Kayseri","Erzurum","Herat","Karaj","Tabriz","Shiraz","Ahvaz","Qom","Ardabil",
 			"Kerman","Kashan","Borujerd","Mosul","Basra","Erbil","Balkh","Amol","Samsun","Denizli"]
-	},
-    {
+	},*/
+    /*{
         "name": "Aq Qoyunlu",
         "leaderName": "Uzun Hasan",
         "adjective": ["Aq Qoyunlu"],
@@ -279,7 +391,7 @@
         "tradeRequest": "Better hurry, I may change my mind.",
         "outerColor": [1,47,143],
         "innerColor": [255,255,255],
-        "uniqueName": "White Sheep Turkomans",
+        "uniqueName": "Chinggisid Legacy",
         "uniques": [],
         "cities": [
             "Diyarbəkir", "Tabriz", "Bağdat", "Ərzincan", "Van",
@@ -287,6 +399,18 @@
             "Mosul", "Malatya", "Kirmanşah", "Şiraz", "Ərdebil",
             "Həmədan", "Şanlıurfa", "Gəncə", "Əhvaz", "Kərkük"
 	]
+		"spyNames": [
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		""
+		]
     },
     {
         "name": "Qara Qoyunlu",
@@ -305,7 +429,7 @@
         "tradeRequest": "Better hurry, I may change my mind.",
         "outerColor": [38,100,117],
         "innerColor": [0,0,0],
-        "uniqueName": "Black Sheep Turkomans",
+        "uniqueName": "Turko-Persian Legacy",
         "uniques": [],
         "cities": [
             "Təbriz", "Ərdəbil", "Bağdad", "Mosul", "Ərbil",
@@ -313,8 +437,100 @@
             "Diyarbakır", "Hamadan", "Qum", "Bakı", "Mərənd",
             "İsfahan", "Zəncan", "Qəzvin", "Tiflis", "Şamaxı"
 	]
+		"spyNames": [
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		""
+		]
     },*/
-    /*{
+	/*{
+        "name": "Kyrgyzstan",
+        "leaderName": "Askar Akayev",
+        "adjective": ["Kyrgyz"],
+        "startBias": ["Hill", "Mountain"],
+        "preferredVictoryType": "Diplomatic",
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+        "declaringWar": "Prepare for war!",
+        "attacked": "You shall regret this!",
+        "defeated": "The victory is yours.",
+        "introduction": "Welcome, mighty leader.",
+        "neutralHello": "Greetings.",
+        "hateHello": "What do you want?",
+        "tradeRequest": "Better hurry, I may change my mind.",
+		
+        "outerColor": [255, 0, 0]
+        "innerColor": [255, 254, 1],
+		
+        "uniqueName": "",
+        "uniques": [],
+        "cities": [
+            "Bishkek", "Osh", "Jalal-Abad", "Karakol", "Naryn",
+            "Talas", "Batken", "Tokmok", "Kochkor", "At-Bashi",
+            "Isfana", "Tash-Kumyr", "Kyzyl-Kiya", "Mailuu-Suu", "Balykchy",
+            "Sulukta", "Kemin", "Kara-Balta", "Toguz-Toro", "Uzgen"
+	]
+		"spyNames": [
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		""
+		]
+    },*/
+	/*{
+        "name": "Tajikistan",
+        "leaderName": "Enomali Rahmon",
+        "adjective": ["Tajik"],
+        "startBias": ["Hill", "Mountain"],
+        "preferredVictoryType": "Diplomatic",
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+        "declaringWar": "Prepare for war!",
+        "attacked": "You shall regret this!",
+        "defeated": "The victory is yours.",
+        "introduction": "Welcome, mighty leader.",
+        "neutralHello": "Greetings.",
+        "hateHello": "What do you want?",
+        "tradeRequest": "Better hurry, I may change my mind.",
+		
+		"outerColor": [255, 255, 255],
+		"innerColor": [174, 137, 0],
+		
+        "uniqueName": "",
+        "uniques": [],
+        "cities": [
+            "Dushanbe", "Khujand", "Kulob", "Bokhtar", "Panjakent",
+            "Isfara", "Istaravshan", "Danghara", "Murghab", "Khorugh",
+            "Nuek", "Vahdat", "Tursunzoda", "Jirgatol", "Qurghonteppa",
+            "Norak", "Gharm", "Shahristus", "Hissar", "Farkhor"
+	]
+		"spyNames": [
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		""
+		]
+    },*/
+    {
         "name": "Estonia",
         "leaderName": "Konstantin Päts",
         "adjective": ["Estonian"],
@@ -329,16 +545,33 @@
         "neutralHello": "Greetings.",
         "hateHello": "What do you want?",
         "tradeRequest": "Better hurry, I may change my mind.",
-        "outerColor": [239,171,0],
-        "innerColor": [55,118,196],
-        "uniqueName": "",
-        "uniques": [],
+		
+		"outerColor": [46, 100, 166],
+		"innerColor": [241, 183, 38],
+
+        "uniqueName": "Ärkamisaeg",
+        "uniques": [
+			"[+1 Culture] from every [Forest]",
+			"[+10]% Strength <when fighting in [Friendly Land] tiles>"
+		],
         "cities": [
             "Tallin", "Tartu", "Narva", "Pärnu", "Kohtla-Järve",
             "Viljandi", "Rakvere", "Maardu", "Kuressaare", "Sillamäe",
             "Valga", "Võru", "Haapsalu", "Jõhvi", "Paide",
             "Saue", "Kärdla", "Elva", "Türi", "Kiviõli"
 	]
+		"spyNames": [
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		""
+		]
     },
     {
         "name": "Latvia",
@@ -346,8 +579,106 @@
         "adjective": ["Latvian"],
         "startBias": ["River"],
         "preferredVictoryType": "Diplomatic",
-        "startIntroPart1": " ",
-        "startIntroPart2": " ",
+		
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+		
+        "declaringWar": "This is necessary, not for me, nor for my allies, but for my people, so they may live to see another day of freedom.",
+        "attacked": "I only do what is right for Latvia, if that means conquering you then so be it.",
+        "defeated": "I surrender on the terms I remain in my place and you remain in yours, it is with hope that you ",
+        "introduction": "I will welcome you, but you must remember, Latvia is for Latvians.",
+		
+        "neutralHello": "Latvia's sun shines equally over everyone.",
+        "hateHello": "You? What are you doing here?",
+		
+        "tradeRequest": "This may benefit the both of us, do you accept?",
+
+		"outerColor": [150, 26, 47],
+		"innerColor": [214, 148, 12],
+
+        "uniqueName": "Song of Rebirth",
+        "uniques": [
+			"[+1 Culture] from every specialist [in all cities]",
+			"[+1 Happiness] from every specialist [in all cities] <during a Golden Age>",
+			"Instantly gain [+15] [Golden Age points] <upon expending a [Great Person] unit> <(modified by game speed)>"
+		],
+        "cities": [
+            "Riga", "Daugavpils", "Liepāja", "Jelgava", "Jūrmala",
+            "Ventspils", "Rēzekne", "Valmiera", "Jēkabpils", "Ogre",
+            "Cēsis", "Salaspils", "Tukums", "Kuldīga", "Saldus",
+            "Talsi", "Bauska", "Madona", "Ludza", "Līvāni"
+	]
+		"spyNames": [
+		"Jānis",
+		"Alberts",
+		"Agusts",
+		"Čakste",
+		"Zigfrīds",
+		"Hugo",
+		"Arturs",
+		"Marģers",
+		"Ādolfs",
+		"Zariņš"
+		]
+    },
+    {
+        "name": "Zaire",
+        "leaderName": "Mobutu Sese Seko",
+        "adjective": ["Zairian"],
+        "startBias": ["Hill"],
+        "preferredVictoryType": "Domination",
+		
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+		
+        "declaringWar": "We are seeking our own authenticity, and we will find it because we wish, even if that means fighting you for it.",
+        "attacked": "War? I have rendered my country and people an enormous service. They owe me everything, they will die defending my country.",
+        "defeated": "I am the latest victim of your nation, no longer needed by you, but I am defeated knowing my people died for me.",
+        "introduction": "The chief is the chief. He is the eagle who flies high and cannot be touched by the spit of the toad. I am he, the chief, President Mobutu. Are you the toad?",
+		
+        "neutralHello": "What business do you have here?",
+        "hateHello": "Does my support for you count for nothing?",
+        "tradeRequest": "In a word, everything is for sale, my country needs this, what is your price?",
+		
+		"outerColor": [79, 143, 60],
+		"innerColor": [253, 231, 65],
+
+        "uniqueName": "Authenticité",
+        "uniques": [
+			"[+1 Culture, +2 Production] per [3] social policies adopted",
+			"[+10]% Strength <vs [Melee] units> <in [your] tiles>"
+		], 
+        "cities": [
+            "Kinshasa", "Lubumbashi", "Mbuji-Mayi", "Kananga", "Kisangani",
+			"Bukavu", "Kolwezi", "Likasi", "Tshikapa", "Kikwit",
+			"Matadi", "Mbandaka", "Boma", "Mwene-Ditu", "Isiro",
+			"Goma", "Uvira", "Kalemie", "Butembo", "Kindu",
+			"Gandajika", "Bandundu", "Gemena", "Kamina", "Bunia",
+			"Ilebo", "Kipushi", "Bumba", "Mbanza-Ngungu", "Beni",
+			"Moanda", "Bakwa-Kalonji", "Lisala", "Inkisi", "Tshilenge",
+			"Bukama", "Binga", "Manono", "Balamba", "Kambove"
+	]
+		"spyNames": [
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		""
+		]
+    },
+    /*{
+        "name": "Macau",
+        "leaderName": "Vasco Vieira",
+        "adjective": ["Macau"],
+        "startBias": ["Coast"],
+        "preferredVictoryType": "Diplomatic",
+        "startIntroPart1": "",
+        "startIntroPart2": "",
         "declaringWar": "Prepare for war!",
         "attacked": "You shall regret this!",
         "defeated": "The victory is yours.",
@@ -355,16 +686,70 @@
         "neutralHello": "Greetings.",
         "hateHello": "What do you want?",
         "tradeRequest": "Better hurry, I may change my mind.",
-        "outerColor": [158,28,50],
-        "innerColor": [212,143,0],
+		
+		"outerColor": [6, 118, 98],
+		"innerColor": [255, 223, 30],
+
         "uniqueName": "",
-        "uniques": [],
+        "uniques": [
+			"Cannot build [Settler] units"
+		],
         "cities": [
-            "Riga", "Daugavpils", "Liepāja", "Jelgava", "Jūrmala",
-            "Ventspils", "Rēzekne", "Valmiera", "Jēkabpils", "Ogre",
-            "Cēsis", "Salaspils", "Tukums", "Kuldīga", "Saldus",
-            "Talsi", "Bauska", "Madona", "Ludza", "Līvāni"
+            "Macau", "Taipa", "Coloane", "Cotai"
+		]
+		"spyNames": [
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		""
+		]
+    },
+    {
+        "name": "Hong Kong",
+        "leaderName": "Murray MacLehose",
+        "adjective": ["Hongkongers "],
+        "startBias": ["Coast"],
+        "preferredVictoryType": "Diplomatic",
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+        "declaringWar": "Prepare for war!",
+        "attacked": "You shall regret this!",
+        "defeated": "The victory is yours.",
+        "introduction": "Welcome, mighty leader.",
+        "neutralHello": "Greetings.",
+        "hateHello": "What do you want?",
+        "tradeRequest": "Better hurry, I may change my mind.",
+		
+		"outerColor": [162, 0, 81],
+		"innerColor": [241, 186, 149],
+
+        "uniqueName": "",
+        "uniques": [
+		],
+        "cities": [
+            "Admiralty", "Central", "Tsim Sha Tsui", "Mong Kok", "Causeway Bay",
+            "Sha Tin", "Tai Po", "Yuen Long", "Sheung Wan", "Sai Wan",
+            "North Point", "", "", "", "",
+            "", "", "", "", ""
 	]
+		"spyNames": [
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		""
+		]
     },*/
     /*{
         "name": "Mixtec",
@@ -394,8 +779,96 @@
 			"Chalcatongo", "Xochistlahuaca", "Zacatepec", "Pinotepa", "Ocotepec", "Ometepec", "Juxtlahuaca", 
 			"Malinaltepec", "Tonalá", "Alcozauca", "Tlapa", "Mixtepetongo"
         ]
-		"spyNames": ["Twelve Ollin", "Thirteenth Death", "Nine Water", "Four Ocelot", "Nine Grass", "Six Monkeys", "One Reed", "Seven House", "Twelve Flint", "Eleven Rabbit"]
     },
+    {
+        "name": "Rhodesia",
+        "leaderName": "Ian Smith",
+        "adjective": ["Rhodesian"],
+        "startBias": ["Plains"],
+        "preferredVictoryType": "Diplomatic",
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+        "declaringWar": "",
+        "attacked": "The cost of keeping this great land free can never too great!",
+        "defeated": "Rhodesians never die!",
+        "introduction": "Welcome, mighty leader.",
+        "neutralHello": "Greetings.",
+        "hateHello": "What do you want?",
+        "tradeRequest": "Better hurry, I may change my mind.",
+
+		"outerColor": [7, 74, 47],
+		"innerColor": [242, 195, 1],
+
+        "uniqueName": "Breadbasket of Africa",
+        "uniques": [
+			"[+1 Food] from every [Wheat]"
+			"[+1 Food] from every [Plains] <during a Golden Age>"
+		],
+        "cities": [
+            "Salisbury", "Bulawayo", "Gwelo", "Umtali", "Fort Victoria",
+            "Que Que", "Bindura", "Shabani", "Wankie", "Sinoia",
+            "Hartley", "Gatooma", "Chiredzi", "Chipinga", "Victoria Falls",
+            "Karoi", "Rusape", "Marondera", "Nyanga", "Plumtree"
+	]
+		"spyNames": [
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		""
+		]
+    },
+    {
+        "name": "Bosnia",
+        "leaderName": "",
+        "adjective": ["Bosnian"],
+        //"startBias": ["Coast"],
+        "preferredVictoryType": "Diplomatic",
+		
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+		
+        "declaringWar": "Prepare for war!",
+        "attacked": "You shall regret this!",
+        "defeated": "The victory is yours.",
+        "introduction": "Welcome, mighty leader.",
+		
+        "neutralHello": "Greetings.",
+        "hateHello": "What do you want?",
+		
+        "tradeRequest": "Better hurry, I may change my mind.",
+		
+		"outerColor": [34, 27, 89],
+		"innerColor": [159, 146, 87],
+
+        "uniqueName": "Moja Bosna Ponosna",
+        "uniques": [
+			
+		],
+        "cities": [
+            "Tallin", "Tartu", "Narva", "Pärnu", "Kohtla-Järve",
+            "Viljandi", "Rakvere", "Maardu", "Kuressaare", "Sillamäe",
+            "Valga", "Võru", "Haapsalu", "Jõhvi", "Paide",
+            "Saue", "Kärdla", "Elva", "Türi", "Kiviõli"
+	]
+		"spyNames": [
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		""
+		]
+    },"spyNames": ["Twelve Ollin", "Thirteenth Death", "Nine Water", "Four Ocelot", "Nine Grass", "Six Monkeys", "One Reed", "Seven House", "Twelve Flint", "Eleven Rabbit"]
     {
         "name": "Zapotecs",
         "leaderName": "Cocijoeza",
@@ -508,7 +981,7 @@
 		"spyNames": ["", "", "", "", "", "", "", "", "", ""]
     },
     {
-        "name": "Wari Empire",
+        "name": "Wari",
         "leaderName": "",
         "adjective": ["Wari"],
         "startBias": ["Hill"],
@@ -535,7 +1008,7 @@
 		"spyNames": ["", "", "", "", "", "", "", "", "", ""]
     },
     {
-        "name": "Tiwanaku Empire",
+        "name": "Tiwanaku",
         "leaderName": "",
         "adjective": ["Tiwanaku"],
         "startBias": ["Hill"],

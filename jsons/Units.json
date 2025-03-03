@@ -70,7 +70,119 @@
 		"upgradesTo": "Great War Infantry",
 		"attackSound": "shot"
 	},
+	{
+		"name": "Metsavennad",
+		"unitType": "Gunpowder",
+		"replaces": "Great War Infantry",
+		"uniqueTo": "Estonia",
+		"movement": 2,
+		"strength": 50,
+		"cost": 320,
+		"requiredTech": "Replaceable Parts",
+		"upgradesTo": "Infantry",
+		"obsoleteTech": "Plastics",
+		"uniques": [
+			"[-10]% maintenance costs",
+			"[-15]% Strength <when attacking>",
+			"Invisible to non-adjacent units"
+		],
+		"attackSound": "shot"
+	},
+	{
+		"name": "Latviešu Strēlnieki",
+		"unitType": "Gunpowder",
+		"replaces": "Great War Infantry",
+		"uniqueTo": "Latvia",
+		"movement": 2,
+		"strength": 50,
+		"cost": 320,
+		"requiredTech": "Replaceable Parts",
+		"upgradesTo": "Infantry",
+		"obsoleteTech": "Plastics",
+		"uniques": [
+			"[+5]% Strength <when defending>",
+			"[+15]% Strength <when attacking>"
+		],
+		"attackSound": "shot"
+	},
 	/*{
+		"name": "BM-21 Grad",
+		"unitType": "Siege",
+		"replaces": "Rocket Artillery",
+		"uniqueTo": "Turkmenistan",
+		"movement": 2,
+		"strength": 50,
+		"rangedStrength": 35,
+		"range": 3,
+		"cost": 425,
+		"requiredTech": "Rocketry",
+		"requiredResource": "Aluminum",
+		"uniques": ["[+200]% Strength <vs cities> <when attacking>","No defensive terrain bonus",
+			"[-1] Sight", "Never appears as a Barbarian unit", "[1] additional attacks per turn"],
+		"promotions": ["Indirect Fire"],
+		"attackSound": "artillery"
+	},
+	{
+		"name": "BS-3",
+		"unitType": "Gunpowder",
+		"replaces": "Anti-Tank Gun",
+		"uniqueTo": "Kyrgyzstan",
+		"movement": 2,
+		"strength": 50,
+		"cost": 300,
+		"requiredTech": "Combined Arms",
+		"upgradesTo": "Helicopter Gunship",
+		"uniques": ["[+150]% Strength <vs [Armored] units>", "Never appears as a Barbarian unit"],
+		"attackSound": "machinegun"
+	},
+	{
+		"name": "BTR-70",
+		"unitType": "Gunpowder",
+		"replaces": "Mechanized Infantry",
+		"uniqueTo": "Tajikistan",
+		"movement": 3,
+		"strength": 90,
+		"cost": 375,
+		"requiredTech": "Mobile Tactics",
+		"uniques": ["Never appears as a Barbarian unit", "[+10]% Strength <when defending>"],
+		"attackSound": "tankshot"
+	},*/
+	{
+		"name": "Nahualli Warrior",
+		"unitType": "Sword",
+		"replaces": "Swordsman",
+		"uniqueTo": "Teotihuacan",
+		"movement": 2,
+		"strength": 14,
+		"cost": 75,
+		"requiredTech": "Iron Working",
+		"upgradesTo": "Longswordsman",
+		"uniques": [
+			"[+15]% Strength <in [City-State] tiles>"
+		]
+		"obsoleteTech": "Steel",
+		"hurryCostModifier": 20,
+		"attackSound": "metalhit" 
+	},
+	{
+		"name": "Presidential Division",
+		"unitType": "Ranged Gunpowder",
+		"replaces": "Machine Gun",
+		"uniqueTo": "Zaire",
+		"range": 1,
+		"movement": 2,
+		"strength": 60,
+		"rangedStrength": 60,
+		"cost": 350,
+		"requiredTech": "Ballistics",
+		"upgradesTo": "Mechanized Infantry",
+		"uniques": [
+			"[+25]% Strength <in [Capital] cities>"
+			"Earn [7]% of the damage done to [Land] units as [Culture]"
+		]
+		"attackSound": "machinegun"
+	},
+	{
 		"name": "Caballarii",
 		"unitType": "Mounted",
 		"replaces": "Knight",
@@ -91,6 +203,20 @@
 		],
 		"promotions": ["Quick Study"],
 		"attackSound": "horse"
+	},
+	/*
+	{
+		"name": "Swordsman",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 14,
+		"cost": 75,
+		"requiredTech": "Iron Working",
+		"upgradesTo": "Longswordsman",
+		"obsoleteTech": "Steel",
+		"requiredResource": "Iron",
+		"hurryCostModifier": 20,
+		"attackSound": "metalhit"
 	},
 	{
 		"name": "Gadrauht",

@@ -1,0 +1,28 @@
+[
+	{
+		"name": "Pochteca Enclave",
+		"uniqueTo": "Teotihuacan",
+		"gold": 1,
+		"turnsToBuild": 7,
+		"techRequired": "Civil Service",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Forest","Jungle","Flood plains"],
+		"uniques": [
+			"[+1 Gold] for each adjacent [Trading post]",
+		]
+	},
+	/*{
+		"name": "Gas Refinery",
+		"uniqueTo": "Turkmenistan",
+		"production": 1,
+		"gold": 2,
+		"turnsToBuild": 8,
+		"techRequired": "Electricity",
+		"terrainsCanBeBuiltOn": ["Desert"],
+		"uniques": [
+			"Improves [Oil] resource in this tile",
+			"[+1 Gold, -1 Production] <in [Oil] tiles>"
+			"Pillaging this improvement yields approximately [+30 Gold]"
+		]
+	}*/
+]
+

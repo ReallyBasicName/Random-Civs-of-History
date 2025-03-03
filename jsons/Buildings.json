@@ -74,7 +74,34 @@
 			"Destroyed when the city is captured"
 		]
 	},
-	/*{
+	{
+		"name": "Music Academy",
+		"replaces": "Public School",
+		"uniqueTo": "Latvia",
+		"science": 3,
+		"culture": 1,
+		"specialistSlots": {"Scientist": 1},
+		"specialistSlots": {"Artist": 2},
+		"requiredBuilding": "University",
+		"maintenance": 3,
+		"hurryCostModifier": 0,
+		"uniques": ["[+1 Science] per [2] population [in this city]"],
+		"requiredTech": "Scientific Theory"
+	},
+	{
+		"name": "Lauluväljak",
+		"replaces": "Opera House",
+		"uniqueTo": "Estonia",
+        "cost": 165,
+		"culture": 4,
+		"specialistSlots": {"Artist": 1},
+		"hurryCostModifier": 10,
+		"requiredBuilding": "Amphitheater",
+		"maintenance": 2,
+		"requiredTech": "Acoustics",
+		"uniques": ["Destroyed when the city is captured"]
+	},
+	{
 		"name": "Carolingian Monastery",
 		"replaces": "Temple",
 		"uniqueTo": "Francia",
@@ -85,12 +112,24 @@
 		"hurryCostModifier": 25,
 		"requiredTech": "Philosophy",
 		"uniques": [
-			"Hidden when religion is disabled",
+			"Only available <when religion is enabled>",
 			"[+10]% [Faith] [in this city] <during We Love The King Day>",
 			"Destroyed when the city is captured"
 		]
 	},
 	{
+		"name": "Gécamines Facility",
+		"replaces": "Recycling Center",
+		"uniqueTo": "Zaire",
+		"maintenance": 3,
+		"requiredTech": "Ecology",
+		"uniques": [
+			"Provides [2] [Aluminum]",
+			"Limited to [5] per Civilization",
+			"[+1 Gold, +2 Culture] from every [Strategic resource] <in this city>"
+		]
+	},
+	/*{
 		"name": "Hov",
 		"replaces": "Temple",
 		"uniqueTo": "Goths",
