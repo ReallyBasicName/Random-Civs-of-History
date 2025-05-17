@@ -204,7 +204,7 @@
 		"promotions": ["Quick Study"],
 		"attackSound": "horse"
 	},
-	{
+	/*{
 		"name": "Shinobi",
 		"unitType": "Scout",
 		"replaces": "Scout",
@@ -222,7 +222,7 @@
 			],
 		"promotions": ["Ignore terrain cost"],
 		"attackSound": "nonmetalhit"
-	},
+	},*/
 	{
 		"name": "Red Fleet Junk",
 		"unitType": "Melee Water",
