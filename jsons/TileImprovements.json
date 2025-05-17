@@ -10,6 +10,31 @@
 			"[+1 Gold] for each adjacent [Trading post]",
 		]
 	},
+	{
+		"name": "Kakurezato",
+		"uniqueTo": "Iga",
+		"culture": 2,
+		"turnsToBuild": 7,
+		"techRequired": "Civil Service",
+		"terrainsCanBeBuiltOn": ["Forest","Jungle"],
+		"uniques": [
+			"[+1 Gold] for each adjacent [Trading post]",
+		]
+	},
+	{
+		"name": "Rum Distillery",
+		"uniqueTo": "The Buccaneers",
+		"gold": 2,
+		"turnsToBuild": 8,
+		"techRequired": "Machinery",
+		"terrainsCanBeBuiltOn": ["Flood plains", "Grassland", "Jungle", "Marsh"],
+		"uniques": [
+			//"Provides [1] [Rum] <in [Sugar] tiles>",
+			//"Consumes [1] [Sugar] <in [Sugar] tiles>",
+			"Improves [Sugar] resource in this tile",
+			"Pillaging this improvement yields approximately [+25 Gold]"
+		]
+	}
 	/*{
 		"name": "Gas Refinery",
 		"uniqueTo": "Turkmenistan",

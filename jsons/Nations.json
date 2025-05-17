@@ -6,18 +6,25 @@
         "adjective": ["Apache"],
         "startBias": ["Plains", "Desert"],
         "preferredVictoryType": "Cultural",
+		//"favoredReligion": "",
+		
         "startIntroPart1": "",
         "startIntroPart2": "",
+		
         "declaringWar": "You've encroached on our lands for far too long!",
         "attacked": "You will never destroy our way of life!",
         "defeated": "You have worn out my people enough... that I must, surrender...",
         "introduction": "As long as you don't hurt my people, and don't steal our land, we'll have no issues. ",
+		
         "neutralHello": "Need anything?",
         "hateHello": "You are an evil that walks the earth.",
+		
         "tradeRequest": "Will you accept this offer?",
+		
 		"outerColor": [120, 64, 44],
 		"innerColor": [175, 157, 87],
-        "uniqueName": "The Warpath",
+		
+        "uniqueName": "Once They Moved Like the Wind",
         "uniques": [
 			"No movement cost to pillage",
 			"Units ignore terrain costs when moving into any tile with Hills <when at war>",
@@ -49,17 +56,24 @@
         "adjective": ["Purépecha"],
         "startBias": ["Hill"],
         "preferredVictoryType": "Domination",
+		//"favoredReligion": "",
+		
         "startIntroPart1": "",
         "startIntroPart2": "",
+		
         "declaringWar": "The time has come for you to join us.",
         "attacked": "You will be killed for your treachery",
         "defeated": "I have failed you Curicaueri.",
         "introduction": "Greetings traveler. I am Tariácuri, and I have been sent by the gods to form a unified Purépecha state.",
+		
         "neutralHello": "Welcome traveler.",
         "hateHello": "You are becoming a threat.",
+		
         "tradeRequest": "Would you accept this offer friend?",
+		
 		"outerColor": [234, 229, 173],
 		"innerColor": [15, 115, 19],
+		
         "uniqueName": "Crafts of Michoacan"
         "uniques": [
 			"Starts with [Mining]",
@@ -91,6 +105,8 @@
 		"adjective": ["Lao"],
 		"startBias": ["Jungle"],
 		//"personality": "Fa Ngum",
+		//"preferredVictoryType": ""
+		"favoredReligion": "Buddhism",
 
         "startIntroPart1": "",
         "startIntroPart2": "",
@@ -107,7 +123,6 @@
         "outerColor": [167, 19, 45],
         "innerColor": [253, 251, 251],
 
-		"favoredReligion": "Buddhism",
 		"uniqueName": "One Million Elephants and a White Parasol",
 		"uniques": [
 			"[+50]% Natural religion spread [in annexed cities]"
@@ -125,6 +140,8 @@
 		"adjective": ["Filipino"],
 		"startBias": ["Coast"],
 		//"personality": "Emilio",
+		"preferredVictoryType": "Cultural"
+		"favoredReligion": "Christianity",
 
         "startIntroPart1": "",
         "startIntroPart2": "",
@@ -141,7 +158,6 @@
 		"outerColor": [54, 126, 158],
 		"innerColor": [252, 216, 51],
 
-		"favoredReligion": "Christianity",
 		"uniqueName": "Pearl of the Orient",
 		"uniques": [
 			"[+10]% [Faith] [in all cities] <upon declaring friendship> <for [4] turns>",
@@ -161,6 +177,7 @@
 		"adjective": ["Frankish"],
 		"preferredVictoryType": "Cultural",
 		//"personality": "Charlemagne",
+		"favoredReligion": "Christianity",
 
         "startIntroPart1": "",
         "startIntroPart2": "",
@@ -169,14 +186,15 @@
 		"attacked": "You now will face the full might of the Lord and my army!",
 		"defeated": "If the Lord wills it. I'll accept this defeat.",
 		"introduction": "Welcome to the Kingdom of the Franks, I am Charlemagne, and I protect my people.",
+		
 		"neutralHello": "Need anything my friend?",
 		"hateHello": "Leave at once!",
+		
 		"tradeRequest": "Would you accept this offer my friend?",
 
         "outerColor": [151, 194, 239],
         "innerColor": [30, 43, 141],
 
-		"favoredReligion": "Christianity",
 		"uniqueName": "Father of Europe",
 		"uniques": [
 			"Empire enters a [4]-turn Golden Age <upon entering a new era>",
@@ -190,66 +208,30 @@
 		],
         "spyNames": ["Earnest", "Bertrand", "Roland", "Remigius", "Francio", "Marcomer", "Antenor", "Priam", "Andras", "Merovich"]
     },
-	/*{
-        "name": "Turkmenistan",
-        "leaderName": "Saparmurat Niyazov",
-        "adjective": ["Turkmen"],
-        "startBias": ["Desert"],
-        "preferredVictoryType": "Diplomatic",
-        "startIntroPart1": "",
-        "startIntroPart2": "",
-        "declaringWar": "Prepare for war!",
-        "attacked": "You shall regret this!",
-        "defeated": "The victory is yours.",
-        "introduction": "Welcome, mighty leader.",
-        "neutralHello": "Greetings.",
-        "hateHello": "What do you want?",
-        "tradeRequest": "Better hurry, I may change my mind.",
-		
-        "outerColor": [0, 132, 59],
-        "innerColor": [206, 216, 211],
-		
-        "uniqueName": "Land of Gas and Horses",
-        "uniques": [
-			"[+1 Production, +1 Culture] from every [Oil]"
-			"[+1 Production, +1 Culture] from every [Horses]"
-		],
-        "cities": [
-            "Ashgabat", "Mary", "Turkmenabat", "Balkanabat", "Dashoguz",
-            "Tejen", "Serdar", "Bereket", "Koneurgench", "Gyzylgaya",
-            "Gazanjyk", "Hazar", "Hazar", "Farap", "Magtymguly",
-            "Atamyrat", "Bayramaly", "Akdepe", "Esenguly", "Seydi"
-	]
-		"spyNames": [
-		"",
-		"",
-		"",
-		"",
-		"",
-		"",
-		"",
-		"",
-		"",
-		""
-		]
-    },*/
     {
         "name": "Teotihuacan",
         "leaderName": "Spearthrower Owl",
         "adjective": ["Teotihuacano"],
         "startBias": ["Avoid [Tundra]"],
         "preferredVictoryType": "Domination",
+		//"favoredReligion": "",
+		
         "startIntroPart1": "",
         "startIntroPart2": "",
+		
         "declaringWar": "Put up little resistance and I may spare more of your people.",
         "attacked": "You finally decided to join your ancestors?",
         "defeated": "As we lay defeated, our legacy will go down in history. When the last word of your history is spoken, our temples shall still be standing.",
         "introduction": "What's this? Another state to join my empire, or a useful ally? Respect my power, and be welcome.",
+		
         "neutralHello": "Have something for me?",
         "hateHello": "You are brave to come here.",
+		
         "tradeRequest": "You have something that belongs to me, give it now.",
+		
 		"outerColor": [26, 21, 40],
 		"innerColor": [143, 216, 199],
+		
         "uniqueName": "Where Men Become Gods"
         "uniques": [
 			"[+1] population [in this city] <upon constructing [Wonder]>",
@@ -279,272 +261,26 @@
 		"Lime Quetzalpapálotl"
 		]
     },
-	/*{
-		"name": "Goths",
-		"leaderName": "Alaric I",
-		"adjective": ["Gothic"],
-		"preferredVictoryType": "Domination",
-		"personality": "Alaric",
-
-        "startIntroPart1": "",
-        "startIntroPart2": "",
-
-        "declaringWar": "Prepare to be defeated!",
-		"attacked": "I have faced mightier men than you!",
-		"defeated": "My empire has fallen... it is only a matter of time until yours does too.",
-		"introduction": "Greetings mighty warrior, do well on keeping peace with us, for many cities have fallen before me.",
-		"neutralHello": "Welcome warrior.",
-		"hateHello": "You will be seeing us again...",
-		"tradeRequest": "Consider this offer.",
-		"outerColor": [31, 31, 31],
-		"innerColor": [185, 218, 209],
-		//"favoredReligion": "Christianity",
-		"uniqueName": "There are No Eternal Cities",
-		"uniques": [
-			"Receive triple Gold from Barbarian encampments and pillaging Cities",
-		],
-		"cities": [
-			"Arheimar", "Gothiscandza", "Reccopolis", "Victoriacum", "Lucgo id est Luceo",
-			"Ologicus", "Baiyara", "Novae", "Narbo", "Tyras", "Olbia", "Turda", "Apulon",
-			"Oium", "Tyrin", "Skupi", "Oescus", "Verona", "Sirmum", "Singidunum", "Pavia",
-			"Tarragona", "Saragossa", "Malaga", "Palencia", "Nursia", "Fervir", "Hallin",
-			"Heruler", "Bergio", "Theustes", "Viminacium", "Remesiana", "Ratiaria", "Marcianopolis",
-			"Tomi", "Istros", "Eunixi", "Taetel", "Rugi", "Arochi", "Ranii", "Nicopolis ad Istrum",
-			"Gothic Toulouse", "Gothic Ravenna", "Toletum", "Corduba"
-		],
-        "spyNames": ["Ailwin", "Baldric", "Gamel", "Masci", "Savaric", "Isolda", "Estrilda", "Sabelina", "Sybilla", "Golda"]
-    },
-    {
-        "name": "Timurid Empire",
-		"style": "Mesopotamian",
-        "leaderName": "Timur",
-        "adjective": ["Timurid"],
-        "startBias": ["Grassland", "Plains"],
-		"preferredVictoryType": "Domination",
-
-        "startIntroPart1": " ",
-        "startIntroPart2": " ",
-        "declaringWar": "Prepare to become one with my empire!",
-        "attacked": "I had already planned your demise years in advance!",
-        "defeated": "Only luck can explain your victory.",
-        "introduction": "You stand before Timur the Great, how long until you join my empire?",
-        "neutralHello": "Well?",
-        "hateHello": "If you want to fight you won't win.",
-        "tradeRequest": "Trade with me.",
-        //"outerColor": [129,125,127],
-        //"innerColor": [69,69,69],
-		"outerColor": [39, 39, 39],
-		"innerColor": [213, 49, 49],
-        "uniqueName": "Timurid Renaissance",
-        "uniques": [
-		"[+1 Production, +1 Science, +1 Gold, +1 Culture, +1 Food] [in puppeted cities]",
-        	"[+1 Production, +1 Science, +1 Gold, +1 Culture, +1 Food] [in annexed cities]",
-		"[+1 Production, +1 Science, +1 Gold, +1 Culture, +1 Food] from every [Shrine]"
-	]
-        "cities": [
-            "Samarkand","Herat","Balkh","Bukhara","Kabul","Nishapur","Urgench","Merv","Ghazni","Kandahar",
-            "Tashkent","Tabriz","Tiflis","Isfahan","Tehran","Kashgar","Peshawar","Multan","Lahore","Mosul",
-            "Hanadan","Ray","Kirman","Zarani","Shirazv","Baghdad","Basra","Ashgabat","Bishkek","Dushanbe"]
-    },
-	/
-		"name": "Seljuk Empire"
-		"style": "Middle Eastern",
-		"leaderName": "Alp Arslan",
-		"adjective": ["Seljuk"],
-		"startBias": ["Desert", "Plains"],
-		"preferredVictoryType": "Domination",
-
-		"startIntroPart1": "",
-		"startIntroPart2": "",
-		"declaringWar": "Prepare to Die!",
-		"attacked": "You will fall like all our enemies before you!",
-		"defeated": "I knew this day would come. Make it quick.",
-		"introduction":  "I, the Great Sultan of the Seljuk Empire, grant you visitation.",
-		"neutralHello": "What do you want?",
-		"hateHello": "You disgust me.",
-		"tradeRequest": "Consider this offer.",
-		"outerColor": [7,80,85],
-		"innerColor": [240,205,177],
-		"favouredReligion": "Islam",
-		"uniqueName": "Siyāsatnāmeh",
-		"uniques": [
-            "[+10]% [Science] [in capital] <during We Love The King Day>",
-			"[-10]% Unhappiness from [Population] [in all cities]"]
-		"cities": ["Isfahan","Hamadan","Merv","Rey","Nishapur","Kermanshah","Konya","Alanya",
-			"Sivas","Kayseri","Erzurum","Herat","Karaj","Tabriz","Shiraz","Ahvaz","Qom","Ardabil",
-			"Kerman","Kashan","Borujerd","Mosul","Basra","Erbil","Balkh","Amol","Samsun","Denizli"]
-	},*/
-    /*{
-        "name": "Aq Qoyunlu",
-        "leaderName": "Uzun Hasan",
-        "adjective": ["Aq Qoyunlu"],
-        "startBias": ["Plains"],
-        "preferredVictoryType": "Domination",
-        "startIntroPart1": " ",
-        "startIntroPart2": " ",
-        "declaringWar": "Prepare for war!",
-        "attacked": "You shall regret this!",
-        "defeated": "The victory is yours.",
-        "introduction": "Welcome, mighty leader.",
-        "neutralHello": "Greetings.",
-        "hateHello": "What do you want?",
-        "tradeRequest": "Better hurry, I may change my mind.",
-        "outerColor": [1,47,143],
-        "innerColor": [255,255,255],
-        "uniqueName": "Chinggisid Legacy",
-        "uniques": [],
-        "cities": [
-            "Diyarbəkir", "Tabriz", "Bağdat", "Ərzincan", "Van",
-            "Amid", "Mardin", "Sivas", "Bayburt", "Xarput",
-            "Mosul", "Malatya", "Kirmanşah", "Şiraz", "Ərdebil",
-            "Həmədan", "Şanlıurfa", "Gəncə", "Əhvaz", "Kərkük"
-	]
-		"spyNames": [
-		"",
-		"",
-		"",
-		"",
-		"",
-		"",
-		"",
-		"",
-		"",
-		""
-		]
-    },
-    {
-        "name": "Qara Qoyunlu",
-        "leaderName": "Jahan Shah",
-        "adjective": ["Qara Qoyunlu"],
-        "startBias": ["Plains"],
-        "preferredVictoryType": "Domination",
-        "startIntroPart1": " ",
-        "startIntroPart2": " ",
-        "declaringWar": "Prepare for war!",
-        "attacked": "You shall regret this!",
-        "defeated": "The victory is yours.",
-        "introduction": "Welcome, mighty leader.",
-        "neutralHello": "Greetings.",
-        "hateHello": "What do you want?",
-        "tradeRequest": "Better hurry, I may change my mind.",
-        "outerColor": [38,100,117],
-        "innerColor": [0,0,0],
-        "uniqueName": "Turko-Persian Legacy",
-        "uniques": [],
-        "cities": [
-            "Təbriz", "Ərdəbil", "Bağdad", "Mosul", "Ərbil",
-            "Xoy", "Naxçıvan", "Qars", "Süleymaniyyə", "Bitlis",
-            "Diyarbakır", "Hamadan", "Qum", "Bakı", "Mərənd",
-            "İsfahan", "Zəncan", "Qəzvin", "Tiflis", "Şamaxı"
-	]
-		"spyNames": [
-		"",
-		"",
-		"",
-		"",
-		"",
-		"",
-		"",
-		"",
-		"",
-		""
-		]
-    },*/
-	/*{
-        "name": "Kyrgyzstan",
-        "leaderName": "Askar Akayev",
-        "adjective": ["Kyrgyz"],
-        "startBias": ["Hill", "Mountain"],
-        "preferredVictoryType": "Diplomatic",
-        "startIntroPart1": "",
-        "startIntroPart2": "",
-        "declaringWar": "Prepare for war!",
-        "attacked": "You shall regret this!",
-        "defeated": "The victory is yours.",
-        "introduction": "Welcome, mighty leader.",
-        "neutralHello": "Greetings.",
-        "hateHello": "What do you want?",
-        "tradeRequest": "Better hurry, I may change my mind.",
-		
-        "outerColor": [255, 0, 0]
-        "innerColor": [255, 254, 1],
-		
-        "uniqueName": "",
-        "uniques": [],
-        "cities": [
-            "Bishkek", "Osh", "Jalal-Abad", "Karakol", "Naryn",
-            "Talas", "Batken", "Tokmok", "Kochkor", "At-Bashi",
-            "Isfana", "Tash-Kumyr", "Kyzyl-Kiya", "Mailuu-Suu", "Balykchy",
-            "Sulukta", "Kemin", "Kara-Balta", "Toguz-Toro", "Uzgen"
-	]
-		"spyNames": [
-		"",
-		"",
-		"",
-		"",
-		"",
-		"",
-		"",
-		"",
-		"",
-		""
-		]
-    },*/
-	/*{
-        "name": "Tajikistan",
-        "leaderName": "Enomali Rahmon",
-        "adjective": ["Tajik"],
-        "startBias": ["Hill", "Mountain"],
-        "preferredVictoryType": "Diplomatic",
-        "startIntroPart1": "",
-        "startIntroPart2": "",
-        "declaringWar": "Prepare for war!",
-        "attacked": "You shall regret this!",
-        "defeated": "The victory is yours.",
-        "introduction": "Welcome, mighty leader.",
-        "neutralHello": "Greetings.",
-        "hateHello": "What do you want?",
-        "tradeRequest": "Better hurry, I may change my mind.",
-		
-		"outerColor": [255, 255, 255],
-		"innerColor": [174, 137, 0],
-		
-        "uniqueName": "",
-        "uniques": [],
-        "cities": [
-            "Dushanbe", "Khujand", "Kulob", "Bokhtar", "Panjakent",
-            "Isfara", "Istaravshan", "Danghara", "Murghab", "Khorugh",
-            "Nuek", "Vahdat", "Tursunzoda", "Jirgatol", "Qurghonteppa",
-            "Norak", "Gharm", "Shahristus", "Hissar", "Farkhor"
-	]
-		"spyNames": [
-		"",
-		"",
-		"",
-		"",
-		"",
-		"",
-		"",
-		"",
-		"",
-		""
-		]
-    },*/
     {
         "name": "Estonia",
         "leaderName": "Konstantin Päts",
         "adjective": ["Estonian"],
         "startBias": ["Coast"],
         "preferredVictoryType": "Diplomatic",
+		"favoredReligion": "Christianity",
+		
         "startIntroPart1": "",
         "startIntroPart2": "",
-        "declaringWar": "Prepare for war!",
-        "attacked": "You shall regret this!",
-        "defeated": "The victory is yours.",
-        "introduction": "Welcome, mighty leader.",
-        "neutralHello": "Greetings.",
-        "hateHello": "What do you want?",
-        "tradeRequest": "Better hurry, I may change my mind.",
+		
+        "declaringWar": "Your very existence is a threat to Estonian freedom, you must be destroyed!",
+        "attacked": "I stand for Estonia's freedom!",
+        "defeated": "All the years I have spent fighting for my people, just to lose independence once more...`",
+        "introduction": "We welcome you with open arms, just respect our nation and we shall do the same.",
+		
+        "neutralHello": "Need me for something?",
+        "hateHello": "I will cooperate with you still, just know, I don't respect you.",
+		
+        "tradeRequest": "What would you like for this?",
 		
 		"outerColor": [46, 100, 166],
 		"innerColor": [241, 183, 38],
@@ -561,16 +297,16 @@
             "Saue", "Kärdla", "Elva", "Türi", "Kiviõli"
 	]
 		"spyNames": [
-		"",
-		"",
-		"",
-		"",
-		"",
-		"",
-		"",
-		"",
-		"",
-		""
+		"Kaimar",
+		"Kevin",
+		"Jüri",
+		"Martin",
+		"Märt",
+		"Peeter",
+		"Silja",
+		"Kristiina",
+		"Kertu",
+		"Tiina"
 		]
     },
     {
@@ -579,6 +315,7 @@
         "adjective": ["Latvian"],
         "startBias": ["River"],
         "preferredVictoryType": "Diplomatic",
+		"favoredReligion": "Christianity",
 		
         "startIntroPart1": "",
         "startIntroPart2": "",
@@ -627,6 +364,7 @@
         "adjective": ["Zairian"],
         "startBias": ["Hill"],
         "preferredVictoryType": "Domination",
+		"favoredReligion": "Christianity",
 		
         "startIntroPart1": "",
         "startIntroPart2": "",
@@ -659,24 +397,616 @@
 			"Bukama", "Binga", "Manono", "Balamba", "Kambove"
 	]
 		"spyNames": [
-		"",
-		"",
-		"",
-		"",
-		"",
-		"",
-		"",
-		"",
-		"",
-		""
+		"Joseph Kasa-Vubu",
+		"Etienne Nzimbi",
+		"Habyarimana",
+		"N'Sele",
+		"wa Basa",
+		"Tshisekedi",
+		"Monsengwo",
+		"Kengo Wa Dondo",
+		"Bobi Ladawa Mobutu",
+		"Marie-Antoinette Mobutu"
 		]
     },
-    /*{
-        "name": "Macau",
-        "leaderName": "Vasco Vieira",
-        "adjective": ["Macau"],
+	{
+        "name": "Libertatia",
+        "leaderName": "James Misson",
+        "adjective": ["Libertatian"],
         "startBias": ["Coast"],
         "preferredVictoryType": "Diplomatic",
+		"favoredReligion": "Christianity",
+		
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+		
+        "declaringWar": "Fer the good o' the people, yer tyranny must end!",
+        "attacked": "Others've tried... all've failed.",
+        "defeated": "I die knowin' I fought fer a good cause...",
+        "introduction": "I be Captain James Misson, vigilant guardian o' the people's rights an' liberties. Tell me, be ye oppressors, or the poor souls they trample?",
+		
+        "neutralHello": "How fare ye this fine evenin'?",
+        "hateHello": "Leave this place, 'less ye wish t' perish.",
+		
+        "tradeRequest": "Got meself a fine offer fer yer consideration.",
+		
+		"outerColor": [115, 150, 165],
+		"innerColor": [0, 0, 0],
+
+        "uniqueName": "The Pirate Utopia",
+        "uniques": [
+			"Adopt [Freedom] <upon entering the [Industrial era]>",
+			"[+20]% Production when constructing [Water] units [in all coastal cities]",
+			"Earn [50]% of killed [{Military} {Water}] unit's [Strength] as [Golden Age points]"
+		],
+        "cities": [
+            "Île Sainte-Marie", "Ranter Bay", "Fort Dauphine", "Antongil Bay", "Johanna", 
+			"Saint-Augustin Bay", "Tamatave", "Port Chorseul", "Cap Saint-André", "Andrava Bay", 
+			"Cap Kimby", "Tulear", "Diego-Suarez", "Cap Saint-Vincent", "Mananjary", 
+			"Fénérive", "Vohémar", "Maintirano", "Cap Namakia", "Foulepointe", 
+			"Port Saint-Felix", "Managuara", "Lahefonti", "Île Sainte-Claire", "Didan", 
+			"Morigambo", "Île Sainte-Luce", "Cap de l'Est", "Île aux Prunes"
+		]
+		"spyNames": [
+		"Caraccioli",
+		"Thomas Tew",
+		"William",
+		"Abraham",
+		"James",
+		"Edward",
+		"Adam",
+		"John",
+		"Jack",
+		"Samuel"
+		]
+    },
+	{
+        "name": "The Buccaneers",
+        "leaderName": "Henry Morgan",
+        "adjective": ["Buccaneer"],
+        "startBias": ["Coast"],
+        "preferredVictoryType": "Diplomatic",
+		"favoredReligion": "Christianity",
+		
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+		
+        "declaringWar": "Ye might as well give up now, 'fore it gets worse!",
+        "attacked": "I'll send ye t' Davy Jones' Locker!",
+        "defeated": "Come on then, ye cowards! I'll take ye all meself!",
+        "introduction": "Ahoy, there! Name's Captain Henry Morgan. Be ye a great ally... or a foe worth crossin'?",
+		
+        "neutralHello": "Ahoy, matey!",
+        "hateHello": "What be yer purpose here, ye scurvy dog?",
+		
+        "tradeRequest": "Be smart now, matey. Take the deal.",
+		
+		"outerColor": [120, 60, 60],
+		"innerColor": [255, 255, 255],
+
+        "uniqueName": "No Prey, No Pay",
+        "uniques": [
+			"[+25]% Yield from pillaging tiles"
+			"Earn [15]% of the damage done to [City] units as [Gold]",
+			"Earn [25]% of killed [{Military} {Water}] unit's [Strength] as [Gold]"
+		],
+        "cities": [
+            "Port Royal", "Tortuga", "Nassau", "Puerto Cabello", "Petit-Goave", 
+			"Leogane", "Campeche", "La Habana", "St. Kitts", "Nevis", 
+			"Florida Keys", "San Juan", "St. Eustatius", "Bridgetown", "Cartagena", 
+			"Portobello", "Kingston", "Curacao", "Maracaibo", "Port-au-Prince", 
+			"Belize", "Freeport", "Georgetown", "Cumana", "Ciudad del Carmen", 
+			"Nuevitas", "Cienfuegos", "Basse-Terre", "Fort-de-France", "Ciudad Guayana"
+		]
+		"spyNames": [
+		"François",
+		"Michel",
+		"Pierre",
+		"Mansvelt",
+		"Jean",
+		"Bartholomew",
+		"Collier",
+		"Nicolas",
+		"Edmund",
+		"Coxon",
+		"Basil",
+		"Lionel"
+		]
+    },
+	{
+        "name": "Wokou",
+        "leaderName": "Wang Zhi",
+        "adjective": ["Wokou"],
+        "startBias": ["Coast"],
+        "preferredVictoryType": "Diplomatic",
+		//"favoredReligion": "",
+		
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+		
+        "declaringWar": "Your lands will soon be mine!",
+        "attacked": "I see you are stupid, let's see how long until your nation collapses...",
+        "defeated": "I will negotiate with you, one last time...",
+        "introduction": "You have found the base of the fearsome Wokou. If you decide to be peaceful, we shall have no issues. If you decide to be hostile... you will come to fear our fleet.",
+		
+        "neutralHello": "Speak your business.",
+        "hateHello": "You still live?",
+		
+        "tradeRequest": "There are ways of making people accept deals. You will accept this one, unless you want me to use other methods.",
+		
+		"outerColor": [151, 123, 93],
+		"innerColor": [69, 52, 32],
+		
+        "uniqueName": "Raiders from Japan",
+        "uniques": [
+			"[+10]% Strength <when fighting in [Coastal] tiles>",
+			"[{Military} {Land}] units gain the [Wako Raider] promotion",
+			"[1] Movement point cost to embark <starting from the [Renaissance era]>"
+		],
+        "cities": [
+            "Ligang", "Shuangyu", "Kaneishi", "Hirado", "Iki",
+			"Hakata", "Hirado", "Bōnotsu", "Cape Dodu", "Taizhou", 
+			"Zhelin", "Ningbo", "Tongxiang", "Songjiang", "Wenzhou",
+			"Dengzhou", "Laizhou", "Ji'nan", "Yangzhou", "Suzhou",
+			"Ningbo", "Wangjiangjing", "Guilin", "Fuzhou", "Xinghua",
+			"Xiamen", "Zhangzhou", "Guangzhou", "Hanseong", "Nanchang"
+		]
+		"spyNames": [
+		"Tay Fusa",
+		"Sōda",
+		"Xu",
+		"Jinzi",
+		"Li",
+		"Xu",
+		"ChenDong",
+		"Ye",
+		"Mao",
+		"Sadamori"
+		]
+    },
+	{
+        "name": "Canton Pirates",
+        "leaderName": "Ching Shih",
+        "adjective": ["Cantonese"],
+        "startBias": ["Coast"],
+        "preferredVictoryType": "Diplomatic",
+		//"favoredReligion": "",
+		
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+		
+        "declaringWar": "Do you think you can stand against the power of the full Red Flag Fleet? Let us see.",
+        "attacked": "I will have no problems ending your worthless life.",
+        "defeated": "You have won, I surrender to you.. I will live peacefully under your rule.",
+        "introduction": "I am Ching Shih, leader of the Pirate Confederation, chief of the Red Flag Fleet. Now who are you?",
+		
+        "neutralHello": "Have you come to tell me something?",
+        "hateHello": "Get out of the way, I'm busy.",
+		
+        "tradeRequest": "I have other ways of getting this...",
+		
+		"outerColor": [76, 0, 0],
+		"innerColor": [214, 192, 52],
+
+        "uniqueName": "The Six Fleets",
+        "uniques": [
+			"[3] Unit Supply per [6] population [in puppeted cities]",
+			"[2] Unit Supply per [6] population [in annexed cities]",
+			"All newly-trained [Water] units [in all coastal cities] receive the [Raider] promotion <during a Golden Age>"
+		],
+        "cities": [
+            "Canton", "Hong Kong", "Macau", "Shenzhen", "Zhuhai",
+            "Shanghai", "Taipei", "Qinhuangdao", "Suzhou", "Fuzhou",
+            "Xiamen", "Zhanjiang", "Beihai", "Dandong", "Haikou",
+            "Huangpu", "Jiujiang", "Lianyungang", "Nanjing", "Nantong",
+            "Ningbo", "Qingdao", "Kowloon", "Rizhao", "Sanya",
+			"Shantou", "Wenzhou", "Yantai", "Kai Ho", "Yangshan"
+		]
+		"spyNames": [
+		"Zheng Yi",
+		"Guo Podai",
+		"Liang Bao",
+		"Jin Guyang",
+		"Wu Shi'er",
+		"Wu Zhiqing",
+		"Ah Pak",
+		"Cheung Po Tsai",
+		"Cai Qian",
+		"Zheng Laotong"
+		]
+    },
+	{
+        "name": "Tétouan",
+        "leaderName": "Sayyida al-Hurra",
+        "adjective": ["Tetouani"],
+        "startBias": ["Coast"],
+        "preferredVictoryType": "Diplomatic",
+		"favoredReligion": "Islam",
+		
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+		
+        "declaringWar": "I have come to take revenge on you, infidel!",
+        "attacked": "You wish to make us flee further? Come on then.",
+        "defeated": "I will never forget nor forgive this humiliation.",
+        "introduction": "My name is Sayyida al-Hurra, a free woman and Governor of Tétouan. Do you stand in my way?",
+		
+        "neutralHello": "What do you want?",
+        "hateHello": "You must be wiser than this.",
+		
+        "tradeRequest": "There are ways I can get this without your permission.",
+		
+		"outerColor": [63, 4, 38],
+		"innerColor": [91, 116, 106],
+
+        "uniqueName": "Pirate Queen of the Western Seas",
+        "uniques": [
+			"[Water] units gain the [Coastal Raider I] promotion",
+			"[+1 Gold, +1 Faith] from every specialist [in all cities]",
+			"[+15]% Strength <for [Military] units> <in cities with a [foreign] religion>"
+		],
+        "cities": [
+            "Tétouan", "Fez", "Marrakech", "Salé", "Meknès", 
+			"Rabat", "Chefchaouen", "Larache", "Taza", "Agadir", 
+			"Safi", "Tefza", "Guércif", "Gibraltar", "Algiers", 
+			"Debdou", "Nador", "Tripoli", "Tunis", "Oran", 
+			"Tangier", "Oujda", "Kenitra", "Málaga", "Lipari", 
+			"Gozo", "Ischia", "Tlemcen"
+		]
+		"spyNames": [
+		"Oruç",
+		"Hayreddin",
+		"Reis",
+		"Jack",
+		"Kemal",
+		"Uluç",
+		"Salih",
+		"Sinan",
+		"Piri",
+		"Turgut"
+		]
+    },
+	
+	//American Update
+	
+	/*{
+        "name": "Mixtec",
+        "leaderName": "Eight Deer",
+        "adjective": ["Mixtec"],
+        "startBias": ["Hill"],
+        "preferredVictoryType": "Domination",
+		//"favoredReligion": "",
+		
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+		
+        "declaringWar": "",
+        "attacked": "",
+        "defeated": "",
+        "introduction": "",
+		
+        "neutralHello": "",
+        "hateHello": "",
+		
+        "tradeRequest": "",
+		
+		"outerColor": [66, 14, 53],
+		"innerColor": [61, 131, 130],
+        "uniqueName": ""
+        "uniques": [
+        ],
+        "cities": [
+			"Tilantongo", "Tututepec", "Tlaxiaco", "Jaltepec", "Yucuñudahui", "Teozacoalco", "Xipe's Bundle",
+			"Achuitla", "Acatlán", "Cuilapan", "Suchixtlan", "Yanhuitlan", "Apoala", "Teposcolula",
+			"Huajuapan", "Huamelolpan", "Ocelotepec", "Amoltepec", "Ndaxagua", "Xoxocotlán", "Monte Alban",
+			"Mitla", "Nochixtlán", "Chicahuaxtla", "Jamiltepec", "Cuajinicuilapa", "Putla", "Coixtlahuaca",
+			"Chalcatongo", "Xochistlahuaca", "Zacatepec", "Pinotepa", "Ocotepec", "Ometepec", "Juxtlahuaca", 
+			"Malinaltepec", "Tonalá", "Alcozauca", "Tlapa", "Mixtepetongo"
+        ]
+		"spyNames": [
+			"Twelve Ollin", 
+			"Thirteenth Death", 
+			"Nine Water", 
+			"Four Ocelot", 
+			"Nine Grass", 
+			"Six Monkeys", 
+			"One Reed", 
+			"Seven House", 
+			"Twelve Flint", 
+			"Eleven Rabbit"
+		]
+    },
+    {
+        "name": "Zapotecs",
+        "leaderName": "Cocijoeza",
+        "adjective": ["Zapotec"],
+        "startBias": ["Hill"],
+        "preferredVictoryType": "Domination",
+		//"favoredReligion": "",
+		
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+		
+        "declaringWar": "",
+        "attacked": "",
+        "defeated": "",
+        "introduction": "",
+		
+        "neutralHello": "",
+        "hateHello": "",
+		
+        "tradeRequest": "",
+		
+		"outerColor": [54, 30, 68],
+		"innerColor": [35, 165, 52],
+		
+        "uniqueName": ""
+        "uniques": [
+        ],
+        "cities": [
+			"Monte Alban", "San Jose Mogote", "Zaachila", "Lambityeco", "Huijazoo", "Mitla", "Oaxaca",
+			"Zimatlan", "Ocotlan", "Yagul", "Tlacolula", "Yanhuitlan", "Laguna Zope", "Tierras Largas", 
+			"Guadalupe", "Huaxyacac", "Lyobaa", "Huitzo", "Etla", "Tomaltepec", "Abasolo",
+			"Tilcajete", "Zegache", "Tlapocoyan", "Etlatongo", "Xochipala", "Tres Zapotes", "Cuicatlan", 
+			"Ejutla de Crespo", "Cuilapan", "Yeguih", "Tepeuxila", "Quayogol", "Ixtlahuaca", "El Palimo", 
+			"Guila Naquitz", "Dainzu"
+        ]
+		"spyNames": [
+			"", 
+			"", 
+			"", 
+			"", 
+			"", 
+			"", 
+			"", 
+			"", 
+			"", 
+			""
+		]
+    },
+    {
+        "name": "Tlaxcala",
+        "leaderName": "Xicotencatl I",
+        "adjective": ["Tlaxcala"],
+        "startBias": ["Hill"],
+        "preferredVictoryType": "Domination",
+		//"favoredReligion": "",
+		
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+		
+        "declaringWar": "",
+        "attacked": "",
+        "defeated": "",
+        "introduction": "",
+		
+        "neutralHello": "",
+        "hateHello": "",
+		
+        "tradeRequest": "",
+		
+		"outerColor": [42, 142, 74],
+		"innerColor": [254, 255, 102],
+		
+        "uniqueName": ""
+        "uniques": [
+        ],
+        "cities": [
+			"Tlaxcala", "Ocotelulco", "Tizatlan", "Quiahuiztlan", "Tepeticpac", 
+			"Huexotzinco", "Xaltocan", "Chiautempan", "Atlihuetzia", "Tepeyanco", 
+			"Texoloc", "Panotla", "Contla", "Totlac", "Zitlaltepec", 
+			"Tocatlán", "Ixtacuixtla", "Santa Ana Chiautempan", "Apizaco", "Mazatecochco"
+        ]
+		"spyNames": [
+			"", 
+			"", 
+			"", 
+			"", 
+			"", 
+			"", 
+			"", 
+			"", 
+			"", 
+			""
+		]
+    },
+    {
+        "name": "Wari",
+        "leaderName": "",
+        "adjective": ["Wari"],
+        "startBias": ["Hill"],
+        "preferredVictoryType": "Domination",
+		//"favoredReligion": "",
+		
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+		
+        "declaringWar": "",
+        "attacked": "",
+        "defeated": "",
+        "introduction": "",
+		
+        "neutralHello": "",
+        "hateHello": "",
+		
+        "tradeRequest": "",
+		
+		"outerColor": [42, 142, 74],
+		"innerColor": [254, 255, 102],
+		
+        "uniqueName": ""
+        "uniques": [
+        ],
+        "cities": [
+			"Wari", "Pikillaqta", "Cerro Baúl", "Viracochapampa", "Conchopata", "Jincamocco", "Azangaro",
+			"Chimpa", "Cahuachi", "Inkawasi", "Pajonal", "Callejón de Huaylas", "Hatun Xauxu", "Jargampata",
+			"Huaro", "Ayapata", "Allpachaka", "Anco Mayo", "Taypiqala", "Pacheco"
+        ]
+		"spyNames": [
+			"", 
+			"", 
+			"", 
+			"", 
+			"", 
+			"", 
+			"", 
+			"", 
+			"", 
+			""
+		]
+    },
+    {
+        "name": "Tiwanaku",
+        "leaderName": "",
+        "adjective": ["Tiwanaku"],
+        "startBias": ["Hill"],
+        "preferredVictoryType": "Domination",
+		//"favoredReligion": "",
+		
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+		
+        "declaringWar": "",
+        "attacked": "",
+        "defeated": "",
+        "introduction": "",
+		
+        "neutralHello": "",
+        "hateHello": "",
+		
+        "tradeRequest": "",
+		
+		"outerColor": [42, 142, 74],
+		"innerColor": [254, 255, 102],
+		
+        "uniqueName": ""
+        "uniques": [
+        ],
+        "cities": [
+			"Tiwanaku", "Lukurmata", "Khonkho Wankane", "Pampa Koani", "Chiripa", "Kalasasaya", "Putuni",
+			"Kerikala", "Pucarani", "Omo", "Iwawe", "Cerro Mejía", "Pariti", "Mojocoya",
+			"Tumatumani", "Cabuza", "Qeya Qala", "Chucuito", "San Pedro de Atacama", "Pukara"
+        ]
+		"spyNames": [
+			"", 
+			"", 
+			"", 
+			"", 
+			"", 
+			"", 
+			"", 
+			"", 
+			"", 
+			""
+		]
+    },*/
+	
+	//Japanese Clan Update
+	/*
+	{
+        "name": "Chosokabe",
+        "leaderName": "Chosokabe Motochika",
+        "adjective": ["Chosokabe"],
+        //"startBias": ["Coast"],
+        "preferredVictoryType": "Diplomatic",
+		//"favoredReligion": "",
+		
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+		
+        "declaringWar": "Prepare for war!",
+        "attacked": "You shall regret this!",
+        "defeated": "The victory is yours.",
+        "introduction": "Welcome, mighty leader.",
+		
+        "neutralHello": "Greetings.",
+        "hateHello": "What do you want?",
+		
+        "tradeRequest": "Better hurry, I may change my mind.",
+		
+		"outerColor": [49, 49, 49],
+		"innerColor": [116, 127, 133],
+
+        "uniqueName": "Hundred Article Code",
+        "uniques": [
+		],
+        "cities": [
+            "Oko", "Hata", "Aki", "Nakamura", "Urado", 
+			"Kochi", "Ichinomiya", "Shozui", "Ozu", "Takao", 
+			"Kaneko", "Marugame", "Takamatsu", "Hiketa", "Matsuyama", 
+			"Uwajima", "Nakatsu", "Imabari", "Awa", "Iyo"
+		]
+		"spyNames": [
+		"Chikayasu",
+		"Nobuchika",
+		"Chikazane",
+		"Tadamasa",
+		"Yorinobu",
+		"Akohime",
+		"Yasutoyo",
+		"Ukondaifu",
+		"Morichika",
+		"Chikatada",
+		"Ogata",
+		"Chikakazu"
+		]
+    },
+	{
+        "name": "Date",
+        "leaderName": "Date Masamune",
+        "adjective": ["Date"],
+        //"startBias": ["Coast"],
+        "preferredVictoryType": "Diplomatic",
+		//"favoredReligion": "",
+		
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+		
+        "declaringWar": "Prepare for war!",
+        "attacked": "You shall regret this!",
+        "defeated": "The victory is yours.",
+        "introduction": "Welcome, mighty leader.",
+		
+        "neutralHello": "Greetings.",
+        "hateHello": "What do you want?",
+		
+        "tradeRequest": "Better hurry, I may change my mind.",
+		
+		"outerColor": [73, 105, 54],
+		"innerColor": [2, 2, 2],
+
+        "uniqueName": "One-Eyed Dragon",
+        "uniques": [
+		],
+        "cities": [
+            "Sendai", "Suginome", "Kurokawa", "Nihonmatsu", "Obama",
+			"Shiraishi", "Miharu", "Motomiya", "Yonezawa", "Osato",
+			"Hibara", "Sukagawa", "Shirakawa", "Inawashiro", "Matsushima",
+			"Komagamine", "Kori", "Ayukai", "Akogashima", "Toshima-Tsukinoura",
+			"Iwadeyama", "Wakabayashi", "Hachome", "Omori", "Iwakiri",
+			"Nakaniida", "Miyazaki", "Sanuma", "Shimokusa", "Kamitate"
+		]
+		"spyNames": [
+		"Megohime",
+		"Tsunenaga",
+		"Kagetsuna",
+		"Tsunamoto",
+		"Shigezane",
+		"Shigenaga",
+		"Kageyori",
+		"Morishige",
+		"Yoshinao",
+		"Munezane"
+		]
+    },
+	{
+        "name": "Hojo",
+        "leaderName": "Hojo Ujiyasu",
+        "adjective": ["Hojo"],
+        "startBias": ["Hill"],
+        "preferredVictoryType": "Diplomatic",
+		//"favoredReligion": "",
+		
         "startIntroPart1": "",
         "startIntroPart2": "",
         "declaringWar": "Prepare for war!",
@@ -685,6 +1015,454 @@
         "introduction": "Welcome, mighty leader.",
         "neutralHello": "Greetings.",
         "hateHello": "What do you want?",
+        "tradeRequest": "Better hurry, I may change my mind.",
+		
+		"outerColor": [78, 133, 193],
+		"innerColor": [0, 42, 85],
+
+        "uniqueName": "Lion of Sagami",
+        "uniques": [
+		],
+        "cities": [
+            "Odawara", "Edo", "Ashigara", "Nirayama", "Kamakura", 
+			"Kawagoe", "Kokokuji", "Tamanawa", "Misaki", 
+			"Maebashi", "Tsukui", "Kawamura", "Yamanaka", "Nagahama", 
+			"Shimoda", "Fukusawa", "Maruyama", "Takiyama", "Hachijoji", 
+			"Setagaya", "Hachigata", "Kozukue", "Kurihashi", "Iwatsuki", 
+			"Aoki", "Oshi", "Kasai", "Matsuyama", "Matsuida", 
+			"Motosakura", "Karasawayama", "Sekiyado", "Hirai", "Usui", 
+			"Oyama", "Koga"
+		]
+		"spyNames": [
+		"Akiko",
+		"Kumiko",
+		"Masafume",
+		"Takahiro",
+		"Kiyoshi",
+		"Kensuke",
+		"Kouji",
+		"Junji",
+		"Koudai"
+		]
+    },
+	{
+        "name": "Iga",
+        "leaderName": "Momochi Tanba",
+        "adjective": [""],
+        "startBias": ["Forest"],
+        "preferredVictoryType": "Diplomatic",
+		//"favoredReligion": "",
+		
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+		
+        "declaringWar": "Prepare for war!",
+        "attacked": "You shall regret this!",
+        "defeated": "The victory is yours.",
+        "introduction": "Welcome, mighty leader.",
+		
+        "neutralHello": "Greetings.",
+        "hateHello": "What do you want?",
+		
+        "tradeRequest": "Better hurry, I may change my mind.",
+		
+		"outerColor": [89, 62, 3],
+		"innerColor": [188, 159, 97],
+
+        "uniqueName": "Kishomon",
+        "uniques": [
+			"[{Military} {Land}] units gain the [Iga ability] promotion <hidden from users>",
+		],
+        "cities": [
+            "Ueno", "Hijiyama", "Maruyama", "Kashiwara", "Nanbari", 
+			"Kashiwano", "Tsuge", "Tamataki", "Okajima", "Chigachishi",
+			"Takeshima", "Mibuno", "Fukuchi", "Asai", "Todoroki", 
+			"Tayaiyonokami", "Momochi", "Sugiyama", "Akame", "Oyamada", 
+			"Ao", "Nunobiki", "Shimagahara", "Tomono", "Kozu", 
+			"Hinachi", "Kanbe", "Marubashira", "Awa", "Komohara"
+		]
+		"spyNames": [
+		"Fujibayashi",
+		"Nagatonokami",
+		"Ueda Mitsutsugu",
+		"Takino Yoshimasa",
+		"Machii Seibei",
+		"Morita Joun",
+		"Tsuge Kiyohiro",
+		"Otowa Hanroku",
+		"Kido Yazaemon",
+		"Igasaki Dojun",
+		"Hattori Hanzo"
+		]
+    },
+	{
+        "name": "The Ikko-ikki",
+        "leaderName": "Kennyo",
+        "adjective": ["Ikko-ikki"],
+        "startBias": ["Hill"],
+        "preferredVictoryType": "Diplomatic",
+		//"favoredReligion": "",
+		
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+		
+        "declaringWar": "Prepare for war!",
+        "attacked": "You shall regret this!",
+        "defeated": "The victory is yours.",
+        "introduction": "Welcome, mighty leader.",
+		
+        "neutralHello": "Greetings.",
+        "hateHello": "What do you want?",
+		
+        "tradeRequest": "Better hurry, I may change my mind.",
+		
+		"outerColor": [56, 13, 23],
+		"innerColor": [181, 138, 34],
+
+        "uniqueName": "Namu Amida Butsu",
+        "uniques": [
+		],
+        "cities": [
+            "Ishiyama Hongan-ji", "Oyama Gobo", "Yoshizaki Gobo", "Nagashima", "Honsho-ji", 
+			"Yamashina", "Negoro-ji", "Miyukizuka", "Daisho-ji", "Ota", 
+			"Shoman-ji", "Hinoya", "Gansho-ji", "Torigoe", "Imizu", 
+			"Futoge", "Sakumi", "Toyama", "Kaizuka", "Masuyama", 
+			"Saginomori", "Moriyama", "Jogu-ji", "Yuyama", "Hasunuma"
+		]
+		"spyNames": [
+		"Rennyo",
+		"Yasakuta",
+		"Rairen",
+		"Magoichi",
+		"Rairyu",
+		"Shoe",
+		"Nakataka",
+		"Taneyasu",
+		"Masanobu",
+		"Moritsuna"
+		]
+    },
+	{
+        "name": "Mori",
+        "leaderName": "Mori Motonari",
+        "adjective": ["Mori"],
+        "startBias": ["Coast"],
+        "preferredVictoryType": "Diplomatic",
+		//"favoredReligion": "",
+		
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+		
+        "declaringWar": "Prepare for war!",
+        "attacked": "You shall regret this!",
+        "defeated": "The Mori clan will rise again to glory... 300 years from now!",
+        "introduction": "Welcome, mighty leader.",
+		
+        "neutralHello": "Greetings.",
+        "hateHello": "What do you want?",
+		
+        "tradeRequest": "Better hurry, I may change my mind.",
+		
+		"outerColor": [147, 82, 5],
+		"innerColor": [210, 188, 161],
+		
+        "uniqueName": "The Three Arrows",
+        "uniques": [
+		],
+        "cities": [
+            "Yoshida-Koriyama", "Suzuo", "Tajihi-Sarugake", "Miyao", "Sakurao", 
+			"Hinoyama", "Niitakayama", "Miiri-Takamatsu", "Hagi", "Kagamiyama", 
+			"Goryu", "Hiroshima", "Katsura", "Biwako", "Mibu", 
+			"Kimura", "Funayama", "Yagi", "Nagamiyama", "Koi", 
+			"Tokonoyama", "Mihara", "Sato-Kanayama", "Kusatsu", "Hatagaeshiyama", 
+			"Kannabe", "Takayama", "Kashirazaki", "Kagi", "Konomine", 
+			"Shikano", "Odaka", "Noshima", "Yamabuki", "Shiraga", 
+			"Gassantoda", "Nukuyu", "Mitoya", "Akana", "Tsuwano"
+		]
+		"spyNames": [
+		"Takamoto",
+		"Motoharu",
+		"Takakage",
+		"Takeyoshi",
+		"Hajime",
+		"Motosuke",
+		"Motoyoshi",
+		"Ekei",
+		"Naritada",
+		"Terumoto"
+		]
+    },
+	{
+        "name": "Otomo",
+        "leaderName": "Otomo Sorin",
+        "adjective": ["Otomo"],
+        "startBias": ["Avoid [Jungle]"],
+        "preferredVictoryType": "Diplomatic",
+		//"favoredReligion": "",
+		
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+		
+        "declaringWar": "Prepare for war!",
+        "attacked": "You shall regret this!",
+        "defeated": "The victory is yours.",
+        "introduction": "Welcome, mighty leader.",
+		
+        "neutralHello": "Greetings.",
+        "hateHello": "What do you want?",
+		
+        "tradeRequest": "Better hurry, I may change my mind.",
+		
+		"outerColor": [63, 24, 96],
+		"innerColor": [138, 115, 157],
+
+        "uniqueName": "Seven-Province Host",
+        "uniques": [
+		],
+        "cities": [
+            "Funai", "Tsurusaki", "Usuki", "Takasakiyama", "Uehara", 
+			"Kagami", "Tsuruga", "Dazaifu", "Hiji", "Tsunomure", 
+			"Manju-ji", "Mizuga", "Togamure", "Kitsuki", "Tsukumi", 
+			"Kumamoto", "Oka", "Hakata", "Kurume", "Iwaya", 
+			"Moji", "Tatarahama", "Yamato", "Tachibanayama", "Hetsugigawa", 
+			"Terajihama"
+		]
+		"spyNames": [
+		"Yoshinao",
+		"Yoshihide",
+		"Chikayasu",
+		"Ujitsugu",
+		"Francisco",
+		"Osako",
+		"Myorin",
+		"Jezebel",
+		"Sabina",
+		"Maxima"
+		]
+    },
+	{
+        "name": "Shimazu",
+        "leaderName": "Shimazu Yoshihisa",
+        "adjective": ["Shimazu"],
+        //"startBias": ["Coast"],
+        "preferredVictoryType": "Diplomatic",
+		//"favoredReligion": "",
+		
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+		
+        "declaringWar": "Prepare for war!",
+        "attacked": "You shall regret this!",
+        "defeated": "The victory is yours.",
+        "introduction": "Welcome, mighty leader.",
+		
+        "neutralHello": "Greetings.",
+        "hateHello": "What do you want?",
+		
+        "tradeRequest": "Better hurry, I may change my mind.",
+		
+		"outerColor": [45, 26, 3],
+		"innerColor": [106, 156, 77],
+
+        "uniqueName": "Tsurinobuse",
+        "uniques": [
+		],
+        "cities": [
+            "Uchi", "Izaku", "Ichijuji", "Tofukuji", "Kagoshima", 
+			"Chiran", "Dozaki", "Himeki", "Shibushi", "Iino", 
+			"Kokubu", "Kajiki", "Shimizu", "Tomiguma", "Akakina", 
+			"Kurino", "Iwatsurugi", "Oguchi", "Sadowara", "Miyazaki", 
+			"Obi", "Kajiyama", "Uchikoba", "Iwamure", "Kushima", 
+			"Nojiri", "Aya", "Kakuto", "Suki", "Umekita", 
+			"Kamiya", "Daimyojin", "Inoue", "Takanabe", "Uchiyama", 
+			"Tonokori", "Kiyotake", "Mangata", "Soi", "Kobayashi", 
+			"Mukasa", "Tokumitsu", "Nokubi", "Matsuo", "Hitoyoshi", 
+			"Akai", "Nagano", "Hananoyama", "Nango", "Yamaga", 
+			"Kumanosho", "Tsumori", "Takamori", "Mifune", "Sashiki", 
+			"Takaba", "Kiyama", "Katashida", "Aitoji", "Minamata", 
+			"Kikuchi"
+		]
+		"spyNames": [
+		"Shimazu Yoshihiro",
+		"Shimazu Toshihisa",
+		"Shimazu Iehisa",
+		"Shimazu Takahisa",
+		"Tanegashima Tokitaka",
+		"Akizuki Tanezane",
+		"Uwai Kakuken",
+		"Niiro Tadamoto",
+		"Shimazu Tadamasa",
+		"Shimazu Tadatsune"
+		]
+    },
+	{
+        "name": "Takeda",
+        "leaderName": "Takeda Shingen",
+        "adjective": ["Takeda"],
+        "startBias": ["Hill"],
+        "preferredVictoryType": "Diplomatic",
+		//"favoredReligion": "",
+		
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+		
+        "declaringWar": "Prepare for war!",
+        "attacked": "You shall regret this!",
+        "defeated": "The victory is yours.",
+        "introduction": "Welcome, mighty leader.",
+		
+        "neutralHello": "Greetings.",
+        "hateHello": "What do you want?",
+		
+        "tradeRequest": "Better hurry, I may change my mind.",
+		
+		"outerColor": [180, 40, 40],
+		"innerColor": [0, 0, 0],
+
+        "uniqueName": "Tiger of Kai",
+        "uniques": [
+		],
+        "cities": [
+            "Kofu", "Yogaiyama", "Kaizu", "Hakusan", "Yato", 
+			"Shinpu", "Fuse", "Katsurayama", "Uenohara", "Saigawa", 
+			"Hachimanbara", "Shiozaki", "Fukashi", "Kirihara", "Katsurao", 
+			"Hayashi", "Toishi", "Iwadonoyama", "Takato", "Majino", 
+			"Katsuyama", "Misaka", "Yamura", "Suwahara", "Fukushima", 
+			"Takatenjin", "Wakamiko", "Kuwabara", "Minowa", "Fukuyo", 
+			"Nagakubo", "Ryugasaki", "Furumiya", "Noda", "Matsuo", 
+			"Kuragano", "Matsuyama", "Kanbara", "Hanazawa"
+		]
+		"spyNames": [
+		"Katsuyori",
+		"Morinobu",
+		"Nobuzane",
+		"Chiyome",
+		"Masatoshi",
+		"Yoshimasa",
+		"Masayuki",
+		"Kagetaka",
+		"Torasada",
+		"Sanjo"
+		]
+    },
+	{
+        "name": "Uesugi",
+        "leaderName": "Uesugi Kenshin",
+        "adjective": ["Uesugi"],
+        "startBias": ["Avoid [Desert]"],
+        "preferredVictoryType": "Diplomatic",
+		//"favoredReligion": "",
+		
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+		
+        "declaringWar": "Prepare for war!",
+        "attacked": "You shall regret this!",
+        "defeated": "The victory is yours.",
+        "introduction": "Welcome, mighty leader.",
+		
+        "neutralHello": "Greetings.",
+        "hateHello": "What do you want?",
+		
+        "tradeRequest": "Better hurry, I may change my mind.",
+		
+		"outerColor": [28, 104, 79],
+		"innerColor": [138, 184, 169],
+
+        "uniqueName": "Dragon of Echigo",
+        "uniques": [
+		],
+        "cities": [
+            "Kasugayama", "Yonezawa", "Tochio", "Sakado", "Samegao", 
+			"Iiyama", "Fuse", "Katsurayama", "Uenohara", "Saigawa", 
+			"Hachimanbara", "Shiozaki", "Imaizumi", "Sekidosan", "Kitanosho", 
+			"Iwaki", "Nanao", "Higashiyata", "Arayama", "Kabutoyama", 
+			"Togi", "Shoinkawashiri", "Anamizu", "Kumaki", "Matsuto", 
+			"Odawara", "Masuyama", "Sugiyama", "Kawagoe", "Moriyama", 
+			"Iwatsuki", "Yuyama", "Hasunuma"
+		]
+		"spyNames": [
+		"Kagekatsu",
+		"Kanetsugu",
+		"Aya",
+		"Harukage",
+		"Danzo",
+		"Norimasa",
+		"Kagetora",
+		"Kageie",
+		"Kagemochi",
+		"Sadamitsu"
+		]
+    },*/
+	
+	
+	/*
+    {
+        "name": "Rhodesia",
+        "leaderName": "Ian Smith",
+        "adjective": ["Rhodesian"],
+        "startBias": ["Plains"],
+        "preferredVictoryType": "Diplomatic",
+		//"favoredReligion": "",
+		
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+		
+        "declaringWar": "",
+        "attacked": "The cost of keeping this great land free can never too great!",
+        "defeated": "Rhodesians never die!",
+        "introduction": "Welcome, mighty leader.",
+		
+        "neutralHello": "Greetings.",
+        "hateHello": "What do you want?",
+		
+        "tradeRequest": "Better hurry, I may change my mind.",
+
+		"outerColor": [7, 74, 47],
+		"innerColor": [242, 195, 1],
+
+        "uniqueName": "Breadbasket of Africa",
+        "uniques": [
+			"[+1 Food] from every [Wheat]"
+			"[+1 Food] from every [Plains] <during a Golden Age>"
+		],
+        "cities": [
+            "Salisbury", "Bulawayo", "Gwelo", "Umtali", "Fort Victoria",
+            "Que Que", "Bindura", "Shabani", "Wankie", "Sinoia",
+            "Hartley", "Gatooma", "Chiredzi", "Chipinga", "Victoria Falls",
+            "Karoi", "Rusape", "Marondera", "Nyanga", "Plumtree"
+	]
+		"spyNames": [
+		"",
+		"",
+		"",
+		"",
+		"",
+	 	"",
+		"",
+		"",
+		"",
+		""
+		]
+   {
+        "name": "Macau",
+        "leaderName": "Vasco Vieira",
+        "adjective": ["Macau"],
+        "startBias": ["Coast"],
+        "preferredVictoryType": "Diplomatic",
+		//"favoredReligion": "",
+		
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+		
+        "declaringWar": "Prepare for war!",
+        "attacked": "You shall regret this!",
+        "defeated": "The victory is yours.",
+        "introduction": "Welcome, mighty leader.",
+		
+        "neutralHello": "Greetings.",
+        "hateHello": "What do you want?",
+		
         "tradeRequest": "Better hurry, I may change my mind.",
 		
 		"outerColor": [6, 118, 98],
@@ -716,14 +1494,19 @@
         "adjective": ["Hongkongers "],
         "startBias": ["Coast"],
         "preferredVictoryType": "Diplomatic",
+		//"favoredReligion": "",
+		
         "startIntroPart1": "",
         "startIntroPart2": "",
+		
         "declaringWar": "Prepare for war!",
         "attacked": "You shall regret this!",
         "defeated": "The victory is yours.",
         "introduction": "Welcome, mighty leader.",
+		
         "neutralHello": "Greetings.",
         "hateHello": "What do you want?",
+		
         "tradeRequest": "Better hurry, I may change my mind.",
 		
 		"outerColor": [162, 0, 81],
@@ -750,78 +1533,7 @@
 		"",
 		""
 		]
-    },*/
-    /*{
-        "name": "Mixtec",
-        "leaderName": "Eight Deer",
-        "adjective": ["Mixtec"],
-        "startBias": ["Hill"],
-        "preferredVictoryType": "Domination",
-        "startIntroPart1": "",
-        "startIntroPart2": "",
-        "declaringWar": "",
-        "attacked": "",
-        "defeated": "",
-        "introduction": "",
-        "neutralHello": "",
-        "hateHello": "",
-        "tradeRequest": "",
-		"outerColor": [66, 14, 53],
-		"innerColor": [61, 131, 130],
-        "uniqueName": ""
-        "uniques": [
-        ],
-        "cities": [
-			"Tilantongo", "Tututepec", "Tlaxiaco", "Jaltepec", "Yucuñudahui", "Teozacoalco", "Xipe's Bundle",
-			"Achuitla", "Acatlán", "Cuilapan", "Suchixtlan", "Yanhuitlan", "Apoala", "Teposcolula",
-			"Huajuapan", "Huamelolpan", "Ocelotepec", "Amoltepec", "Ndaxagua", "Xoxocotlán", "Monte Alban",
-			"Mitla", "Nochixtlán", "Chicahuaxtla", "Jamiltepec", "Cuajinicuilapa", "Putla", "Coixtlahuaca",
-			"Chalcatongo", "Xochistlahuaca", "Zacatepec", "Pinotepa", "Ocotepec", "Ometepec", "Juxtlahuaca", 
-			"Malinaltepec", "Tonalá", "Alcozauca", "Tlapa", "Mixtepetongo"
-        ]
     },
-    {
-        "name": "Rhodesia",
-        "leaderName": "Ian Smith",
-        "adjective": ["Rhodesian"],
-        "startBias": ["Plains"],
-        "preferredVictoryType": "Diplomatic",
-        "startIntroPart1": "",
-        "startIntroPart2": "",
-        "declaringWar": "",
-        "attacked": "The cost of keeping this great land free can never too great!",
-        "defeated": "Rhodesians never die!",
-        "introduction": "Welcome, mighty leader.",
-        "neutralHello": "Greetings.",
-        "hateHello": "What do you want?",
-        "tradeRequest": "Better hurry, I may change my mind.",
-
-		"outerColor": [7, 74, 47],
-		"innerColor": [242, 195, 1],
-
-        "uniqueName": "Breadbasket of Africa",
-        "uniques": [
-			"[+1 Food] from every [Wheat]"
-			"[+1 Food] from every [Plains] <during a Golden Age>"
-		],
-        "cities": [
-            "Salisbury", "Bulawayo", "Gwelo", "Umtali", "Fort Victoria",
-            "Que Que", "Bindura", "Shabani", "Wankie", "Sinoia",
-            "Hartley", "Gatooma", "Chiredzi", "Chipinga", "Victoria Falls",
-            "Karoi", "Rusape", "Marondera", "Nyanga", "Plumtree"
-	]
-		"spyNames": [
-		"",
-		"",
-		"",
-		"",
-		"",
-		"",
-		"",
-		"",
-		"",
-		""
-		]
     },
     {
         "name": "Bosnia",
@@ -829,6 +1541,7 @@
         "adjective": ["Bosnian"],
         //"startBias": ["Coast"],
         "preferredVictoryType": "Diplomatic",
+		//"favoredReligion": "",
 		
         "startIntroPart1": "",
         "startIntroPart2": "",
@@ -868,54 +1581,32 @@
 		"",
 		""
 		]
-    },"spyNames": ["Twelve Ollin", "Thirteenth Death", "Nine Water", "Four Ocelot", "Nine Grass", "Six Monkeys", "One Reed", "Seven House", "Twelve Flint", "Eleven Rabbit"]
-    {
-        "name": "Zapotecs",
-        "leaderName": "Cocijoeza",
-        "adjective": ["Zapotec"],
-        "startBias": ["Hill"],
-        "preferredVictoryType": "Domination",
-        "startIntroPart1": "",
-        "startIntroPart2": "",
-        "declaringWar": "",
-        "attacked": "",
-        "defeated": "",
-        "introduction": "",
-        "neutralHello": "",
-        "hateHello": "",
-        "tradeRequest": "",
-		"outerColor": [54, 30, 68],
-		"innerColor": [35, 165, 52],
-        "uniqueName": ""
-        "uniques": [
-        ],
-        "cities": [
-			"Monte Alban", "San Jose Mogote", "Zaachila", "Lambityeco", "Huijazoo", "Mitla", "Oaxaca",
-			"Zimatlan", "Ocotlan", "Yagul", "Tlacolula", "Yanhuitlan", "Laguna Zope", "Tierras Largas", 
-			"Guadalupe", "Huaxyacac", "Lyobaa", "Huitzo", "Etla", "Tomaltepec", "Abasolo",
-			"Tilcajete", "Zegache", "Tlapocoyan", "Etlatongo", "Xochipala", "Tres Zapotes", "Cuicatlan", 
-			"Ejutla de Crespo", "Cuilapan", "Yeguih", "Tepeuxila", "Quayogol", "Ixtlahuaca", "El Palimo", 
-			"Guila Naquitz", "Dainzu"
-        ]
-		"spyNames": ["", "", "", "", "", "", "", "", "", ""]
-    },
+    },*/
+   /*
     {
         "name": "Tlapanecs",
         "leaderName": "Tlachcoatl",
         "adjective": ["Tlapanec"],
         "startBias": ["Hill"],
         "preferredVictoryType": "Domination",
+		//"favoredReligion": "",
+		
         "startIntroPart1": "",
         "startIntroPart2": "",
+		
         "declaringWar": "",
         "attacked": "",
         "defeated": "",
         "introduction": "",
+		
         "neutralHello": "",
         "hateHello": "",
+		
         "tradeRequest": "",
+		
 		"outerColor": [67, 35, 120],
 		"innerColor": [184, 173, 200],
+		
         "uniqueName": ""
         "uniques": [
         ],
@@ -932,17 +1623,24 @@
         "adjective": ["Totonac"],
         "startBias": ["Hill"],
         "preferredVictoryType": "Domination",
+		//"favoredReligion": "",
+		
         "startIntroPart1": "",
         "startIntroPart2": "",
+		
         "declaringWar": "",
         "attacked": "",
         "defeated": "",
         "introduction": "",
+		
         "neutralHello": "",
         "hateHello": "",
+		
         "tradeRequest": "",
+		
 		"outerColor": [1, 123, 1],
 		"innerColor": [66, 254, 254],
+		
         "uniqueName": ""
         "uniques": [
         ],
@@ -952,86 +1650,343 @@
 			"Tepexi de Rodríguez", "Naolinco", "Coatzintla", "Huauchinango", "Joloapan", "Zozocolco de Hidalgo"
         ]
 		"spyNames": ["", "", "", "", "", "", "", "", "", ""]
-    },
-    {
-        "name": "Tlaxcala",
-        "leaderName": "Xicotencatl I",
-        "adjective": ["Tlaxcala"],
-        "startBias": ["Hill"],
-        "preferredVictoryType": "Domination",
+    }, */
+	/*{
+        "name": "Turkmenistan",
+        "leaderName": "Saparmurat Niyazov",
+        "adjective": ["Turkmen"],
+        "startBias": ["Desert"],
+        "preferredVictoryType": "Diplomatic",
+		//"favoredReligion": "",
+		
         "startIntroPart1": "",
         "startIntroPart2": "",
-        "declaringWar": "",
-        "attacked": "",
-        "defeated": "",
-        "introduction": "",
-        "neutralHello": "",
-        "hateHello": "",
-        "tradeRequest": "",
-		"outerColor": [42, 142, 74],
-		"innerColor": [254, 255, 102],
-        "uniqueName": ""
+		
+        "declaringWar": "Prepare for war!",
+        "attacked": "You shall regret this!",
+        "defeated": "The victory is yours.",
+        "introduction": "Welcome, mighty leader.",
+		
+        "neutralHello": "Greetings.",
+        "hateHello": "What do you want?",
+		
+        "tradeRequest": "Better hurry, I may change my mind.",
+		
+        "outerColor": [0, 132, 59],
+        "innerColor": [206, 216, 211],
+		
+        "uniqueName": "Land of Gas and Horses",
         "uniques": [
-        ],
+			"[+1 Production, +1 Culture] from every [Oil]"
+			"[+1 Production, +1 Culture] from every [Horses]"
+		],
         "cities": [
-			"Tlaxcala", "Ocotelulco", "Tizatlan", "Quiahuiztlan", "Tepeticpac", "Huexotzinco", "Xaltocan",
-			"Chiautempan", "Atlihuetzia", "Tepeyanco", "Texoloc", "Panotla", "Contla", "Totlac",
-			"Zitlaltepec", "Tocatlán", "Ixtacuixtla", "Santa Ana Chiautempan", "Apizaco", "Mazatecochco"
-        ]
-		"spyNames": ["", "", "", "", "", "", "", "", "", ""]
-    },
-    {
-        "name": "Wari",
-        "leaderName": "",
-        "adjective": ["Wari"],
-        "startBias": ["Hill"],
-        "preferredVictoryType": "Domination",
+            "Ashgabat", "Mary", "Turkmenabat", "Balkanabat", "Dashoguz",
+            "Tejen", "Serdar", "Bereket", "Koneurgench", "Gyzylgaya",
+            "Gazanjyk", "Hazar", "Hazar", "Farap", "Magtymguly",
+            "Atamyrat", "Bayramaly", "Akdepe", "Esenguly", "Seydi"
+	]
+		"spyNames": [
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		""
+		]
+    },*/
+	/*{
+		"name": "Goths",
+		"leaderName": "Alaric I",
+		"adjective": ["Gothic"],
+		"personality": "Alaric",
+		"preferredVictoryType": "Domination",
+		//"favoredReligion": "Christianity",
+
         "startIntroPart1": "",
         "startIntroPart2": "",
-        "declaringWar": "",
-        "attacked": "",
-        "defeated": "",
-        "introduction": "",
-        "neutralHello": "",
-        "hateHello": "",
-        "tradeRequest": "",
-		"outerColor": [42, 142, 74],
-		"innerColor": [254, 255, 102],
-        "uniqueName": ""
-        "uniques": [
-        ],
-        "cities": [
-			"Wari", "Pikillaqta", "Cerro Baúl", "Viracochapampa", "Conchopata", "Jincamocco", "Azangaro",
-			"Chimpa", "Cahuachi", "Inkawasi", "Pajonal", "Callejón de Huaylas", "Hatun Xauxu", "Jargampata",
-			"Huaro", "Ayapata", "Allpachaka", "Anco Mayo", "Taypiqala", "Pacheco"
-        ]
-		"spyNames": ["", "", "", "", "", "", "", "", "", ""]
+
+        "declaringWar": "Prepare to be defeated!",
+		"attacked": "I have faced mightier men than you!",
+		"defeated": "My empire has fallen... it is only a matter of time until yours does too.",
+		"introduction": "Greetings mighty warrior, do well on keeping peace with us, for many cities have fallen before me.",
+		
+		"neutralHello": "Welcome warrior.",
+		"hateHello": "You will be seeing us again...",
+		
+		"tradeRequest": "Consider this offer.",
+		
+		"outerColor": [31, 31, 31],
+		"innerColor": [185, 218, 209],
+		
+		"uniqueName": "There are No Eternal Cities",
+		"uniques": [
+			"Receive triple Gold from Barbarian encampments and pillaging Cities",
+		],
+		"cities": [
+			"Arheimar", "Gothiscandza", "Reccopolis", "Victoriacum", "Lucgo id est Luceo",
+			"Ologicus", "Baiyara", "Novae", "Narbo", "Tyras", "Olbia", "Turda", "Apulon",
+			"Oium", "Tyrin", "Skupi", "Oescus", "Verona", "Sirmum", "Singidunum", "Pavia",
+			"Tarragona", "Saragossa", "Malaga", "Palencia", "Nursia", "Fervir", "Hallin",
+			"Heruler", "Bergio", "Theustes", "Viminacium", "Remesiana", "Ratiaria", "Marcianopolis",
+			"Tomi", "Istros", "Eunixi", "Taetel", "Rugi", "Arochi", "Ranii", "Nicopolis ad Istrum",
+			"Gothic Toulouse", "Gothic Ravenna", "Toletum", "Corduba"
+		],
+        "spyNames": ["Ailwin", "Baldric", "Gamel", "Masci", "Savaric", "Isolda", "Estrilda", "Sabelina", "Sybilla", "Golda"]
     },
     {
-        "name": "Tiwanaku",
-        "leaderName": "",
-        "adjective": ["Tiwanaku"],
-        "startBias": ["Hill"],
+        "name": "Timurid Empire",
+		"style": "Mesopotamian",
+        "leaderName": "Timur",
+        "adjective": ["Timurid"],
+        "startBias": ["Grassland", "Plains"],
+		"preferredVictoryType": "Domination",
+		"favoredReligion": "Islam",
+
+        "startIntroPart1": " ",
+        "startIntroPart2": " ",
+		
+        "declaringWar": "Prepare to become one with my empire!",
+        "attacked": "I had already planned your demise years in advance!",
+        "defeated": "Only luck can explain your victory.",
+        "introduction": "You stand before Timur the Great, how long until you join my empire?",
+		
+        "neutralHello": "Well?",
+        "hateHello": "If you want to fight you won't win.",
+		
+        "tradeRequest": "Trade with me.",
+		
+        //"outerColor": [129,125,127],
+        //"innerColor": [69,69,69],
+		"outerColor": [39, 39, 39],
+		"innerColor": [213, 49, 49],
+		
+        "uniqueName": "Timurid Renaissance",
+        "uniques": [
+		"[+1 Production, +1 Science, +1 Gold, +1 Culture, +1 Food] [in puppeted cities]",
+        	"[+1 Production, +1 Science, +1 Gold, +1 Culture, +1 Food] [in annexed cities]",
+		"[+1 Production, +1 Science, +1 Gold, +1 Culture, +1 Food] from every [Shrine]"
+	]
+        "cities": [
+            "Samarkand","Herat","Balkh","Bukhara","Kabul","Nishapur","Urgench","Merv","Ghazni","Kandahar",
+            "Tashkent","Tabriz","Tiflis","Isfahan","Tehran","Kashgar","Peshawar","Multan","Lahore","Mosul",
+            "Hanadan","Ray","Kirman","Zarani","Shirazv","Baghdad","Basra","Ashgabat","Bishkek","Dushanbe"]
+    },
+	/
+		"name": "Seljuk Empire"
+		"style": "Middle Eastern",
+		"leaderName": "Alp Arslan",
+		"adjective": ["Seljuk"],
+		"startBias": ["Desert", "Plains"],
+		"preferredVictoryType": "Domination",
+		"favoredReligion": "Islam",
+
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		
+		"declaringWar": "Prepare to Die!",
+		"attacked": "You will fall like all our enemies before you!",
+		"defeated": "I knew this day would come. Make it quick.",
+		"introduction":  "I, the Great Sultan of the Seljuk Empire, grant you visitation.",
+		
+		"neutralHello": "What do you want?",
+		"hateHello": "You disgust me.",
+		
+		"tradeRequest": "Consider this offer.",
+		
+		"outerColor": [7,80,85],
+		"innerColor": [240,205,177],
+		
+		"uniqueName": "Siyāsatnāmeh",
+		"uniques": [
+            "[+10]% [Science] [in capital] <during We Love The King Day>",
+			"[-10]% Unhappiness from [Population] [in all cities]"]
+		"cities": ["Isfahan","Hamadan","Merv","Rey","Nishapur","Kermanshah","Konya","Alanya",
+			"Sivas","Kayseri","Erzurum","Herat","Karaj","Tabriz","Shiraz","Ahvaz","Qom","Ardabil",
+			"Kerman","Kashan","Borujerd","Mosul","Basra","Erbil","Balkh","Amol","Samsun","Denizli"]
+	},*/
+    /*{
+        "name": "Aq Qoyunlu",
+        "leaderName": "Uzun Hasan",
+        "adjective": ["Aq Qoyunlu"],
+        "startBias": ["Plains"],
         "preferredVictoryType": "Domination",
+		"favoredReligion": "Islam",
+		
+        "startIntroPart1": " ",
+        "startIntroPart2": " ",
+		
+        "declaringWar": "Prepare for war!",
+        "attacked": "You shall regret this!",
+        "defeated": "The victory is yours.",
+        "introduction": "Welcome, mighty leader.",
+		
+        "neutralHello": "Greetings.",
+        "hateHello": "What do you want?",
+		
+        "tradeRequest": "Better hurry, I may change my mind.",
+		
+        "outerColor": [1,47,143],
+        "innerColor": [255,255,255],
+		
+        "uniqueName": "Chinggisid Legacy",
+        "uniques": [],
+        "cities": [
+            "Diyarbəkir", "Tabriz", "Bağdat", "Ərzincan", "Van",
+            "Amid", "Mardin", "Sivas", "Bayburt", "Xarput",
+            "Mosul", "Malatya", "Kirmanşah", "Şiraz", "Ərdebil",
+            "Həmədan", "Şanlıurfa", "Gəncə", "Əhvaz", "Kərkük"
+	]
+		"spyNames": [
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		""
+		]
+    },
+    {
+        "name": "Qara Qoyunlu",
+        "leaderName": "Jahan Shah",
+        "adjective": ["Qara Qoyunlu"],
+        "startBias": ["Plains"],
+        "preferredVictoryType": "Domination",
+		"favoredReligion": "Islam",
+		
+        "startIntroPart1": " ",
+        "startIntroPart2": " ",
+		
+        "declaringWar": "Prepare for war!",
+        "attacked": "You shall regret this!",
+        "defeated": "The victory is yours.",
+        "introduction": "Welcome, mighty leader.",
+		
+        "neutralHello": "Greetings.",
+        "hateHello": "What do you want?",
+		
+        "tradeRequest": "Better hurry, I may change my mind.",
+		
+        "outerColor": [38,100,117],
+        "innerColor": [0,0,0],
+		
+        "uniqueName": "Turko-Persian Legacy",
+        "uniques": [],
+        "cities": [
+            "Təbriz", "Ərdəbil", "Bağdad", "Mosul", "Ərbil",
+            "Xoy", "Naxçıvan", "Qars", "Süleymaniyyə", "Bitlis",
+            "Diyarbakır", "Hamadan", "Qum", "Bakı", "Mərənd",
+            "İsfahan", "Zəncan", "Qəzvin", "Tiflis", "Şamaxı"
+	]
+		"spyNames": [
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		""
+		]
+    },*/
+	/*{
+        "name": "Kyrgyzstan",
+        "leaderName": "Askar Akayev",
+        "adjective": ["Kyrgyz"],
+        "startBias": ["Hill", "Mountain"],
+        "preferredVictoryType": "Diplomatic",
+		"favoredReligion": "Islam",
+		
         "startIntroPart1": "",
         "startIntroPart2": "",
-        "declaringWar": "",
-        "attacked": "",
-        "defeated": "",
-        "introduction": "",
-        "neutralHello": "",
-        "hateHello": "",
-        "tradeRequest": "",
-		"outerColor": [42, 142, 74],
-		"innerColor": [254, 255, 102],
-        "uniqueName": ""
-        "uniques": [
-        ],
+		
+        "declaringWar": "Prepare for war!",
+        "attacked": "You shall regret this!",
+        "defeated": "The victory is yours.",
+        "introduction": "Welcome, mighty leader.",
+		
+        "neutralHello": "Greetings.",
+        "hateHello": "What do you want?",
+		
+        "tradeRequest": "Better hurry, I may change my mind.",
+		
+        "outerColor": [255, 0, 0]
+        "innerColor": [255, 254, 1],
+		
+        "uniqueName": "",
+        "uniques": [],
         "cities": [
-			"Tiwanaku", "Lukurmata", "Khonkho Wankane", "Pampa Koani", "Chiripa", "Kalasasaya", "Putuni",
-			"Kerikala", "Pucarani", "Omo", "Iwawe", "Cerro Mejía", "Pariti", "Mojocoya",
-			"Tumatumani", "Cabuza", "Qeya Qala", "Chucuito", "San Pedro de Atacama", "Pukara"
-        ]
-		"spyNames": ["", "", "", "", "", "", "", "", "", ""]
+            "Bishkek", "Osh", "Jalal-Abad", "Karakol", "Naryn",
+            "Talas", "Batken", "Tokmok", "Kochkor", "At-Bashi",
+            "Isfana", "Tash-Kumyr", "Kyzyl-Kiya", "Mailuu-Suu", "Balykchy",
+            "Sulukta", "Kemin", "Kara-Balta", "Toguz-Toro", "Uzgen"
+	]
+		"spyNames": [
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		""
+		]
+    },*/
+	/*{
+        "name": "Tajikistan",
+        "leaderName": "Enomali Rahmon",
+        "adjective": ["Tajik"],
+        "startBias": ["Hill", "Mountain"],
+        "preferredVictoryType": "Diplomatic",
+		"favoredReligion": "Islam",
+		
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+		
+        "declaringWar": "Prepare for war!",
+        "attacked": "You shall regret this!",
+        "defeated": "The victory is yours.",
+        "introduction": "Welcome, mighty leader.",
+		
+        "neutralHello": "Greetings.",
+        "hateHello": "What do you want?",
+		
+        "tradeRequest": "Better hurry, I may change my mind.",
+		
+		"outerColor": [255, 255, 255],
+		"innerColor": [174, 137, 0],
+		
+        "uniqueName": "",
+        "uniques": [],
+        "cities": [
+            "Dushanbe", "Khujand", "Kulob", "Bokhtar", "Panjakent",
+            "Isfara", "Istaravshan", "Danghara", "Murghab", "Khorugh",
+            "Nuek", "Vahdat", "Tursunzoda", "Jirgatol", "Qurghonteppa",
+            "Norak", "Gharm", "Shahristus", "Hissar", "Farkhor"
+	]
+		"spyNames": [
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		""
+		]
     },*/
 ]
