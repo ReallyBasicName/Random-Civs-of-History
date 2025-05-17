@@ -204,6 +204,127 @@
 		"promotions": ["Quick Study"],
 		"attackSound": "horse"
 	},
+	{
+		"name": "Shinobi",
+		"unitType": "Scout",
+		"replaces": "Scout",
+		"uniqueTo": "Iga",
+		"movement": 2,
+		"strength": 3,
+		"rangedStrength": 8,
+		"range": 1,
+		"cost": 25,
+		"obsoleteTech": "Scientific Theory",
+		"uniques": [
+			"Can move after attacking",
+			"May enter foreign tiles without open borders",
+			"May upgrade to [Archer] through ruins-like effects"
+			],
+		"promotions": ["Ignore terrain cost"],
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Red Fleet Junk",
+		"unitType": "Melee Water",
+		"replaces": "Privateer",
+		"uniqueTo": "Canton Pirates",
+		"movement": 5,
+		"strength": 25,
+		"cost": 150,
+		"requiredTech": "Navigation",
+		"upgradesTo": "Destroyer",
+		"promotions": [
+			"Coastal Raider I", 
+			"[Red Fleet Junk] ability"
+		],
+		"attackSound": "cannon"
+	},
+	{
+		"name": "Corsair",
+		"unitType": "Melee Water",
+		"replaces": "Privateer",
+		"uniqueTo": "The Buccaneers",
+		"movement": 5,
+		"strength": 25,
+		"cost": 150,
+		"requiredTech": "Navigation",
+		"upgradesTo": "Destroyer",
+		"promotions": [
+			"Coastal Raider I",
+			"Boarding Party I",
+			"[Corsair] ability"
+		],
+		"attackSound": "cannon"
+	},
+	{
+		"name": "Bahansen",
+		"unitType": "Melee Water",
+		"replaces": "Privateer",
+		"uniqueTo": "Wokou",
+		"movement": 5,
+		"strength": 25,
+		"cost": 150,
+		"requiredTech": "Navigation",
+		"upgradesTo": "Destroyer",
+		"promotions": [
+			"Coastal Raider I", 
+			"[Bahansen] ability"
+		],
+		"attackSound": "cannon"
+	},
+	{
+		"name": "Wako Rōnin",
+		"unitType": "Gunpowder",
+		"replaces": "Musketman",
+		"uniqueTo": "Wokou",
+		"movement": 2,
+		"strength": 24,
+		"cost": 150,
+		"requiredTech": "Gunpowder",
+		"upgradesTo": "Rifleman",
+        "uniques": [
+			"No damage penalty for wounded units",
+			"Heals [5] damage if it kills a unit"
+        ],
+		"obsoleteTech": "Rifling",
+		"attackSound": "shot"
+	},
+	{
+		"name": "Victoire",
+		"unitType": "Ranged Water",
+		"replaces": "Frigate",
+		"uniqueTo": "Libertatia",
+		"movement": 5,
+		"strength": 25,
+		"rangedStrength": 28,
+		"cost": 185,
+		"requiredResource": "Iron",
+		"requiredTech": "Navigation",
+		"obsoleteTech": "Electronics",
+		"upgradesTo": "Battleship",
+        "uniques": [
+			"Transfer Movement to [Civilian]",
+			"[+15]% Strength <when fighting in [non-[{Friendly Land} {Enemy Land}]] tiles>"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "shipCannonVolley"
+	},
+	{
+		"name": "Xebec",
+		"unitType": "Melee Water",
+		"replaces": "Privateer",
+		"uniqueTo": "Tétouan",
+		"movement": 5,
+		"strength": 25,
+		"cost": 150,
+		"requiredTech": "Navigation",
+		"upgradesTo": "Destroyer",
+		"promotions": [
+			"Coastal Raider I", 
+			"[Xebec] ability"
+		],
+		"attackSound": "cannon"
+	},
 	/*
 	{
 		"name": "Swordsman",

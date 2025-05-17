@@ -1,2 +1,57 @@
 [
+	{
+		"name": "[Red Fleet Junk] ability",
+		"uniques": [
+			"Ignores Zone of Control",
+			"May capture killed [Water] units",
+			"[1] additional attacks per turn <when adjacent to a [Red Fleet Junk] unit>"
+		]
+	},
+	{
+		"name": "[Corsair] ability",
+		"uniques": [
+			"May capture killed [Water] units",
+			"[+5]% Strength <for [3] turns> <upon defeating a [Water] unit>",
+		]
+	},
+	{
+		"name": "Wako Raider",
+		"uniques": [
+			"Earn [25]% of killed [All] unit's [Strength] as [Gold] <on foreign continents>",
+		]
+	},
+	{
+		"name": "[Bahansen] ability",
+		"uniques": [
+			"May capture killed [Water] units",
+			"May enter foreign tiles without open borders",
+			"Earn [25]% of killed [All] unit's [Strength] as [Gold]"
+		]
+	},
+	{
+		"name": "[Xebec] ability",
+		"uniques": [
+			"May capture killed [Water] units",
+			"[This Unit] heals [5] HP <for [1] movement>"
+		]
+	},
+	{
+		"name": "Kakurezato ability",		
+		"uniques": [
+					"[+1] Movement", 
+					"[This Unit] loses the [Kakurezato ability] promotion <when below [99] HP>"
+					]
+	},
+	{
+		"name": "Raider",		
+		"uniques": [
+					"May capture killed [Water] units"
+					]
+	},
+	{
+		"name": "Iga ability",		
+		"uniques": [
+					"[This Unit] gains the [Kakurezato ability] promotion <in [Kakurezato] tiles>"
+					]
+	},
 ]
