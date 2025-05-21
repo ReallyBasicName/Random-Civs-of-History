@@ -74,7 +74,7 @@
 		"name": "Lauluväljak",
 		"replaces": "Opera House",
 		"uniqueTo": "Estonia",
-        "cost": 165,
+        	"cost": 165,
 		"culture": 4,
 		"specialistSlots": {"Artist": 1},
 		"hurryCostModifier": 10,
@@ -153,7 +153,7 @@
 		"hurryCostModifier": 50,
 		"uniques": [
 			"Remove extra unhappiness from annexed cities",
-			"[+15]% [Gold] <in [annexed] cities>"
+			"[+15]% [Gold] <in [Annexed] cities>"
 		],
 		"requiredTech": "Mathematics"
 	},
