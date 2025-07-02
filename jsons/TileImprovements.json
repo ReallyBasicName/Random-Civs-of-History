@@ -2,7 +2,7 @@
 	{
 		"name": "Pochteca Enclave",
 		"uniqueTo": "Teotihuacan",
-		"gold": 1,
+		"gold": 2,
 		"turnsToBuild": 7,
 		"techRequired": "Civil Service",
 		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Forest","Jungle","Flood plains"],
@@ -10,7 +10,77 @@
 			"[+1 Gold] for each adjacent [Trading post]",
 		]
 	},
+	
+	//Pirate Update
+	
 	{
+		"name": "Rum Distillery",
+		"uniqueTo": "The Buccaneers",
+		"gold": 2,
+		"turnsToBuild": 8,
+		"techRequired": "Machinery",
+		"terrainsCanBeBuiltOn": ["Flood plains", "Grassland", "Jungle", "Marsh"],
+		"uniques": [
+			"Provides [1] [Rum] <in [Sugar] tiles>",
+			"Consumes [1] [Sugar] <in [Sugar] tiles>",
+			"Improves [Sugar] resource in this tile",
+			"Pillaging this improvement yields approximately [+25 Gold]"
+		]
+	},
+	
+	//Americas Update
+	
+	{
+		"name": "Atlantean Figures",
+		"uniqueTo": "Toltecs",
+		"terrainsCanBeBuiltOn": ["Hill"],
+		"faith": 1,
+		"culture": 1,
+		"turnsToBuild": 7,
+		"techRequired": "Construction",
+		"uniques": [
+			"[+1 Culture, +1 Faith] <starting from the [Renaissance era]>",
+			"[+1 Culture, +1 Faith] <starting from the [Modern era]>",
+			"Pillaging this improvement yields approximately [+20 Gold]"
+		]
+	},
+	/*
+	{
+		"name": "Suka Qullu",
+		"uniqueTo": "Tiwanaku",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Flood plains"],
+		"food": 2,
+		"production": -1,
+		"turnsToBuild": 7,
+		"techRequired": "Calendar",
+		"uniques": [
+			"Can also be built on tiles adjacent to fresh water",
+			"[+2 Food, -1 Production] from [Fresh water] tiles <after discovering [Civil Service]>",
+			"[+2 Food, -1 Production] from [non-fresh water] tiles <after discovering [Fertilizer]>",
+            "Pillaging this improvement yields approximately [+18 Gold]"],
+		"shortcutKey": "F"
+	},
+	*/
+	/*
+	{
+		"name": "Gyáaʼaang", //Gyáaʼaang
+		"uniqueTo": "Haida",
+		"terrainsCanBeBuiltOn": ["Forest"],
+		"culture": 1,
+		"turnsToBuild": 7,
+		"techRequired": "Drama and Poetry",
+		"uniques": [
+			"[+1 Culture] <after discovering [Metallurgy]>",
+			"[+1 Culture, +1 Production] <after discovering [Biology]>",
+			"[+1 Gold] <upon declaring friendship> <for [15] turns>",
+			"Pillaging this improvement yields approximately [+10 Gold]"
+		]
+	},
+	*/
+	
+	//Random Civs Update
+	
+	/*{
 		"name": "Kakurezato",
 		"uniqueTo": "Iga",
 		"culture": 2,
@@ -20,21 +90,10 @@
 		"uniques": [
 			"[+1 Gold] for each adjacent [Trading post]",
 		]
-	},
-	{
-		"name": "Rum Distillery",
-		"uniqueTo": "The Buccaneers",
-		"gold": 2,
-		"turnsToBuild": 8,
-		"techRequired": "Machinery",
-		"terrainsCanBeBuiltOn": ["Flood plains", "Grassland", "Jungle", "Marsh"],
-		"uniques": [
-			//"Provides [1] [Rum] <in [Sugar] tiles>",
-			//"Consumes [1] [Sugar] <in [Sugar] tiles>",
-			"Improves [Sugar] resource in this tile",
-			"Pillaging this improvement yields approximately [+25 Gold]"
-		]
-	}
+	},*/
+	
+	//Unused
+	
 	/*{
 		"name": "Gas Refinery",
 		"uniqueTo": "Turkmenistan",

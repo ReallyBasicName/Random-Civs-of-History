@@ -38,16 +38,16 @@
 			"Ch'Disch'ag", "Tii Ch'ogi", "Bighan Da'isln", "Bis Bit"
         ]
 		"spyNames": [
-		"",
-		"",
-		"",
-		"",
-		"",
-		"",
-		"",
-		"",
-		"",
-		""
+			"Baishan",
+			"Bidu-ya",
+			"Chato",
+			"Dahteste",
+			"Gouyen",
+			"Kas-tziden",
+			"Kla-esh",
+			"La-choy Ko-kun-noste",
+			"Shi-ka-She",
+			"Tudeevia"
 		]
     },
     {
@@ -56,13 +56,13 @@
         "adjective": ["Purépecha"],
         "startBias": ["Hill"],
         "preferredVictoryType": "Domination",
-		//"favoredReligion": "",
+		"favoredReligion": "Teotl",
 		
         "startIntroPart1": "",
         "startIntroPart2": "",
 		
         "declaringWar": "The time has come for you to join us.",
-        "attacked": "You will be killed for your treachery",
+        "attacked": "You will be killed for your treachery!",
         "defeated": "I have failed you Curicaueri.",
         "introduction": "Greetings traveler. I am Tariácuri, and I have been sent by the gods to form a unified Purépecha state.",
 		
@@ -125,14 +125,33 @@
 
 		"uniqueName": "One Million Elephants and a White Parasol",
 		"uniques": [
-			"[+50]% Natural religion spread [in annexed cities]"
+			"[+50]% Natural religion spread [in annexed cities]",
+			"Comment [[+1 Food] in capital for every 2 of your non-Capital cities following your religion]"
+			"[+1 Food] [in capital] <for every [2] [[{non-[Capital]} {in cities following our religion}] Cities]> <in [Your] cities> <hidden from users>"
 		],
-		"cities": ["Luang Prabang","Thakhek","Pakse","Muang Thaeng","Xiang Hung","Roi Et","Xiang Khuang","Nakhom Phanom",
-			"Champasak","Ubon","Yasothon","Khon Kaen","Kalasin","Attapeu","Ban Houayxay","Paksan","Xam Neua",
-			"Luang Namtha","Muang Xai","Khanthabouli","Phongsali","Sayabouly","Phonsavan","Salavan","Anouvong",
-			"Xaysomboun","Sekong","Phonhong","Viang Xai","Xiang Kho","Munag Kho","Paklay","Phontiou",
-			"Pakmong"],
-        "spyNames": ["Nang", "Mahakani", "Wangsapuri", "Anusha", "Lusai", "Vang", "Yukhon", "Nu", "Keo", "Oun", "Maha", "Souvanna"]
+		"cities": [
+			"Luang Prabang", "Thakhek", "Pakse", "Muang Thaeng", 
+			"Xiang Hung", "Roi Et", "Xiang Khuang", "Nakhom Phanom", "Champasak", 
+			"Ubon", "Yasothon", "Khon Kaen", "Kalasin", "Attapeu", 
+			"Ban Houayxay", "Paksan", "Xam Neua", "Luang Namtha", "Muang Xai", 
+			"Khanthabouli", "Phongsali", "Sayabouly", "Phonsavan", "Salavan", 
+			"Anouvong", "Xaysomboun", "Sekong", "Phonhong", "Viang Xai", 
+			"Xiang Kho", "Munag Kho", "Paklay", "Phontiou", "Pakmong" 
+		],
+        "spyNames": [
+			"Nang", 
+			"Mahakani", 
+			"Wangsapuri", 
+			"Anusha", 
+			"Lusai", 
+			"Vang", 
+			"Yukhon", 
+			"Nu", 
+			"Keo", 
+			"Oun", 
+			"Maha", 
+			"Souvanna"
+		]
 	},
 	{
 		"name": "The Philippines",
@@ -184,7 +203,7 @@
 
         "declaringWar": "It is necessary now that you must join us.",
 		"attacked": "You now will face the full might of the Lord and my army!",
-		"defeated": "If the Lord wills it. I'll accept this defeat.",
+		"defeated": "If the Lord wills it. I will accept this defeat.",
 		"introduction": "Welcome to the Kingdom of the Franks, I am Charlemagne, and I protect my people.",
 		
 		"neutralHello": "Need anything my friend?",
@@ -208,59 +227,61 @@
 		],
         "spyNames": ["Earnest", "Bertrand", "Roland", "Remigius", "Francio", "Marcomer", "Antenor", "Priam", "Andras", "Merovich"]
     },
-    {
-        "name": "Teotihuacan",
-        "leaderName": "Spearthrower Owl",
-        "adjective": ["Teotihuacano"],
-        "startBias": ["Avoid [Tundra]"],
-        "preferredVictoryType": "Domination",
+	/*
+	////Old Teotihuacan, Just in Case
+	{
+		"name": "Teotihuacan",
+		"leaderName": "Spearthrower Owl",
+		"adjective": ["Teotihuacano"],
+		"startBias": ["Avoid [Tundra]"],
+		"preferredVictoryType": "Domination",
 		//"favoredReligion": "",
 		
-        "startIntroPart1": "",
-        "startIntroPart2": "",
+		"startIntroPart1": "",
+		"startIntroPart2": "",
 		
-        "declaringWar": "Put up little resistance and I may spare more of your people.",
-        "attacked": "You finally decided to join your ancestors?",
-        "defeated": "As we lay defeated, our legacy will go down in history. When the last word of your history is spoken, our temples shall still be standing.",
-        "introduction": "What's this? Another state to join my empire, or a useful ally? Respect my power, and be welcome.",
+		"declaringWar": "Put up little resistance and I may spare more of your people.",
+		"attacked": "You finally decided to join your ancestors?",
+		"defeated": "As we lay defeated, our legacy will go down in history. When the last word of your history is spoken, our temples shall still be standing.",
+		"introduction": "What's this? Another state to join my empire, or a useful ally? Respect my power, and be welcome.",
 		
-        "neutralHello": "Have something for me?",
-        "hateHello": "You are brave to come here.",
+		"neutralHello": "Have something for me?",
+		"hateHello": "You are brave to come here.",
 		
-        "tradeRequest": "You have something that belongs to me, give it now.",
+		"tradeRequest": "You have something that belongs to me, give it now.",
 		
 		"outerColor": [26, 21, 40],
 		"innerColor": [143, 216, 199],
 		
-        "uniqueName": "Where Men Become Gods"
-        "uniques": [
+		"uniqueName": "Where Men Become Gods"
+		"uniques": [
 			"[+1] population [in this city] <upon constructing [Wonder]>",
 			"Allied City-States provide [Food] equal to [10]% of what they produce for themselves",
 			"Allied City-States provide [Production] equal to [10]% of what they produce for themselves",
 			"Allied City-States provide [Gold] equal to [10]% of what they produce for themselves",
 			"Allied City-States provide [Culture] equal to [10]% of what they produce for themselves",
 			"Allied City-States provide [Faith] equal to [10]% of what they produce for themselves"
-        ],
-        "cities": [
+		],
+		"cities": [
 			"Teotihuacan", "Pachua", "Choula", "Cacaxtla", "Tula",
 			"Remojadas", "Cuautlancingo", "Ixtepeque", "Escuintla", "Kaminaljuya",
 			"Piedras Negras", "Tikal", "Copan", "Quirigua", "Tlalmanalco",
 			"Jocotitlán", "Tlaquilpa", "Tlapacoyan", "Xochitécatl", "El Tajin",
 			"El Teul", "Cerro de las Mesas", "Tres Zapotes", "Monte Alban", "Guadalajara"
-        ]
-		"spyNames": [
-		"Siyaj K'ak",
-		"Jade Spider",
-		"Zyanya",
-		"Xquenda",
-		"Yax Nuun Ahiin",
-		"Fire is Born",
-		"Sihyaj Chan K'awiil II",
-		"Storm Sky",
-		"Netted Jaguar",
-		"Lime Quetzalpapálotl"
 		]
-    },
+		"spyNames": [
+			"Siyaj K'ak",
+			"Jade Spider",
+			"Zyanya",
+			"Xquenda",
+			"Yax Nuun Ahiin",
+			"Fire is Born",
+			"Sihyaj Chan K'awiil II",
+			"Storm Sky",
+			"Netted Jaguar",
+			"Lime Quetzalpapálotl"
+		]
+	},*/
     {
         "name": "Estonia",
         "leaderName": "Konstantin Päts",
@@ -669,11 +690,74 @@
 	
 	//American Update
 	
-	/*{
-        "name": "Mixtec",
-        "leaderName": "Eight Deer",
-        "adjective": ["Mixtec"],
-        "startBias": ["Hill"],
+	////Part 1
+	
+    {
+        "name": "Chichimecas",
+        "leaderName": "Xólotl",
+        "adjective": ["Chichimeca"],
+        "startBias": ["None"],
+        "preferredVictoryType": "Domination",
+		"favoredReligion": "Teotl",
+		
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+		
+        "declaringWar": "Your land looks nice for my empire, prepare to die!",
+        "attacked": "Until your death or mine! Time for you to find out what a REAL war looks like!",
+        "defeated": "I see it now, my preparations came too late, my warriors were too few... I have failed.",
+        "introduction": "Where is your courage when standing before I, the mighty Xólotl?",
+		
+        "neutralHello": "You are welcome, but you are not a friend. Remember that",
+        "hateHello": "Not now, I am busy preparing for your demise.",
+		"denounced": "You are not only a fool, but a coward too? I am sure you will have a different attitude when my warriors raid you...",
+		
+        "tradeRequest": "I will only offer this to you once, accept it.",
+		"declaringFriendship": "You have come a long way. Do you see me as an friend, as I have come to see you?",
+		
+		"outerColor": [95, 15, 15],
+		"innerColor": [255, 50, 50],
+		
+        "uniqueName": "Dog People"
+        "uniques": [
+			"[+1] Movement <for [{non-[Civilian]} {non-[Mounted]} {Land}] units>",
+			"[{Military} {Land}] units gain the [Dog Person] promotion"
+        ],
+        "cities": [
+			"Tenayuca", "Zacatecas", "Guanajuato", "Jicora", "Milpillas", 
+			"Quiviquinta", "Huajicori", "Acaponeta", "Guasamota", "Wautua", 
+			"Tuapuri", "Tatei Kie", "Azqueltan", "Colotlan", "Momax", 
+			"Tocatic", "Tlaltenango", "Tepechitlan", "Teul", "Atemanica", 
+			"Ixcatan", "Nositc", "Acazola", "Ayotupan", "Mexcaltitlan", 
+			"Peyotan", "Hacalita", "Rahueyana", "Atonalisco", "Xalisco", 
+			"Deshta"
+        ]
+		"spyNames": [
+		"Maxorro", 
+		"Çayne", 
+		"Yuac", 
+		"Martinillo", 
+		"Cacayas", 
+		"Macolia", 
+		"Acuaname", 
+		"Nachancayal", 
+		"Gualiname", 
+		"Francisco 'the Lame'", 
+		"Copuz the Elder", 
+		"Nacoloname", 
+		"Quiatuiaya", 
+		"Paqualame", 
+		"Xale", 
+		"Bartolomillo", 
+		"Anton Rayado"
+		]
+    },
+	/*
+    {
+        "name": "Haida",
+        "leaderName": "Koyah",
+        "adjective": ["Haidan"],
+        "startBias": ["Coast"],
         "preferredVictoryType": "Domination",
 		//"favoredReligion": "",
 		
@@ -687,21 +771,192 @@
 		
         "neutralHello": "",
         "hateHello": "",
+		"denounced": "",
 		
         "tradeRequest": "",
+		"declaringFriendship": "",
 		
-		"outerColor": [66, 14, 53],
-		"innerColor": [61, 131, 130],
-        "uniqueName": ""
+		"outerColor": [252, 108, 59],
+		"innerColor": [67, 58, 9],
+		"style": "",
+		
+        "uniqueName": "Eagles and Ravens"
         "uniques": [
+			"[Melee] units gain the [[Haida] ability] promotion"
+			"[+50]% Strength <for [Melee Water] units> <vs [Land] units> <when attacking>",
         ],
         "cities": [
-			"Tilantongo", "Tututepec", "Tlaxiaco", "Jaltepec", "Yucuñudahui", "Teozacoalco", "Xipe's Bundle",
-			"Achuitla", "Acatlán", "Cuilapan", "Suchixtlan", "Yanhuitlan", "Apoala", "Teposcolula",
-			"Huajuapan", "Huamelolpan", "Ocelotepec", "Amoltepec", "Ndaxagua", "Xoxocotlán", "Monte Alban",
-			"Mitla", "Nochixtlán", "Chicahuaxtla", "Jamiltepec", "Cuajinicuilapa", "Putla", "Coixtlahuaca",
-			"Chalcatongo", "Xochistlahuaca", "Zacatepec", "Pinotepa", "Ocotepec", "Ometepec", "Juxtlahuaca", 
-			"Malinaltepec", "Tonalá", "Alcozauca", "Tlapa", "Mixtepetongo"
+			"SGang Gwaay Llnagaay", "Xaayna Llnagaay", "HlGaagilda Llnagaay", "Hlḵinul Llnagaay", "Gaw Tlagée", 
+			"Dáadans", "Ḵ'uuna Llnagaay", "Hlk'yah GaawGa", "Gasa'áan", "Howkan", 
+			"Sukkwan", "Hlankwa’án", "T’aanuu Llnagaay", "Yaak'u", "Ḵ'aayang", 
+			"Kang 'Llngée", "Yáan 'Llngée", "Née Kun", "K’wíi Gándlaas", "Hl'yaalan", 
+			"Ts'aahl", "Gaiagunkun", "Djigogiga", "Atanus", "Chets", 
+			"Gado", "Gitinkalana", "Hagi", "Chaahl", "Lanadagunga", 
+			"Huados", "Tii.aan", "Gaisins", "Kundji", "Sindatahls", 
+			"Lanaslnagai", "Nagus", "Sindaskun", "Skae", "Lanagahlkehoda" 
+        ]
+		"spyNames": [
+			"Cumshewa", 
+			"Dzogm", 
+			"Gidansda", 
+			"Guujaaw", 
+			"Gyaaxa", 
+			"Kil Tlaats'Gaa", 
+			"Sg̱iida-gidg̱a Iihllngas", 
+			"Skaay", 
+			"Xhuuyaa", 
+			"Xyaahl"
+		]
+    },
+	*/
+	/*
+    {
+        "name": "Kuikuro",
+        "leaderName": "Ihikutaha",
+        "adjective": ["Kuikuro"],
+        "startBias": ["Jungle", "River"],
+        "preferredVictoryType": "Cultural",
+		//"favoredReligion": "",
+		
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+		
+        "declaringWar": "",
+        "attacked": "",
+        "defeated": "",
+        "introduction": "",
+		
+        "neutralHello": "",
+        "hateHello": "",
+		"denounced": "",
+		
+        "tradeRequest": "",
+		"declaringFriendship": "",
+		
+		"outerColor": [107, 135, 99],
+		"innerColor": [27, 51, 19],
+		
+        "uniqueName": "Etepe Oti"
+        "uniques": [
+			"Gain control over [{non-[Major]} {Jungle}] tiles in a [4]-tile radius <upon building a [Camp] improvement> <in this city>",
+			"Gain control over [{non-[Major]} {Jungle}] tiles in a [4]-tile radius <upon building a [Plantation] improvement> <in this city>",
+			"Gain control over [{non-[Major]} {Jungle}] tiles in a [4]-tile radius <upon building a [Lumber mill] improvement> <in this city>"
+        ],
+        "cities": [
+			"Kuhikugu", "Heulugihïtï", "Nokugu", "Kuhugupe", "Hatsikugi", 
+			"Itsagahïtï", "Secú", "Meijeinei", "Agikuangaku", "Séhu", 
+			"Intagu", "Morená", "Tuatuari", "Yakaré", "Tehukugu", 
+			"Akagahïtï", "Kamakuaka", "Ahasukugu", "Ipatse", "Atï", 
+			"Waura", "Ahanitahagu", "Lahatua", "Atïka", "Lamakuka", 
+			"Z"
+        ]
+		"spyNames": [
+			"Hikutaha", 
+			"Afukaka", 
+			"Giti", 
+			"Aulukuma", 
+			"Kalusi", 
+			"Kanu", 
+			"Ipi", 
+			"Sesuaka", 
+			"Mapulu", 
+			"Tua"
+		]
+    },
+    {
+        "name": "Mississippians",
+        "leaderName": "Tuskaloosa",
+        "adjective": ["Mississippian"],
+        "startBias": ["River"],
+        "preferredVictoryType": "Cultural",
+		//"favoredReligion": "",
+		
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+		
+        "declaringWar": "",
+        "attacked": "",
+        "defeated": "",
+        "introduction": "",
+		
+        "neutralHello": "",
+        "hateHello": "",
+		"denounced": "",
+		
+        "tradeRequest": "",
+		"declaringFriendship": "",
+		
+		//"outerColor": [201, 171, 93],
+		//"innerColor": [246, 67, 13],
+		"outerColor": [165, 152, 100],
+		"innerColor": [54, 22, 25],
+		"style": "",
+		
+        "uniqueName": "Maize-Based Agriculture"
+        "uniques": [
+			""
+        ],
+        "cities": [
+			"Cahokia", "Moundville", "Spiro", "Angel Mounds", "Atahachi", 
+			"Emerald Mound", "Etowah", "Kincaid", "Castalian Springs", "Cloverdale", 
+			"Grand Village", "Mabila", "Holly Bluff", "Jaketown", "Bottle Creek", 
+			"Boyd Mounds", "Fox Farm", "Long Swamp", "Mound Bottom", "Ocmulgee", 
+			"Nodena", "Murphy Mound", "Nikwasi", "Slack Farm", "Tolu", 
+			"Winterville", "Twin Mounds", "Talisi", "Caxa", "Eaker", 
+			"Midway Village", "Dyar", "Sellars Mound", "Uxapita", "Sixtoe Mound" 
+        ]
+		"spyNames": [
+			"Kikikwawason", 
+			"Tomochichi", 
+			"Emistesigo", 
+			"Lamochattee", 
+			"Osceola", 
+			"Eyota", 
+			"Onawa", 
+			"Halona", 
+			"Mausi", 
+			"Cocheta"
+		]
+    },
+	*/
+	{
+        "name": "Mixtecs",
+        "leaderName": "Iya Nacuaa",
+        "adjective": ["Mixtec"],
+        "startBias": ["Hill"],
+        "preferredVictoryType": "Domination",
+		"favoredReligion": "Teotl",
+		
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+		
+        "declaringWar": "I see no reason for your lands to remain outside my empire!",
+        "attacked": "The dog strikes the jaguar? Foolish defiance! Your name will fade, your lands will burn!",
+        "defeated": "My demise is soon, yet I still see many who will follow me...",
+        "introduction": "I am Iya Nacuaa Teyusi Ñaña, I will see to it that you remember the jaguar not with awe, but with fear.",
+		
+        "neutralHello": "I may have a use for you.",
+        "hateHello": "Come to beg for my mercy?",
+		"denounced": "What's this? The dog wishes to anger the jaguar?",
+		
+        "tradeRequest": "Accept this or not, I will have it soon.",
+		"declaringFriendship": "I believe you may be of more use to me as a friend rather than an enemy.",
+		
+		"outerColor": [111, 22, 81],
+		"innerColor": [98, 155, 172],
+        "uniqueName": "Ñuu Savi"
+        "uniques": [
+			"Gain [10]-[30] [Culture] <upon conquering a city>",
+			"Comment [Gain 1 free anti-cavalry unit for every 5 Cities upon declaring war with a major Civilization]"
+			"[1] free [Zandaru] units appear <for every [5] [Cities]> <upon declaring war with a major Civilization> <after discovering [Bronze Working]> <before discovering [Civil Service]> <hidden from users>",
+			"[1] free [Pikeman] units appear <for every [5] [Cities]> <upon declaring war with a major Civilization> <after discovering [Civil Service]> <before discovering [Metallurgy]> <hidden from users>",
+			"[1] free [Lancer] units appear <for every [5] [Cities]> <upon declaring war with a major Civilization> <after discovering [Metallurgy]> <before discovering [Combined Arms]> <hidden from users>"
+        ],
+        "cities": [
+			"Ñuu Tnoo", "Yucu Dzaa", "Yucucui", "Nuxaá", "Yutatnoho",
+			"Sahayuca", "Ñuu Ndeca", "Ndijiinu", "Ñuu Yate", "Yucundaa",
+			"Yodzocahi", "Chalcatongo de Hidalgo", "Pinoltepan", "Mictlān", "Mixtepec",
+			"Ñuu Sitoho", "Añute", "Chiyo Cahnu", "Chiyo Yuhu", "Yucuñudahui"
         ]
 		"spyNames": [
 			"Twelve Ollin", 
@@ -717,12 +972,68 @@
 		]
     },
     {
-        "name": "Zapotecs",
-        "leaderName": "Cocijoeza",
-        "adjective": ["Zapotec"],
+        "name": "Teotihuacan",
+        "leaderName": "Spearthrower Owl",
+        "adjective": ["Teotihuacano"],
+        "startBias": ["Avoid [Tundra]"],
+        "preferredVictoryType": "Domination",
+		"favoredReligion": "Teotl",
+		
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+		
+        "declaringWar": "Put up little resistance and I may spare more of your people.",
+        "attacked": "You finally decided to join your ancestors?",
+        "defeated": "As we lay defeated, our legacy will go down in history. When the last word of your history is spoken, our temples shall still be standing...",
+        "introduction": "What's this? Another state to join my empire, or a useful ally? Respect my power, and be welcome.",
+		
+        "neutralHello": "Have something for me?",
+        "hateHello": "You are brave to come here.",
+		"denounced": "In what way does this benefit you?",
+		
+        "tradeRequest": "You have something that belongs to me, give it now.",
+		"declaringFriendship": "You have become worthy of my friendship, accept it while you still have the chance.",
+		
+		"outerColor": [26, 21, 40],
+		"innerColor": [143, 216, 199],
+		
+        "uniqueName": "Where One Becomes a God"
+        "uniques": [
+			"[+1] population [in this city] <upon constructing [{non-[Palace]} {Wonder}]>"
+			"Comment [Allied City-States provide [Culture], [Faith], [Gold], and [Production] equal to [+20]% of what they produce for themselves]",
+			"Allied City-States provide [Production] equal to [+15]% of what they produce for themselves <hidden from users>"
+			"Allied City-States provide [Culture] equal to [+15]% of what they produce for themselves <hidden from users>"
+			"Allied City-States provide [Food] equal to [+15]% of what they produce for themselves <hidden from users>"
+			"Allied City-States provide [Faith] equal to [+15]% of what they produce for themselves <hidden from users>"
+        ],
+        "cities": [
+			"Teotihuacan", "Pachua", "Choula", "Cacaxtla", "Tula",
+			"Remojadas", "Cuautlancingo", "Ixtepeque", "Escuintla", "Kaminaljuya",
+			"Piedras Negras", "Tikal", "Copan", "Quirigua", "Tlalmanalco",
+			"Jocotitlán", "Tlaquilpa", "Tlapacoyan", "Xochitécatl", "El Tajin",
+			"El Teul", "Cerro de las Mesas", "Tres Zapotes", "Monte Alban", "Guadalajara"
+        ]
+		"spyNames": [
+		"Siyaj K'ak",
+		"Jade Spider",
+		"Zyanya",
+		"Xquenda",
+		"Yax Nuun Ahiin",
+		"Fire is Born",
+		"Sihyaj Chan K'awiil II",
+		"Storm Sky",
+		"Netted Jaguar",
+		"Lime Quetzalpapálotl"
+		]
+    },
+	/*
+    {
+        "name": "Tiwanaku",
+        "leaderName": "Huyustus",
+        "adjective": ["Tiwanaku"],
         "startBias": ["Hill"],
         "preferredVictoryType": "Domination",
-		//"favoredReligion": "",
+		"favoredReligion": "Pachamama",
 		
         "startIntroPart1": "",
         "startIntroPart2": "",
@@ -734,62 +1045,67 @@
 		
         "neutralHello": "",
         "hateHello": "",
+		"denounced": "",
 		
         "tradeRequest": "",
+		"declaringFriendship": "",
 		
-		"outerColor": [54, 30, 68],
-		"innerColor": [35, 165, 52],
+		"outerColor": [111, 92, 73],
+		"innerColor": [0, 0, 0],
 		
         "uniqueName": ""
         "uniques": [
         ],
         "cities": [
-			"Monte Alban", "San Jose Mogote", "Zaachila", "Lambityeco", "Huijazoo", "Mitla", "Oaxaca",
-			"Zimatlan", "Ocotlan", "Yagul", "Tlacolula", "Yanhuitlan", "Laguna Zope", "Tierras Largas", 
-			"Guadalupe", "Huaxyacac", "Lyobaa", "Huitzo", "Etla", "Tomaltepec", "Abasolo",
-			"Tilcajete", "Zegache", "Tlapocoyan", "Etlatongo", "Xochipala", "Tres Zapotes", "Cuicatlan", 
-			"Ejutla de Crespo", "Cuilapan", "Yeguih", "Tepeuxila", "Quayogol", "Ixtlahuaca", "El Palimo", 
-			"Guila Naquitz", "Dainzu"
+			"Tiwanaku", "Lukurmata", "Khonkho Wankane", "Pampa Koani", "Chiripa", 
+			"Kalasasaya", "Putuni", "Kerikala", "Pucarani", "Omo", 
+			"Iwawe", "Cerro Mejía", "Pariti", "Mojocoya", "Tumatumani", 
+			"Cabuza", "Qeya Qala", "Chucuito", "San Pedro de Atacama", "Pukara"
         ]
 		"spyNames": [
-			"", 
-			"", 
-			"", 
-			"", 
-			"", 
-			"", 
-			"", 
-			"", 
-			"", 
-			""
+			"Chachapuma", 
+			"Pumakatari", 
+			"Puquina", 
+			"Akachachi", 
+			"Willka", 
+			"Chakan", 
+			"Cheratari", 
+			"Akapuma", 
+			"Amauchapa", 
+			"Pachapuma"
 		]
     },
+	*/
+	/*
     {
         "name": "Tlaxcala",
         "leaderName": "Xicotencatl I",
-        "adjective": ["Tlaxcala"],
+        "adjective": ["Tlaxcaltec"],
         "startBias": ["Hill"],
-        "preferredVictoryType": "Domination",
-		//"favoredReligion": "",
+        "preferredVictoryType": "Diplomatic",
+		"favoredReligion": "Teotl",
 		
         "startIntroPart1": "",
         "startIntroPart2": "",
 		
-        "declaringWar": "",
-        "attacked": "",
+        "declaringWar": "I have no choice, your expansion is too much and it must be stopped!",
+        "attacked": "Now I shall see, will my allies aid in this war, or must I stand alone?",
         "defeated": "",
-        "introduction": "",
+        "introduction": "My name is Xicotencatl. This land you have found stands defiant, yet surrounded. I ask for your aid in defeating our enemies, and in return, I shall lend you mine.",
 		
-        "neutralHello": "",
-        "hateHello": "",
+        "neutralHello": "Welcome to our lands, my friend.",
+        "hateHello": "Leave here.",
+		"denounced": "",
 		
         "tradeRequest": "",
+		"declaringFriendship": "",
 		
-		"outerColor": [42, 142, 74],
-		"innerColor": [254, 255, 102],
+		"outerColor": [249, 42, 37],
+		"innerColor": [255, 255, 103],
 		
-        "uniqueName": ""
+        "uniqueName": "¯\_(ツ)_/¯"
         "uniques": [
+			"Militaristic City-States grant units [2] times as fast when you are at war with a common nation"
         ],
         "cities": [
 			"Tlaxcala", "Ocotelulco", "Tizatlan", "Quiahuiztlan", "Tepeticpac", 
@@ -798,24 +1114,187 @@
 			"Tocatlán", "Ixtacuixtla", "Santa Ana Chiautempan", "Apizaco", "Mazatecochco"
         ]
 		"spyNames": [
-			"", 
-			"", 
-			"", 
-			"", 
-			"", 
-			"", 
-			"", 
-			"", 
-			"", 
-			""
+			"Culhuatecuhtli", 
+			"Tlahuexolotzin", 
+			"Cuitlixcatl", 
+			"Citlapopocaizin", 
+			"Xayacamach", 
+			"Xicotencatl the Younger", 
+			"Chichimecateuctli", 
+			"Maxixcatl", 
+			"Aztahua", 
+			"Tlahuicole"
+		]
+    },
+	*/
+    {
+        "name": "Toltecs",
+        "leaderName": "Cē Ācatl Topiltzin", 
+        "adjective": ["Toltec"],
+        "startBias": ["Hill"],
+        "preferredVictoryType": "Domination",
+		"favoredReligion": "Nagualism",
+		
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+		
+		"declaringWar": "Sacrificing animals and blood is not enough for the gods, I have no other choice.",
+        "attacked": "I have tried everything to help you, yet it has come to this? Unfortunate.",
+        "defeated": "Who are you? No mere human can destroy my greatness!",
+        "introduction": "Do you come to bathe in the glory of my empire? I welcome you for it.",
+		
+        "neutralHello": "My people welcome you, as do I.",
+        "hateHello": "I will get to you soon.",
+		"denounced": "I see you are no longer the friend I thought you were...",
+		
+        "tradeRequest": "I assure you our offer is of the highest quality.",
+		"declaringFriendship": "I see you now as a friend, do you feel the same way?",
+		
+		"outerColor": [6, 25, 1],
+		"innerColor": [111, 255, 156],
+		
+        "uniqueName": "Teaching the Clay to Lie"
+        "uniques": [
+			"[+1 Culture] <in cities connected to the capital>",
+			"Comment [[+1 Production] in cities not connected to the capital]",
+			"[-1 Production] <in cities connected to the capital> <hidden from users>",
+			"[+1 Production] [in all cities] <hidden from users>",
+			"Comment [[Great Artist] is earned [+20]% faster in all cities with a world wonder]",
+			"[Great Artist] is earned [+20]% faster <in [in all cities with a world wonder] cities> <hidden from users>"
+        ],
+        "cities": [
+			"Tula", "Huapalcalco", "Tulancingo", "Xochicalco", "Malinalco",
+			"Tepozitlan", "Teoloyucan", "Quemada", "Atlacomulco", "Chichen Itza",
+			"Teul", "Itztepetl", "Tetzmoliuhuacan", "Chiconaulta", "Xaloztoc",
+			"Mayapan", "Texcoco", "Izamal", "Chalpultepec", "Motul",
+			"Culhuacan", "Chimalpan", "Atazta", "Xico",
+        ]
+		"spyNames": [
+		"Xochitl",
+		"Chalchiuhtlanetzin"
+		"Ixtlilcuechahauac",
+		"Huetzin",
+		"Totepeuh",
+		"Nacaxoc",
+		"Tlacomihua",
+		"Xihuiquenitzin",
+		"Tecpancaltzin Iztaccaltzin",
+		"Meconetzin"
 		]
     },
     {
         "name": "Wari",
-        "leaderName": "",
+        "leaderName": "Huarmey",
         "adjective": ["Wari"],
         "startBias": ["Hill"],
         "preferredVictoryType": "Domination",
+		"favoredReligion": "Pachamama",
+		
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+		
+        "declaringWar": "There is no escape, I have crushed stronger foes than you. What hope do you have?",
+        "attacked": "Oh? You will regret this every step of the way...",
+        "defeated": "My name may fade in history, and my people forgotten with time, but our empire shall be remembered forever more!",
+        "introduction": "A new face? I welcome you, just do well to stay on my good side...",
+		
+        "neutralHello": "I trust you come for good purpose.",
+        "hateHello": "Come to serve me?",
+		"denounced": "Such pride from those who wear masks of strength.",
+		
+        "tradeRequest": "I do not ask, I demand. What you have belongs to me, give it.",
+		"declaringFriendship": "There is a war coming, yet it is not with you. There is a way to prevent you from being next...",
+		
+		"outerColor": [205, 164, 81],
+		"innerColor": [61, 90, 93],
+		
+        "uniqueName": "Cradle of Engineering"
+        "uniques": [
+			"[+2 Food] from each Trade Route",
+			"Comment [[+20]% Production when constructing [defensive] buildings [in all cities]]",
+			"[+20]% Production when constructing [Walls] buildings [in all cities] <hidden from users>",
+			"[+20]% Production when constructing [Castle] buildings [in all cities] <hidden from users>",
+			"[+20]% Production when constructing [Arsenal] buildings [in all cities] <hidden from users>"
+        ],
+        "cities": [
+			"Huari", "Pikillaqta", "Cerro Baúl", "Viracochapampa", "Conchopata", 
+			"Jincamocco", "Azangaro", "Chimpa", "Cahuachi", "Inkawasi", 
+			"Pajonal", "Callejón de Huaylas", "Hatun Xauxu", "Jargampata", "Huaro", 
+			"Ayapata", "Allpachaka", "Anco Mayo", "Taypiqala", "Pacheco"
+        ]
+		"spyNames": [
+			"Inti", 
+			"Viracocha", 
+			"Supay", 
+			"Mama Quilla", 
+			"Kon", 
+			"Pachacámac", 
+			"Mama Qucha", 
+			"Ekeko", 
+			"Pacha Kamaq"
+		]
+    },
+    {
+        "name": "Zapotecs",
+        "leaderName": "Guxi Chikoeza",
+        "adjective": ["Zapotec"],
+        "startBias": ["Hill"],
+        "preferredVictoryType": "Domination",
+		"favoredReligion": "Teotl",
+		
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+		
+        "declaringWar": "I tried to befriend you, but it seems the gods had other plans. Now I must destroy you!",
+        "attacked": "So be it. Your skulls will adorn the tzompantli as a warning to all who defy me!",
+        "defeated": "I weep for my kingdom that now lay in ruin because of you...",
+        "introduction": "Cocijo must have blessed us with a new face! I am Guxi Chikoeza, Coquitao of this marvelous land, now who might you be?",
+		
+        "neutralHello": "You come at a good time, for it is a calm day.",
+        "hateHello": "A storm is brewing...",
+		"denounced": "Your arrogance has sealed the fate of every suspected spy in my territory. Let this be a lesson to you.",
+		
+        "tradeRequest": "The gods bless this.",
+		"declaringFriendship": "From when I first saw you, I knew Cocijo had truly blessed us. Please, become our friend.",
+		
+		"outerColor": [54, 30, 68],
+		"innerColor": [35, 165, 52],
+		
+        "uniqueName": "Be'ena' Za'a"
+        "uniques": [
+			"Instantly gain [5] [Faith] <upon discovering [All] technology>",
+			"[Faith] cost of purchasing [Copa Pitào] units [-30]% <in [Hill] tiles>",
+			"[Faith] cost of purchasing [Inquisitor] units [-30]% <in [Hill] tiles>"
+        ],
+        "cities": [
+			"Dani Baan", "Dainzu", "Huijazoo", "Guiengola", "Yagul", 
+			"Yoo Ba", "Zaachila", "Lambityeco", "Atzompa", "Lachila", 
+			"Quiegolani", "Xanaguia", "Lapaguia", "Guivini", "Quialana", 
+			"Zoogocho", "Mogote", "Zegache", "Jalieza", "Quiatoni", 
+			"Guila", "Quiavicuzas", "Yareni", "Guelatao", "Loxicha", 
+			"Xaguie", "Guelavia", "Yezhe Doo", "Guevea", "Guigu Roo Guisi", 
+			"Xhavizende", "Zaniza" 
+        ]
+		"spyNames": [
+			"Cosichaguela", 
+			"Cozichacozee", 
+			"Gozio", 
+			"Nayeli", 
+			"Zyanya", 
+			"Ozomatli", 
+			"Huijatoo", 
+			"Cocijopij", 
+			"Cotton Flake", 
+			"Xiadani"
+		]
+    },
+	/*
+    {
+        "name": "Yanomami",
+        "leaderName": "Davi Kopenawa",
+        "adjective": ["Yanomami"],
+        "startBias": ["Jungle"],
+        "preferredVictoryType": "Diplomatic",
 		//"favoredReligion": "",
 		
         "startIntroPart1": "",
@@ -828,19 +1307,77 @@
 		
         "neutralHello": "",
         "hateHello": "",
+		"denounced": "",
 		
         "tradeRequest": "",
+		"declaringFriendship": "",
 		
-		"outerColor": [42, 142, 74],
-		"innerColor": [254, 255, 102],
+		"outerColor": [60, 10, 10],
+		"innerColor": [255, 225, 225],
+		
+        "uniqueName": "The Falling Sky"
+        "uniques": [
+        ],
+        "cities": [
+			"Tayariteri", "Shuimuiteri", "Patahamateri", "Hasupuweteri", "Hiomisiteri", 
+			"Mokaritateri", "Hawaroweteri", "Yehiopateri", "Nanimapuweteri", "Prararaiteri", 
+			"Kasharaweteri", "Ashitoweteri", "Bishaashiteri", "Konoporepiweteri", "Patanoweteri", 
+			"Poreweteri", "Warokoaweteri", "Tokanaweteri", "Irokai", "Hasubowa", 
+			"Mavaka", "Okiyamope", "Horeape", "Maicoto", "Matowe", 
+			"Waika", "Guaica", "Xiriana", "Sanema", "Guaharibo", 
+			"Catrimani", "Taclaudub", "Karime", "Mucajai", "Pakidai", 
+			"Casapare", "Macuxi", "Shiriana", "Surara", "Aica"
+        ]
+		"spyNames": [
+			"Henaowe", 
+			"Akiwe", 
+			"Oporawe", 
+			"Irokawe", 
+			"Shatakewe", 
+			"Kreosimi", 
+			"Yarimowe", 
+			"Yarima", 
+			"Abami", 
+			"Shiroi"
+		]
+    },
+	*/
+	/*
+    {
+        "name": "",
+        "leaderName": "",
+        "adjective": [""],
+        "startBias": [""],
+        "preferredVictoryType": "",
+		//"favoredReligion": "",
+		
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+		
+        "declaringWar": "",
+        "attacked": "",
+        "defeated": "",
+        "introduction": "",
+		
+        "neutralHello": "",
+        "hateHello": "",
+		"denounced": "",
+		
+        "tradeRequest": "",
+		"declaringFriendship": "",
+		
+		"outerColor": [54, 30, 68],
+		"innerColor": [35, 165, 52],
+		"style": "",
 		
         "uniqueName": ""
         "uniques": [
         ],
         "cities": [
-			"Wari", "Pikillaqta", "Cerro Baúl", "Viracochapampa", "Conchopata", "Jincamocco", "Azangaro",
-			"Chimpa", "Cahuachi", "Inkawasi", "Pajonal", "Callejón de Huaylas", "Hatun Xauxu", "Jargampata",
-			"Huaro", "Ayapata", "Allpachaka", "Anco Mayo", "Taypiqala", "Pacheco"
+			"", "", "", "", "", 
+			"", "", "", "", "", 
+			"", "", "", "", "", 
+			"", "", "", "", "" 
         ]
 		"spyNames": [
 			"", 
@@ -855,51 +1392,241 @@
 			""
 		]
     },
-    {
-        "name": "Tiwanaku",
-        "leaderName": "",
-        "adjective": ["Tiwanaku"],
-        "startBias": ["Hill"],
-        "preferredVictoryType": "Domination",
-		//"favoredReligion": "",
-		
-        "startIntroPart1": "",
-        "startIntroPart2": "",
-		
-        "declaringWar": "",
-        "attacked": "",
-        "defeated": "",
-        "introduction": "",
-		
-        "neutralHello": "",
-        "hateHello": "",
-		
-        "tradeRequest": "",
-		
-		"outerColor": [42, 142, 74],
-		"innerColor": [254, 255, 102],
-		
-        "uniqueName": ""
+	*/
+	{
+		"name": "Azcapotzalco",
+		"adjective": ["Azcapotzalcotec"],
+		"cityStateType": "Militaristic",
+
+        "declaringWar": "The gods require more sacrifices! Your deaths will be put to good use.",
+		"attacked": "You think this will be easy for you?",
+		"defeated": "I have come to peace with my death, for Mictlān awaits me...",
+		"outerColor": [0, 0, 0],
+		"innerColor": [174, 132, 59],
+		"cities": ["Azcapotzalco"]
+        "uniques": [
+			"Comment [[+25]% [Production] when constructing [Land] units [in capital]]",
+			"[+25]% Production when constructing [Land] units [in capital] <hidden from users>"
+        ],
+		//If needed, the leader is Tezozomoc
+	},
+	{
+		"name": "El Tajín",
+		"adjective": ["El Tajín"],
+		"cityStateType": "Religious",
+
+		"declaringWar": "I would much rather solve this another way, but this must be done.",
+		"attacked": "Why do you need war? Let us settle this with a game instead.",
+		"defeated": "Our independence ends today? So be it...",
+		"outerColor": [0, 0, 0],
+		"innerColor": [170, 147, 128],
+		"cities": ["El Tajín"]
+	},
+	{
+		"name": "Tlapan",
+		"adjective": ["Tlapanec"],
+		"cityStateType": "Religious",
+
+		"declaringWar": "It has been decided, this is the best course of action!",
+		"attacked": "This will not go unpunished!",
+		"defeated": "It seems we end here...",
+		"outerColor": [0, 0, 0],
+		"innerColor": [184, 173, 200],
+		"cities": ["Tlapan"]
+	},
+	{
+		"name": "Cempoala",
+		"adjective": ["Cempoalatec"],
+		"cityStateType": "Maritime",
+
+		"declaringWar": "It has been demanded this happens!",
+		"attacked": "What treachery is this?!",
+		"defeated": "We could have been great allies...",
+		"outerColor": [0, 0, 0],
+		"innerColor": [66, 254, 254],
+		"cities": ["Cempoala"]
+		//If needed, leader is Chicomacatt
+	},
+	{
+		"name": "Cuzcatlán",
+		"adjective": ["Cuzcatlán"],
+		"cityStateType": "Mercantile",
+
+		"declaringWar": "You have come too close to our lands, war is the only choice!",
+		"attacked": "You can try, we will resist. Let us see who falls first...",
+		"defeated": "If you want our arms, you must come to get them from the mountains!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [18, 107, 103],
+		"cities": ["Cuzcatlán"]
+		//If needed, leader is Atlácatl
+	},
+	{
+		"name": "Tamtoc",
+		"adjective": ["Tamtoco"],
+		"cityStateType": "Cultured",
+
+		"declaringWar": "Die! You foul beast!",
+		"attacked": "I have repelled stronger than you!",
+		"defeated": "Our culture will be remembered forevermore...",
+		"outerColor": [0, 0, 0],
+		"innerColor": [177, 69, 0],
+		"cities": ["Tamtoc"]
+		//If needed, leader is Five Snail
+	},
+	{
+		"name": "Kilamope",
+		"adjective": ["Kilamope"],
+        "startBias": ["Jungle", "River"],
+		"cityStateType": "Mercantile",
+
+		"declaringWar": "The jungle calls for your death!",
+		"attacked": "You must find us first!",
+		"defeated": "The land will swallow our civilization whole before you can enjoy this victory!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [114, 167, 179],
+		"cities": ["Kilamope"]
+        "uniques": [
+			"[Land] units gain the [Woodsman] promotion"
+        ],
+	},
+	{
+		"name": "Poverty Point",
+		"adjective": ["Poverty Point"],
+		"cityStateType": "Religious",
+
+		"declaringWar": "This is a regrettable, yet necessary action.",
+		"attacked": "I welcome you and this is how you respond?!",
+		"defeated": "Do you have no respect for this land?",
+		"outerColor": [0, 0, 0],
+		"innerColor": [147, 202, 91],
+		"cities": ["Poverty Point"]
+	},
+	/*
+	{
+		"name": "",
+		"adjective": [""],
+		"cityStateType": "",
+
+		"declaringWar": "",
+		"attacked": "",
+		"defeated": "",
+		"outerColor": [0, 0, 0],
+		"innerColor": [],
+		"cities": [""]
         "uniques": [
         ],
-        "cities": [
-			"Tiwanaku", "Lukurmata", "Khonkho Wankane", "Pampa Koani", "Chiripa", "Kalasasaya", "Putuni",
-			"Kerikala", "Pucarani", "Omo", "Iwawe", "Cerro Mejía", "Pariti", "Mojocoya",
-			"Tumatumani", "Cabuza", "Qeya Qala", "Chucuito", "San Pedro de Atacama", "Pukara"
-        ]
+	},
+	*/
+	
+	//Tweaked Civs
+	
+	{
+		"name": "Aztecs",
+		"leaderName": "Montezuma I",
+		"adjective": ["Aztec"],
+		"startBias": ["Jungle"],
+		"preferredVictoryType": "Domination",
+		"personality": "Montezuma I",
+		"favoredReligion": "Teotl",
+
+		"startIntroPart1": "O divine Montezuma, your people welcome you! May your magnificence inspire all living things! The mighty Aztecs were nomads until the 12th century, when they choose to settle in the mesa central, which would later be called Mexico. Wars were frequent with other tribes to control the rich land surrounding the sacred lakes of Texcoco, Xaltocan and Zampango. In some 200 years, double-sided alliances and martial prowess made of the Aztecs the dominant power in the Central American basin, forming a mighty empire stretching from sea to sea. Alas, the empire fell under the assault of foreign devils - the Spaniards and many curses they brought with them! Wars between tribes and weaponry of doom used by the invaders made the great Aztec civilization crumble in only a few decades.",
+		"startIntroPart2": "O mighty King Montezuma, do you hear the call of your people seeking for revenge? Will you lead them to victory under the light of the Five Suns? Will your new empire shine through the ages of history?",
+
+		"declaringWar": "Xi-miqa-can! Xi-miqa-can! Xi-miqa-can! (Die, die, die!)",
+		"attacked": "Excellent! Let the blood flow in raging torrents!",
+		"defeated": "Monster! Who are you to destroy my greatness?",
+		"introduction": "What do I see before me? Another beating heart for my sacrificial fire.",
+
+		"neutralHello": "Welcome, friend.",
+		"hateHello": "What do you want?",
+		//"denounced": "",
+		
+		"tradeRequest": "Accept this agreement or suffer the consequences.",
+		//"declaringFriendship": "",
+
+		"outerColor": [139, 32, 23],
+		"innerColor": [134, 238, 214],
+		"style": "Mesoamerican",
+
+		"uniqueName": "Sacrificial Captives",
+		"uniques": [
+			"Earn [100]% of killed [Military] unit's [Strength] as [Culture]"
+		],
+		"cities": [
+			"Tenochtitlan", "Texcoco", "Tlacopan", "Tlatelolco", "Azcapotzalco", 
+			"Culhuacán", "Coyohuacán", "Xochimilco", "Itzapalapa", "Chalco",
+			"Otompan", "Cēmpoalātl", "Acapolco", "Acolman", "Malinalco",
+			"Míxquic", "Tláhuac", "Huexotla", "Ecatepec", "Chiconautla", 
+			"Tepeyacac", "Mexicaltzingo", "Atzacoalco", "Ixhuatepec", "Chimalhuacán", 
+			"Ixtapaluca", "Xaltocan", "Cuautitlán", "Chapultepec", "Mixcoac"
+		],
 		"spyNames": [
-			"", 
-			"", 
-			"", 
-			"", 
-			"", 
-			"", 
-			"", 
-			"", 
-			"", 
-			""
+			"Metztli", 
+			"Xitllali", 
+			"Chimalli", 
+			"Quauhtli", 
+			"Teyacapan", 
+			"Yaotl", 
+			"Coatl", 
+			"Huitzilin", 
+			"Itzli", 
+			"Tepin"
 		]
-    },*/
+    },
+	{
+		"name": "Inca",
+		"leaderName": "Pachacuti",
+		"adjective": ["Incan"],
+		"startBias": ["Hill"],
+		"preferredVictoryType": "Cultural",
+		"personality": "Pachacuti",
+		"favoredReligion": "Pachamama",
+
+        "startIntroPart1": "King Pachacuti Sapa Inca, maker of the world and ruler of Tawantinsuyu and the Inca people, your loyal subjects greet you! In the beginning, the small state of Cusco already showed the Incans were promised for greatness. They won many wars against powerful enemies, relentlessly crushing any army that dared oppose them, and forged a mighty empire stretching from Ecuador to Chile, the greatest ever seen in pre-Columbian America. Not just undaunted soldiers, Inca people were accomplished builders and artists, their magnificient and unequalled culture still fascinating the world today.",
+        "startIntroPart2": "O Emperor Pachacuti, honor your name of 'Earth Shaker'! Will you once again summon the power of the earth to unite all Incan people under the protection of Sapa Inca, the Son of the Sun? Will your new empire shine through the ages of history?",
+
+        "declaringWar": "Resistance is futile! You cannot hope to stand against the mighty Incan empire. If you will not surrender immediately, then prepare for war!",
+		"attacked": "Declare war on me?!? You can't, because I declare war on you first!",
+		"defeated": "How did you darken the sun? I ruled with diligence and mercy—see that you do so as well.",
+		"introduction": "How are you? You stand before Pachacuti Inca Yupanqui.",
+
+		"neutralHello": "How are you doing?",
+		"hateHello": "What do you want now?",
+		
+		"tradeRequest": "The Incan people offer this fair trade.",
+		//"declaringFriendship": ""
+
+        "outerColor": [255,184,33],
+        "innerColor": [3,115,86],
+		"style": "Andean",
+
+		"uniqueName": "Great Andean Road",
+		"uniques": [
+			"Units ignore terrain costs when moving into any tile with Hills",
+			"[-50]% maintenance on road & railroads",
+			"No Maintenance costs for improvements in [Hill] tiles"
+		],
+		"cities": [
+			"Cuzco", "Machu", "Ollantaytambo", "Corihuayrachina", "Huamanga", 
+			"Rumicucho", "Vilcabamba", "Vitcos", "Andahuaylas", "Ica", 
+			"Arequipa", "Nasca", "Atico", "Juli", "Chuito", 
+			"Chuquiapo", "Huanuco Pampa", "Tamboccocha", "Huaras", "Riobamba", 
+			"Caxamalca", "Sausa", "Tambo Colorado", "Huaca", "Tumbes", 
+			"Chan Chan", "Sipan", "Pachacamac", "Llactapata", "Pisac", 
+			"Kuelap", "Pajaten", "Chucuito", "Choquequirao"
+		],
+        "spyNames": [
+			"Amaru", 
+			"Apichu", 
+			"Pariapichiu", 
+			"Puma", 
+			"Quenti", 
+			"Suyuntu", 
+			"Uturuncu", 
+			"Purutu", 
+			"Ozcollo"
+		]
+    },
 	
 	//Japanese Clan Update
 	/*
@@ -1582,7 +2309,7 @@
 		""
 		]
     },*/
-   /*
+	/*
     {
         "name": "Tlapanecs",
         "leaderName": "Tlachcoatl",
@@ -1650,7 +2377,8 @@
 			"Tepexi de Rodríguez", "Naolinco", "Coatzintla", "Huauchinango", "Joloapan", "Zozocolco de Hidalgo"
         ]
 		"spyNames": ["", "", "", "", "", "", "", "", "", ""]
-    }, */
+    }, 
+	*/
 	/*{
         "name": "Turkmenistan",
         "leaderName": "Saparmurat Niyazov",
