@@ -1245,17 +1245,17 @@
         "startIntroPart1": "",
         "startIntroPart2": "",
 		
-        "declaringWar": "",
+        "declaringWar": "I tried to befriend you, but it seems the gods had other plans. Now I must destroy you!",
         "attacked": "So be it. Your skulls will adorn the tzompantli as a warning to all who defy me!",
-        "defeated": "",
-        "introduction": "",
+        "defeated": "I weep for my kingdom that now lay in ruin because of you...",
+        "introduction": "Cocijo must have blessed us with a new face! I am Guxi Chikoeza, Coquitao of this marvelous land, now who might you be?",
 		
-        "neutralHello": "",
-        "hateHello": "",
+        "neutralHello": "You come at a good time, for it is a calm day.",
+        "hateHello": "A storm is brewing.",
 		"denounced": "Your arrogance has sealed the fate of every suspected spy in my territory. Let this be a lesson to you.",
 		
-        "tradeRequest": "",
-		"declaringFriendship": "",
+        "tradeRequest": "The gods bless this.",
+		"declaringFriendship": "From when I first saw you, I knew Cocijo had truly blessed us. Please, become our friend.",
 		
 		"outerColor": [54, 30, 68],
 		"innerColor": [35, 165, 52],
@@ -1263,7 +1263,8 @@
         "uniqueName": "Be'ena' Za'a"
         "uniques": [
 			"Instantly gain [5] [Faith] <upon discovering [All] technology>",
-			"[Faith] cost of purchasing [Missionary] units [-30]% <in [Hill] tiles>"
+			"[Faith] cost of purchasing [Copa Pitào] units [-30]% <in [Hill] tiles>",
+			"[Faith] cost of purchasing [Inquisitor] units [-30]% <in [Hill] tiles>"
         ],
         "cities": [
 			"Dani Baan", "Dainzu", "Huijazoo", "Guiengola", "Yagul", 
@@ -1394,12 +1395,12 @@
 	*/
 	{
 		"name": "Azcapotzalco",
-		"adjective": ["Tepanec"],
+		"adjective": ["Azcapotzalcotec"],
 		"cityStateType": "Militaristic",
 
         "declaringWar": "The gods require more sacrifices! Your deaths will be put to good use.",
 		"attacked": "You think this will be easy for you?",
-		"defeated": "Mictlān awaits me...",
+		"defeated": "I have come to peace with my death, for Mictlān awaits me...",
 		"outerColor": [0, 0, 0],
 		"innerColor": [174, 132, 59],
 		"cities": ["Azcapotzalco"]
@@ -1411,7 +1412,7 @@
 	},
 	{
 		"name": "El Tajín",
-		"adjective": ["Veracruz"],
+		"adjective": ["El Tajín"],
 		"cityStateType": "Religious",
 
 		"declaringWar": "I would much rather solve this another way, but this must be done.",
@@ -1426,21 +1427,21 @@
 		"adjective": ["Tlapanec"],
 		"cityStateType": "Religious",
 
-		"declaringWar": "",
-		"attacked": "",
-		"defeated": "",
+		"declaringWar": "It has been decided, this is the best course of action!",
+		"attacked": "This will not go unpunished!",
+		"defeated": "It seems we end here...",
 		"outerColor": [0, 0, 0],
 		"innerColor": [184, 173, 200],
 		"cities": ["Tlapan"]
 	},
 	{
 		"name": "Cempoala",
-		"adjective": ["Totonac"],
+		"adjective": ["Cempoalatec"],
 		"cityStateType": "Maritime",
 
-		"declaringWar": "",
-		"attacked": "",
-		"defeated": "",
+		"declaringWar": "It has been demanded this happens!",
+		"attacked": "What treachery is this?!",
+		"defeated": "We could have been great allies...",
 		"outerColor": [0, 0, 0],
 		"innerColor": [66, 254, 254],
 		"cities": ["Cempoala"]
@@ -1461,12 +1462,12 @@
 	},
 	{
 		"name": "Tamtoc",
-		"adjective": ["Huastec"],
+		"adjective": ["Tamtoco"],
 		"cityStateType": "Cultured",
 
-		"declaringWar": "",
-		"attacked": "",
-		"defeated": "",
+		"declaringWar": "Die! You foul beast!",
+		"attacked": "I have repelled stronger than you!",
+		"defeated": "Our culture will be remembered forevermore...",
 		"outerColor": [0, 0, 0],
 		"innerColor": [177, 69, 0],
 		"cities": ["Tamtoc"]
@@ -1475,23 +1476,27 @@
 	{
 		"name": "Kilamope",
 		"adjective": ["Kilamope"],
+        "startBias": ["Jungle", "River"],
 		"cityStateType": "Mercantile",
 
-		"declaringWar": "",
-		"attacked": "",
-		"defeated": "",
+		"declaringWar": "The jungle calls for your death!",
+		"attacked": "You must find us first!",
+		"defeated": "The land will swallow our civilization whole before you can enjoy this victory!",
 		"outerColor": [0, 0, 0],
 		"innerColor": [114, 167, 179],
 		"cities": ["Kilamope"]
+        "uniques": [
+			"[Land] units gain the [Woodsman] promotion"
+        ],
 	},
 	{
 		"name": "Poverty Point",
 		"adjective": ["Poverty Point"],
 		"cityStateType": "Religious",
 
-		"declaringWar": "",
-		"attacked": "",
-		"defeated": "",
+		"declaringWar": "This is a regrettable, yet necessary action.",
+		"attacked": "I welcome you and this is how you respond?!",
+		"defeated": "Do you have no respect for this land?",
 		"outerColor": [0, 0, 0],
 		"innerColor": [147, 202, 91],
 		"cities": ["Poverty Point"]
