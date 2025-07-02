@@ -204,6 +204,7 @@
 		"promotions": ["Quick Study"],
 		"attackSound": "horse"
 	},
+	/*
 	{
 		"name": "Shinobi",
 		"unitType": "Scout",
@@ -223,6 +224,7 @@
 		"promotions": ["Ignore terrain cost"],
 		"attackSound": "nonmetalhit"
 	},
+	*/
 	
 	//Pirate Update
 	
