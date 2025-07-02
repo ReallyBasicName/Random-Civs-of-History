@@ -204,7 +204,7 @@
 		"promotions": ["Quick Study"],
 		"attackSound": "horse"
 	},
-	/*{
+	{
 		"name": "Shinobi",
 		"unitType": "Scout",
 		"replaces": "Scout",
@@ -222,7 +222,10 @@
 			],
 		"promotions": ["Ignore terrain cost"],
 		"attackSound": "nonmetalhit"
-	},*/
+	},
+	
+	//Pirate Update
+	
 	{
 		"name": "Red Fleet Junk",
 		"unitType": "Melee Water",
@@ -325,6 +328,196 @@
 		],
 		"attackSound": "cannon"
 	},
+	
+	//Americas Update
+	 
+	{
+		"name": "Falcon Warrior",
+		"unitType": "Sword",
+		"replaces": "Swordsman",
+		"uniqueTo": "Wari",
+		"movement": 2,
+		"strength": 14,
+		"cost": 75,
+		"hurryCostModifier": 20,
+		"requiredTech": "Iron Working",
+		"obsoleteTech": "Steel",
+		"upgradesTo": "Longswordsman",
+		"requiredResource": "Iron",
+		"uniques" : [
+			"Can build [Road] improvements on tiles", 
+			"Earn [50]% of the damage done to [{Military} {Land}] units as [Culture]",
+		],
+		"attackSound": "metalhit",
+	},
+	{
+		"name": "Estólica",
+		"unitType": "Archery",
+		"replaces": "Archer",
+		"uniqueTo": "Wari",
+		"movement": 2,
+		"strength": 6,
+		"rangedStrength": 7,
+		"cost": 40,
+		"requiredTech": "Archery",
+		"obsoleteTech": "Construction",
+		"upgradesTo": "Composite Bowman",
+		"uniques" : [
+			"[+20]% Strength <vs [Archery] units>",
+		],
+		"attackSound": "arrow"
+	},
+	{
+		"name": "Guachichil Warrior",
+		"unitType": "Sword",
+		"replaces": "Longswordsman",
+		"uniqueTo": "Chichimecas",
+		"movement": 2,
+		"strength": 21,
+		"cost": 120,
+		"requiredTech": "Steel",
+		"upgradesTo": "Musketman",
+        "uniques": [
+            "[+50]% Strength <vs cities>",
+			"No movement cost to pillage",
+        ],
+		"obsoleteTech": "Gunpowder",
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Zacateco Archer",
+		"unitType": "Archery",
+		"replaces": "Crossbowman",
+		"uniqueTo": "Chichimecas",
+		"movement": 2,
+		"strength": 11,
+		"rangedStrength": 22,
+		"cost": 120,
+		"requiredTech": "Machinery",
+		"upgradesTo": "Gatling Gun",
+		"obsoleteTech": "Industrialization",
+		"attackSound": "crossbow"
+	},
+	/*
+	{
+		"name": "Tlaxcalan Jaguar",
+		"unitType": "Sword",
+		"replaces": "Swordsman",
+		"uniqueTo": "Tlaxcala",
+		"movement": 2,
+		"strength": 14,
+		"cost": 75,
+		"requiredTech": "Iron Working",
+		"obsoleteTech": "Steel",
+		"promotions": [
+			"[Tlaxcalan Jaguar] ability",
+			"Woodsman"
+		],
+		"upgradesTo": "Longswordsman",
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Birdman",
+		"unitType": "Sword",
+		"replaces": "Longswordsman",
+		"uniqueTo": "Mississippians",
+		"movement": 2,
+		"strength": 21,
+		"cost": 120,
+		"requiredTech": "Steel",
+		"upgradesTo": "Musketman",
+		"obsoleteTech": "Gunpowder",
+		"requiredResource": "Iron",
+		"attackSound": "metalhit"
+	},
+	*/
+	{
+		"name": "Copa Pitào",
+		"unitType": "Civilian",
+		"replaces": "Missionary",
+		"uniqueTo": "Zapotecs",
+		"uniques": [
+			"[+25]% Strength bonus for [Military] units within [1] tiles",
+            "Can Spread Religion <for [4] movement> <[2] times> <after which this unit is consumed>",
+            "May enter foreign tiles without open borders, but loses [250] religious strength each turn it ends there",
+			"Can be purchased with [Faith] [in all cities in which the majority religion is a major religion]",
+			"[-1] Sight", "Unbuildable", "Religious Unit", "Only available <when religion is enabled>"],
+		"movement": 4,
+		"religiousStrength": 1000
+	},
+	{
+		"name": "Zandaru",
+		"unitType": "Sword",
+		"replaces": "Spearman",
+		"uniqueTo": "Mixtecs",
+		"movement": 2,
+		"strength": 11,
+		"cost": 56,
+		"requiredTech": "Bronze Working",
+		"obsoleteTech": "Civil Service",
+		"upgradesTo": "Pikeman",
+		"uniques": [
+			"[+50]% Strength <vs [Mounted] units>",
+			"[+50]% Strength <vs cities> <when adjacent to a [Great Person] unit>"
+		],
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Butterfly",
+		"unitType": "Sword",
+		"replaces": "Warrior",
+		"uniqueTo": "Toltecs",
+		"movement": 2,
+		"strength": 10,
+		"cost": 40,
+		"obsoleteTech": "Metal Casting",
+		"upgradesTo": "Swordsman",
+		"uniques" : [
+			"May upgrade to [Spearman] through ruins-like effects",
+			"Double movement in [Hill]"
+		],
+		"attackSound": "nonmetalhit",
+	},
+	/*
+	{
+		"name": "Atatu",
+		"unitType": "Sword",
+		"replaces": "Pikeman",
+		"uniqueTo": "Kuikuro",
+		"movement": 2,
+		"strength": 16,
+		"cost": 90,
+		"requiredTech": "Philosophy",
+		"uniques": [
+			"[+50]% Strength <vs [Mounted] units>",
+			"Eliminates combat penalty for attacking over a river"
+		],
+		"promotions": [
+			"Woodsman"
+		],
+		"upgradesTo": "Lancer",
+		"obsoleteTech": "Metallurgy",
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Tluu",
+		"unitType": "Melee Water",
+		"replaces": "Privateer",
+		"uniqueTo": "Haida",
+		"movement": 5,
+		"strength": 25,
+		"cost": 150,
+		"requiredTech": "Navigation",
+		"upgradesTo": "Destroyer",
+		"promotions": [
+			"Coastal Raider I", 
+			"[Tluu] ability"
+		],
+		"attackSound": "cannon"
+	},
+	*/
+	//Unused
+	
 	/*
 	{
 		"name": "Swordsman",

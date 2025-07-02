@@ -35,6 +35,7 @@
 			"[This Unit] heals [5] HP <for [1] movement>"
 		]
 	},
+	/*
 	{
 		"name": "Kakurezato ability",		
 		"uniques": [
@@ -43,15 +44,49 @@
 					]
 	},
 	{
+		"name": "Iga ability",		
+		"uniques": [
+					"[This Unit] gains the [Kakurezato ability] promotion <in [Kakurezato] tiles>"
+					]
+	},
+	*/
+	{
 		"name": "Raider",		
 		"uniques": [
 					"May capture killed [Water] units"
 					]
 	},
 	{
-		"name": "Iga ability",		
+		"name": "Dog Person",		
 		"uniques": [
-					"[This Unit] gains the [Kakurezato ability] promotion <in [Kakurezato] tiles>"
+					"[This Unit] gains the [Invisible] status for [6] turn(s) <upon declaring war with a major Civilization>"
 					]
 	},
+	{
+		"name": "Invisible",		
+		"uniques": [
+					"Invisible to non-adjacent units"
+					]
+	},
+	/*
+	{
+		"name": "[Tlaxcalan Jaguar] ability",
+		"uniques": [
+			"Double movement in [Hill]",
+			"[+25]% Strength <when fighting units from a Civilization with more Cities than you>",
+		]
+	},
+	{
+		"name": "[Tluu] ability",
+		"uniques": [
+			"May capture killed [Military] units"
+		]
+	},
+	{
+		"name": "Reforester",
+		"uniques": [
+			"Turn this tile into a [Forest] tile <for [2] movement> <once>"
+		]
+	},
+	*/
 ]
