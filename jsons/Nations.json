@@ -38,16 +38,16 @@
 			"Ch'Disch'ag", "Tii Ch'ogi", "Bighan Da'isln", "Bis Bit"
         ]
 		"spyNames": [
-		"",
-		"",
-		"",
-		"",
-		"",
-		"",
-		"",
-		"",
-		"",
-		""
+			"Baishan",
+			"Bidu-ya",
+			"Chato",
+			"Dahteste",
+			"Gouyen",
+			"Kas-tziden",
+			"Kla-esh",
+			"La-choy Ko-kun-noste",
+			"Shi-ka-She",
+			"Tudeevia"
 		]
     },
     {
@@ -1251,7 +1251,7 @@
         "introduction": "Cocijo must have blessed us with a new face! I am Guxi Chikoeza, Coquitao of this marvelous land, now who might you be?",
 		
         "neutralHello": "You come at a good time, for it is a calm day.",
-        "hateHello": "A storm is brewing.",
+        "hateHello": "A storm is brewing...",
 		"denounced": "Your arrogance has sealed the fate of every suspected spy in my territory. Let this be a lesson to you.",
 		
         "tradeRequest": "The gods bless this.",
