@@ -2,7 +2,6 @@
 
 # Nations Icons:
 
-- : []() by 
 - Apache: [Buffalo](https://thenounproject.com/icon/buffalo-6274343/) by Delwar Hossain
 - Aq Qoyunlu: [Tamga of Bayandur, Aq Qoyunlu Version](https://commons.wikimedia.org/wiki/File:Tamga_of_Bayandur_(Aq_Qoyunlu_version).svg) by Samhanin
 - The Buccaneers: [Joli Rouge icon](https://commons.wikimedia.org/wiki/File:Joli_Rouge_icon.svg) by RootOfAllLight
@@ -23,6 +22,7 @@
 - Mori: [Alex K Hiroshima Mori (color)](https://commons.wikimedia.org/wiki/File:Alex_K_Hiroshima_Mori_(color).svg) by Alex Tora
 - Nazca: [Nazca](https://www.flaticon.com/free-icon/nazca-lines_8027549?term=nazca&related_id=8027549) by Freepik
 - Otomo: [Japanese Crest Daki hana Gyouyou](https://commons.wikimedia.org/wiki/File:Japanese_Crest_Daki_hana_Gyouyou.svg) by Mukai
+- Oxus by ReallyBasicName
 - Qara Qoyunlu: [Flag of Kara Koyunlu Dynasty](https://commons.wikimedia.org/wiki/File:Flag_of_Kara_Koyunlu_dynasty.png) by Törə Bəy Türkman
 - Rhodesia: [Coat of Arms of Southern Rhodesia](https://commons.wikimedia.org/wiki/File:Coat_of_arms_of_Southern_Rhodesia_(1924%E2%80%931980).svg) by LadyofHats
 - Shimazu: [Maru ni Jū-monji (Kutsuwa) inverted](https://commons.wikimedia.org/wiki/File:Maru_ni_J%C5%AB-monji_(Kutsuwa)_inverted.svg) by Sarang
@@ -47,6 +47,7 @@
 - BM-21 Grad: []() by 
 - BS-3: []() by 
 - BTR-70: []() by 
+- Bull-Drawn Cart: [Bull](https://thenounproject.com/icon/bull-143034/) by Alex Almqvist
 - Butterfly: [Mask](https://www.flaticon.com/free-icon/mask_3859095?term=aztec&page=5&position=65&origin=search&related_id=3859095) by Freepik
 - Caballarii: [Round Shield](https://thenounproject.com/icon/round-shield-7075310/) by Gustavo Galert
 - Copa Pitào: by ReallyBasicName
@@ -80,6 +81,7 @@
 - Mazmorra: [dungeon](https://thenounproject.com/icon/dungeon-3523787/) by nareerat jaikaew
 - Music Academy: [Music School](https://thenounproject.com/icon/music-school-5167764/) by Eucalyp
 - Session House: [Meeting](https://thenounproject.com/icon/meeting-7410117/) by nangicon
+- Soma Boiler: [Mortar](https://thenounproject.com/icon/mortar-7907331/) by Arkinasi
 - Taller de Ofebre: [Gold](https://thenounproject.com/icon/gold-6952729/) by 
 - That [Stupa](https://thenounproject.com/icon/stupa-1666875/) by Kemesh Maharjan
 - Wickiup: [Wigwam](https://thenounproject.com/icon/wigwam-3155038/) by Eucalyp
@@ -90,3 +92,6 @@
 - Gas Refinery: []() by 
 - Pochteca Enclave: [Teotihuacan](https://www.flaticon.com/free-icon/teotihuacan_404827) by Freepik
 - Rum Distillery: [Rum](https://thenounproject.com/icon/rum-2960252/) by Start Up Graphic Design
+
+# Resource Icons
+- Soma: [Ceramic](https://thenounproject.com/icon/ceramic-3714249/) by Vectorstall
