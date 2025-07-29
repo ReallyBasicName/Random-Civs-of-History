@@ -3,7 +3,7 @@
 # Nations Icons:
 
 - : []() by 
-- The Apache: [Buffalo](https://thenounproject.com/icon/buffalo-6274343/) by Delwar Hossain
+- Apache: [Buffalo](https://thenounproject.com/icon/buffalo-6274343/) by Delwar Hossain
 - Aq Qoyunlu: [Tamga of Bayandur, Aq Qoyunlu Version](https://commons.wikimedia.org/wiki/File:Tamga_of_Bayandur_(Aq_Qoyunlu_version).svg) by Samhanin
 - The Buccaneers: [Joli Rouge icon](https://commons.wikimedia.org/wiki/File:Joli_Rouge_icon.svg) by RootOfAllLight
 - Canton Pirates: [Chinese Dragon](https://thenounproject.com/icon/chinese-dragon-3961232/) by varvarvarvarra
@@ -42,31 +42,30 @@
 - Zapotecs by ReallyBasicName
 
 # Units Icons:
-
-- Macuahuitlist: [Macahuitl](https://thenounproject.com/icon/macahuitl-6792221/) by Fath Yusuf Iskhaqy
-- Chelee: [Horse](https://thenounproject.com/icon/horse-4546142/) by Royal Icon
-- Tlaxcalan Jaguar: [Jaguar Warrior](https://thenounproject.com/icon/jaguar-warrior-6792257/) by Fath Yusuf Iskhaqy
-- Urparaja: [Laos](https://thenounproject.com/icon/laos-7194973/) by Zpoliariumz Zydanez
-- Latviešu Strēlnieki: [Hat](https://thenounproject.com/icon/hat-3838082/) by myiconfinder
-- Metsavennad: [Hat](https://thenounproject.com/icon/hat-3838084/) by myiconfinder
-- Presidential Division: [Coat of Arms of Zaire](https://commons.wikimedia.org/wiki/File:Coat_of_arms_of_Zaire_(1971%E2%80%931997).svg) by Tadpole9, Д.Ильин 
-- Nahualli Warrior: [Teotihuacan Warrior](https://thenounproject.com/icon/teotihuacan-warrior-1583764/) by Zack McCune
-- Caballarii: [Round Shield](https://thenounproject.com/icon/round-shield-7075310/) by Gustavo Galert
-- Selous Scout: []() by 
+ 
 - African Rifles: []() by 
-- BTR-70: []() by 
 - BM-21 Grad: []() by 
 - BS-3: []() by 
-- Nöker: []() by 
-- Jeri: []() by 
+- BTR-70: []() by 
+- Butterfly: [Mask](https://www.flaticon.com/free-icon/mask_3859095?term=aztec&page=5&position=65&origin=search&related_id=3859095) by Freepik
+- Caballarii: [Round Shield](https://thenounproject.com/icon/round-shield-7075310/) by Gustavo Galert
+- Copa Pitào: by ReallyBasicName
+- Chelee: [Horse](https://thenounproject.com/icon/horse-4546142/) by Royal Icon
+- Estólica: [Javelin](https://www.flaticon.com/free-icon/javelin_17795531?term=javelin&page=3&position=40&origin=tag&related_id=17795531) by Darwin Mulya
+- Falcon Warrior by ReallyBasicName
 - Gadrauht: []() by 
+- Guachichil Warrior: [Axe Halloween](https://thenounproject.com/icon/axe-halloween-2153262/) by arip santos
+- Jeri: []() by 
+- Latviešu Strēlnieki: [Hat](https://thenounproject.com/icon/hat-3838082/) by myiconfinder
+- Macuahuitlist: [Macahuitl](https://thenounproject.com/icon/macahuitl-6792221/) by Fath Yusuf Iskhaqy
+- Metsavennad: [Hat](https://thenounproject.com/icon/hat-3838084/) by myiconfinder
+- Nahualli Warrior: [Teotihuacan Warrior](https://thenounproject.com/icon/teotihuacan-warrior-1583764/) by Zack McCune
+- Nöker: []() by 
+- Presidential Division: [Coat of Arms of Zaire](https://commons.wikimedia.org/wiki/File:Coat_of_arms_of_Zaire_(1971%E2%80%931997).svg) by Tadpole9, Д.Ильин 
+- Selous Scout: []() by
+- Urparaja: [Laos](https://thenounproject.com/icon/laos-7194973/) by Zpoliariumz Zydanez
 - Wako Rōnin: [Samurai](https://thenounproject.com/icon/samurai-6683849/) by Dimitri Lupo
 - Xebec: [Barbary Corsairs Flag 4](https://commons.wikimedia.org/wiki/File:Barbary_Corsairs_Flag_4.png) by RootOfAllLight
-- Falcon Warrior by ReallyBasicName
-- Estólica: [Javelin](https://www.flaticon.com/free-icon/javelin_17795531?term=javelin&page=3&position=40&origin=tag&related_id=17795531) by Darwin Mulya
-- Guachichil Warrior: [Axe Halloween](https://thenounproject.com/icon/axe-halloween-2153262/) by arip santos
-- Copa Pitào: by ReallyBasicName
-- Butterfly: [Mask](https://www.flaticon.com/free-icon/mask_3859095?term=aztec&page=5&position=65&origin=search&related_id=3859095) by Freepik
 - Zacateco Archer: [Tlahuitolli](https://thenounproject.com/icon/tlahhuitolli-6792229/) by Fath Yusuf Iskhaqy
 - Zandaru: [Tepoztopilli](https://thenounproject.com/icon/tepoztopilli-6792222/) by Fath Yusuf Iskhaqy
 
