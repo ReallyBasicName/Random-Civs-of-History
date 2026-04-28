@@ -1,0 +1,804 @@
+
+NationIcons.png
+size: 2048, 1024
+format: RGBA8888
+filter: MipMapLinearLinear, Linear
+repeat: none
+NationIcons/Albania R
+  rotate: false
+  xy: 212, 493
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Albania R1
+  rotate: false
+  xy: 420, 701
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Antioch R
+  rotate: false
+  xy: 628, 909
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Apache R
+  rotate: false
+  xy: 4, 112
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Aq Qoyunlu R
+  rotate: false
+  xy: 736, 909
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Aru R
+  rotate: false
+  xy: 4, 4
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Austria R
+  rotate: false
+  xy: 844, 909
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Baekje R
+  rotate: false
+  xy: 952, 909
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Biafra R
+  rotate: false
+  xy: 1060, 909
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Bosnia and Herzegovina R
+  rotate: false
+  xy: 1168, 909
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/CHAZ R
+  rotate: false
+  xy: 1276, 909
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Canton Pirates R
+  rotate: false
+  xy: 1384, 909
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Chachapoyas R
+  rotate: false
+  xy: 4, 809
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+NationIcons/Chad R
+  rotate: false
+  xy: 1492, 909
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Chichimecas R
+  rotate: false
+  xy: 4, 601
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+NationIcons/Chimor R
+  rotate: false
+  xy: 1600, 909
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Chu R
+  rotate: false
+  xy: 1708, 909
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Cilician Pirates R
+  rotate: false
+  xy: 1816, 909
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Coast Salish R
+  rotate: false
+  xy: 1924, 909
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Courland and Semigallia R
+  rotate: false
+  xy: 212, 385
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Croatia R
+  rotate: false
+  xy: 320, 493
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Czechia R
+  rotate: false
+  xy: 320, 385
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Dahomey R
+  rotate: false
+  xy: 528, 701
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Edessa R
+  rotate: false
+  xy: 177, 277
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Estonia R
+  rotate: false
+  xy: 285, 277
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Finns R
+  rotate: false
+  xy: 112, 112
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Florence R
+  rotate: false
+  xy: 112, 4
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Flying Gang R
+  rotate: false
+  xy: 220, 169
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Francia R
+  rotate: false
+  xy: 220, 61
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Galicia–Volhynia R
+  rotate: false
+  xy: 328, 169
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Gaul R
+  rotate: false
+  xy: 328, 61
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Genoa R
+  rotate: false
+  xy: 393, 277
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Germania R
+  rotate: false
+  xy: 436, 169
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Goguryeo R
+  rotate: false
+  xy: 436, 61
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Goths R
+  rotate: false
+  xy: 636, 801
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Great Benin R
+  rotate: false
+  xy: 744, 801
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Hojo R
+  rotate: false
+  xy: 852, 801
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Hong Kong R
+  rotate: false
+  xy: 960, 801
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Hungary R
+  rotate: false
+  xy: 1068, 801
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Iberians R
+  rotate: false
+  xy: 1176, 801
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Iga R
+  rotate: false
+  xy: 1284, 801
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Italy R
+  rotate: false
+  xy: 1392, 801
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Jerusalem R
+  rotate: false
+  xy: 1500, 801
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Jomsvikings R
+  rotate: false
+  xy: 1608, 801
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/KPAM R
+  rotate: false
+  xy: 1716, 801
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Kazakhstan R
+  rotate: false
+  xy: 1824, 801
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Kosovo R
+  rotate: false
+  xy: 636, 693
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Kyrgyzstan R
+  rotate: false
+  xy: 744, 693
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Lan Xang R
+  rotate: false
+  xy: 212, 809
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+NationIcons/Latvia R
+  rotate: false
+  xy: 852, 693
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Libertatia R
+  rotate: false
+  xy: 960, 693
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Lithuania R
+  rotate: false
+  xy: 1068, 693
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Macau R
+  rotate: false
+  xy: 1176, 693
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Makhnovia R
+  rotate: false
+  xy: 1284, 693
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Mantua R
+  rotate: false
+  xy: 1392, 693
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Milan R
+  rotate: false
+  xy: 1500, 693
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Mississippians R
+  rotate: false
+  xy: 1608, 693
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Mixtecs R
+  rotate: false
+  xy: 1716, 693
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Moche R
+  rotate: false
+  xy: 1824, 693
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Moldova R
+  rotate: false
+  xy: 1932, 801
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Montenegro R
+  rotate: false
+  xy: 1932, 693
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Mori R
+  rotate: false
+  xy: 428, 593
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Navajo R
+  rotate: false
+  xy: 428, 485
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Nazca R
+  rotate: false
+  xy: 536, 585
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Nigeria R
+  rotate: false
+  xy: 644, 585
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/North Macedonia R
+  rotate: false
+  xy: 752, 585
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Old Prussians R
+  rotate: false
+  xy: 860, 585
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Oxus R
+  rotate: false
+  xy: 968, 585
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Oyo R
+  rotate: false
+  xy: 1076, 585
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Paris R
+  rotate: false
+  xy: 1184, 585
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Pisa R
+  rotate: false
+  xy: 1292, 585
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Purépecha R
+  rotate: false
+  xy: 4, 393
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+NationIcons/Qara Qoyunlu R
+  rotate: false
+  xy: 1400, 585
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Rhodesia R
+  rotate: false
+  xy: 1508, 585
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Sarmatians R
+  rotate: false
+  xy: 1616, 585
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Sea Peoples R
+  rotate: false
+  xy: 1724, 585
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Sealand R
+  rotate: false
+  xy: 1832, 585
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Seljuks R
+  rotate: false
+  xy: 4, 220
+  size: 165, 165
+  orig: 165, 165
+  offset: 0, 0
+  index: -1
+NationIcons/Serbia R
+  rotate: false
+  xy: 1940, 585
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Shimazu R
+  rotate: false
+  xy: 544, 477
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Silla R
+  rotate: false
+  xy: 544, 369
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Slovakia R
+  rotate: false
+  xy: 544, 261
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Slovenia R
+  rotate: false
+  xy: 544, 153
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Sokoto R
+  rotate: false
+  xy: 544, 45
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Somali Pirates R
+  rotate: false
+  xy: 652, 369
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Soviet Union R
+  rotate: false
+  xy: 652, 261
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Tairona R
+  rotate: false
+  xy: 652, 153
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Tajikistan R
+  rotate: false
+  xy: 652, 45
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Takeda R
+  rotate: false
+  xy: 760, 369
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Teotihuacan R
+  rotate: false
+  xy: 760, 261
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/The Buccaneers R
+  rotate: false
+  xy: 428, 388
+  size: 89, 89
+  orig: 89, 89
+  offset: 0, 0
+  index: -1
+NationIcons/The Philippines R
+  rotate: false
+  xy: 760, 153
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Timurids R
+  rotate: false
+  xy: 760, 45
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Tiwanaku R
+  rotate: false
+  xy: 868, 369
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Tlaxcala R
+  rotate: false
+  xy: 868, 261
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Toltecs R
+  rotate: false
+  xy: 868, 153
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Tripoli R
+  rotate: false
+  xy: 868, 45
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Turkmenistan R
+  rotate: false
+  xy: 976, 369
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Tétouan R
+  rotate: false
+  xy: 976, 261
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Uesugi R
+  rotate: false
+  xy: 976, 153
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Uganda R
+  rotate: false
+  xy: 976, 45
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Umhaill R
+  rotate: false
+  xy: 212, 601
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+NationIcons/Uzbekistan R
+  rotate: false
+  xy: 1084, 369
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Vandals R
+  rotate: false
+  xy: 1084, 261
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Venice R
+  rotate: false
+  xy: 1084, 153
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Wari R
+  rotate: false
+  xy: 1300, 281
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+NationIcons/Wichita R
+  rotate: false
+  xy: 1084, 45
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Wokou R
+  rotate: false
+  xy: 1192, 369
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Yanomami R
+  rotate: false
+  xy: 1300, 193
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+NationIcons/Yupik R
+  rotate: false
+  xy: 1192, 261
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Zaire R
+  rotate: false
+  xy: 1192, 153
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Zapotecs R
+  rotate: false
+  xy: 420, 809
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+NationIcons/Zhangzhung R
+  rotate: false
+  xy: 1192, 45
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Zheng R
+  rotate: false
+  xy: 1300, 369
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1

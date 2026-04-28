@@ -1,11 +1,11 @@
 [
 	{
-		"name": "Pochteca Enclave",
-		"uniqueTo": "Teotihuacan",
+		"name": "Pochteca Enclave R",
+		"uniqueTo": "Teotihuacan R",
 		"gold": 2,
 		"turnsToBuild": 7,
 		"techRequired": "Civil Service",
-		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Forest","Jungle","Flood plains"],
+		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": [
 			"[+1 Gold] for each adjacent [Trading post]",
 		]
@@ -14,8 +14,8 @@
 	//Pirate Update
 	
 	{
-		"name": "Rum Distillery",
-		"uniqueTo": "The Buccaneers",
+		"name": "Rum Distillery R",
+		"uniqueTo": "The Buccaneers R",
 		"gold": 2,
 		"turnsToBuild": 8,
 		"techRequired": "Machinery",
@@ -31,8 +31,8 @@
 	//Americas Update
 	
 	{
-		"name": "Atlantean Figures",
-		"uniqueTo": "Toltecs",
+		"name": "Atlantean Figures R",
+		"uniqueTo": "Toltecs R",
 		"terrainsCanBeBuiltOn": ["Hill"],
 		"faith": 1,
 		"culture": 1,
@@ -44,27 +44,148 @@
 			"Pillaging this improvement yields approximately [+20 Gold]"
 		]
 	},
-	/*
 	{
-		"name": "Suka Qullu",
-		"uniqueTo": "Tiwanaku",
-		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Flood plains"],
+		"name": "Suka Qullu R",
+		"uniqueTo": "Tiwanaku R",
+		"terrainsCanBeBuiltOn": ["Flood plains"],
 		"food": 2,
-		"production": -1,
-		"turnsToBuild": 7,
+		"turnsToBuild": 8,
 		"techRequired": "Calendar",
 		"uniques": [
 			"Can also be built on tiles adjacent to fresh water",
-			"[+2 Food, -1 Production] from [Fresh water] tiles <after discovering [Civil Service]>",
-			"[+2 Food, -1 Production] from [non-fresh water] tiles <after discovering [Fertilizer]>",
+			"[+2 Food] from [Fresh water] tiles <after discovering [Civil Service]>",
+            "Pillaging this improvement yields approximately [+25 Gold]"
+		],
+		"shortcutKey": "F"
+	},
+	{
+		"name": "Huaca R",
+		"uniqueTo": "Moche R",
+		"terrainsCanBeBuiltOn": ["Hill"],
+		"faith": 2,
+		"culture": 1,
+		"turnsToBuild": 8,
+		"techRequired": "Masonry",
+		"uniques": [
+			"[+1 Culture] <after discovering [Flight]>",
+			"[+1 Faith] <in tiles adjacent to [Holy site] tiles>",
+			"Cannot be built on [Hill] tiles <with [1] to [6] neighboring [Huaca R] tiles>",
             "Pillaging this improvement yields approximately [+18 Gold]"],
 		"shortcutKey": "F"
 	},
-	*/
+	{
+		"name": "Purunmachus R",
+		"uniqueTo": "Chachapoyas R",
+		"terrainsCanBeBuiltOn": ["Hill"],
+		"faith": 1,
+		"culture": 1,
+		"turnsToBuild": 8,
+		"techRequired": "Masonry",
+		"uniques": [
+			"[+1 Faith] <in tiles adjacent to [Holy site] tiles>",
+			"[+1 Culture] <in tiles adjacent to [City center] tiles>",
+            "Pillaging this improvement yields approximately [+18 Gold]"
+		],
+		"shortcutKey": "F"
+	},
+	{
+		"name": "Bunker R",
+		"uniqueTo": "Albania R1",
+		"culture": 2,
+		"turnsToBuild": 7,
+		"techRequired": "Ballistics",
+		"terrainsCanBeBuiltOn": [
+			"Plains",
+			"Grassland",
+			"Desert",
+			"Hill",
+			"Tundra",
+			"Forest",
+		],
+		"uniques": [
+			"Gives a defensive bonus of [75]%"
+			"[+1 Gold, +1 Culture] for each adjacent [Mountain]",
+		]
+	},
+	{
+		"name": "Kulla R",
+		"uniqueTo": "Kosovo R",
+		"gold": 1,
+		"production": 2,
+		"turnsToBuild": 7,
+		"techRequired": "Engineering",
+		"terrainsCanBeBuiltOn": [
+			"Plains",
+			"Grassland",
+			"Desert",
+			"Hill",
+			"Tundra",
+			"Forest",
+		],
+		"uniques": [
+			"Gives a defensive bonus of [25]%",
+			"Adjacent enemy units ending their turn take [5] damage"
+		]
+	},
+	{
+		"name": "Samozakhvat R",
+		"uniqueTo": "Kyrgyzstan R",
+		"production": 2,
+		"turnsToBuild": 7,
+		"techRequired": "Industrialization",
+		"terrainsCanBeBuiltOn": [
+			"Plains",
+			"Desert",
+			"Hill",
+		]
+	},
+	{
+		"name": "Gondola Station R",
+		"uniqueTo": "Venice R",
+		"gold": 2,
+		"turnsToBuild": 7,
+		"techRequired": "Sailing",
+		"terrainsCanBeBuiltOn": [
+			"Plains",
+			"Grassland"
+		]
+		"uniques": [
+			"Must be next to [Coast]",
+			"[+1 Gold, +1 Culture] for each adjacent [Coast]"
+		]
+	},
+	{
+		"name": "Dvoryshche R",
+		"uniqueTo": "Galicia–Volhynia R",
+		"food": 1,
+		"faith": 2,
+		"turnsToBuild": 7,
+		"techRequired": "Horseback Riding",
+		"terrainsCanBeBuiltOn": [
+			"Hill",
+			"Plains",
+			"Grassland"
+		]
+	},
+	{
+		"name": "Ahouando R",
+		"uniqueTo": "Dahomey R",
+		"food": 2,
+		"turnsToBuild": 7,
+		"techRequired": "Engineering",
+		"terrainsCanBeBuiltOn": [
+			"Jungle"
+		]
+		"uniques": [
+			"Gives a defensive bonus of [25]%",
+			"Comment [[Dahomey R]'s units can travel to other [Ahouando R] tiles up to 25 tiles away by standing on this tile]",
+			"Pillaging this improvement yields approximately [+25 Gold]"
+		]
+	},
 	/*
 	{
-		"name": "Gyáaʼaang", //Gyáaʼaang
-		"uniqueTo": "Haida",
+		"name": "Gyáaʼaang R", //Gyáaʼaang
+		"uniqueTo": "Haida R",
 		"terrainsCanBeBuiltOn": ["Forest"],
 		"culture": 1,
 		"turnsToBuild": 7,
@@ -80,33 +201,16 @@
 	
 	//Random Civs Update
 	
-	/*{
-		"name": "Kakurezato",
-		"uniqueTo": "Iga",
+	{
+		"name": "Kakurezato R",
+		"uniqueTo": "Iga R",
 		"culture": 2,
 		"turnsToBuild": 7,
 		"techRequired": "Civil Service",
 		"terrainsCanBeBuiltOn": ["Forest","Jungle"],
 		"uniques": [
-			"[+1 Gold] for each adjacent [Trading post]",
+			"Comment [+1 Movement until damaging a Military unit for Military units ending their turn in this tile]"
 		]
-	},*/
-	
-	//Unused
-	
-	/*{
-		"name": "Gas Refinery",
-		"uniqueTo": "Turkmenistan",
-		"production": 1,
-		"gold": 2,
-		"turnsToBuild": 8,
-		"techRequired": "Electricity",
-		"terrainsCanBeBuiltOn": ["Desert"],
-		"uniques": [
-			"Improves [Oil] resource in this tile",
-			"[+1 Gold, -1 Production] <in [Oil] tiles>"
-			"Pillaging this improvement yields approximately [+30 Gold]"
-		]
-	}*/
+	}
 ]
 

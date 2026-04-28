@@ -4,156 +4,177 @@ size: 512, 128
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
-TileSets/AbsoluteUnits/Units/Zandaru
+TileSets/AbsoluteUnits/Units/Zandaru R
   rotate: false
-  xy: 4, 11
+  xy: 4, 15
   size: 96, 96
   orig: 96, 96
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Atlantean Figures
+TileSets/FantasyHex/Tiles/Atlantean FiguresR
   rotate: false
-  xy: 108, 40
+  xy: 108, 44
   size: 32, 31
   orig: 32, 31
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Pochteca Enclave
+TileSets/FantasyHex/Tiles/Pochteca EnclaveR
   rotate: false
-  xy: 388, 76
+  xy: 388, 44
   size: 32, 31
   orig: 32, 31
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Atatu
+TileSets/FantasyHex/Units/Atatu R
   rotate: false
-  xy: 108, 79
+  xy: 108, 83
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Butterfly
+TileSets/FantasyHex/Units/Bull-Drawn Cart R
   rotate: false
-  xy: 148, 79
+  xy: 148, 83
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Caballarii
+TileSets/FantasyHex/Units/Butterfly R
   rotate: false
-  xy: 148, 43
+  xy: 148, 47
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Chelee
+TileSets/FantasyHex/Units/Caballarii R
   rotate: false
-  xy: 188, 79
+  xy: 188, 83
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Copa Pitào
+TileSets/FantasyHex/Units/Chelee R
   rotate: false
-  xy: 188, 43
+  xy: 188, 47
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Estólica
+TileSets/FantasyHex/Units/Copa Pitào R
   rotate: false
-  xy: 228, 79
+  xy: 228, 83
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Falcon Warrior
+TileSets/FantasyHex/Units/Estólica R
   rotate: false
-  xy: 228, 43
+  xy: 228, 47
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Guachichil Warrior
+TileSets/FantasyHex/Units/Falcon Warrior R
   rotate: false
-  xy: 268, 79
+  xy: 268, 83
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Jaguar
+TileSets/FantasyHex/Units/Guachichil Warrior R
   rotate: false
-  xy: 268, 43
+  xy: 268, 47
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Latviešu Strēlnieki
+TileSets/FantasyHex/Units/Jaguar R
   rotate: false
-  xy: 308, 79
+  xy: 308, 83
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Macuahuitlist
+TileSets/FantasyHex/Units/Latviešu Strēlnieki R
   rotate: false
-  xy: 308, 43
+  xy: 308, 47
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Metsavennad
+TileSets/FantasyHex/Units/Macuahuitlist R
   rotate: false
-  xy: 348, 79
+  xy: 348, 83
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Nahualli Warrior
+TileSets/FantasyHex/Units/Metsavennad R
   rotate: false
-  xy: 348, 43
+  xy: 348, 47
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Presidential Division
+TileSets/FantasyHex/Units/Nahualli Warrior R
   rotate: false
-  xy: 428, 79
+  xy: 388, 83
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Tlaxcalan Jaguar
+TileSets/FantasyHex/Units/Presidential Division R
   rotate: false
-  xy: 468, 79
+  xy: 428, 83
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Uparaja
+TileSets/FantasyHex/Units/Shinobi R
   rotate: false
-  xy: 388, 36
+  xy: 428, 47
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Skiff R
+  rotate: false
+  xy: 468, 83
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Tlaxcalan Jaguar R
+  rotate: false
+  xy: 468, 47
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Uparaja R
+  rotate: false
+  xy: 108, 4
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Wako Rōnin
+TileSets/FantasyHex/Units/Wako Rōnin R
   rotate: false
-  xy: 428, 43
+  xy: 148, 11
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Zacateco Archer
+TileSets/FantasyHex/Units/Zacateco Archer R
   rotate: false
-  xy: 468, 43
+  xy: 188, 11
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Zandaru
+TileSets/FantasyHex/Units/Zandaru R
   rotate: false
-  xy: 108, 4
+  xy: 228, 11
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
