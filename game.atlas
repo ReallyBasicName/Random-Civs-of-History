@@ -1,0 +1,391 @@
+
+game.png
+size: 2048, 512
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+ImprovementIcons/Ahouando R
+  rotate: false
+  xy: 4, 386
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Atlantean Figures R
+  rotate: false
+  xy: 112, 386
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Bunker R
+  rotate: false
+  xy: 4, 62
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Dvoryshche R
+  rotate: false
+  xy: 220, 170
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Gondola Station R
+  rotate: false
+  xy: 436, 386
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Huaca R
+  rotate: false
+  xy: 328, 170
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Kakurezato R
+  rotate: false
+  xy: 544, 386
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Kulla R
+  rotate: false
+  xy: 436, 170
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Pochteca Enclave R
+  rotate: false
+  xy: 760, 386
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Purunmachus R
+  rotate: false
+  xy: 544, 62
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Rum Distillery R
+  rotate: false
+  xy: 868, 386
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Samozakhvat R
+  rotate: false
+  xy: 760, 170
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Suka Qullu R
+  rotate: false
+  xy: 976, 386
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyBranchIcons/Voluntarism
+  rotate: false
+  xy: 236, 4
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+PolicyIcons/Anarchism
+  rotate: false
+  xy: 1084, 328
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+PolicyIcons/Free School
+  rotate: false
+  xy: 62, 4
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+PolicyIcons/Insurgent Army
+  rotate: false
+  xy: 1250, 436
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+PolicyIcons/Mutual Aid
+  rotate: false
+  xy: 1084, 212
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+PolicyIcons/Self-Organization
+  rotate: false
+  xy: 1308, 436
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+ReligionIcons/Angakkunngurniq
+  rotate: false
+  xy: 4, 278
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ReligionIcons/Bahá'í
+  rotate: false
+  xy: 4, 170
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ReligionIcons/Bon
+  rotate: false
+  xy: 220, 386
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ReligionIcons/Chiminigagua
+  rotate: false
+  xy: 112, 170
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ReligionIcons/Daejongism
+  rotate: false
+  xy: 220, 278
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ReligionIcons/Din al-'Abāʼi-ka
+  rotate: false
+  xy: 328, 386
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ReligionIcons/Druze
+  rotate: false
+  xy: 112, 62
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ReligionIcons/Fyrnsidu
+  rotate: false
+  xy: 328, 278
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ReligionIcons/Hellenism
+  rotate: false
+  xy: 220, 62
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ReligionIcons/Jainism
+  rotate: false
+  xy: 436, 278
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ReligionIcons/Kemetism
+  rotate: false
+  xy: 328, 62
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ReligionIcons/Mandaeism
+  rotate: false
+  xy: 544, 278
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ReligionIcons/Mithraism
+  rotate: false
+  xy: 652, 386
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ReligionIcons/Nagualism
+  rotate: false
+  xy: 436, 62
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ReligionIcons/Pachamama
+  rotate: false
+  xy: 544, 170
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ReligionIcons/Peyotism
+  rotate: false
+  xy: 652, 278
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ReligionIcons/Romuva
+  rotate: false
+  xy: 652, 170
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ReligionIcons/Samaritanism
+  rotate: false
+  xy: 652, 62
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ReligionIcons/Teotl
+  rotate: false
+  xy: 760, 62
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ReligionIcons/Utaki Shinkō
+  rotate: false
+  xy: 868, 170
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ReligionIcons/Voodoo
+  rotate: false
+  xy: 976, 278
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ReligionIcons/Wakan Tanka
+  rotate: false
+  xy: 1084, 386
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ReligionIcons/Wuism
+  rotate: false
+  xy: 868, 62
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ReligionIcons/Ìṣẹṣe
+  rotate: false
+  xy: 976, 170
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Bison
+  rotate: false
+  xy: 112, 278
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Rum
+  rotate: false
+  xy: 760, 278
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Soma
+  rotate: false
+  xy: 868, 278
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Ahouando User
+  rotate: false
+  xy: 4, 4
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Cloud Warrior
+  rotate: false
+  xy: 1192, 436
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Fire Burn Down You
+  rotate: false
+  xy: 976, 112
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Ogbunigwe
+  rotate: false
+  xy: 976, 112
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Iga Clan
+  rotate: false
+  xy: 1084, 270
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Kakurezato
+  rotate: false
+  xy: 120, 4
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Ship Robber
+  rotate: false
+  xy: 178, 4
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Umhaill Pirate
+  rotate: false
+  xy: 1366, 436
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Wako Raider
+  rotate: false
+  xy: 1424, 436
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,1189 @@
+
+ConstructionIcons.png
+size: 2048, 2048
+format: RGBA8888
+filter: MipMapLinearLinear, Linear
+repeat: none
+BuildingIcons/Aglipayan Church R
+  rotate: false
+  xy: 361, 1864
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Air Macau R
+  rotate: false
+  xy: 4, 1300
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Arti R
+  rotate: false
+  xy: 4, 1192
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Baroque Palace R
+  rotate: false
+  xy: 4, 868
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Cantonese Opera House R
+  rotate: false
+  xy: 1333, 1864
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Carolingian Monastery R
+  rotate: false
+  xy: 4, 328
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Casatorre R
+  rotate: false
+  xy: 1441, 1864
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Cha Chaan Teng R
+  rotate: false
+  xy: 4, 220
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Cheomseongdae R
+  rotate: false
+  xy: 4, 112
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Ciudadela R
+  rotate: false
+  xy: 4, 4
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Commune Food Station R
+  rotate: false
+  xy: 1765, 1864
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Cosmodrome R
+  rotate: false
+  xy: 112, 1300
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Council Circle R
+  rotate: false
+  xy: 112, 1192
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Crag Base R
+  rotate: false
+  xy: 4, 1724
+  size: 240, 240
+  orig: 240, 240
+  offset: 0, 0
+  index: -1
+BuildingIcons/Crusader Castle R
+  rotate: false
+  xy: 112, 1084
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Dǔchǎng R
+  rotate: false
+  xy: 112, 652
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Factory SU
+  rotate: false
+  xy: 112, 4
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Fondaco Tower R
+  rotate: false
+  xy: 320, 1648
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Forge SU
+  rotate: false
+  xy: 428, 1648
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Gadaye R
+  rotate: false
+  xy: 536, 1648
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Gambling House R
+  rotate: false
+  xy: 1009, 1756
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Gas Pipeline R
+  rotate: false
+  xy: 1117, 1756
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Grass Lodge R
+  rotate: false
+  xy: 1225, 1756
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Gécamines Facility R
+  rotate: false
+  xy: 1441, 1756
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Hogan R
+  rotate: false
+  xy: 1765, 1756
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Indoor Arena R
+  rotate: false
+  xy: 1873, 1756
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Jambur R
+  rotate: false
+  xy: 428, 1540
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Kino R
+  rotate: false
+  xy: 901, 1648
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Kozolec R
+  rotate: false
+  xy: 1117, 1648
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Lacquered Coffin Tomb R
+  rotate: false
+  xy: 1333, 1648
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Lauluväljak R
+  rotate: false
+  xy: 1657, 1648
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Lelum R
+  rotate: false
+  xy: 1765, 1648
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Matica Hrvatska R
+  rotate: false
+  xy: 220, 1216
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Mazmorra R
+  rotate: false
+  xy: 220, 1000
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Mjöosalr R
+  rotate: false
+  xy: 220, 676
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Music Academy R
+  rotate: false
+  xy: 220, 460
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Neoclassical Facades R
+  rotate: false
+  xy: 220, 136
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Nollywood Studio R
+  rotate: false
+  xy: 220, 1432
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Nuhue R
+  rotate: false
+  xy: 328, 1324
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Oja-Oba R
+  rotate: false
+  xy: 328, 1216
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Oppidum R
+  rotate: false
+  xy: 328, 1108
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Palazzo R
+  rotate: false
+  xy: 328, 1000
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Pioneers Palace R
+  rotate: false
+  xy: 328, 676
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Pivovar R
+  rotate: false
+  xy: 328, 460
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Qasgiq R
+  rotate: false
+  xy: 328, 28
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Radio Essex R
+  rotate: false
+  xy: 436, 1324
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Rdo-Ring R
+  rotate: false
+  xy: 436, 1216
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Runestone R
+  rotate: false
+  xy: 436, 676
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/SAV R
+  rotate: false
+  xy: 436, 568
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Sanseong R
+  rotate: false
+  xy: 436, 460
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Session House R
+  rotate: false
+  xy: 436, 136
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Soma Boiler R
+  rotate: false
+  xy: 544, 784
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Stone Baba R
+  rotate: false
+  xy: 544, 568
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Stone Works SU
+  rotate: false
+  xy: 544, 460
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Sug'orish Kanali R
+  rotate: false
+  xy: 544, 352
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/TALCO Plant R
+  rotate: false
+  xy: 544, 136
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Taller de Orfebre R
+  rotate: false
+  xy: 652, 1324
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/That R
+  rotate: false
+  xy: 652, 1000
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Tintero R
+  rotate: false
+  xy: 652, 784
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Toseong R
+  rotate: false
+  xy: 652, 568
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Tower House R
+  rotate: false
+  xy: 652, 460
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Village Assembly R
+  rotate: false
+  xy: 652, 28
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Wickiup R
+  rotate: false
+  xy: 760, 1000
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Windmill SU
+  rotate: false
+  xy: 760, 892
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Winery R
+  rotate: false
+  xy: 760, 784
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Workers' Council R
+  rotate: false
+  xy: 760, 568
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Wrecker's Tavern R
+  rotate: false
+  xy: 760, 460
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Xawala Network R
+  rotate: false
+  xy: 760, 136
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Yacata R
+  rotate: false
+  xy: 868, 1324
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Yo Hopèe R
+  rotate: false
+  xy: 868, 1108
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/30-Gun Sloop R
+  rotate: false
+  xy: 4, 1408
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/5. PŠU R
+  rotate: false
+  xy: 252, 1756
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Alaec R
+  rotate: false
+  xy: 360, 1756
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Anguyaqssuutet R
+  rotate: false
+  xy: 469, 1864
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/BM-21 Grad R
+  rotate: false
+  xy: 577, 1864
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/BS-3 R
+  rotate: false
+  xy: 4, 1084
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/BTR-70 R
+  rotate: false
+  xy: 685, 1864
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Bahansen R
+  rotate: false
+  xy: 4, 976
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Balestrieri R
+  rotate: false
+  xy: 793, 1864
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Biafra Baby R
+  rotate: false
+  xy: 901, 1864
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Bird-Headed Warship R
+  rotate: false
+  xy: 4, 760
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Boru R
+  rotate: false
+  xy: 1009, 1864
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Bull-Drawn Cart R
+  rotate: false
+  xy: 4, 652
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Butterfly R
+  rotate: false
+  xy: 1117, 1864
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Caballarii R
+  rotate: false
+  xy: 4, 544
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Caetrati R
+  rotate: false
+  xy: 1225, 1864
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Caio Duilio Class R
+  rotate: false
+  xy: 4, 436
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Chelee R
+  rotate: false
+  xy: 1549, 1864
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Chiandae R
+  rotate: false
+  xy: 1657, 1864
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Copa Pitào R
+  rotate: false
+  xy: 1873, 1864
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Corsair R
+  rotate: false
+  xy: 112, 1408
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Crusader R
+  rotate: false
+  xy: 112, 976
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Dobrovoljac R
+  rotate: false
+  xy: 112, 868
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Draconarius R
+  rotate: false
+  xy: 112, 760
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Edermen R
+  rotate: false
+  xy: 112, 544
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Eso R
+  rotate: false
+  xy: 112, 436
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Estólica R
+  rotate: false
+  xy: 112, 328
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Ezugwu R
+  rotate: false
+  xy: 112, 220
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/FVVP R
+  rotate: false
+  xy: 112, 112
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Falcon Warrior R
+  rotate: false
+  xy: 212, 1616
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Fulger Battalion R
+  rotate: false
+  xy: 469, 1756
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Fédéré R
+  rotate: false
+  xy: 577, 1756
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Gaemamusa R
+  rotate: false
+  xy: 685, 1756
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Gaesatae R
+  rotate: false
+  xy: 793, 1756
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Galea Sottile R
+  rotate: false
+  xy: 901, 1756
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Guachichil Warrior R
+  rotate: false
+  xy: 1333, 1756
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Harjaz R
+  rotate: false
+  xy: 1549, 1756
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Hataałii R
+  rotate: false
+  xy: 1657, 1756
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Iron Wolf R
+  rotate: false
+  xy: 320, 1540
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Jwapyeong R
+  rotate: false
+  xy: 536, 1540
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Kamani R
+  rotate: false
+  xy: 685, 1648
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Katipunero R
+  rotate: false
+  xy: 793, 1648
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Kontos Cavalry R
+  rotate: false
+  xy: 1009, 1648
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Kushen R
+  rotate: false
+  xy: 1225, 1648
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Lanchara R
+  rotate: false
+  xy: 1441, 1648
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Latviešu Strēlnieki R
+  rotate: false
+  xy: 1549, 1648
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Longa Fada R
+  rotate: false
+  xy: 1873, 1648
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Lovćen Detachment R
+  rotate: false
+  xy: 644, 1540
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Macuahuitlist R
+  rotate: false
+  xy: 428, 1432
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Manicato R
+  rotate: false
+  xy: 220, 1324
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Maxsus Kuchlar R
+  rotate: false
+  xy: 220, 1108
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Metsavennad R
+  rotate: false
+  xy: 220, 892
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Mino R
+  rotate: false
+  xy: 220, 784
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Mountain Gun R
+  rotate: false
+  xy: 220, 568
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Málamann R
+  rotate: false
+  xy: 220, 352
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Nahualli Warrior R
+  rotate: false
+  xy: 220, 244
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/New Police R
+  rotate: false
+  xy: 220, 28
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Patriotska Liga R
+  rotate: false
+  xy: 328, 892
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Piagnoni R
+  rotate: false
+  xy: 328, 784
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Pirate Trireme R
+  rotate: false
+  xy: 328, 568
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Popular Levy R
+  rotate: false
+  xy: 328, 352
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Presidential Division R
+  rotate: false
+  xy: 328, 244
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Pétroleuse R
+  rotate: false
+  xy: 328, 136
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Red Devil R
+  rotate: false
+  xy: 436, 1108
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Red Fleet Junk R
+  rotate: false
+  xy: 436, 1000
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Regio Esercito R
+  rotate: false
+  xy: 436, 892
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Ribault R
+  rotate: false
+  xy: 436, 784
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Scutati R
+  rotate: false
+  xy: 436, 352
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Sealand Security R
+  rotate: false
+  xy: 436, 244
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Sherden Warrior R
+  rotate: false
+  xy: 436, 28
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Shinobi R
+  rotate: false
+  xy: 544, 1324
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Skiff R
+  rotate: false
+  xy: 544, 1216
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Slaganz R
+  rotate: false
+  xy: 544, 1108
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Smerd R
+  rotate: false
+  xy: 544, 1000
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Sodang R
+  rotate: false
+  xy: 544, 892
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/StoMex R
+  rotate: false
+  xy: 544, 676
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/T-72 R
+  rotate: false
+  xy: 544, 244
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Tachanka R
+  rotate: false
+  xy: 544, 28
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Tarida R
+  rotate: false
+  xy: 652, 1216
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Teritorialna Obramba R
+  rotate: false
+  xy: 652, 1108
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Tie Ren R
+  rotate: false
+  xy: 652, 892
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Tlaxcalan Jaguar R
+  rotate: false
+  xy: 652, 676
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Tūp R
+  rotate: false
+  xy: 252, 1864
+  size: 101, 100
+  orig: 101, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Uparaja R
+  rotate: false
+  xy: 652, 352
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/UÇK R
+  rotate: false
+  xy: 652, 244
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Victoire R
+  rotate: false
+  xy: 652, 136
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Vz. 77 DANA R
+  rotate: false
+  xy: 760, 1324
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Wako Rōnin R
+  rotate: false
+  xy: 4, 1516
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/Wappen R
+  rotate: false
+  xy: 760, 1216
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/War Junk R
+  rotate: false
+  xy: 760, 1108
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Wolves R
+  rotate: false
+  xy: 760, 676
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Wu R
+  rotate: false
+  xy: 760, 352
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Wurskaiten R
+  rotate: false
+  xy: 760, 244
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Xebec R
+  rotate: false
+  xy: 760, 28
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Yan Lifida R
+  rotate: false
+  xy: 868, 1216
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Zacateco Archer R
+  rotate: false
+  xy: 868, 1000
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Zandaru R
+  rotate: false
+  xy: 868, 892
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Zelenaši R
+  rotate: false
+  xy: 868, 784
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Zrinski Battalion R
+  rotate: false
+  xy: 868, 676
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
