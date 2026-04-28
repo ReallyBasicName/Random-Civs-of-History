@@ -1,0 +1,42 @@
+[
+	/*
+	{
+		"name": "",
+		"unitNames": [
+			""
+		],
+		"uniques": [
+		]
+	}
+	*/
+	{
+		"name": "Pétroleuse",
+		"unitNames": [
+			"Élisabeth Rétiffe",
+			"Joséphine Marchais",
+			"Léontine Suétens",
+			"Eulalie Papavoine",
+			"Lucie Bocquin",
+			"Anne-Marie Ménand",
+			"Florence Van de Walle",
+			"Aurore Machu"
+		],
+		"uniques": [
+		]
+	},
+	{
+		"name": "Harjaz",
+		"unitNames": [
+			"Teutobod",
+			"Vibilius",
+			"Civilis",
+			"Veleda",
+			"Pipara",
+			"Raicunda",
+			"Hermanafrid",
+			"Boiorix"
+		],
+		"uniques": [
+		]
+	}
+]

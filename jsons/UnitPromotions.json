@@ -1,83 +1,118 @@
 [
 	{
-		"name": "[Red Fleet Junk] ability",
-		"uniques": [
-			"Ignores Zone of Control",
-			"May capture killed [Water] units",
-			"[1] additional attacks per turn <when adjacent to a [Red Fleet Junk] unit>"
-		]
-	},
-	{
-		"name": "[Corsair] ability",
-		"uniques": [
-			"May capture killed [Water] units",
-			"[+5]% Strength <for [3] turns> <upon defeating a [Water] unit>",
-		]
-	},
-	{
 		"name": "Wako Raider",
 		"uniques": [
 			"Earn [25]% of killed [All] unit's [Strength] as [Gold] <on foreign continents>",
 		]
 	},
 	{
-		"name": "[Bahansen] ability",
+		"name": "Ship Robber",
 		"uniques": [
-			"May capture killed [Water] units",
-			"May enter foreign tiles without open borders",
-			"Earn [25]% of killed [All] unit's [Strength] as [Gold]"
+			"May capture killed [Water] units <with [10]% chance>",
 		]
 	},
 	{
-		"name": "[Xebec] ability",
+		"name": "Kakurezato",		
 		"uniques": [
-			"May capture killed [Water] units",
-			"[This Unit] heals [5] HP <for [1] movement>"
+			"[+1] Movement", 
+			"[This Unit] loses the [Kakurezato] promotion <upon damaging a [Military] unit>"
 		]
 	},
-	/*
 	{
-		"name": "Kakurezato ability",		
+		"name": "Iga Clan",		
 		"uniques": [
-					"[+1] Movement", 
-					"[This Unit] loses the [Kakurezato ability] promotion <when below [99] HP>"
-					]
+			"Ignores Zone of Control",
+			"[This Unit] gains the [Kakurezato] promotion <upon ending a turn in a [Kakurezato R] tile> <for units without [Kakurezato]>"
+		]
 	},
-	{
-		"name": "Iga ability",		
-		"uniques": [
-					"[This Unit] gains the [Kakurezato ability] promotion <in [Kakurezato] tiles>"
-					]
-	},
-	*/
 	{
 		"name": "Raider",		
 		"uniques": [
-					"May capture killed [Water] units"
-					]
+			"May capture killed [Water] units"
+		]
+	},
+	{
+		"name": "Pirate of the Strait of Malacca",
+		"uniques": [
+			"Gain [20]-[40] [Gold] <upon defeating a [Military] unit>",
+			"Gain [8] [Culture] <upon defeating a [Military] unit> <within [5] tiles of a [City center]> <in cities with a [Jambur R]> <hidden from users>"
+		]
 	},
 	{
 		"name": "Dog Person",		
 		"uniques": [
-					"[This Unit] gains the [Invisible] status for [6] turn(s) <upon declaring war with a major Civilization>"
-					]
+			"[This Unit] gains the [Invisible] status for [6] turn(s) <upon declaring war on [Major] Civilizations>"
+		]
 	},
 	{
 		"name": "Invisible",		
 		"uniques": [
-					"Invisible to non-adjacent units"
-					]
+			"Invisible to non-adjacent units"
+		]
 	},
+	{
+		"name": "Cloud Warrior",		
+		"uniques": [
+			"Invisible to non-adjacent units <in [Hill] tiles>"
+			"Invisible to non-adjacent units <in [Mountain] tiles>"
+			"Gain [4] [Faith] <upon defeating a [Military] unit> <within [3] tiles of a [City center]> <in cities with a [Tintero R]>"
+		]
+	},
+	{
+		"name": "Slovakian Lightning",
+		"uniques": [
+			"Instantly gain [10] [Culture] <upon entering a [Ancient ruins] tile>"
+		]
+	},
+	{
+		"name": "Mother Anarchy",
+		"uniques": [
+			"[This Unit] gains [1] XP <upon turn end> <in [Enemy Land] tiles>",
+			"Gain control over [{non-[City-State]} {non-[Major]} {Land}] tiles in a [0]-tile radius <upon being promoted>"
+		]
+	},
+	{
+		"name": "Ahouando User",
+		"uniques": [
+			"Comment [May use [Ahouando R] tiles]",
+			"May Paradrop to [Ahouando R] tiles up to [30] tiles away <in [Ahouando R] tiles> <hidden from users>"
+		]
+	},
+	{
+		"name": "Ogbunigwe",
+		"uniques": [
+			"[Target Unit] gains the [Fire Burn Down You] status for [3] turn(s) <upon damaging a [Land] unit> <with [7]% chance>"
+		]
+	},
+	{
+		"name": "Fire Burn Down You",
+		"uniques": [
+			"[This Unit] takes [7] damage <upon turn end>"
+		]
+	},
+	{
+		"name": "[Gaemamusa R] ability",
+		"uniques": [
+			"[+25]% XP gained from combat"
+		]
+	},
+	{
+		"name": "Umhaill Pirate",
+		"uniques": [
+			"[This Unit] gains [10] XP <upon losing at least [20] HP in a single attack>"
+		]
+	},
+		
 	/*
 	{
-		"name": "[Tlaxcalan Jaguar] ability",
+		"name": "[Tlaxcalan Jaguar R] ability",
 		"uniques": [
 			"Double movement in [Hill]",
 			"[+25]% Strength <when fighting units from a Civilization with more Cities than you>",
 		]
 	},
 	{
-		"name": "[Tluu] ability",
+		"name": "[Tluu R] ability",
 		"uniques": [
 			"May capture killed [Military] units"
 		]

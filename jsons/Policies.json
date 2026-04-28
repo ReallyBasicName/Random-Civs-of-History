@@ -1,0 +1,291 @@
+[
+    {
+        "name": "Freedom",
+        "era": "Industrial era",
+        "priorities": {
+            "Neutral": 5,
+            "Cultural": 10,
+            "Diplomatic": 5,
+            "Domination": 5,
+            "Scientific": 10
+        },
+        "uniques": [
+            "[+25]% Great Person generation [in all cities]",
+            "Only available <before adopting [Autocracy]>",
+            "Only available <before adopting [Order]>",
+            "Only available <before adopting [Voluntarism]>"
+        ],
+        "policies": [
+            {
+                "name": "Constitution",
+                "uniques": ["[+2 Culture] from every [Wonder]", "[-100]% weight to this choice for AI decisions"],
+                "row": 1,
+                "column": 1
+            },
+            {
+                "name": "Universal Suffrage",
+                "uniques": ["[+33]% Strength for cities <when defending>", "[-100]% weight to this choice for AI decisions"],
+                "row": 1,
+                "column": 3
+            },
+            {
+                "name": "Civil Society",
+                "uniques": [
+                    "[-50]% Food consumption by [Specialists] [in all cities]"
+                ],
+                "row": 1,
+                "column": 5
+            },
+            {
+                "name": "Free Speech",
+                "uniques": ["[8] units cost no maintenance"],
+                "requires": ["Constitution"],
+                "row": 2,
+                "column": 1
+            },
+            {
+                "name": "Democracy",
+                "uniques": [
+                    "[-50]% Unhappiness from [Specialists] [in all cities]"
+                ],
+                "requires": ["Civil Society"],
+                "row": 2,
+                "column": 5
+            },
+            {
+                "name": "Freedom Complete",
+                "uniques": [
+                    "[+100]% Yield from every [Great Improvement]",
+                    "[+50]% Golden Age length",
+                    "May buy [Great Artist] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>",
+                    "Get the leader title of [President [leaderName]]"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Autocracy",
+        "era": "Industrial era",
+        "priorities": {
+            "Neutral": 5,
+            "Cultural": 5,
+            "Diplomatic": 5,
+            "Domination": 10,
+            "Scientific": 5
+        },
+        "uniques": [
+            "[-33]% maintenance costs <for [All] units>",
+            "Upon capturing a city, receive [10] times its [Culture] production as [Culture] immediately",
+            "Only available <before adopting [Order]>",
+            "Only available <before adopting [Freedom]>",
+            "Only available <before adopting [Voluntarism]>"
+        ],
+        "policies": [
+            {
+                "name": "Populism",
+                "uniques": ["[+25]% Strength <for [Wounded] units>", "[+100]% weight to this choice for AI decisions"],
+                "row": 1,
+                "column": 2
+            },
+            {
+                "name": "Militarism",
+                "uniques": ["[Gold] cost of purchasing [All] units [-33]%"],
+                "row": 1,
+                "column": 4
+            },
+            {
+                "name": "Fascism",
+                "uniques": [
+                    "[+100]% [Strategic] resource production",
+                    "[+2] Movement <for [Great General] units>"
+                ],
+                "requires": ["Populism", "Militarism"],
+                "row": 2,
+                "column": 2
+            },
+            {
+                "name": "Police State",
+                "uniques": [
+                    "[+3 Happiness] from every [Courthouse]",
+                    "[+100]% Production when constructing [Courthouse] buildings [in all cities]",
+                    "[-25]% enemy spy effectiveness [in all cities]"
+                ],
+                "requires": ["Militarism"],
+                "row": 2,
+                "column": 4
+            },
+            {
+                "name": "Total War",
+                "uniques": [
+                    "[+25]% Production when constructing [Military] units [in all cities]",
+                    "New [Military] units start with [15] XP [in all cities]"
+                ],
+                "requires": ["Police State", "Fascism"],
+                "row": 3,
+                "column": 3
+            },
+            {
+                "name": "Autocracy Complete",
+                "uniques": [
+                    "[+25]% Strength <when attacking> <for [Military] units> <for [50] turns>",
+                    "May buy [Great General] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>",
+                    "Get the leader title of [[leaderName] the Terrible]"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Order",
+        "era": "Industrial era",
+        "priorities": {
+            "Neutral": 10,
+            "Cultural": 5,
+            "Diplomatic": 10,
+            "Domination": 5,
+            "Scientific": 5
+        },
+        "uniques": [
+            "[+1 Happiness] [in all cities]",
+            "Only available <before adopting [Autocracy]>",
+            "Only available <before adopting [Freedom]>",
+            "Only available <before adopting [Voluntarism]>"
+        ],
+        "policies": [
+            {
+                "name": "United Front",
+                "uniques": [
+                    "Militaristic City-States grant units [2] times as fast when you are at war with a common nation","[-100]% weight to this choice for AI decisions"
+                ],
+                "row": 1,
+                "column": 1
+            },
+            {
+                "name": "Planned Economy",
+                "uniques": [
+                    "[+25]% [Science] from every [Factory]",
+                    "[+100]% Production when constructing [Factory] buildings [in all cities]"
+                ],
+                "row": 1,
+                "column": 3
+            },
+            {
+                "name": "Nationalism",
+                "uniques": [
+                    "[+15]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>"
+                ],
+                "row": 1,
+                "column": 5
+            },
+            {
+                "name": "Socialism",
+                "requires": ["Planned Economy"],
+                "uniques": [
+                    "[-15]% maintenance cost for [all] buildings [in all cities]"
+                ],
+                "row": 2,
+                "column": 3
+            },
+            {
+                "name": "Communism",
+                "requires": ["Socialism"],
+                "uniques": [
+                    "[+2 Production] [in all cities]",
+                    "[+1 Production] from every [Mine]",
+                    "[+1 Production] from every [Quarry]"
+                ],
+                "row": 3,
+                "column": 3
+            },
+            {
+                "name": "Order Complete",
+                "uniques": [
+                    "[+2 Food, +2 Production, +2 Science, +2 Gold, +2 Culture] [in all cities]",
+                    "May buy [Great Engineer] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>",
+                    "Get the leader title of [Chairman [leaderName]]"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Voluntarism",
+        "era": "Industrial era",
+        "priorities": {
+            "Neutral": 5,
+            "Cultural": 5,
+            "Diplomatic": 5,
+            "Domination": 5,
+            "Scientific": 5
+        },
+        "uniques": [
+			"[+2 Science, +1 Happiness] <in cities connected to the capital>",
+			"Comment [[+2 Food, +2 Culture] in cities not connected to the capital]",
+			"[-2 Food, -2 Culture] <in cities connected to the capital> <hidden from users>",
+			"[+2 Food, +2 Culture] [in all cities] <hidden from users>",
+            "Only available <before adopting [Autocracy]>",
+            "Only available <before adopting [Freedom]>",
+            "Only available <before adopting [Order]>",
+        ],
+        "policies": [
+            {
+                "name": "Free School",
+                "uniques": [
+					"[+1 Science] from every [University]",
+					"[+1 Science] from every [Public School]",
+					"[+3 Science] from every [National College]",
+				],
+                "row": 1,
+                "column": 5
+            },
+            {
+                "name": "Insurgent Army",
+                "uniques": [
+					"[+15]% Strength <for [Military] units> <when fighting in [Friendly] tiles>"
+				],
+                "requires": [
+					"Self-Organization"
+				],
+                "row": 2,
+                "column": 1
+            },
+            {
+                "name": "Self-Organization",
+                "uniques": [
+                    "[+15]% [Production] [in all cities]",
+                ],
+                "row": 1,
+                "column": 2
+            },
+            {	
+                "name": "Mutual Aid",
+                "uniques": [
+					"[+50]% [Food] from City-States"
+				],
+                "requires": [
+					"Free School",
+					"Self-Organization"
+				],
+                "row": 2,
+                "column": 4
+            },
+            {
+                "name": "Anarchism",
+                "uniques": [
+                    "[-50]% Unhappiness from [Population] [in capital]",
+                    "[-25]% Unhappiness from [Population] [{non-[in capital]} {in all cities}]"
+                ],
+                "requires": ["Insurgent Army"],
+                "row": 3,
+                "column": 2
+            },
+            {
+                "name": "Voluntarism Complete",
+                "uniques": [
+					"[+2 Production] [in all cities with a garrison]",
+					"[+1] Sight <for [all] units> <in [City center] tiles>",
+					"[+1] Movement <for [all] units> <in [Friendly Land] tiles>",
+                    "Get the leader title of [Commander [leaderName]]"
+                ]
+			}
+        ]
+    }
+]

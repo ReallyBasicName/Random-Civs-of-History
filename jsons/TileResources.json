@@ -7,6 +7,24 @@
 		"uniques": [
 			],
 	},
+	{
+		"name": "Soma",
+		"resourceType": "Luxury",
+		"food": 1,
+		"uniques": [
+			],
+	},
+	{
+		"name": "Bison",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": [
+			"Plains",
+			"Grassland"
+		],
+		"food": 1,
+		"improvement": "Camp",
+		"improvementStats": {"production": 1}
+	},
 	/*
 	{
 		"name": "Muiraquitã",

@@ -1,9 +1,9 @@
 [
 	{
-		"name": "Macuahuitlist",
+		"name": "Macuahuitlist R",
 		"unitType": "Sword",
 		"replaces": "Swordsman",
-		"uniqueTo": "The Purépecha",
+		"uniqueTo": "Purépecha R",
 		"movement": 2,
 		"strength": 14,
 		"cost": 75,
@@ -18,10 +18,31 @@
 		"attackSound": "metalhit"
 	},
 	{
-		"name": "Chelee",
+		"name": "Bull-Drawn Cart R",
+		"unitType": "Archery",
+		"replaces": "Chariot Archer",
+		"uniqueTo": "Oxus R",
+		"movement": 3,
+		"strength": 6,
+		"rangedStrength": 10,
+		"cost": 56,
+		"requiredTech": "The Wheel",
+		"upgradesTo": "Knight",
+		"obsoleteTech": "Chivalry",
+		"uniques": [
+			"No defensive terrain bonus", 
+			"Rough terrain penalty", 
+			"Only available <with [Cattle]>",
+			"[+33]% Strength <within [1] tiles of a [Luxury resource]>",
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "arrow"
+	},
+	{
+		"name": "Chelee R",
 		"unitType": "Mounted",
 		"replaces": "Cavalry",
-		"uniqueTo": "The Apache",
+		"uniqueTo": "Apache R",
 		"movement": 4,
 		"strength": 34,
 		"cost": 225,
@@ -40,10 +61,10 @@
 		"attackSound": "horse"
 	}
 	{
-		"name": "Uparaja",
+		"name": "Uparaja R",
 		"unitType": "Civilian",
 		"replaces": "Great General",
-		"uniqueTo": "Lan Xang",
+		"uniqueTo": "Lan Xang R",
 		"uniques": [
             "Empire enters a [8]-turn Golden Age <by consuming this unit>",
             "[+15]% Strength bonus for [Military] units within [2] tiles",
@@ -55,10 +76,10 @@
 		"movement": 2
 	},
 	{
-		"name": "Katipunero",
+		"name": "Katipunero R",
 		"unitType": "Gunpowder",
 		"replaces": "Rifleman",
-		"uniqueTo": "The Philippines",
+		"uniqueTo": "The Philippines R",
 		"uniques": [
             "[+1] Movement <in [Friendly Land] tiles>"
 		]
@@ -71,10 +92,10 @@
 		"attackSound": "shot"
 	},
 	{
-		"name": "Metsavennad",
+		"name": "Metsavennad R",
 		"unitType": "Gunpowder",
 		"replaces": "Great War Infantry",
-		"uniqueTo": "Estonia",
+		"uniqueTo": "Estonia R",
 		"movement": 2,
 		"strength": 50,
 		"cost": 320,
@@ -89,10 +110,10 @@
 		"attackSound": "shot"
 	},
 	{
-		"name": "Latviešu Strēlnieki",
+		"name": "Latviešu Strēlnieki R",
 		"unitType": "Gunpowder",
 		"replaces": "Great War Infantry",
-		"uniqueTo": "Latvia",
+		"uniqueTo": "Latvia R",
 		"movement": 2,
 		"strength": 50,
 		"cost": 320,
@@ -105,53 +126,11 @@
 		],
 		"attackSound": "shot"
 	},
-	/*{
-		"name": "BM-21 Grad",
-		"unitType": "Siege",
-		"replaces": "Rocket Artillery",
-		"uniqueTo": "Turkmenistan",
-		"movement": 2,
-		"strength": 50,
-		"rangedStrength": 35,
-		"range": 3,
-		"cost": 425,
-		"requiredTech": "Rocketry",
-		"requiredResource": "Aluminum",
-		"uniques": ["[+200]% Strength <vs cities> <when attacking>","No defensive terrain bonus",
-			"[-1] Sight", "Never appears as a Barbarian unit", "[1] additional attacks per turn"],
-		"promotions": ["Indirect Fire"],
-		"attackSound": "artillery"
-	},
 	{
-		"name": "BS-3",
-		"unitType": "Gunpowder",
-		"replaces": "Anti-Tank Gun",
-		"uniqueTo": "Kyrgyzstan",
-		"movement": 2,
-		"strength": 50,
-		"cost": 300,
-		"requiredTech": "Combined Arms",
-		"upgradesTo": "Helicopter Gunship",
-		"uniques": ["[+150]% Strength <vs [Armored] units>", "Never appears as a Barbarian unit"],
-		"attackSound": "machinegun"
-	},
-	{
-		"name": "BTR-70",
-		"unitType": "Gunpowder",
-		"replaces": "Mechanized Infantry",
-		"uniqueTo": "Tajikistan",
-		"movement": 3,
-		"strength": 90,
-		"cost": 375,
-		"requiredTech": "Mobile Tactics",
-		"uniques": ["Never appears as a Barbarian unit", "[+10]% Strength <when defending>"],
-		"attackSound": "tankshot"
-	},*/
-	{
-		"name": "Nahualli Warrior",
+		"name": "Nahualli Warrior R",
 		"unitType": "Sword",
 		"replaces": "Swordsman",
-		"uniqueTo": "Teotihuacan",
+		"uniqueTo": "Teotihuacan R",
 		"movement": 2,
 		"strength": 14,
 		"cost": 75,
@@ -165,10 +144,10 @@
 		"attackSound": "metalhit" 
 	},
 	{
-		"name": "Presidential Division",
+		"name": "Presidential Division R",
 		"unitType": "Ranged Gunpowder",
 		"replaces": "Machine Gun",
-		"uniqueTo": "Zaire",
+		"uniqueTo": "Zaire R",
 		"range": 1,
 		"movement": 2,
 		"strength": 60,
@@ -183,10 +162,10 @@
 		"attackSound": "machinegun"
 	},
 	{
-		"name": "Caballarii",
+		"name": "Caballarii R",
 		"unitType": "Mounted",
 		"replaces": "Knight",
-		"uniqueTo": "Francia",
+		"uniqueTo": "Francia R",
 		"movement": 4,
 		"strength": 20,
 		"cost": 120,
@@ -204,84 +183,93 @@
 		"promotions": ["Quick Study"],
 		"attackSound": "horse"
 	},
-	/*
-	{
-		"name": "Shinobi",
-		"unitType": "Scout",
-		"replaces": "Scout",
-		"uniqueTo": "Iga",
-		"movement": 2,
-		"strength": 3,
-		"rangedStrength": 8,
-		"range": 1,
-		"cost": 25,
-		"obsoleteTech": "Scientific Theory",
-		"uniques": [
-			"Can move after attacking",
-			"May enter foreign tiles without open borders",
-			"May upgrade to [Archer] through ruins-like effects"
-			],
-		"promotions": ["Ignore terrain cost"],
-		"attackSound": "nonmetalhit"
-	},
-	*/
 	
-	//Pirate Update
+	//Pirates
 	
 	{
-		"name": "Red Fleet Junk",
+		"name": "30-Gun Sloop R",
 		"unitType": "Melee Water",
 		"replaces": "Privateer",
-		"uniqueTo": "Canton Pirates",
+		"uniqueTo": "Flying Gang R",
 		"movement": 5,
 		"strength": 25,
 		"cost": 150,
 		"requiredTech": "Navigation",
 		"upgradesTo": "Destroyer",
+		"uniques": [
+			"[+5]% Strength <when defending> <for every adjacent [Land]>"
+		],
 		"promotions": [
-			"Coastal Raider I", 
-			"[Red Fleet Junk] ability"
+			"Coastal Raider I",
+			"[Privateer] ability"
 		],
 		"attackSound": "cannon"
 	},
 	{
-		"name": "Corsair",
+		"name": "Red Fleet Junk R",
 		"unitType": "Melee Water",
 		"replaces": "Privateer",
-		"uniqueTo": "The Buccaneers",
+		"uniqueTo": "Canton Pirates R",
 		"movement": 5,
 		"strength": 25,
 		"cost": 150,
 		"requiredTech": "Navigation",
 		"upgradesTo": "Destroyer",
+		"uniques": [
+			"Ignores Zone of Control",
+			"[1] additional attacks per turn <when adjacent to a [Red Fleet Junk R] unit>"
+		],
+		"promotions": [
+			"Coastal Raider I", 
+			"[Privateer] ability"
+		],
+		"attackSound": "cannon"
+	},
+	{
+		"name": "Corsair R",
+		"unitType": "Melee Water",
+		"replaces": "Privateer",
+		"uniqueTo": "The Buccaneers R",
+		"movement": 5,
+		"strength": 25,
+		"cost": 150,
+		"requiredTech": "Navigation",
+		"upgradesTo": "Destroyer",
+		"uniques": [
+			"[+5]% Strength <for [3] turns> <upon defeating a [Water] unit>",
+		],
 		"promotions": [
 			"Coastal Raider I",
 			"Boarding Party I",
-			"[Corsair] ability"
+			"[Privateer] ability"
 		],
 		"attackSound": "cannon"
 	},
 	{
-		"name": "Bahansen",
+		"name": "Bahansen R",
 		"unitType": "Melee Water",
 		"replaces": "Privateer",
-		"uniqueTo": "Wokou",
+		"uniqueTo": "Wokou R",
 		"movement": 5,
 		"strength": 25,
 		"cost": 150,
 		"requiredTech": "Navigation",
 		"upgradesTo": "Destroyer",
+		"uniques": [
+			"May enter foreign tiles without open borders",
+			"Earn [25]% of killed [All] unit's [Strength] as [Gold]"
+		],
 		"promotions": [
 			"Coastal Raider I", 
-			"[Bahansen] ability"
+			"[Privateer] ability"
 		],
 		"attackSound": "cannon"
 	},
 	{
-		"name": "Wako Rōnin",
+		"name": "Wako Rōnin R",
 		"unitType": "Gunpowder",
 		"replaces": "Musketman",
-		"uniqueTo": "Wokou",
+		"uniqueTo": "Wokou R",
 		"movement": 2,
 		"strength": 24,
 		"cost": 150,
@@ -295,10 +283,10 @@
 		"attackSound": "shot"
 	},
 	{
-		"name": "Victoire",
+		"name": "Victoire R",
 		"unitType": "Ranged Water",
 		"replaces": "Frigate",
-		"uniqueTo": "Libertatia",
+		"uniqueTo": "Libertatia R",
 		"movement": 5,
 		"strength": 25,
 		"rangedStrength": 28,
@@ -315,29 +303,192 @@
 		"attackSound": "shipCannonVolley"
 	},
 	{
-		"name": "Xebec",
+		"name": "Xebec R",
 		"unitType": "Melee Water",
 		"replaces": "Privateer",
-		"uniqueTo": "Tétouan",
+		"uniqueTo": "Tétouan R",
 		"movement": 5,
 		"strength": 25,
 		"cost": 150,
 		"requiredTech": "Navigation",
 		"upgradesTo": "Destroyer",
+        "uniques": [
+			"[This Unit] heals [5] HP <for [1] movement>"
+		],
 		"promotions": [
 			"Coastal Raider I", 
-			"[Xebec] ability"
+			"[Privateer] ability"
 		],
+		"attackSound": "cannon"
+	},
+	{
+		"name": "Bird-Headed Warship R",
+		"unitType": "Melee Water",
+		"replaces": "Trireme",
+		"uniqueTo": "Sea Peoples R",
+		"movement": 4,
+		"strength": 8,
+		"cost": 32,
+		"requiredTech": "Sailing",
+		"uniques": [
+			"Cannot enter ocean tiles", 
+			"Never appears as a Barbarian unit"
+		],
+		"upgradesTo": "Caravel",
+		"obsoleteTech": "Astronomy",
+		"promotions": [
+			"Coastal Raider I"
+		],
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Sherden Warrior R",
+		"unitType": "Sword",
+		"replaces": "Warrior",
+		"uniqueTo": "Sea Peoples R",
+		"movement": 2,
+		"strength": 8,
+		"cost": 40,
+		"requiredTech": "Agriculture",
+		"obsoleteTech": "Metal Casting",
+		"upgradesTo": "Swordsman",
+		"uniques": [
+			"[+25]% Strength <when [Embarked]>",
+			"May upgrade to [Spearman] through ruins-like effects"
+		],
+		"promotions": [
+			"Amphibious"
+		],
+		"attackSound": "nonmetalhit",
+	},
+	{
+		"name": "Skiff R",
+		"unitType": "Melee Water",
+		"replaces": "Destroyer",
+		"uniqueTo": "Somali Pirates R",
+		"movement": 6,
+		"strength": 50,
+		"interceptRange": 2,
+		"cost": 243,
+		"requiredTech": "Combustion",
+		"uniques": [
+			"Can see invisible [Submarine] units", 
+			"[40]% chance to intercept air attacks",
+			"Withdraws before melee combat <with [80]% chance>", 
+			"[+100]% Strength <vs [Submarine] units>"
+		],
+		"promotions": [
+			"Boarding Party I"
+		],
+		"attackSound": "shipguns"
+	},
+	{
+		"name": "Pirate Trireme R",
+		"unitType": "Melee Water",
+		"replaces": "Trireme",
+		"uniqueTo": "Cilician Pirates R",
+		"movement": 4,
+		"strength": 10,
+		"cost": 45,
+		"requiredTech": "Sailing",
+		"obsoleteTech": "Astronomy",
+		"upgradesTo": "Caravel",
+		"uniques": [
+			"Cannot enter ocean tiles",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": [
+			"Coastal Raider I"
+		],
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Longa Fada R",
+		"unitType": "Melee Water",
+		"replaces": "Caravel",
+		"uniqueTo": "Umhaill R",
+		"movement": 5,
+		"strength": 16,
+		"cost": 120,
+		"requiredTech": "Astronomy",
+		"upgradesTo": "Ironclad",
+		"obsoleteTech": "Combustion",
+		"uniques": [
+			"[+1] Sight",
+			"Withdraws before melee combat <with [80]% chance>",
+			"[This Unit] gains [5] XP <upon defeating a [Military] unit>"
+		],
+		"hurryCostModifier": 30,
+		"attackSound": "cannon"
+	},
+	{
+		"name": "Lanchara R",
+		"unitType": "Melee Water",
+		"replaces": "Privateer",
+		"uniqueTo": "Aru R",
+		"movement": 5,
+		"strength": 25,
+		"cost": 150,
+		"requiredTech": "Navigation",
+		"upgradesTo": "Destroyer",
+		"uniques": [
+			"[+25]% Strength <in [{non-[Capital]} {in all cities connected to capital}] cities> <hidden from users>",
+			"Comment [+25% Strength in non-Capital cities connected to capital]"
+		],
+		"promotions": [
+			"Coastal Raider I", 
+			"[Privateer] ability"
+		],
+		"attackSound": "cannon"
+	},
+	{
+		"name": "Tie Ren R",
+		"unitType": "Sword",
+		"replaces": "Pikeman",
+		"uniqueTo": "Zheng R",
+		"movement": 2,
+		"strength": 16,
+		"cost": 90,
+		"requiredTech": "Civil Service",
+		"upgradesTo": "Lancer",
+		"obsoleteTech": "Metallurgy",
+		"uniques": [
+			"[+10]% Strength <vs cities>",
+			"[+50]% Strength <vs [Mounted] units>",
+			"Earn [50]% of the damage done to [City] units as [Gold]"
+		],
+		"promotions": [
+			"Amphibious"
+		],
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "War Junk R",
+		"unitType": "Melee Water",
+		"replaces": "Caravel",
+		"uniqueTo": "Zheng R",
+		"movement": 4,
+		"strength": 20,
+		"cost": 120,
+		"requiredTech": "Astronomy",
+		"upgradesTo": "Ironclad",
+		"obsoleteTech": "Combustion",
+		"uniques": [
+			"[+1] Sight",
+			"Withdraws before melee combat <with [80]% chance>",
+			"[This Unit] gains [2] XP <upon turn end> <in [Capital] cities> <during We Love The King Day>"
+		],
+		"hurryCostModifier": 30,
 		"attackSound": "cannon"
 	},
 	
 	//Americas Update
 	 
 	{
-		"name": "Falcon Warrior",
+		"name": "Falcon Warrior R",
 		"unitType": "Sword",
 		"replaces": "Swordsman",
-		"uniqueTo": "Wari",
+		"uniqueTo": "Wari R",
 		"movement": 2,
 		"strength": 14,
 		"cost": 75,
@@ -353,10 +504,10 @@
 		"attackSound": "metalhit",
 	},
 	{
-		"name": "Estólica",
+		"name": "Estólica R",
 		"unitType": "Archery",
 		"replaces": "Archer",
-		"uniqueTo": "Wari",
+		"uniqueTo": "Wari R",
 		"movement": 2,
 		"strength": 6,
 		"rangedStrength": 7,
@@ -370,10 +521,10 @@
 		"attackSound": "arrow"
 	},
 	{
-		"name": "Guachichil Warrior",
+		"name": "Guachichil Warrior R",
 		"unitType": "Sword",
 		"replaces": "Longswordsman",
-		"uniqueTo": "Chichimecas",
+		"uniqueTo": "Chichimecas R",
 		"movement": 2,
 		"strength": 21,
 		"cost": 120,
@@ -387,10 +538,10 @@
 		"attackSound": "metalhit"
 	},
 	{
-		"name": "Zacateco Archer",
+		"name": "Zacateco Archer R",
 		"unitType": "Archery",
 		"replaces": "Crossbowman",
-		"uniqueTo": "Chichimecas",
+		"uniqueTo": "Chichimecas R",
 		"movement": 2,
 		"strength": 11,
 		"rangedStrength": 22,
@@ -402,27 +553,27 @@
 	},
 	/*
 	{
-		"name": "Tlaxcalan Jaguar",
+		"name": "Tlaxcalan Jaguar R",
 		"unitType": "Sword",
 		"replaces": "Swordsman",
-		"uniqueTo": "Tlaxcala",
+		"uniqueTo": "Tlaxcala R",
 		"movement": 2,
 		"strength": 14,
 		"cost": 75,
 		"requiredTech": "Iron Working",
 		"obsoleteTech": "Steel",
 		"promotions": [
-			"[Tlaxcalan Jaguar] ability",
+			"[Tlaxcalan Jaguar R] ability",
 			"Woodsman"
 		],
 		"upgradesTo": "Longswordsman",
 		"attackSound": "nonmetalhit"
 	},
 	{
-		"name": "Birdman",
+		"name": "Birdman R",
 		"unitType": "Sword",
 		"replaces": "Longswordsman",
-		"uniqueTo": "Mississippians",
+		"uniqueTo": "Mississippians R",
 		"movement": 2,
 		"strength": 21,
 		"cost": 120,
@@ -434,10 +585,10 @@
 	},
 	*/
 	{
-		"name": "Copa Pitào",
+		"name": "Copa Pitào R",
 		"unitType": "Civilian",
 		"replaces": "Missionary",
-		"uniqueTo": "Zapotecs",
+		"uniqueTo": "Zapotecs R",
 		"uniques": [
 			"[+25]% Strength bonus for [Military] units within [1] tiles",
             "Can Spread Religion <for [4] movement> <[2] times> <after which this unit is consumed>",
@@ -448,10 +599,10 @@
 		"religiousStrength": 1000
 	},
 	{
-		"name": "Zandaru",
+		"name": "Zandaru R",
 		"unitType": "Sword",
 		"replaces": "Spearman",
-		"uniqueTo": "Mixtecs",
+		"uniqueTo": "Mixtecs R",
 		"movement": 2,
 		"strength": 11,
 		"cost": 56,
@@ -465,10 +616,10 @@
 		"attackSound": "metalhit"
 	},
 	{
-		"name": "Butterfly",
+		"name": "Butterfly R",
 		"unitType": "Sword",
 		"replaces": "Warrior",
-		"uniqueTo": "Toltecs",
+		"uniqueTo": "Toltecs R",
 		"movement": 2,
 		"strength": 10,
 		"cost": 40,
@@ -480,12 +631,30 @@
 		],
 		"attackSound": "nonmetalhit",
 	},
+	{
+		"name": "Kamani R",
+		"unitType": "Archery",
+		"replaces": "Crossbowman",
+		"uniqueTo": "Tiwanaku R",
+		"movement": 2,
+		"strength": 13,
+		"rangedStrength": 18,
+		"cost": 120,
+		"requiredTech": "Machinery",
+		"upgradesTo": "Gatling Gun",
+		"obsoleteTech": "Industrialization",
+		"uniques": [
+			"[+33]% Strength <in [Farm] tiles>",
+			"[+33]% Strength <in [Suka Qullu R] tiles>"
+		],
+		"attackSound": "crossbow"
+	},
 	/*
 	{
-		"name": "Atatu",
+		"name": "Atatu R",
 		"unitType": "Sword",
 		"replaces": "Pikeman",
-		"uniqueTo": "Kuikuro",
+		"uniqueTo": "Kuikuro R",
 		"movement": 2,
 		"strength": 16,
 		"cost": 90,
@@ -502,10 +671,10 @@
 		"attackSound": "metalhit"
 	},
 	{
-		"name": "Tluu",
+		"name": "Tluu R",
 		"unitType": "Melee Water",
 		"replaces": "Privateer",
-		"uniqueTo": "Haida",
+		"uniqueTo": "Haida R",
 		"movement": 5,
 		"strength": 25,
 		"cost": 150,
@@ -513,17 +682,38 @@
 		"upgradesTo": "Destroyer",
 		"promotions": [
 			"Coastal Raider I", 
-			"[Tluu] ability"
+			"[Tluu R] ability"
 		],
 		"attackSound": "cannon"
 	},
 	*/
-	//Unused
 	
-	/*
+	//Random Civ Update
+	
 	{
-		"name": "Swordsman",
+		"name": "Shinobi R",
+		"unitType": "Scout",
+		"replaces": "Scout",
+		"uniqueTo": "Iga R",
+		"movement": 2,
+		"strength": 3,
+		"rangedStrength": 8,
+		"range": 1,
+		"cost": 25,
+		"obsoleteTech": "Scientific Theory",
+		"uniques": [
+			"Can move after attacking",
+			"May enter foreign tiles without open borders",
+			"May upgrade to [Archer] through ruins-like effects"
+			],
+		"promotions": ["Ignore terrain cost"],
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Caetrati R",
 		"unitType": "Sword",
+		"replaces": "Swordsman",
+		"uniqueTo": "Iberians R",
 		"movement": 2,
 		"strength": 14,
 		"cost": 75,
@@ -532,13 +722,1138 @@
 		"obsoleteTech": "Steel",
 		"requiredResource": "Iron",
 		"hurryCostModifier": 20,
+		"uniques": [
+			"Withdraws before melee combat <with [15]% chance>",
+		],
+		"promotions": [
+			"Survivalism I"
+		],
 		"attackSound": "metalhit"
 	},
 	{
-		"name": "Gadrauht",
+		"name": "Scutati R",
+		"unitType": "Sword",
+		"replaces": "Spearman",
+		"uniqueTo": "Iberians R",
+		"movement": 2,
+		"strength": 11,
+		"cost": 56,
+		"requiredTech": "Bronze Working",
+		"obsoleteTech": "Civil Service",
+		"upgradesTo": "Pikeman",
+		"uniques": [
+			"[+25]% Strength <vs [Melee] units>",
+			"[+50]% Strength <vs [Mounted] units>"
+		],
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Wappen R",
+		"unitType": "Ranged Water",
+		"replaces": "Frigate",
+		"uniqueTo": "Courland and Semigallia R",
+		"movement": 5,
+		"strength": 25,
+		"rangedStrength": 28,
+		"cost": 185,
+		"requiredResource": "Iron",
+		"requiredTech": "Navigation",
+		"obsoleteTech": "Electronics",
+		"uniques": [
+			"Earn [100]% of killed [Military] unit's [Strength] as [Gold]"
+			],
+		"upgradesTo": "Battleship",
+		"hurryCostModifier": 20,
+		"attackSound": "shipCannonVolley"
+	},
+	{
+		"name": "Tarida R",
+		"unitType": "Ranged Water",
+		"replaces": "Galleass",
+		"uniqueTo": "Pisa R",
+		"movement": 3,
+		"strength": 16,
+		"rangedStrength": 17,
+		"cost": 100,
+		"requiredTech": "Compass",
+		"obsoleteTech": "Navigation",
+		"upgradesTo": "Frigate",
+		"uniques": [
+			"Cannot enter ocean tiles",
+			"Comment [+1 Movement for adjacent [Mounted] units]"
+		],
+		"attackSound": "arrow"
+	},
+	{
+		"name": "Balestrieri R",
+		"unitType": "Archery",
+		"replaces": "Crossbowman",
+		"uniqueTo": "Genoa R",
+		"movement": 2,
+		"strength": 14,
+		"rangedStrength": 20,
+		"cost": 120,
+		"requiredTech": "Machinery",
+		"upgradesTo": "Gatling Gun",
+		"obsoleteTech": "Industrialization",
+		"promotions": [
+			"Cover I"
+		],
+		"attackSound": "crossbow"
+	},
+	{
+		"name": "Piagnoni R",
+		"unitType": "Civilian",
+		"replaces": "Missionary",
+		"uniqueTo": "Florence R",
+		"uniques": [
+			"Instantly gain [25] [Culture] <upon ending a turn in a [Foreign Land] tile> <in tiles adjacent to [City center] tiles>",
+			"[This Unit] takes [50] damage <upon ending a turn in a [Foreign Land] tile> <in tiles adjacent to [City center] tiles>",
+            "Can Spread Religion <for [4] movement> <[2] times> <after which this unit is consumed>",
+            "May enter foreign tiles without open borders, but loses [250] religious strength each turn it ends there",
+			"Can be purchased with [Faith] [in all cities in which the majority religion is a major religion]",
+			"[-1] Sight", "Unbuildable", "Religious Unit", "Only available <when religion is enabled>"],
+		"movement": 4,
+		"religiousStrength": 1000
+	},
+	{
+		"name": "Ribault R",
+		"unitType": "Archery",
+		"replaces": "Crossbowman",
+		"uniqueTo": "Milan R",
+		"movement": 2,
+		"strength": 9,
+		"rangedStrength": 16,
+		"cost": 140,
+		"requiredTech": "Machinery",
+		"upgradesTo": "Gatling Gun",
+		"obsoleteTech": "Industrialization",
+		"uniques": [
+			"Can move after attacking"
+			"Must set up to ranged attack",
+			"[1] additional attacks per turn",
+			"[-100]% Strength <vs cities> <when attacking>",
+			"[+100]% Strength <vs [Land] units> <when attacking>"
+		],
+		"attackSound": "crossbow"
+	},
+	{
+		"name": "Crusader R",
+		"unitType": "Sword",
+		"replaces": "Longswordsman",
+		"uniqueTo": "Jerusalem R",
+		"movement": 2,
+		"strength": 21,
+		"cost": 120,
+		"requiredTech": "Steel",
+		"upgradesTo": "Musketman",
+		"obsoleteTech": "Gunpowder",
+		"requiredResource": "Iron",
+		"uniques": [
+			"Can be purchased with [Faith] [in all cities]",
+			"[+15]% Strength <when stacked with a [Religious Unit] unit>",
+			"Earn [20]% of the damage done to [Military] units as [Faith] <when stacked with a [Religious Unit] unit>"
+		],
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Wolves R",
+		"unitType": "Gunpowder",
+		"replaces": "Paratrooper",
+		"uniqueTo": "North Macedonia R",
+		"movement": 2,
+		"strength": 55,
+		"cost": 375,
+		"requiredTech": "Radar",
+		"uniques": [
+			"[+20]% XP gained from combat",
+			"[+15]% Strength <when at war>",
+			"[+15]% Strength <in [Friendly] tiles>",
+			"May Paradrop to [Land] tiles up to [5] tiles away <in [{Friendly} {Land}] tiles> <when not at war>",
+			"May Paradrop to [Land] tiles up to [7] tiles away <in [{Friendly} {Land}] tiles> <when at war>",
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "shot"
+	},
+	{
+		"name": "Teritorialna Obramba R",
+		"unitType": "Gunpowder",
+		"replaces": "Infantry",
+		"uniqueTo": "Slovenia R",
+		"movement": 2,
+		"strength": 70,
+		"cost": 375,
+		"requiredTech": "Plastics",
+		"upgradesTo": "Mechanized Infantry",
+		"obsoleteTech": "Mobile Tactics",
+		"uniques": [
+			"Can pass through impassable tiles"
+		],
+		"promotions": [
+			"Drill I"
+		],
+		"attackSound": "shot"
+	},
+	{
+		"name": "Patriotska Liga R",
+		"unitType": "Gunpowder",
+		"replaces": "Infantry",
+		"uniqueTo": "Bosnia and Herzegovina R",
+		"movement": 2,
+		"strength": 70,
+		"cost": 375,
+		"requiredTech": "Plastics",
+		"upgradesTo": "Mechanized Infantry",
+		"obsoleteTech": "Mobile Tactics",
+		"uniques": [
+			"Earn [75]% of the damage done to [Land] units as [Faith]"
+		],
+		"attackSound": "shot"
+	},
+	{
+		"name": "Zrinski Battalion R",
+		"unitType": "Gunpowder",
+		"replaces": "Infantry",
+		"uniqueTo": "Croatia R",
+		"movement": 2,
+		"strength": 70,
+		"cost": 375,
+		"requiredTech": "Plastics",
+		"upgradesTo": "Mechanized Infantry",
+		"obsoleteTech": "Mobile Tactics",
+		"uniques": [
+			"[+25]% Strength <in tiles adjacent to [{Croatia R} {City center}] tiles> <hidden from users>",
+			"Comment [+25% Strength in tiles adjacent to your [City center] tiles]"
+		],
+		"attackSound": "shot"
+	},
+	{
+		"name": "5. PŠU R",
+		"unitType": "Gunpowder",
+		"replaces": "Paratrooper",
+		"uniqueTo": "Slovakia R",
+		"movement": 2,
+		"strength": 65,
+		"cost": 375,
+		"requiredTech": "Radar",
+		"uniques": [
+			"Ignores terrain cost",
+			"[+25]% Strength <in [Hill] tiles>",
+			"May Paradrop to [Land] tiles up to [5] tiles away <in [{Friendly} {Land}] tiles>",
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "shot"
+	},
+	{
+		"name": "Alaec R",
+		"unitType": "Civilian",
+		"replaces": "Great General",
+		"uniqueTo": "Moche R",
+		"uniques": [
+			"[+1] Sight",
+			"Double movement in [Hill]",
+            "[+15]% Strength bonus for [Military] units within [2] tiles",
+            "Can instantly construct a [Citadel] improvement <by consuming this unit>",
+			"Can be earned through combat <for [Land] units>",
+            "Is part of Great Person group [General]",
+			"Great Person - [War]", "Unbuildable", "Uncapturable"],
+		"movement": 2
+	},
+	{
+		"name": "Tūp R",
+		"unitType": "Civilian Water",
+		"replaces": "Work Boats",
+		"uniqueTo": "Chimor R",
+		"movement": 4,
+		"cost": 22,
+		"requiredTech": "Sailing",
+		"uniques": [
+			"[+1] Movement <in [Luxury resource] tiles>",
+			"Cannot enter ocean tiles <before discovering [Astronomy]>", "May create improvements on water resources",
+            "Uncapturable", "Automation is a primary action"
+		]
+	},
+	{
+		"name": "Manicato R",
+		"unitType": "Archery",
+		"replaces": "Crossbowman",
+		"uniqueTo": "Tairona R",
+		"movement": 2,
+		"strength": 13,
+		"rangedStrength": 18,
+		"cost": 120,
+		"requiredTech": "Machinery",
+		"upgradesTo": "Gatling Gun",
+		"obsoleteTech": "Industrialization",
+		"uniques": [
+			"[+25]% Strength <vs [Gunpowder] units>",
+			"Earn [20]% of killed [Military] unit's [Cost] as [Gold]"
+		]
+		"attackSound": "crossbow"
+	},
+	{
+		"name": "Kushen R",
+		"unitType": "Civilian",
+		"replaces": "Great Prophet",
+		"uniqueTo": "Zhangzhung R",
+		"uniques": [
+            "Can instantly construct a [Holy site] improvement <by consuming this unit> <if it hasn't used other actions yet>",
+            "Can instantly construct a [Academy] improvement <by consuming this unit> <if it hasn't used other actions yet>",
+            "Can Spread Religion <for [2] movement> <[4] times> <after which this unit is consumed>",
+			"Removes other religions when spreading religion",
+            "May found a religion <by consuming this unit> <if it hasn't used other actions yet>",
+            "May enhance a religion <by consuming this unit>  <if it hasn't used other actions yet>",
+            "Is part of Great Person group [Prophet]",
+            "[This Unit] gets a name from the [Prophet] group",
+			"May enter foreign tiles without open borders", "[-1] Sight", "Great Person - [Faith]",
+			"Unbuildable", "Religious Unit", "Only available <when religion is enabled>",
+			"Takes your religion over the one in their birth city"],
+		"movement": 2,
+		"religiousStrength": 1000
+	},
+	{
+		"name": "Anguyaqssuutet R",
+		"unitType": "Scout",
+		"replaces": "Scout",
+		"uniqueTo": "Yupik R",
+		"movement": 2,
+		"strength": 5,
+		"cost": 25,
+		"requiredTech": "Agriculture",
+		"obsoleteTech": "Scientific Theory",
+		"uniques": [
+			"[+33]% Strength <in [Snow] tiles>",
+			"[+33]% Strength <in [Tundra] tiles>",
+			"May upgrade to [Archer] through ruins-like effects",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": [
+			"Ignore terrain cost"
+		],
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "FVVP R",
+		"unitType": "Gunpowder",
+		"replaces": "Infantry",
+		"uniqueTo": "Albania R1",
+		"movement": 2,
+		"strength": 70,
+		"cost": 350,
+		"requiredTech": "Plastics",
+		"upgradesTo": "Mechanized Infantry",
+		"obsoleteTech": "Mobile Tactics",
+		"uniques": [
+			"[+15]% Strength <when defending> <in [Friendly] tiles>"
+		],
+		"promotions": [
+			"Drill I"
+		],
+		"attackSound": "shot"
+	},
+	{
+		"name": "Fulger Battalion R",
+		"unitType": "Gunpowder",
+		"replaces": "Paratrooper",
+		"uniqueTo": "Moldova R",
+		"movement": 2,
+		"strength": 58,
+		"cost": 270,
+		"requiredTech": "Radar",
+		"uniques": [
+			"[+25]% Strength <in tiles adjacent to [City center] tiles>",
+			"May Paradrop to [Land] tiles up to [5] tiles away <in [{Friendly} {Land}] tiles>",
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "shot"
+	},
+	{
+		"name": "Vz. 77 DANA R",
+		"unitType": "Siege",
+		"replaces": "Rocket Artillery",
+		"uniqueTo": "Czechia R",
+		"movement": 3,
+		"strength": 45,
+		"rangedStrength": 60,
+		"range": 3,
+		"cost": 425,
+		"requiredTech": "Rocketry",
+		"requiredResource": "Aluminum",
+		"uniques": [
+			"[-1] Sight", 
+			"[+200]% Strength <vs cities> <when attacking>",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": [
+			"Indirect Fire",
+		],
+		"attackSound": "artillery"
+	},
+	{
+		"name": "UÇK R",
+		"unitType": "Gunpowder",
+		"replaces": "Marine",
+		"uniqueTo": "Kosovo R",
+		"movement": 2,
+		"strength": 65,
+		"cost": 400,
+		"requiredTech": "Pharmaceuticals",
+		"uniques": [
+			"[+1] Sight <when [Embarked]>",
+			"[+100]% Strength <when defending> <when [Embarked]>",
+			"[+15]% Strength <within [2] tiles of a [{Friendly} {Land}]> <hidden from users>"
+			"Comment [+15% Strength within 2 tiles of Friendly Land tiles]"
+			"Comment [Lost ability (vs [Marine]): [Amphibious]]"
+		],
+		"promotions": [
+			"Home Sweet Home"
+		],
+		"attackSound": "shot"
+	},
+	{
+		"name": "Wurskaiten R",
+		"unitType": "Civilian",
+		"replaces": "Missionary",
+		"uniqueTo": "Old Prussians R",
+		"uniques": [
+			"Instantly gain [3] [Faith] <upon ending a turn in a [Forest] tile>",
+			"Instantly gain [1] [Faith] <upon ending a turn in a [Forest] tile> <in tiles adjacent to [Holy site] tiles>",
+            "Can Spread Religion <for [4] movement> <[2] times> <after which this unit is consumed>",
+            "May enter foreign tiles without open borders, but loses [250] religious strength each turn it ends there",
+			"Can be purchased with [Faith] [in all cities in which the majority religion is a major religion]",
+			"[-1] Sight", "Unbuildable", "Religious Unit", "Only available <when religion is enabled>"
+		],
+		"movement": 4,
+		"religiousStrength": 1000
+	},
+	{
+		"name": "Iron Wolf R",
+		"unitType": "Gunpowder",
+		"replaces": "Mechanized Infantry",
+		"uniqueTo": "Lithuania R",
+		"movement": 3,
+		"strength": 90,
+		"cost": 375,
+		"requiredTech": "Mobile Tactics",
+		"uniques": [
+			"[+15]% Strength <on foreign continents>"
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "tankshot"
+	},
+	{
+		"name": "Hataałii R",
+		"unitType": "Civilian",
+		"replaces": "Missionary",
+		"uniqueTo": "Navajo R",
+		"movement": 4,
+		"religiousStrength": 1000
+		"uniques": [
+			"Instantly gain [2] [Culture] <upon ending a turn in a [Desert] tile>",
+			"Instantly gain [2] [Golden Age points] <upon ending a turn in a [Desert] tile>",
+            "Can Spread Religion <for [4] movement> <[2] times> <after which this unit is consumed>",
+            "May enter foreign tiles without open borders, but loses [250] religious strength each turn it ends there",
+			"Can be purchased with [Faith] [in all cities in which the majority religion is a major religion]",
+			"[-1] Sight", "Unbuildable", "Religious Unit", "Only available <when religion is enabled>"
+		],
+		"promotions": [
+			"Medic"
+		],
+	},
+	{
+		"name": "T-72 R",
+		"unitType": "Armored",
+		"replaces": "Tank",
+		"uniqueTo": "Kazakhstan R",
+		"movement": 6,
+		"strength": 65,
+		"cost": 375,
+		"requiredTech": "Combined Arms",
+		"requiredResource": "Oil",
+		"upgradesTo": "Modern Armor",
+		"uniques": [
+			"Can move after attacking",
+			"No defensive terrain bonus",
+			"Eliminates combat penalty for attacking over a river",
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "tankshot"
+	},
+	{
+		"name": "BM-21 Grad R",
+		"unitType": "Siege",
+		"replaces": "Rocket Artillery",
+		"uniqueTo": "Tajikistan R",
+		"movement": 2,
+		"strength": 45,
+		"rangedStrength": 60,
+		"range": 3,
+		"cost": 425,
+		"requiredTech": "Rocketry",
+		"requiredResource": "Aluminum",
+		"uniques": [
+			"[-1] Sight",
+			"No defensive terrain bonus",
+			"[+1] Range <in [Hill] tiles>",
+			"[+200]% Strength <vs cities> <when attacking>",
+			"[+1] Sight <when number of [Aluminum] is more than [2]>",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["Indirect Fire"],
+		"attackSound": "artillery"
+	},
+	{
+		"name": "Maxsus Kuchlar R",
+		"unitType": "Gunpowder",
+		"replaces": "Infantry",
+		"uniqueTo": "Uzbekistan R",
+		"movement": 2,
+		"strength": 70,
+		"cost": 375,
+		"requiredTech": "Plastics",
+		"upgradesTo": "Mechanized Infantry",
+		"obsoleteTech": "Mobile Tactics",
+		"uniques": [
+			"[+2] Movement <in [Desert] tiles>"
+		],
+		"attackSound": "shot"
+	},
+	{
+		"name": "Boru R",
+		"unitType": "Gunpowder",
+		"replaces": "Infantry",
+		"uniqueTo": "Kyrgyzstan R",
+		"movement": 2,
+		"strength": 70,
+		"cost": 375,
+		"requiredTech": "Plastics",
+		"upgradesTo": "Mechanized Infantry",
+		"obsoleteTech": "Mobile Tactics",
+		"uniques": [
+			"No defensive terrain penalty",
+			"[+15]% Strength <in [Friendly Land] tiles>"
+		],
+		"attackSound": "shot"
+	},
+	{
+		"name": "Edermen R",
+		"unitType": "Gunpowder",
+		"replaces": "Infantry",
+		"uniqueTo": "Turkmenistan R",
+		"movement": 2,
+		"strength": 70,
+		"cost": 375,
+		"requiredTech": "Plastics",
+		"upgradesTo": "Mechanized Infantry",
+		"obsoleteTech": "Mobile Tactics",
+		"uniques": [
+			"Earn [75]% of killed [Military] unit's [Cost] as [Culture]"
+		],
+		"attackSound": "shot"
+	},
+	{
+		"name": "Chiandae R",
+		"unitType": "Gunpowder",
+		"replaces": "Great War Infantry",
+		"uniqueTo": "KPAM R",
+		"movement": 2,
+		"strength": 50,
+		"cost": 320,
+		"requiredTech": "Replaceable Parts",
+		"upgradesTo": "Infantry",
+		"obsoleteTech": "Plastics",
+		"uniques": [
+			"[+33]% Strength <vs [Major] units>",
+			"[+15]% Strength <vs [Barbarian] units>"
+		],
+		"attackSound": "shot"
+	},
+	{
+		"name": "New Police R",
+		"unitType": "Gunpowder",
+		"replaces": "Infantry",
+		"uniqueTo": "CHAZ R",
+		"movement": 2,
+		"strength": 70,
+		"cost": 375,
+		"requiredTech": "Plastics",
+		"upgradesTo": "Mechanized Infantry",
+		"uniques": [
+			"Comment [Does not obsolete]"
+			"Can move after attacking",
+			"Instantly gain [2] [Culture] <upon turn end> <in [City center] tiles>"
+		],
+		"attackSound": "shot"
+	},
+	{
+		"name": "Tachanka R",
+		"unitType": "Ranged Gunpowder",
+		"replaces": "Gatling Gun",
+		"uniqueTo": "Makhnovia R",
+		"range": 1,
+		"movement": 4,
+		"strength": 30,
+		"rangedStrength": 30,
+		"cost": 225,
+		"requiredTech": "Industrialization",
+		"upgradesTo": "Machine Gun",
+		"obsoleteTech": "Ballistics",
+		"uniques": [
+			"Mounted", //So it counts as Mounted despite being Ranged Gunpowder
+			"[+20]% Strength <when adjacent to a [Mounted] unit>"
+		],
+		"attackSound": "machinegun"
+	},
+	{
+		"name": "Fédéré R",
+		"unitType": "Ranged Gunpowder",
+		"replaces": "Gatling Gun",
+		"uniqueTo": "Paris R",
+		"range": 1,
+		"movement": 2,
+		"strength": 30,
+		"rangedStrength": 30,
+		"cost": 225,
+		"requiredTech": "Industrialization",
+		"upgradesTo": "Machine Gun",
+		"obsoleteTech": "Ballistics",
+		"uniques": [
+			"[+20]% Strength <in tiles adjacent to [Great Improvement] tiles>"
+		],
+		"attackSound": "machinegun"
+	},
+	{
+		"name": "Pétroleuse R",
+		"unitType": "Civilian",
+		"replaces": "Great General",
+		"uniqueTo": "Paris R",
+		"movement": 2
+		"uniques": [
+			"Comment [No movement cost to pillage for adjacent units]",
+			"Comment [+25% Yield from pillaging tiles for adjacent units]",
+            "[+15]% Strength bonus for [Military] units within [2] tiles",
+            "Can instantly construct a [Citadel] improvement <by consuming this unit>",
+			"Can be earned through combat <for [Land] units>",
+            "Is part of Great Person group [General]",
+            "[This Unit] gets a name from the [Pétroleuse] group",
+			"Great Person - [War]", "Unbuildable", "Uncapturable"],
+	},
+	{
+		"name": "Popular Levy R",
+		"unitType": "Gunpowder",
+		"replaces": "Great War Infantry",
+		"uniqueTo": "Soviet Union R",
+		"movement": 2,
+		"strength": 48,
+		"cost": 270,
+		"requiredTech": "Replaceable Parts",
+		"upgradesTo": "Infantry",
+		"obsoleteTech": "Plastics",
+		"uniques": [
+		],
+		"attackSound": "shot"
+	},
+	{
+		"name": "Regio Esercito R",
+		"unitType": "Gunpowder",
+		"replaces": "Rifleman",
+		"uniqueTo": "Italy R",
+		"movement": 2,
+		"strength": 34,
+		"cost": 225,
+		"requiredTech": "Rifling",
+		"obsoleteTech": "Replaceable Parts",
+		"upgradesTo": "Great War Infantry",
+		"uniques": [
+			"Comment [This Unit receives the [Blitz] promotion when trained on foreign continents]"
+		],
+		"attackSound": "shot"
+	},
+	{
+		"name": "Caio Duilio Class R",
+		"unitType": "Melee Water",
+		"replaces": "Ironclad",
+		"uniqueTo": "Italy R",
+		"movement": 3,
+		"strength": 45,
+		"cost": 125,
+		"requiredTech": "Steam Power",
+		"upgradesTo": "Destroyer",
+		"obsoleteTech": "Combustion",
+		"uniques": [
+			"Consumes [2] [Coal]",
+			"[+33]% Strength <vs cities>",
+			"[+50]% Strength <vs [Ironclad] units>",
+			"Double movement in [Coast]",
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "shipguns"
+	},
+	{
+		"name": "Galea Sottile R",
+		"unitType": "Melee Water",
+		"replaces": "Trireme",
+		"uniqueTo": "Venice R",
+		"movement": 5,
+		"strength": 10,
+		"cost": 45,
+		"requiredTech": "Sailing",
+		"upgradesTo": "Caravel",
+		"obsoleteTech": "Astronomy",
+		"uniques": [
+			"Cannot enter ocean tiles",
+			"Instantly gain [2] [Gold] <upon turn end> <in [City center] tiles> <in [Annexed] cities>",
+			"Instantly gain [2] [Gold] <upon turn end> <in [City center] tiles> <in [Puppeted] cities>",
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Yan Lifida R",
+		"unitType": "Mounted",
+		"replaces": "Lancer",
+		"uniqueTo": "Sokoto R",
+		"movement": 4,
+		"strength": 25,
+		"cost": 185,
+		"requiredTech": "Metallurgy",
+		"requiredResource": "Horses",
+		"upgradesTo": "Anti-Tank Gun",
+		"obsoleteTech": "Combined Arms",
+		"uniques": [
+			"Can move after attacking",
+			"No defensive terrain bonus",
+			"[-33]% Strength <vs cities> <when attacking>",
+			"Earn [50]% of killed [Military] unit's [Cost] as [Faith]"
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": [
+			"Formation I",
+			"Great Generals I"
+		],
+		"attackSound": "horse"
+	},
+	{
+		"name": "Smerd R",
+		"unitType": "Archery",
+		"replaces": "Crossbowman",
+		"uniqueTo": "Galicia–Volhynia R",
+		"movement": 2,
+		"strength": 13,
+		"rangedStrength": 16,
+		"cost": 102,
+		"requiredTech": "Machinery",
+		"upgradesTo": "Gatling Gun",
+		"obsoleteTech": "Industrialization",
+		"uniques": [
+			"[+2] Strength <when defending>",
+			"[This Unit] gains [1] XP <in [Farm] tiles> <upon turn start>",
+			"[This Unit] gains [1] XP <in [Pasture] tiles> <upon turn start>",
+			"[This Unit] gains [1] XP <in [Dvoryshche R] tiles> <upon turn start>"
+		],
+		"attackSound": "crossbow"
+	},
+	{
+		"name": "Mino R",
+		"unitType": "Gunpowder",
+		"replaces": "Rifleman",
+		"uniqueTo": "Dahomey R",
+		"movement": 2,
+		"strength": 34,
+		"cost": 225,
+		"requiredTech": "Rifling",
+		"obsoleteTech": "Replaceable Parts",
+		"upgradesTo": "Great War Infantry",
+		"uniques": [
+			"[+15]% Strength <when defending>",
+			"Free [Worker] appears <upon defeating a [Military] unit> <with [5]% chance>"
+		],
+		"attackSound": "shot"
+	},
+	{
+		"name": "Eso R",
+		"unitType": "Mounted",
+		"replaces": "Cavalry",
+		"uniqueTo": "Oyo R",
+		"movement": 4,
+		"strength": 34,
+		"cost": 225,
+		"requiredTech": "Military Science",
+		"obsoleteTech": "Combustion",
+		"requiredResource": "Horses",
+		"upgradesTo": "Landship",
+		"uniques": [
+			"Can move after attacking",
+			"No defensive terrain bonus",
+			"[-33]% Strength <vs cities> <when attacking>",
+			"[+10]% Strength bonus for [{Military} {Land}] units within [1] tiles",
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "cavalry"
+	},
+	{
+		"name": "Biafra Baby R",
+		"unitType": "Bomber",
+		"replaces": "Bomber",
+		"uniqueTo": "Biafra R",
+		"movement": 1,
+		"strength": 60,
+		"rangedStrength": 60,
+		"range": 10,
+		"cost": 325,
+		"requiredTech": "Radar",
+		"requiredResource": "Oil",
+		"upgradesTo": "Stealth Bomber",
+		"uniques": [
+			"[+25]% Strength <when attacking> <in [Open terrain] tiles>"
+		],
+		"attackSound": "bombing"
+	},
+	{
+		"name": "Red Devil R",
+		"unitType": "Armored",
+		"replaces": "Tank",
+		"uniqueTo": "Biafra R",
+		"movement": 4,
+		"strength": 60,
+		"cost": 375,
+		"requiredTech": "Combined Arms",
+		"requiredResource": "Oil",
+		"upgradesTo": "Modern Armor",
+		"uniques": [
+			"Can move after attacking",
+			"No defensive terrain bonus",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": [
+			"Ogbunigwe"
+		],
+		"attackSound": "tankshot"
+	},
+	{
+		"name": "Jwapyeong R",
+		"unitType": "Civilian",
+		"replaces": "Great General",
+		"uniqueTo": "Baekje R",
+		"uniques": [
+			"Comment [Gain 20 [Culture] upon expending this unit]",
+            "[+15]% Strength bonus for [Military] units within [2] tiles",
+            "Can instantly construct a [Citadel] improvement <by consuming this unit>",
+			"Can be earned through combat <for [Land] units>",
+            "Is part of Great Person group [General]",
+            "[This Unit] gets a name from the [General] group",
+			"Great Person - [War]", "Unbuildable", "Uncapturable"],
+		"movement": 2
+	},
+	{
+		"name": "Gaemamusa R",
+		"unitType": "Mounted",
+		"replaces": "Horseman",
+		"uniqueTo": "Goguryeo R",
+		"movement": 3,
+		"strength": 12,
+		"cost": 75,
+		"requiredTech": "Horseback Riding",
+		"requiredResource": "Horses",
+		"upgradesTo": "Knight",
+		"obsoleteTech": "Chivalry",
+		"uniques": [
+			"Ignores terrain cost",
+			"[-33]% Strength <vs cities> <when attacking>",
+			"Comment [+25% XP gained from combat when trained during a Golden Age]"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "horse"
+	},
+	{
+		"name": "Sodang R",
+		"unitType": "Sword",
+		"replaces": "Spearman",
+		"uniqueTo": "Silla R",
+		"movement": 2,
+		"strength": 11,
+		"cost": 56,
+		"requiredTech": "Bronze Working",
+		"obsoleteTech": "Civil Service",
+		"upgradesTo": "Pikeman",
+		"uniques": [
+			"[+25]% Strength <when defending>",
+			"[+2] Sight <in [Friendly Land] tiles>",
+			"[+50]% Strength <vs [Mounted] units>"
+		],
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Draconarius R",
+		"unitType": "Civilian",
+		"replaces": "Great General",
+		"uniqueTo": "Sarmatians R",
+		"uniques": [
+			"Comment [+1 Movement for adjacent Military Land units]"
+            "[+15]% Strength bonus for [Military] units within [2] tiles",
+            "Can instantly construct a [Citadel] improvement <by consuming this unit>",
+			"Can be earned through combat <for [Land] units>",
+            "Is part of Great Person group [General]",
+			"Great Person - [War]", "Unbuildable", "Uncapturable"
+		],
+		"movement": 2
+	},
+	{
+		"name": "Kontos Cavalry R",
+		"unitType": "Mounted",
+		"replaces": "Horseman",
+		"uniqueTo": "Sarmatians R",
+		"movement": 4,
+		"strength": 12,
+		"cost": 75,
+		"requiredTech": "Horseback Riding",
+		"requiredResource": "Horses",
+		"upgradesTo": "Knight",
+		"obsoleteTech": "Chivalry",
+		"uniques": [
+			"Can move after attacking",
+			"No defensive terrain bonus",
+			"[-33]% Strength <vs cities> <when attacking>",
+			"Comment [1 additional attacks per turn for [Ranged] units when adjacent to a this unit]"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "horse"
+	},
+	{
+		"name": "StoMex R",
+		"unitType": "Sword",
+		"replaces": "Pikeman",
+		"uniqueTo": "Coast Salish R",
+		"movement": 2,
+		"strength": 16,
+		"cost": 90,
+		"requiredTech": "Civil Service",
+		"upgradesTo": "Lancer",
+		"obsoleteTech": "Metallurgy",
+		"uniques": [
+			"[+50]% Strength <vs [Mounted] units>",
+			"Gain [5]-[10] [Gold]<upon being promoted>"
+		],
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Slaganz R",
 		"unitType": "Sword",
 		"replaces": "Swordsman",
-		"uniqueTo": "Goths",
+		"uniqueTo": "Germania R",
+		"movement": 2,
+		"strength": 12,
+		"cost": 56,
+		"requiredTech": "Iron Working",
+		"upgradesTo": "Longswordsman",
+		"obsoleteTech": "Steel",
+		"hurryCostModifier": 20,
+		"uniques": [
+			"[-50]% maintenance costs"
+		],
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Gaesatae R",
+		"unitType": "Sword",
+		"replaces": "Swordsman",
+		"uniqueTo": "Gaul R",
+		"movement": 2,
+		"strength": 14,
+		"cost": 85,
+		"requiredTech": "Iron Working",
+		"upgradesTo": "Longswordsman",
+		"obsoleteTech": "Steel",
+		"requiredResource": "Iron",
+		"hurryCostModifier": 20,
+		"uniques": [
+			"[-50]% maintenance costs",
+			"[+25]% Strength <vs [Spearman] units>",
+			"[+25]% Strength <vs [Pikeman] units>"
+		],
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Harjaz R",
+		"unitType": "Civilian",
+		"replaces": "Great General",
+		"uniqueTo": "Germania R",
+		"cost": 100,
+		"uniques": [
+			"Can only be built <in [Capital] cities>",
+			"Cost increases by [100] when built",
+            "[+15]% Strength bonus for [Military] units within [2] tiles",
+            "Can instantly construct a [Citadel] improvement <by consuming this unit>",
+			"Can be earned through combat <for [Land] units>",
+            "Is part of Great Person group [General]",
+            "[This Unit] gets a name from the [Harjaz] group",
+			"Great Person - [War]", "Uncapturable"
+		],
+		"movement": 2
+	},
+	{
+		"name": "Wu R",
+		"unitType": "Civilian",
+		"replaces": "Missionary",
+		"uniqueTo": "Chu R",
+		"uniques": [
+			"Instantly gain [2] [Culture] <upon turn end> <in [City center] tiles>",
+            "Can Spread Religion <for [4] movement> <[2] times> <after which this unit is consumed>",
+            "May enter foreign tiles without open borders, but loses [250] religious strength each turn it ends there",
+			"Can be purchased with [Faith] [in all cities in which the majority religion is a major religion]",
+			"[-1] Sight", "Unbuildable", "Religious Unit", "Only available <when religion is enabled>"],
+		"movement": 4,
+		"religiousStrength": 1000
+	},
+	{
+		"name": "Ezugwu R",
+		"unitType": "Gunpowder",
+		"replaces": "Mechanized Infantry",
+		"uniqueTo": "Nigeria R",
+		"movement": 3,
+		"strength": 90,
+		"cost": 375,
+		"requiredTech": "Mobile Tactics",
+		"uniques": [
+			"Comment [+5% Strength for every 3 [Oil] (up to +25% Strength)]",
+			"[+5]% Strength <for every [3] [Oil]> <when number of [Oil] is less than [15]> <hidden from users>",
+			"[+25]% Strength <when number of [Oil] is more than [14]> <hidden from users>",
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "tankshot"
+	},
+	{
+		"name": "Sealand Security R",
+		"unitType": "Gunpowder",
+		"replaces": "Marine",
+		"uniqueTo": "Sealand R",
+		"movement": 2,
+		"strength": 65,
+		"cost": 400,
+		"requiredTech": "Pharmaceuticals",
+		"uniques": [
+			"[+1] Sight <when [Embarked]>",
+			"[+33]% Strength <in cities with a [Radio Essex R]>",
+			"[+100]% Strength <when defending> <when [Embarked]>"
+		],
+		"promotions": ["Amphibious"],
+		"attackSound": "shot"
+	},
+	{
+		"name": "Málamann R",
+		"unitType": "Sword",
+		"replaces": "Longswordsman",
+		"uniqueTo": "Jomsvikings R",
+		"movement": 2,
+		"strength": 21,
+		"cost": 120,
+		"requiredTech": "Steel",
+		"upgradesTo": "Musketman",
+		"obsoleteTech": "Gunpowder",
+		"requiredResource": "Iron",
+		"uniques": [
+			"No movement cost to pillage",
+			"Can move immediately once bought",
+			"Comment [[Gold] cost of purchasing This Unit -50%]"
+		],
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Dobrovoljac R",
+		"unitType": "Gunpowder",
+		"replaces": "Great War Infantry",
+		"uniqueTo": "Serbia R",
+		"movement": 2,
+		"strength": 50,
+		"cost": 320,
+		"requiredTech": "Replaceable Parts",
+		"upgradesTo": "Infantry",
+		"obsoleteTech": "Plastics",
+		"uniques": [
+			"[-50]% maintenance costs"
+		],
+		"promotions": ["Drill I"],
+		"attackSound": "shot"
+	},
+	{
+		"name": "Mountain Gun R",
+		"unitType": "Siege",
+		"replaces": "Artillery",
+		"uniqueTo": "Serbia R",
+		"movement": 2,
+		"strength": 19,
+		"rangedStrength": 28,
+		"range": 3,
+		"cost": 320,
+		"requiredTech": "Dynamite",
+		"upgradesTo": "Rocket Artillery",
+		"uniques": [
+			"[-1] Sight",
+			"No defensive terrain bonus",
+			"Must set up to ranged attack",
+			"[+200]% Strength <vs cities> <when attacking>",
+			"[1] additional attacks per turn <in [Hill] tiles>",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["Indirect Fire"],
+		"attackSound": "artillery"
+	},
+	{
+		"name": "Zelenaši R",
+		"unitType": "Gunpowder",
+		"replaces": "Great War Infantry",
+		"uniqueTo": "Montenegro R",
+		"movement": 2,
+		"strength": 50,
+		"cost": 320,
+		"requiredTech": "Replaceable Parts",
+		"upgradesTo": "Infantry",
+		"obsoleteTech": "Plastics",
+		"uniques": [
+			"[+1] Movement <during a Golden Age>",
+			"[+25]% Strength <in [Rough terrain] tiles>"
+		],
+		"attackSound": "shot"
+	},
+	{
+		"name": "Lovćen Detachment R",
+		"unitType": "Siege",
+		"replaces": "Artillery",
+		"uniqueTo": "Montenegro R",
+		"movement": 2,
+		"strength": 21,
+		"rangedStrength": 28,
+		"range": 3,
+		"cost": 320,
+		"requiredTech": "Dynamite",
+		"upgradesTo": "Rocket Artillery",
+		"uniques": [
+			"[-1] Sight",
+			"Must set up to ranged attack",
+			"[+100]% Strength <vs cities> <when attacking>",
+			"[+50]% Strength <vs [Land] units> <when attacking>",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["Indirect Fire"],
+		"attackSound": "artillery"
+	},
+	/*
+		"replaces": "",
+		"uniqueTo": " R",
+	*/
+	/*
+		"uniques": [
+		],
+	*/
+	
+	//Unused
+	/*
+	},
+	{
+		"name": "GadrauhtR",
+		"unitType": "Sword",
+		"replaces": "Swordsman",
+		"uniqueTo": "GothsR",
 		"movement": 2,
 		"strength": 15,
 		"cost": 75,
@@ -549,10 +1864,10 @@
 		"attackSound": "metalhit"
 	}
     {
-        "name": "Atabeg",
+        "name": "AtabegR",
         "unitType": "Civilian",
 		"replaces": "Great General",
-		"uniqueTo": "Seljuk Empire",
+		"uniqueTo": "SeljuksR",
         "uniques": [
             "[+20]% Strength bonus for [{Military} {Land}] units within [2] tiles",
             "Can instantly construct a [Citadel] improvement <by consuming this unit>",
@@ -563,10 +1878,10 @@
         "movement": 4
     },
     {
-        "name": "Tumen",
+        "name": "TumenR",
         "unitType": "Mounted",
 		"replaces": "Knight",
-		"uniqueTo": "Timurid Empire",
+		"uniqueTo": "TimuridsR",
         "movement": 4,
         "strength": 20,
         "cost": 120,

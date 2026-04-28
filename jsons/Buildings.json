@@ -3,9 +3,9 @@
 	//Original Civs
 	
 	{
-		"name": "Yacata",
+		"name": "Yacata R",
 		"replaces": "Mint",
-		"uniqueTo": "The Purépecha",
+		"uniqueTo": "Purépecha R",
 		"maintenance": 0,
 		"requiredNearbyImprovedResources": ["Copper", "Gold Ore", "Iron", "Silver"],
 		"hurryCostModifier": 25,
@@ -17,9 +17,9 @@
 		"requiredTech": "Currency"
 	},
 	{
-		"name": "Wickiup",
+		"name": "Wickiup R",
 		"replaces": "Granary",
-		"uniqueTo": "The Apache",
+		"uniqueTo": "Apache R",
 		"food": 2,
 		"maintenance": 1,
 		"hurryCostModifier": 25,
@@ -32,9 +32,9 @@
 		"requiredTech": "Pottery"
 	},
 	{
-		"name": "That",
+		"name": "That R",
 		"replaces": "Garden",
-		"uniqueTo": "Lan Xang",
+		"uniqueTo": "Lan Xang R",
 		"happiness": 1,
 		"uniques": ["[+25]% Great Person generation [in this city]"],
 		"hurryCostModifier": 25,
@@ -42,9 +42,9 @@
 		"requiredTech": "Theology"
 	}
 	{
-		"name": "Aglipayan Church",
+		"name": "Aglipayan Church R",
 		"replaces": "Opera House",
-		"uniqueTo": "The Philippines",
+		"uniqueTo": "The Philippines R",
 		"culture": 4,
 		"specialistSlots": {"Artist": 1},
 		"hurryCostModifier": 10,
@@ -57,9 +57,9 @@
 		]
 	},
 	{
-		"name": "Music Academy",
+		"name": "Music Academy R",
 		"replaces": "Public School",
-		"uniqueTo": "Latvia",
+		"uniqueTo": "Latvia R",
 		"science": 3,
 		"culture": 1,
 		"specialistSlots": {"Scientist": 1},
@@ -67,13 +67,15 @@
 		"requiredBuilding": "University",
 		"maintenance": 3,
 		"hurryCostModifier": 0,
-		"uniques": ["[+1 Science] per [2] population [in this city]"],
+		"uniques": [
+			"[+1 Science] per [2] population [in this city]"
+		],
 		"requiredTech": "Scientific Theory"
 	},
 	{
-		"name": "Lauluväljak",
+		"name": "Lauluväljak R",
 		"replaces": "Opera House",
-		"uniqueTo": "Estonia",
+		"uniqueTo": "Estonia R",
         "cost": 165,
 		"culture": 4,
 		"specialistSlots": {"Artist": 1},
@@ -86,9 +88,9 @@
 		]
 	},
 	{
-		"name": "Carolingian Monastery",
+		"name": "Carolingian Monastery R",
 		"replaces": "Temple",
-		"uniqueTo": "Francia",
+		"uniqueTo": "Francia R",
 		"faith": 2,
 		"culture": 1,
 		"requiredBuilding": "Shrine",
@@ -102,9 +104,9 @@
 		]
 	},
 	{
-		"name": "Gécamines Facility",
+		"name": "Gécamines Facility R",
 		"replaces": "Recycling Center",
-		"uniqueTo": "Zaire",
+		"uniqueTo": "Zaire R",
 		"maintenance": 3,
 		"requiredTech": "Ecology",
 		"uniques": [
@@ -114,12 +116,12 @@
 		]
 	},
 	
-	//Pirate Update
+	//Pirates
 	
 	{
-		"name": "Session House",
+		"name": "Session House R",
 		"replaces": "Harbor",
-		"uniqueTo": "Libertatia",
+		"uniqueTo": "Libertatia R",
 		"cost": 120,
 		"happiness": 1,
 		"maintenance": 1,
@@ -132,9 +134,9 @@
 		"requiredTech": "Compass"
 	},
 	{
-		"name": "Gambling House",
+		"name": "Gambling House R",
 		"replaces": "Bank",
-		"uniqueTo": "Canton Pirates",
+		"uniqueTo": "Canton Pirates R",
 		"gold": 2,
 		"specialistSlots": {"Merchant": 1},
 		"hurryCostModifier": 15,
@@ -146,9 +148,9 @@
 		"requiredTech": "Banking"
 	},
 	{
-		"name": "Mazmorra",
+		"name": "Mazmorra R",
 		"replaces": "Courthouse",
-		"uniqueTo": "Tétouan",
+		"uniqueTo": "Tétouan R",
 		"gold": 1,
 		"hurryCostModifier": 50,
 		"uniques": [
@@ -157,13 +159,31 @@
 		],
 		"requiredTech": "Mathematics"
 	},
+	{
+		"name": "Wrecker's Tavern R",
+		"replaces": "Lighthouse",
+		"uniqueTo": "Flying Gang R",
+		"cost": 75,
+		"culture": 1,
+		"happiness": 1,
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"uniques": [
+			"Must be next to [Coast]", 
+			"[+1 Food] from [Ocean] tiles [in this city]",
+			"[+1 Food] from [Coast] tiles [in this city]", 
+			"[+1 Food] from [Fish] tiles [in this city]",
+			"All newly-trained [Melee Water] units [in this city] receive the [Coastal Raider I] promotion"
+		],
+		"requiredTech": "Optics"
+	},
 	
 	//Americas Update
 	
 	{
-		"name": "Taller de Orfebre",
+		"name": "Taller de Orfebre R",
 		"replaces": "Mint",
-		"uniqueTo": "Mixtecs",
+		"uniqueTo": "Mixtecs R",
 		"maintenance": 0,
 		"requiredNearbyImprovedResources": ["Gold Ore", "Silver", "Copper"],
 		"hurryCostModifier": 25,
@@ -176,9 +196,9 @@
 	},
 	/*
 	{
-		"name": "Calpul",
+		"name": "Calpul R",
 		"replaces": "Courthouse",
-		"uniqueTo": "Tlaxcala",
+		"uniqueTo": "Tlaxcala R",
 		"maintenance": 2,
 		"hurryCostModifier": 50,
 		"uniques": [
@@ -193,9 +213,9 @@
 	*/
 	/*
 	{
-		"name": "Gepugu",
+		"name": "Gepugu R",
 		"replaces": "Walls",
-		"uniqueTo": "Kuikuro",
+		"uniqueTo": "Kuikuro R",
 		"cityStrength": 5,
 		"cityHealth": 50,
 		"food": 2,
@@ -208,9 +228,9 @@
 	},
 	*/
 	{
-		"name": "Yo Hopèe",
+		"name": "Yo Hopèe R",
 		"replaces": "Temple",
-		"uniqueTo": "Zapotecs",
+		"uniqueTo": "Zapotecs R",
 		"faith": 2,
 		"requiredBuilding": "Shrine",
 		"maintenance": 2,
@@ -222,17 +242,881 @@
 			"Destroyed when the city is captured"
 		]
 	},
+	{
+		"name": "Soma Boiler R",
+		"replaces": "Water Mill",
+		"uniqueTo": "Oxus R",
+		"maintenance": 2,
+		"food": 2,
+		"production": 1,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"Must be on [River]",
+			"Provides [1] [Soma]",
+			"[+1 Faith, +1 Science] from every [Incense]"
+		],
+		"requiredTech": "The Wheel"
+	},
+	{
+		"name": "Baroque Palace R",
+		"replaces": "Military Academy",
+		"uniqueTo": "Courland and Semigallia R",
+		"culture": 4,
+		"greatPersonPoints": {"Great Artist": 3},
+		"hurryCostModifier": 0,
+		"maintenance": 1,
+		"requiredBuilding": "Armory",
+		"uniques": [
+			"Comment [3 [Great Artist] points]",
+			"New [Military] units start with [15] XP [in this city]", 
+			"Destroyed when the city is captured"
+		],
+		"requiredTech": "Military Science"
+	},
+	{
+		"name": "Casatorre R",
+		"replaces": "Castle",
+		"uniqueTo": "Pisa R",
+		"cityStrength": 7,
+		"cityHealth": 25,
+		"hurryCostModifier": 25,
+		"requiredBuilding": "Walls",
+		"requiredTech": "Chivalry",
+		"uniques": [
+			"[+2]% [Gold] from Trade Routes",
+			"[+25]% Production when constructing [Water] units [in this city]"
+			"Destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "Palace of Florence R",
+		"replaces": "Palace",
+		"uniqueTo": "Florence R",
+		"isNationalWonder": true,
+		"production": 3,
+		"science": 3,
+		"gold": 3,
+		"culture": 1,
+		"specialistSlots": {"Artist": 2},
+		"cityStrength": 2.5,
+		"cost": 0,
+		"uniques": [
+			"Unsellable",
+			"Unbuildable",
+			"Will not be displayed in Civilopedia",
+			"Indicates the capital city"
+		]
+	},
+	{
+		"name": "Arti R",
+		"replaces": "Bank",
+		"uniqueTo": "Florence R",
+		"gold": 2,
+		"specialistSlots": {"Merchant": 1},
+		"hurryCostModifier": 15,
+		"percentStatBonus": {"gold": 25},
+		"requiredBuilding": "Market",
+		"requiredTech": "Banking"
+		"uniques": [
+			"[+2]% [Culture] from Trade Routes",
+			"[+2 Culture] from [Trading post] tiles [in this city]"
+		]
+	},
+	{
+		"name": "Palazzo R",
+		"replaces": "Bank",
+		"uniqueTo": "Milan R",
+		"gold": 2,
+		"cityStrength": 6,
+		"specialistSlots": {"Merchant": 1},
+		"greatPersonPoints": {"Great Engineer": 2, "Great Merchant": 2, "Great Scientist": 2},
+		"hurryCostModifier": 15,
+		"percentStatBonus": {"gold": 25},
+		"requiredBuilding": "Market",
+		"requiredTech": "Banking"
+		"uniques": [
+			"Comment [+2 [Great Engineer] points]",
+			"Comment [+2 [Great Merchant] points]",
+			"Comment [+2 [Great Scientist] points]",
+			"[+100]% Gold given to enemy if city is captured <in this city>"
+		]
+	},
+	{
+		"name": "Xawala Network R",
+		"replaces": "Bank",
+		"uniqueTo": "Somali Pirates R",
+		"gold": 2,
+		"specialistSlots": {"Merchant": 1},
+		"hurryCostModifier": 15,
+		"percentStatBonus": {"gold": 25},
+		"requiredBuilding": "Market",
+		"requiredTech": "Banking"
+		"uniques": [
+			"[+15]% Production when constructing [Military] units [in this city]"
+		]
+	},
+	{
+		"name": "Crag Base R",
+		"replaces": "Lighthouse",
+		"uniqueTo": "Cilician Pirates R",
+		"cost": 75,
+		"cityStrength": 5,
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"uniques": [
+			"Must be next to [Coast]",
+			"[+1 Food] from [Ocean] tiles [in this city]"
+			"[+1 Food] from [Coast] tiles [in this city]",
+			"[+1 Food] from [Fish] tiles [in this city]"
+		],
+		"requiredTech": "Optics"
+	},
+	{
+		"name": "Kozolec R",
+		"replaces": "Granary",
+		"uniqueTo": "Slovenia R",
+		"food": 2,
+		"culture": 1,
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"uniques": ["[+1 Food] from [Deer] tiles [in this city]",
+			"[+1 Food] from [Bananas] tiles [in this city]",
+			"[+1 Food] from [Wheat] tiles [in this city]"],
+		"requiredTech": "Pottery"
+	},
+	{
+		"name": "Neoclassical Facades R",
+		"replaces": "Broadcast Tower",
+		"uniqueTo": "North Macedonia R",
+		"culture": 3,
+		"percentStatBonus": {"culture": 33},
+		"requiredBuilding": "Museum",
+		"maintenance": 3,
+		"requiredTech": "Radio",
+		"uniques": [
+			"Comment [[+1 Culture] from all [Heroic Epic] buildings for every era after the [Modern era]]",
+			"[+1 Culture] from all [Heroic Epic] buildings <starting from the [Atomic era]> <hidden from users>",
+			"[+1 Culture] from all [Heroic Epic] buildings <starting from the [Information era]> <hidden from users>",
+			"[+1 Culture] from all [Heroic Epic] buildings <starting from the [Future era]> <hidden from users>"
+			"Destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "Kino R",
+		"replaces": "Opera House",
+		"uniqueTo": "Bosnia and Herzegovina R",
+		"culture": 4,
+		"specialistSlots": {"Artist": 1},
+		"hurryCostModifier": 10,
+		"requiredBuilding": "Amphitheater",
+		"maintenance": 2,
+		"requiredTech": "Acoustics",
+		"uniques": [
+			"[+3]% [Culture] [in this city] <for every [Remaining [{Friendly} {Major}] Civilizations]>",
+			"Destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "Matica Hrvatska R",
+		"replaces": "National College",
+		"uniqueTo": "Croatia R",
+		"cost": 125,
+		"science": 3,
+		"culture": 3,
+		"isNationalWonder": true,
+		"percentStatBonus": {"science": 50},
+		"requiredTech": "Philosophy"
+		"uniques": [
+			"Only available <if [Library] is constructed in all [non-[Puppeted]] cities>",
+			"Cost increases by [30] per owned city"
+		],
+	},
+	{
+		"name": "SAV R",
+		"replaces": "Research Lab",
+		"uniqueTo": "Slovakia R",
+		"science": 4,
+		"percentStatBonus": {"science": 50},
+		"specialistSlots": {"Scientist": 1},
+		"requiredBuilding": "Public School",
+		"maintenance": 3,
+		"requiredTech": "Plastics"
+		"uniques": [
+			"[+1 Culture] from all [Science] buildings <in this city>"
+		],
+	},
+	{
+		"name": "Tower House R",
+		"replaces": "Castle",
+		"uniqueTo": "Umhaill R",
+		"production": 1,
+		"cityStrength": 7,
+		"cityHealth": 25,
+		"hurryCostModifier": 25,
+		"requiredBuilding": "Walls",
+		"requiredTech": "Chivalry",
+		"uniques": [
+			"[-50]% production cost <in [Annexed] cities>",
+			"Destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "Jambur R",
+		"replaces": "Amphitheater",
+		"uniqueTo": "Aru R",
+		"culture": 3,
+		"specialistSlots": {"Artist": 1},
+		"requiredBuilding": "Monument",
+		"maintenance": 2,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"Comment [Your units gain [Culture] upon defeating a Military unit within 5 tiles of this City center]",
+			"Destroyed when the city is captured"
+		],
+		"requiredTech": "Drama and Poetry"
+	},
+	{
+		"name": "Council Circle R",
+		"replaces": "Amphitheater",
+		"uniqueTo": "Wichita R",
+		"culture": 3,
+		"specialistSlots": {"Artist": 1, "Prophet": 2},
+		"requiredBuilding": "Monument",
+		"maintenance": 2,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"Comment [+2 Prophet slots]",
+			"Destroyed when the city is captured"
+		],
+		"requiredTech": "Drama and Poetry"
+	},
+	{
+		"name": "Grass Lodge R",
+		"replaces": "Granary",
+		"uniqueTo": "Wichita R",
+		"food": 2,
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"[+1 Food] <after discovering [Civil Service]>",
+			"[+1 Culture] <after discovering [Archaeology]>",
+			"[+1 Food] <with [1] to [6] neighboring [Camp] tiles>",
+			"[+1 Food] <with [1] to [6] neighboring [Farm] tiles>",
+			"[+1 Food] from [Deer] tiles [in this city]",
+			"[+1 Food] from [Bananas] tiles [in this city]",
+			"[+1 Food] from [Wheat] tiles [in this city]"
+		],
+		"requiredTech": "Pottery"
+	},
+	{
+		"name": "Tintero R",
+		"replaces": "Temple",
+		"uniqueTo": "Chachapoyas R",
+		"faith": 2,
+		"requiredBuilding": "Shrine",
+		"maintenance": 2,
+		"hurryCostModifier": 25,
+		"requiredTech": "Philosophy",
+		"uniques": [
+			"Comment [Your units gain 4 [Faith] upon defeating a Military unit within 3 tiles of this [City center]]",
+			"Only available <when religion is enabled>",
+			"Destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "Ciudadela R",
+		"replaces": "Castle",
+		"uniqueTo": "Chimor R",
+		"specialistSlots": {"Artist": 2},
+		"cityStrength": 7,
+		"cityHealth": 25,
+		"hurryCostModifier": 25,
+		"requiredBuilding": "Walls",
+		"requiredTech": "Civil Service",
+		"uniques": [
+			"Comment [+2 Artist slots]",
+			"[+1 Faith] from [Fish] tiles [in this city]"
+			"Destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "Nuhue R",
+		"replaces": "Temple",
+		"uniqueTo": "Tairona R",
+		"specialistSlots": {"Merchant": 1},
+		"faith": 2,
+		"happiness": 1,
+		"requiredBuilding": "Shrine",
+		"maintenance": 2,
+		"hurryCostModifier": 25,
+		"requiredTech": "Philosophy",
+		"uniques": [
+			"Comment [+1 Merchant slot]",
+			"Only available <when religion is enabled>",
+			"Destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "Rdo-Ring R",
+		"replaces": "Monument",
+		"uniqueTo": "Zhangzhung R",
+		"faith": 1,
+		"culture": 2,
+		"cost": 40,
+		"hurryCostModifier": 40,
+		"maintenance": 1,
+		"uniques": [
+			"[+1 Faith] in cities on [Hill] tiles <in this city>",
+			"Destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "+5 City Health R",
+		"cityHealth": 5,
+		"uniqueTo": "Zhangzhung R",
+		"uniques": [
+			"Unsellable",
+			"Unbuildable",
+			"Will not be displayed in Civilopedia",
+			"Destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "Qasgiq R",
+		"replaces": "Aqueduct",
+		"uniqueTo": "Yupik R",
+		"culture": 1,
+		"maintenance": 1,
+		"hurryCostModifier": 0,
+		"uniques": [
+			"[+1 Food, +1 Production] from every [Fishing Boats]",
+			"[40]% Food is carried over after population increases [in this city]"
+		],
+		"requiredTech": "Engineering"
+	},
+	{
+		"name": "Winery R",
+		"replaces": "Granary",
+		"uniqueTo": "Moldova R",
+		"food": 2,
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"[+1 Food, +1 Culture] from [{improved} {Wine}] tiles [in this city]",
+			"[+1 Food] from [Deer] tiles [in this city]",
+			"[+1 Food] from [Bananas] tiles [in this city]",
+			"[+1 Food] from [Wheat] tiles [in this city]"
+		],
+		"requiredTech": "Pottery"
+	},
+	{
+		"name": "Pivovar R",
+		"replaces": "Theatre",
+		"uniqueTo": "Czechia R",
+		"gold": 2,
+		"food": 2,
+		"happiness": 3,
+		"cost": 200,
+		"hurryCostModifier": 10,
+		"requiredBuilding": "Colosseum",
+		"requiredTech": "Chemistry"
+		"uniques": [
+			"Comment [Required tech [Chemistry] vs [Printing Press]]"
+			"[+5]% Great Person generation [in this city]"
+		],
+	},
+	{
+		"name": "Crusader Castle R",
+		"replaces": "Castle",
+		"uniqueTo": "Jerusalem R",
+		"cityStrength": 7,
+		"cityHealth": 25,
+		"hurryCostModifier": 25,
+		"requiredBuilding": "Walls",
+		"requiredTech": "Chivalry",
+		"uniques": [
+			"[+3 Faith] from all [{Faith} {Wonder}] buildings",
+			"[+2 Faith] [in this city] <in cities connected to the capital>",
+			"Destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "Stone Baba R",
+		"replaces": "Monument",
+		"uniqueTo": "Old Prussians R",
+		"culture": 2,
+		"cost": 40,
+		"hurryCostModifier": 40,
+		"maintenance": 1,
+		"uniques": [
+			"[+1 Faith] <after founding a Pantheon>",
+			"[+1 Faith] [in this city] <for every [2] [[Holy] Cities of [all] Civilizations]>",
+			"Destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "Indoor Arena R",
+		"replaces": "Stadium",
+		"uniqueTo": "Lithuania R",
+		"culture": 3,
+		"happiness": 4,
+		"requiredBuilding": "Theatre",
+		"maintenance": 2,
+		"requiredTech": "Refrigeration"
+	},
+	{
+		"name": "Hogan R",
+		"replaces": "Temple",
+		"uniqueTo": "Navajo R",
+		"food": 2,
+		"faith": 2,
+		"requiredBuilding": "Shrine",
+		"maintenance": 2,
+		"hurryCostModifier": 25,
+		"requiredTech": "Philosophy",
+		"uniques": [
+			"[+1 Faith] from [Desert] tiles [in this city] <in tiles adjacent to [Holy site] tiles>",
+			"Only available <when religion is enabled>",
+			"Destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "Cosmodrome R",
+		"replaces": "Spaceship Factory",
+		"uniqueTo": "Kazakhstan R",
+		"specialistSlots": {"Engineer": 2},
+		"production": 3,
+        "maintenance": 3,
+		"requiredResource": "Aluminum",
+		"cost": 360,
+		"requiredBuilding": "Factory",
+		"uniques": [
+			"Comment [+2 Engineer slots]",
+			"[+25]% [Science] [in this city]",
+			"[+50]% Production when constructing [Spaceship part] units [in this city]"
+		],
+		"requiredTech": "Robotics"
+	},
+	{
+		"name": "TALCO Plant R",
+		"replaces": "Recycling Center",
+		"uniqueTo": "Tajikistan R",
+		"maintenance": 3,
+		"requiredTech": "Ecology",
+		"uniques": [
+			"Provides [2] [Aluminum]",
+			"[+1 Culture] from each Trade Route",
+			"Limited to [5] per Civilization"
+		]
+	},
+	{
+		"name": "Gas Pipeline R",
+		"replaces": "Factory",
+		"uniqueTo": "Turkmenistan R",
+		"cost": 360,
+		"production": 4,
+		"percentStatBonus": {"production": 15},
+		"specialistSlots": {"Engineer": 4},
+		"requiredBuilding": "Workshop",
+		"maintenance": 3,
+		"hurryCostModifier": 0,
+		"requiredResource": "Coal",
+		"requiredTech": "Industrialization"
+		"uniques": [
+			"Comment [Engineer slots 4 vs 2]"
+		]
+	},
+	{
+		"name": "Sug'orish Kanali R",
+		"requiredResource": "Aluminum",
+		"replaces": "Hydro Plant",
+		"uniqueTo": "Uzbekistan R",
+		"hurryCostModifier": 0,
+		"maintenance": 3,
+		"uniques": [
+			"Only available <with [1] to [6] neighboring [Lakes] tiles>",
+			"[+2 Production] from [Lakes] tiles [in this city]",
+			"[+2 Production] from [River] tiles [in this city]"
+		],
+		"requiredTech": "Electricity"
+	},
+	{
+		"name": "Village Assembly R",
+		"replaces": "Workshop",
+		"uniqueTo": "KPAM R",
+		"maintenance": 2,
+		"production": 2,
+		"specialistSlots": {"Engineer": 1},
+		"percentStatBonus": {"production": 10},
+		"hurryCostModifier": 25,
+		"requiredTech": "Metal Casting"
+		"uniques": [
+			"[+1 Production] from [Farm] tiles [in this city]"
+		]
+	},
+	{
+		"name": "Commune Food Station R",
+		"replaces": "Market",
+		"uniqueTo": "CHAZ R",
+		"gold": 2,
+		"percentStatBonus": {"gold": 25},
+		"specialistSlots": {"Merchant": 1},
+		"hurryCostModifier": 25,
+		"requiredTech": "Currency"
+		"uniques": [
+			"[+1 Culture] per [4] population [in this city]"
+			"[+1 Food] [in this city] <when above [2] [Happiness]>",
+		],
+	},
+	{
+		"name": "Workers' Council R",
+		"replaces": "Workshop",
+		"uniqueTo": "Makhnovia R",
+		"cityStrength": 4,
+		"cityHealth": 20,
+		"production": 2,
+		"maintenance": 2,
+		"specialistSlots": {"Engineer": 1},
+		"percentStatBonus": {"production": 10},
+		"hurryCostModifier": 25,
+		"requiredTech": "Metal Casting"
+		"uniques": [
+			"Comment [[+1 Production] in this city for every 2 Annexed Cities of Hostile Civilization (capped at [+4 Production])]",
+			"[+1 Production] [in this city] <when number of [[Annexed] Cities of [Hostile] Civilizations] is equal to [2]> <hidden from users>",
+			"[+1 Production] [in this city] <when number of [[Annexed] Cities of [Hostile] Civilizations] is equal to [3]> <hidden from users>",
+			"[+2 Production] [in this city] <when number of [[Annexed] Cities of [Hostile] Civilizations] is equal to [4]> <hidden from users>",
+			"[+2 Production] [in this city] <when number of [[Annexed] Cities of [Hostile] Civilizations] is equal to [5]> <hidden from users>",
+			"[+3 Production] [in this city] <when number of [[Annexed] Cities of [Hostile] Civilizations] is equal to [6]> <hidden from users>",
+			"[+3 Production] [in this city] <when number of [[Annexed] Cities of [Hostile] Civilizations] is equal to [7]> <hidden from users>",
+			"[+4 Production] [in this city] <when number of [[Annexed] Cities of [Hostile] Civilizations] is more than [7]> <hidden from users>"
+		],
+	},
+	{
+		"name": "Pioneers Palace R",
+		"replaces": "Public School",
+		"uniqueTo": "Soviet Union R",
+		"science": 3,
+		"maintenance": 3,
+		"specialistSlots": {"Scientist": 1},
+		"hurryCostModifier": 0,
+		"requiredBuilding": "University",
+		"requiredTech": "Scientific Theory"
+		"uniques": [
+			"[+1 Science] per [2] population [in this city]",
+			"[+1 Science] [in this city] <for every [Adopted [Order] Policies]>"
+		],
+	},
+	{
+		"name": "Stone Works SU",
+		"replaces": "Stone Works",
+		"uniqueTo": "Soviet Union R",
+		"happiness": 1,
+		"production": 1,
+		"maintenance": 1,
+		"hurryCostModifier": 0,
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"[+1 Production] from [Stone] tiles [in this city]",
+			"[+1 Production] from [Marble] tiles [in this city]"
+		],
+		"requiredTech": "Calendar"
+	},
+	{
+		"name": "Windmill SU",
+		"replaces": "Windmill",
+		"uniqueTo": "Soviet Union R",
+		"production": 2,
+		"specialistSlots": {"Engineer": 1},
+		"hurryCostModifier": 25,
+		"maintenance": 2,
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"[+10]% Production when constructing [All] buildings [in this city]"
+		],
+		"requiredTech": "Economics"
+	},
+	{
+		"name": "Forge SU",
+		"replaces": "Forge",
+		"uniqueTo": "Soviet Union R",
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"requiredTech": "Metal Casting",
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"[+15]% Production when constructing [Land] units [in this city]",
+			"[+1 Production] from [Iron] tiles [in this city]"
+		]
+	},
+	{
+		"name": "Factory SU",
+		"replaces": "Factory",
+		"uniqueTo": "Soviet Union R",
+		"cost": 360,
+		"production": 4,
+		"percentStatBonus": {"production": 10},
+		"specialistSlots": {"Engineer": 2},
+		"requiredBuilding": "Workshop",
+		"maintenance": 3,
+		"hurryCostModifier": 0,
+		"requiredTech": "Industrialization"
+		"uniques": [
+			"Will not be displayed in Civilopedia"
+		],
+	},
+	{
+		"name": "Fondaco Tower R",
+		"replaces": "Workshop",
+		"uniqueTo": "Genoa R",
+		"production": 2,
+		"specialistSlots": {"Merchant": 1},
+		"percentStatBonus": {"production": 10},
+		"hurryCostModifier": 25,
+		"requiredTech": "Guilds"
+		"requiredBuilding": "Market",
+		"uniques": [
+			"Comment [1 Merchant slot vs 1 Engineer slot]",
+			"[+10]% [Gold] [in this city] <in cities connected to the capital>"
+		],
+	},
+	{
+		"name": "Gadaye R",
+		"replaces": "Market",
+		"uniqueTo": "Sokoto R",
+		"gold": 2,
+		"specialistSlots": {"Merchant": 1},
+		"percentStatBonus": {"gold": 25},
+		"hurryCostModifier": 25,
+		"requiredTech": "Currency"
+		"uniques": [
+			"[+2 Gold] from [Cotton] tiles [in this city]"
+		],
+	},
+	{
+		"name": "Cantonese Opera House R",
+		"replaces": "Opera House",
+		"uniqueTo": "Hong Kong R",
+		"culture": 4,
+		"happiness": 1,
+		"specialistSlots": {"Artist": 3},
+		"hurryCostModifier": 10,
+		"requiredBuilding": "Amphitheater",
+		"maintenance": 2,
+		"requiredTech": "Acoustics",
+		"uniques": [
+			"Comment [Artist slots 3 vs 1]"
+			"Destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "Cha Chaan Teng R",
+		"replaces": "Stadium",
+		"uniqueTo": "Hong Kong R",
+		"food": 2,
+		"culture": 6,
+		"happiness": 4,
+		"maintenance": 2,
+		"requiredTech": "Refrigeration"
+	},
+	{
+		"name": "Air Macau R",
+		"uniqueTo": "Macau R",
+		"culture": 4,
+		"maintenance": 2,
+		"requiredTech": "Radar"
+		"uniques": [
+			"Can carry [2] extra [Air] units <in this city>",
+			"[+2 Gold] from all [Culture] buildings <in this city>",
+			"Destroyed when the city is captured"
+		],
+	},
+	{
+		"name": "Dǔchǎng R",
+		"replaces": "Stadium",
+		"uniqueTo": "Macau R",
+		"happiness": 4,
+		"requiredBuilding": "Theatre",
+		"maintenance": 2,
+		"requiredTech": "Refrigeration"
+		"uniques": [
+			"[+25]% [Gold] [in this city] <during a Golden Age>"
+		],
+	},
+	{
+		"name": "Oja-Oba R",
+		"replaces": "Market",
+		"uniqueTo": "Oyo R",
+		"gold": 2,
+		"specialistSlots": {"Merchant": 1},
+		"percentStatBonus": {"gold": 25},
+		"hurryCostModifier": 25,
+		"requiredTech": "Currency"
+		"uniques": [
+			"[+1 Food, +1 Gold] from every [Farm] <in this city> <with [1] to [6] neighboring [City center] tiles>"
+		],
+	},
+	{
+		"name": "Toseong R",
+		"replaces": "Walls",
+		"uniqueTo": "Baekje R",
+		"cityStrength": 5,
+		"cityHealth": 50,
+		"food": 2,
+		"hurryCostModifier": 25,
+		"requiredTech": "Masonry",
+		"uniques": [
+			"Destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "Sanseong R",
+		"replaces": "Walls",
+		"uniqueTo": "Goguryeo R",
+		"cityStrength": 5,
+		"cityHealth": 50,
+		"hurryCostModifier": 25,
+		"requiredTech": "Masonry",
+		"uniques": [
+			"Comment [Built for free in annexed cities]",
+			"Comment [Gain control over non-[Mountain] [Hill] resource tiles in a 3-tile radius in this city]",
+			"Gain control over [{non-[City-State]} {non-[Major]} {non-[Mountain]} {Hill} {Bonus resource}] tiles in a [3]-tile radius <in this city> <hidden from users>",
+			"Gain control over [{non-[City-State]} {non-[Major]} {non-[Mountain]} {Hill} {Luxury resource}] tiles in a [3]-tile radius <in this city> <hidden from users>",
+			"Gain control over [{non-[City-State]} {non-[Major]} {non-[Mountain]} {Hill} {Strategic resource}] tiles in a [3]-tile radius <in this city> <hidden from users>",
+			"Destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "Cheomseongdae R",
+		"replaces": "Observatory",
+		"uniqueTo": "Silla R",
+		"faith": 2,
+		"maintenance": 0,
+		"hurryCostModifier": 15,
+		"percentStatBonus": {"science": 25},
+		"requiredBuilding": "Library",
+		"requiredTech": "Astronomy",
+	},
+	{
+		"name": "Lelum R",
+		"replaces": "Lighthouse",
+		"uniqueTo": "Coast Salish R",
+		"culture": 1,
+		"cost": 75,
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"requiredTech": "Optics"
+		"uniques": [
+			"Must be next to [Coast]",
+			"[+1 Food] from [Ocean] tiles [in this city]",
+			"[+1 Food] from [Coast] tiles [in this city]",
+			"[+1 Food] from [Fish] tiles [in this city]",
+			"[+25]% [Culture] [in this city] <during We Love The King Day>"
+		],
+	},
+	{
+		"name": "Oppidum R",
+		"replaces": "Walls",
+		"uniqueTo": "Gaul R",
+		"cityStrength": 7.5,
+		"cityHealth": 50,
+		"hurryCostModifier": 25,
+		"requiredTech": "Masonry",
+		"uniques": [
+			"[+2 Production] <with [1] to [6] neighboring [Quarry] tiles>",
+			"Destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "Lacquered Coffin Tomb R",
+		"replaces": "Temple",
+		"uniqueTo": "Chu R",
+		"faith": 2,
+		"requiredBuilding": "Shrine",
+		"hurryCostModifier": 25,
+		"maintenance": 2,
+		"requiredTech": "Philosophy",
+		"uniques": [
+			"[+2 Faith] from [Copper] tiles [in this city]",
+			"Only available <when religion is enabled>",
+			"Destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "Nollywood Studio R",
+		"replaces": "Theatre",
+		"uniqueTo": "Nigeria R",
+		"happiness": 4,
+        "specialistSlots": {"Artist": 2},
+		"hurryCostModifier": 10,
+		"maintenance": 2,
+		"requiredBuilding": "Colosseum",
+		"requiredTech": "Printing Press"
+		"uniques": [
+			"Comment [+2 Artist slots (+2 [Culture], +3 [Great Artist] points per slot filled)]"
+		],
+	},
+	{
+		"name": "Radio Essex R",
+		"replaces": "Broadcast Tower",
+		"uniqueTo": "Sealand R",
+		"culture": 3,
+		"percentStatBonus": {"culture": 33},
+		"requiredBuilding": "Museum",
+		"requiredTech": "Radio",
+		"uniques": [
+			"[+1 Culture] from [Ocean] tiles [in this city]",
+			"[+1 Culture] from [Coast] tiles [in this city]",
+			"Destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "Mjöosalr R",
+		"replaces": "Stable",
+		"uniqueTo": "Jomsvikings R",
+		"maintenance": 1,
+		"requiredNearbyImprovedResources": ["Horses","Sheep","Cattle"],
+		"hurryCostModifier": 25,
+		"requiredTech": "Horseback Riding"
+		"uniques": [
+			"New [Melee] units start with [10] XP [in this city]",
+			"[+15]% Production when constructing [Melee] units [in this city]",
+			"[+1 Faith] from [Deer] tiles [in this city]",
+			"[+1 Faith] from [Bison] tiles [in this city]",
+			"[+1 Faith, +1 Production] from [Sheep] tiles [in this city]",
+			"[+1 Faith, +1 Production] from [Cattle] tiles [in this city]",
+			"[+1 Faith, +1 Production] from [Horses] tiles [in this city]"
+		],
+	},
+
 	/*
 		"replaces": "",
-		"uniqueTo": "",
-		*/
-	
+		"uniqueTo": " R",
+	*/
+	/*
+		"uniques": [
+		],
+	*/
+		
 	//Unused
 	
-	/*{
-		"name": "Hov",
+	/*
+	{
+		"name": "Runestone R",
+		"replaces": "Monument",
+		"uniqueTo": " R",
+		"culture": 2,
+		"cost": 40,
+		"hurryCostModifier": 40,
+		"maintenance": 1,
+		"uniques": [
+			"[-5]% Culture cost of natural border growth [in this city]"
+			"Destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "HovR",
 		"replaces": "Temple",
-		"uniqueTo": "Goths",
+		"uniqueTo": "GothsR",
 		"faith": 2,
 		"requiredBuilding": "Shrine",
 		"maintenance": 2,
@@ -245,8 +1129,8 @@
 		]
 	},
     {
-        "name": "Madrasa",
-        "uniqueTo": "Timurid Empire",
+        "name": "MadrasaR",
+        "uniqueTo": "TimuridsR",
         "replaces": "University", 
         "maintenance": 2,
         "happiness": 1,
@@ -259,8 +1143,8 @@
         "requiredTech": "Education"
     },
     {
-        "name": "Nezamiyeh",
-        "uniqueTo": "Seljuk Empire",
+        "name": "NezamiyehR",
+        "uniqueTo": "SeljuksR",
         "replaces": "University", 
         "maintenance": 2,
         "hurryCostModifier": 15,
@@ -271,25 +1155,4 @@
             "[+10]% Great Person generation [in this city]"],
         "requiredTech": "Theology"
     }*/
-	/*{
-		"name": "Flying Pole",
-		"replaces": "Shrine",
-		"uniqueTo": "Totonac",
-		"faith": 1,
-		"culture": 1,
-		"cost": 40,
-		"maintenance": 1,
-		"requiredTech": "Pottery",
-		"uniques": ["Hidden when religion is disabled"]
-	},
-	{
-		"name": "Temazcal",
-		"replaces": "Colosseum",
-		"uniqueTo": "Tlapanecs",
-		"maintenance": 1,
-		"faith": 1,
-		"happiness": 2,
-		"hurryCostModifier": 25,
-		"requiredTech": "Construction"
-	},*/
 ]
