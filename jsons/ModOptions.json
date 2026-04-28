@@ -1,1 +1,11 @@
-{"modUrl":"https://github.com/ReallyBasicName/Random-Civs-of-History","defaultBranch":"non-existant","author":"ReallyBasicName"}
+{
+	"nationsToRemove":[
+		//"Cahokia"
+	],
+	"buildingsToRemove":[
+		
+	],
+	"unitsToRemove": [
+		
+	]
+}
