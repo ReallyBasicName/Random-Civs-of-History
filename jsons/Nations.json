@@ -2012,26 +2012,24 @@
 			"[+2 Production] [in all cities] <for every [Owned [{improved} {Oil}] Tiles]>",
         ],
         "cities": [
-			"", "", "", "", "",
-			"", "", "", "", "",
-			"", "", "", "", "",
-			"", "", "", "", "",
-			"", "", "", "", "",
-			"", "", "", "", "",
-			"", "", "", "", "",
-			"", "", "", "", ""
+			"Abuja", "Lagos", "Kano", "Port Harcourt", "Jos",
+			"Ibadan", "Maiduguri", "Enugu", "Kaduna", "Benin City",
+			"Warri", "Zaria", "Ogbomosho", "Aba", "Bauchi",
+			"Ilorin", "Ife", "Oyo", "Uyo", "Sokoto",
+			"Owerri", "Yola", "Calabar", "Katsina", "Ondo",
+			"Nsukka", "Akwa", "Owo", "Ugep", "Shegau"
         ]
 		"spyNames": [
-			"", 
-			"", 
-			"", 
-			"", 
-			"", 
-			"", 
-			"", 
-			"", 
-			"", 
-			""
+			"Osita Iheme", 
+			"Damini Ogulu", 
+			"Michael Olayinka", 
+			"Abami Eda", 
+			"Wole Soyinka", 
+			"Chinua Achebe", 
+			"Chimamanda Ngozi Adichie", 
+			"Agbani Darego", 
+			"Hakeem Olajuwon", 
+			"Nkem Owoh"
 		]
     },
     {
@@ -3625,13 +3623,7 @@
 			"Mehdin Hodžić", 
 			"Hase Tirić", 
 			"Hajrudin Mešić", 
-			"Dragan Vikić", 
-			"", 
-			"", 
-			"", 
-			"", 
-			"", 
-			""
+			"Dragan Vikić"
 		]
     },
     {
@@ -3686,10 +3678,7 @@
 			"Miroslav Tuđman", 
 			"Luka Bebić", 
 			"Ivan Jarnjak", 
-			"Tomislav Karamarko", 
-			"", 
-			"", 
-			""
+			"Tomislav Karamarko"
 		]
     },
     {
@@ -3736,16 +3725,8 @@
 			"Prievidza", "Zvolen", "Michalovce", "Komárno", "Spišská Nová Ves"
         ]
 		"spyNames": [
-			"", 
-			"", 
-			"", 
-			"", 
-			"", 
-			"", 
-			"", 
-			"", 
-			"", 
-			""
+			"Ľudovít Štúr", 
+			"Jozef Miloslav Hurban"
 		]
     },
     {
@@ -3917,15 +3898,15 @@
         ]
 		"spyNames": [
 			"Tancred", 
-			"", 
-			"", 
-			"", 
-			"", 
-			"", 
-			"", 
-			"", 
-			"", 
-			""
+			"Stabelo", 
+			"Heribrand", 
+			"Winrich", 
+			"Peter", 
+			"Walter", 
+			"Emicho", 
+			"Fulcher", 
+			"Ruthard", 
+			"Baldric"
 		]
     },
 	/*
@@ -4123,9 +4104,9 @@
 
         "uniqueName": "Kishomon",
         "uniques": [
-			"Comment [Military Land units ignore Zone of Control]"
+			"Comment [Military Land units ignore Zone of Control]",
 			"[+2] Movement <in [Forest] tiles> <for [Ranged] units>",
-			"[+2] Movement <in [Jungle] tiles> <for [Ranged] units>"
+			"[+2] Movement <in [Jungle] tiles> <for [Ranged] units>",
 			"[{Military} {Land}] units gain the [Iga Clan] promotion <hidden from users>"
 		],
         "cities": [
@@ -4347,8 +4328,8 @@
         "uniqueName": "The Celts of Iberia"
         "uniques": [
 			"[Great Artist] is earned [25]% faster <in cities connected to the capital>",
-			"Comment [[+1 Culture] in capital for every 5 Military Land Units (capped at [+12 Culture])]"
-			"[+1 Culture] [in capital] <for every [5] [[{Military} {Land}] Units]> <when number of [[{Military} {Land}] Units] is less than [60]> <hidden from users>"
+			"Comment [[+1 Culture] in capital for every 5 Military Land Units (capped at [+12 Culture])]",
+			"[+1 Culture] [in capital] <for every [5] [[{Military} {Land}] Units]> <when number of [[{Military} {Land}] Units] is less than [60]> <hidden from users>",
 			"[+12 Culture] [in capital] <when number of [[{Military} {Land}] Units] is more than [59]> <hidden from users>"
         ],
         "cities": [
@@ -4409,7 +4390,7 @@
         "uniqueName": "Legacy of Teutoburg Forest"
         "uniques": [
 			"[+50]% Strength <vs [City-States]>",
-			"When defeating a [Barbarian] unit, earn [0] Gold and recruit it <with [50]% chance> <hidden from users>"
+			"When defeating a [Barbarian] unit, earn [0] Gold and recruit it <with [50]% chance> <hidden from users>",
 			"Comment [When defeating a [Barbarian] unit, recruit it with 50% chance]"
 		],
         "cities": [
@@ -4499,7 +4480,7 @@
         "adjective": ["Couronian"],
         "startBias": ["River"],
         "preferredVictoryType": "Cultural",
-		//"favoredReligion": "",
+		"favoredReligion": "Christianity",
 		
         "startIntroPart1": "",
         "startIntroPart2": "",
@@ -4583,7 +4564,7 @@
 		
         "uniqueName": "Matriarchal Confederation"
         "uniques": [
-			"Earn [20]% of the damage done to [Military] units as [Culture]"
+			"Earn [20]% of the damage done to [Military] units as [Culture]",
 			"May buy [Shrine] buildings for [50] [Culture] [in all cities]",
 			"May buy [Temple] buildings for [125] [Culture] [in all cities]",
 			"May buy [Draconarius R] units for [250] [Culture] [in all cities] at an increasing price ([50])"
