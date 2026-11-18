@@ -1110,7 +1110,7 @@
         "uniqueName": "Jómsvíkinga Saga"
         "uniques": [
 			"[+1 Gold] <for every [[Melee] Units]>",
-			"[+10]% [Production] [in all cities] <for [5] turns> <upon being declared war on by [Major] Civilizations>"
+			"[+10]% [Production] [in all cities] <for [5] turns> <upon being declared war on by [Major] Civilizations>",
 			"[Gold] cost of purchasing [Málamann R] units [-50]% <hidden from users>"
         ],
         "cities": [
@@ -1230,8 +1230,8 @@
 		
         "uniqueName": "Eagles and Ravens"
         "uniques": [
-			"[Melee] units gain the [[Haida] ability] promotion"
-			"[+50]% Strength <for [Melee Water] units> <vs [Land] units> <when attacking>",
+			"[Melee] units gain the [[Haida] ability] promotion",
+			"[+50]% Strength <for [Melee Water] units> <vs [Land] units> <when attacking>"
         ],
         "cities": [
 			"SGang Gwaay Llnagaay", "Xaayna Llnagaay", "HlGaagilda Llnagaay", "Hlḵinul Llnagaay", "Gaw Tlagée", 
@@ -1398,7 +1398,7 @@
         "uniqueName": "Ñuu Savi"
         "uniques": [
 			"Gain [10]-[30] [Culture] <upon conquering a city>",
-			"Comment [Gain 1 free anti-cavalry unit for every 5 Cities upon declaring war on Major Civilizations]"
+			"Comment [Gain 1 free anti-cavalry unit for every 5 Cities upon declaring war on Major Civilizations]",
 			"[1] free [Zandaru R] units appear <for every [5] [Cities]> <upon declaring war on [Major] Civilizations> <after discovering [Bronze Working]> <before discovering [Civil Service]> <hidden from users>",
 			"[1] free [Pikeman] units appear <for every [5] [Cities]> <upon declaring war on [Major] Civilizations> <after discovering [Civil Service]> <before discovering [Metallurgy]> <hidden from users>",
 			"[1] free [Lancer] units appear <for every [5] [Cities]> <upon declaring war on [Major] Civilizations> <after discovering [Metallurgy]> <before discovering [Combined Arms]> <hidden from users>"
@@ -1451,11 +1451,11 @@
 		
         "uniqueName": "Where One Becomes a God"
         "uniques": [
-			"[+1] population [in this city] <upon constructing [{non-[Palace]} {Wonder}]>"
+			"[+1] population [in this city] <upon constructing [{non-[Palace]} {Wonder}]>",
 			"Comment [Allied City-States provide [Culture], [Faith], [Gold], and [Production] equal to [+20]% of what they produce for themselves]",
-			"Allied City-States provide [Production] equal to [+15]% of what they produce for themselves <hidden from users>"
-			"Allied City-States provide [Culture] equal to [+15]% of what they produce for themselves <hidden from users>"
-			"Allied City-States provide [Food] equal to [+15]% of what they produce for themselves <hidden from users>"
+			"Allied City-States provide [Production] equal to [+15]% of what they produce for themselves <hidden from users>",
+			"Allied City-States provide [Culture] equal to [+15]% of what they produce for themselves <hidden from users>",
+			"Allied City-States provide [Food] equal to [+15]% of what they produce for themselves <hidden from users>",
 			"Allied City-States provide [Faith] equal to [+15]% of what they produce for themselves <hidden from users>"
         ],
         "cities": [
@@ -4690,7 +4690,7 @@
 			"[+1 Culture] from every [Shrine] <in cities following our religion> <after adopting [Ancestor Worship]> <hidden from users>",
 			"[+1 Faith] from [Tundra] tiles without [Forest] [in cities following our religion] <after adopting [Dance of the Aurora]> <hidden from users>",
 			"[+1 Faith] from every [Desert] <in cities following our religion> <after adopting [Desert Folklore]> <hidden from users>",
-			"[+1 Production] [in cities following our religion] <in cities with at least [3] [Population]> <after adopting [God of Craftsman]> <hidden from users>",
+			"[+1 Production] [in cities following our religion] <in cities with at least [3] [Population]> <after adopting [God of Craftsmen]> <hidden from users>",
 			"[+1 Culture] from every [Pasture] <in cities following our religion> <after adopting [God of the Open Sky]> <hidden from users>",
 			"[+1 Production] from every [Fishing Boats] <in cities following our religion> <after adopting [God of the Sea]> <hidden from users>",
 			"[+1 Culture, +1 Faith] from every [Wine] <in cities following our religion> <after adopting [Goddess of Festivals]> <hidden from users>",
